@@ -4,6 +4,10 @@
 
 BeFit aplikacija nudi planiranje i pravljenje detaljnih programa za trening(tjelovježbu). Korisnik ima mogućnost pravljenja planova(programa) ili kupovanja planova od licenciranih trenera. Korisnik ima mogućnost da vidi izradu vježbe i mišićnu grupu koju vježba najviše pogađa. Aplikacija nudi i ocjenjivanje trenera. Omogućeno je da korisnik pogleda lokacije obližnjih teretana i protein shop-ova.
 
+# Članovi tima
+
+Emin Skopljak, Fatih Zukorlić, Haris Šoljić
+
 # Proces
 
 Pravljenje programa: 
