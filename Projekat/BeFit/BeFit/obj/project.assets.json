@@ -25569,18 +25569,18 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\emins\\.nuget\\packages\\": {},
+    "C:\\Users\\Haris Soljic\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\": {},
     "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\emins\\source\\repos\\Grupa11-TimAltTab\\BeFit\\BeFit\\BeFit.csproj",
+      "projectUniqueName": "C:\\Users\\Haris Soljic\\Documents\\GitHub\\Grupa11-TimAltTab\\Projekat\\BeFit\\BeFit\\BeFit.csproj",
       "projectName": "BeFit",
-      "projectPath": "C:\\Users\\emins\\source\\repos\\Grupa11-TimAltTab\\BeFit\\BeFit\\BeFit.csproj",
-      "packagesPath": "C:\\Users\\emins\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\emins\\source\\repos\\Grupa11-TimAltTab\\BeFit\\BeFit\\obj\\",
+      "projectPath": "C:\\Users\\Haris Soljic\\Documents\\GitHub\\Grupa11-TimAltTab\\Projekat\\BeFit\\BeFit\\BeFit.csproj",
+      "packagesPath": "C:\\Users\\Haris Soljic\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Haris Soljic\\Documents\\GitHub\\Grupa11-TimAltTab\\Projekat\\BeFit\\BeFit\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -25588,7 +25588,7 @@
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\emins\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Haris Soljic\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
       ],
