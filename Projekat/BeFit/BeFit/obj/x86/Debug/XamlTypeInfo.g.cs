@@ -132,17 +132,21 @@ namespace BeFit.BeFit_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[4];
+            _typeNameTable = new string[6];
             _typeNameTable[0] = "App3.AdminPage";
             _typeNameTable[1] = "Windows.UI.Xaml.Controls.Page";
             _typeNameTable[2] = "Windows.UI.Xaml.Controls.UserControl";
             _typeNameTable[3] = "BeFit.MainPage";
+            _typeNameTable[4] = "BeFit.OpcijeProfilaPage";
+            _typeNameTable[5] = "BeFit.RegistracijaPage";
 
-            _typeTable = new global::System.Type[4];
+            _typeTable = new global::System.Type[6];
             _typeTable[0] = typeof(global::App3.AdminPage);
             _typeTable[1] = typeof(global::Windows.UI.Xaml.Controls.Page);
             _typeTable[2] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
             _typeTable[3] = typeof(global::BeFit.MainPage);
+            _typeTable[4] = typeof(global::BeFit.OpcijeProfilaPage);
+            _typeTable[5] = typeof(global::BeFit.RegistracijaPage);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -179,6 +183,8 @@ namespace BeFit.BeFit_XamlTypeInfo
 
         private object Activate_0_AdminPage() { return new global::App3.AdminPage(); }
         private object Activate_3_MainPage() { return new global::BeFit.MainPage(); }
+        private object Activate_4_OpcijeProfilaPage() { return new global::BeFit.OpcijeProfilaPage(); }
+        private object Activate_5_RegistracijaPage() { return new global::BeFit.RegistracijaPage(); }
 
         private global::Windows.UI.Xaml.Markup.IXamlType CreateXamlType(int typeIndex)
         {
@@ -208,6 +214,20 @@ namespace BeFit.BeFit_XamlTypeInfo
             case 3:   //  BeFit.MainPage
                 userType = new global::BeFit.BeFit_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
                 userType.Activator = Activate_3_MainPage;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 4:   //  BeFit.OpcijeProfilaPage
+                userType = new global::BeFit.BeFit_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_4_OpcijeProfilaPage;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 5:   //  BeFit.RegistracijaPage
+                userType = new global::BeFit.BeFit_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_5_RegistracijaPage;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
