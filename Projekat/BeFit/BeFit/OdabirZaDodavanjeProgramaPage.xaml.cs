@@ -40,6 +40,7 @@ namespace BeFit
         private void Button_Click_2(object sender, RoutedEventArgs e)
         {
             // pokreni drugu formu this.Frame.Navigate(typeof(SettingsPage));
+            Window.Current.Content = new KreiranjeProgramaPage();
         }
     }
 }
