@@ -44,29 +44,31 @@
                 </VisualState>
             </VisualStateGroup>
         </VisualStateManager.VisualStateGroups>
-        <StackPanel x:ConnectionId='5' x:Name="GlavniStack" HorizontalAlignment="Left" VerticalAlignment="Top">
-            <TextBlock x:ConnectionId='6' x:Name="OP" Text="Opcije profila" FontSize="50" Padding="0,0,0,30" TextWrapping="Wrap" HorizontalAlignment="Center"/>
-            <StackPanel x:ConnectionId='7' x:Name="PodglavniStack" Orientation="Horizontal" HorizontalAlignment="Left"  VerticalAlignment="Top">
-                <StackPanel x:ConnectionId='8' x:Name="LijeviStack" Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Top" Width="500">
-                    <TextBlock Text="Novi e-mail" Margin="10, 10, 0, 10" TextWrapping="Wrap"/>
-                    <TextBox Text="" Margin="10, 10, 20, 10"/>
-                    <Button Content="Potvrdi e-mail" Margin="0, 10, 0, 10" HorizontalAlignment="Center"/>
-                    <TextBlock Text="Bio" Margin="10, 10, 0, 10" TextWrapping="Wrap"/>
-                    <TextBox Text="" Margin="10, 10, 20, 10"/>
-                    <Button Content="Update bio" Margin="0, 10, 0, 10" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+		<ScrollViewer VerticalScrollBarVisibility="Auto">
+			<StackPanel x:ConnectionId='5' x:Name="GlavniStack" HorizontalAlignment="Center" VerticalAlignment="Center">
+				<TextBlock x:ConnectionId='6' x:Name="OP" Text="Opcije profila" FontSize="50" Padding="0,0,0,30" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+				<StackPanel x:ConnectionId='7' x:Name="PodglavniStack" Orientation="Horizontal" HorizontalAlignment="Left"  VerticalAlignment="Top">
+					<StackPanel x:ConnectionId='8' x:Name="LijeviStack" Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Top" Width="500">
+						<TextBlock Text="Novi e-mail" Margin="10, 10, 0, 10" TextWrapping="Wrap"/>
+						<TextBox Text="" Margin="10, 10, 20, 10"/>
+						<Button Content="Potvrdi e-mail" Margin="0, 10, 0, 10" HorizontalAlignment="Center"/>
+						<TextBlock Text="Bio" Margin="10, 10, 0, 10" TextWrapping="Wrap"/>
+						<TextBox Text="" Margin="10, 10, 20, 10"/>
+						<Button Content="Update bio" Margin="0, 10, 0, 10" HorizontalAlignment="Center" VerticalAlignment="Center"/>
 
-                </StackPanel>
-                <StackPanel x:ConnectionId='9' x:Name="DesniStack" Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Top" Width="500">
-                    <TextBlock Text="Stari password" Margin="10, 10, 0, 10" TextWrapping="Wrap"/>
-                    <TextBox Text="" Margin="10, 10, 20, 10"/>
-                    <TextBlock Text="Novi password" Margin="10, 10, 0, 10" TextWrapping="Wrap"/>
-                    <TextBox Text="" Margin="10, 10, 20, 10"/>
-                    <TextBlock Text="Potvrdite novi password" Margin="10, 10, 0, 10" TextWrapping="Wrap"/>
-                    <TextBox Text="" Margin="10, 10, 20, 10"/>
-                    <Button Content="Promijeni password" Margin="0, 10, 0, 10" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-                </StackPanel>
-            </StackPanel>
-        </StackPanel>
+					</StackPanel>
+					<StackPanel x:ConnectionId='9' x:Name="DesniStack" Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Top" Width="500">
+						<TextBlock Text="Stari password" Margin="10, 10, 0, 10" TextWrapping="Wrap"/>
+						<TextBox Text="" Margin="10, 10, 20, 10"/>
+						<TextBlock Text="Novi password" Margin="10, 10, 0, 10" TextWrapping="Wrap"/>
+						<TextBox Text="" Margin="10, 10, 20, 10"/>
+						<TextBlock Text="Potvrdite novi password" Margin="10, 10, 0, 10" TextWrapping="Wrap"/>
+						<TextBox Text="" Margin="10, 10, 20, 10"/>
+						<Button Content="Promijeni password" Margin="0, 10, 0, 10" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+					</StackPanel>
+				</StackPanel>
+			</StackPanel>
+		</ScrollViewer>
     </Grid>
 </Page>
 

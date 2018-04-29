@@ -118,6 +118,11 @@
       <RootProperty Name="Height" />
       <RootProperty Name="FontSize" />
       <RootProperty Name="Margin" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="PlaceholderText" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Width" />
+      <RootEvent Name="TextChanged" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Shapes.Rectangle">
       <RootProperty Name="Height" />
@@ -127,16 +132,22 @@
       <RootProperty Name="FontSize" />
     </RootType>
     <RootType FullName="BeFit.MainPage" />
-    <RootType FullName="BeFit.OpcijeProfilaPage" />
     <RootType FullName="Windows.UI.Xaml.Controls.ScrollViewer">
+      <RootProperty Name="VerticalScrollBarVisibility" />
+      <RootProperty Name="Content" />
       <RootMethod Name="GetHorizontalScrollBarVisibility" />
       <RootMethod Name="SetHorizontalScrollBarVisibility" />
     </RootType>
+    <RootType FullName="BeFit.OdabirZaDodavanjeProgramaPage" />
+    <RootType FullName="BeFit.OpcijeProfilaPage" />
     <RootType FullName="Windows.UI.Xaml.Controls.RadioButton">
+      <RootProperty Name="Margin" />
       <RootProperty Name="Content" />
       <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="VerticalAlignment" />
+      <RootEvent Name="Checked" />
     </RootType>
+    <RootType FullName="BeFit.PretragaObjekataPage" />
     <RootType FullName="BeFit.RegistracijaPage" />
   </Roots.RootTypes>
 </Roots>

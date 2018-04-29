@@ -99,8 +99,14 @@
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="OdabirZaDodavanjeProgramaPage.xaml.cs">
+      <DependentUpon>OdabirZaDodavanjeProgramaPage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="OpcijeProfilaPage.xaml.cs">
       <DependentUpon>OpcijeProfilaPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PretragaObjekataPage.xaml.cs">
+      <DependentUpon>PretragaObjekataPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RegistracijaPage.xaml.cs">
@@ -137,7 +143,15 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
+    <Page Include="OdabirZaDodavanjeProgramaPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="OpcijeProfilaPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PretragaObjekataPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

@@ -47,49 +47,49 @@
 				</VisualState>
 			</VisualStateGroup>
 		</VisualStateManager.VisualStateGroups>
+        <ScrollViewer VerticalScrollBarVisibility="Auto">
+                <StackPanel x:Name="StekGlavni" HorizontalAlignment="Left" Orientation="Vertical" VerticalAlignment="Top" ScrollViewer.HorizontalScrollBarVisibility="Disabled">
 
-		<StackPanel x:Name="StekGlavni" HorizontalAlignment="Left" Orientation="Vertical" VerticalAlignment="Top" ScrollViewer.HorizontalScrollBarVisibility="Disabled">
+                    <TextBlock Text="BeFit" TextWrapping="Wrap" HorizontalAlignment="Center" TextAlignment="Left" FontSize="65" FontFamily="MV Boli"/>
 
-			<TextBlock Text="BeFit" TextWrapping="Wrap" HorizontalAlignment="Center" TextAlignment="Left" FontSize="65" FontFamily="MV Boli"/>
+                    <StackPanel x:Name="StekRadio" HorizontalAlignment="Center" VerticalAlignment="Top" Orientation="Horizontal">
 
-			<StackPanel x:Name="StekRadio" HorizontalAlignment="Center" VerticalAlignment="Top" Orientation="Horizontal">
+                        <RadioButton Content="Klijent" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
+                        <RadioButton Content="Trener" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
 
-				<RadioButton Content="Klijent" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
-				<RadioButton Content="Trener" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
+                    </StackPanel>
 
-			</StackPanel>
+                    <StackPanel x:Name="StekUnosGlavni" HorizontalAlignment="Center" VerticalAlignment="Top" Orientation="Horizontal">
 
-			<StackPanel x:Name="StekUnosGlavni" HorizontalAlignment="Center" VerticalAlignment="Top" Orientation="Horizontal">
+                        <StackPanel x:Name="StekUnos1" VerticalAlignment="Top" HorizontalAlignment="Center" Orientation="Vertical">
 
-				<StackPanel x:Name="StekUnos1" VerticalAlignment="Top" HorizontalAlignment="Center" Orientation="Vertical">
+                            <TextBlock Text="E-mail" TextWrapping="Wrap" HorizontalAlignment="Left" TextAlignment="Left" Margin="10, 10, 10, 5"/>
+                            <TextBox Text="" Margin="10, 0, 10, 15"/>
+                            <TextBlock Text="Username" TextWrapping="Wrap" HorizontalAlignment="Left" TextAlignment="Left" Margin="10, 10, 10, 5"/>
+                            <TextBox Text="" Margin="10, 0, 10, 15"/>
+                            <TextBlock Text="Password" TextWrapping="Wrap" HorizontalAlignment="Left" TextAlignment="Left" Margin="10, 10, 10, 5"/>
+                            <TextBox Text="" Margin="10, 0, 10, 15"/>
+                            <TextBlock Text="Ponovite password" TextWrapping="Wrap" HorizontalAlignment="Left" TextAlignment="Left" Margin="10, 10, 10, 5"/>
+                            <TextBox Text="" Margin="10, 0, 10, 15"/>
 
-					<TextBlock Text="E-mail" TextWrapping="Wrap" HorizontalAlignment="Left" TextAlignment="Left" Margin="10, 10, 10, 5"/>
-					<TextBox Text="" Margin="10, 0, 10, 15"/>
-					<TextBlock Text="Username" TextWrapping="Wrap" HorizontalAlignment="Left" TextAlignment="Left" Margin="10, 10, 10, 5"/>
-					<TextBox Text="" Margin="10, 0, 10, 15"/>
-					<TextBlock Text="Password" TextWrapping="Wrap" HorizontalAlignment="Left" TextAlignment="Left" Margin="10, 10, 10, 5"/>
-					<TextBox Text="" Margin="10, 0, 10, 15"/>
-					<TextBlock Text="Ponovite password" TextWrapping="Wrap" HorizontalAlignment="Left" TextAlignment="Left" Margin="10, 10, 10, 5"/>
-					<TextBox Text="" Margin="10, 0, 10, 15"/>
+                        </StackPanel>
 
-				</StackPanel>
+                        <StackPanel x:Name="StekUnos2" VerticalAlignment="Top" HorizontalAlignment="Center" Orientation="Vertical">
 
-				<StackPanel x:Name="StekUnos2" VerticalAlignment="Top" HorizontalAlignment="Center" Orientation="Vertical">
+                            <TextBlock Text="Grad" TextWrapping="Wrap" HorizontalAlignment="Left" TextAlignment="Left" Margin="10, 10, 10, 5"/>
+                            <TextBox Text="" Margin="10, 0, 10, 15"/>
+                            <TextBlock x:Name="text_OVama" Text="O vama" TextWrapping="Wrap" HorizontalAlignment="Left" TextAlignment="Left" Margin="10, 10, 10, 5"/>
+                            <TextBox x:Name="textbox_OVama" Text="" Margin="10, 0, 10, 15" Height="114"/>
+                            <TextBlock x:Name="text_KontaktInfo" Text="Kontakt info" TextWrapping="Wrap" HorizontalAlignment="Left" TextAlignment="Left" Margin="10, 10, 10, 5"/>
+                            <TextBox x:Name="textbox_KontaktInfo" Text="" Margin="10, 0, 10, 15"/>
 
-					<TextBlock Text="Grad" TextWrapping="Wrap" HorizontalAlignment="Left" TextAlignment="Left" Margin="10, 10, 10, 5"/>
-					<TextBox Text="" Margin="10, 0, 10, 15"/>
-					<TextBlock x:Name="text_OVama" Text="O vama" TextWrapping="Wrap" HorizontalAlignment="Left" TextAlignment="Left" Margin="10, 10, 10, 5"/>
-					<TextBox x:Name="textbox_OVama" Text="" Margin="10, 0, 10, 15" Height="114"/>
-					<TextBlock x:Name="text_KontaktInfo" Text="Kontakt info" TextWrapping="Wrap" HorizontalAlignment="Left" TextAlignment="Left" Margin="10, 10, 10, 5"/>
-					<TextBox x:Name="textbox_KontaktInfo" Text="" Margin="10, 0, 10, 15"/>
+                        </StackPanel>
 
-				</StackPanel>
+                    </StackPanel>
 
-			</StackPanel>
+                    <Button Content="Sign up" HorizontalAlignment="Center" VerticalAlignment="Bottom"/>
 
-			<Button Content="Sign up" HorizontalAlignment="Center" VerticalAlignment="Bottom"/>
-
-		</StackPanel>
-
-	</Grid>
+                </StackPanel>
+        </ScrollViewer>
+    </Grid>
 </Page>
