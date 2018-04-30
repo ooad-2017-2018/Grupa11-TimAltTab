@@ -30,7 +30,7 @@ namespace BeFit
 
         private void loginButton_Click(object sender, RoutedEventArgs e)
         {
-            Window.Current.Content = new App3.AdminPage();
+            Window.Current.Content = new AdminPage();
 
         }
     }
