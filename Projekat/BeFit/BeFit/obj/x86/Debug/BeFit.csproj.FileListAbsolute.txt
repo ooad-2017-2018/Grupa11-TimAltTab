@@ -720,3 +720,13 @@ C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\ob
 C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\obj\x86\Debug\KreiranjeProgramaPage.xbf
 C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\obj\x86\Debug\PregledProgramaPage.xbf
 C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\obj\x86\Debug\VjezbaControl.xbf
+C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\bin\x86\Debug\ProgramControl.xbf
+C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\obj\x86\Debug\ProgramControl.g.i.cs
+C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\obj\x86\Debug\ProgramControl.g.cs
+C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\obj\x86\Debug\ProgramControl.xaml
+C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\obj\x86\Debug\ProgramControl.xbf
+C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\bin\x86\Debug\MojiProgramiPage.xbf
+C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\obj\x86\Debug\MojiProgramiPage.g.i.cs
+C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\obj\x86\Debug\MojiProgramiPage.g.cs
+C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\obj\x86\Debug\MojiProgramiPage.xaml
+C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\obj\x86\Debug\MojiProgramiPage.xbf

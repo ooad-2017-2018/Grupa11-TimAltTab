@@ -96,6 +96,9 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="MojiProgramiPage.xaml.cs">
+      <DependentUpon>MojiProgramiPage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="KreiranjeProgramaPage.xaml.cs">
       <DependentUpon>KreiranjeProgramaPage.xaml</DependentUpon>
     </Compile>
@@ -113,6 +116,9 @@
     </Compile>
     <Compile Include="PretragaObjekataPage.xaml.cs">
       <DependentUpon>PretragaObjekataPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ProgramControl.xaml.cs">
+      <DependentUpon>ProgramControl.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RegistracijaPage.xaml.cs">
@@ -148,6 +154,10 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
+    <Page Include="MojiProgramiPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="KreiranjeProgramaPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -169,6 +179,10 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Include="PretragaObjekataPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ProgramControl.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

@@ -40,11 +40,11 @@
       <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="Height" />
       <RootProperty Name="Width" />
+      <RootProperty Name="Name" />
       <RootProperty Name="FontSize" />
       <RootProperty Name="Padding" />
       <RootProperty Name="TextAlignment" />
       <RootProperty Name="FontFamily" />
-      <RootProperty Name="Name" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.ComboBox">
       <RootProperty Name="Name" />
@@ -88,22 +88,26 @@
     </RootType>
     <RootType FullName="App3.AdminPage" />
     <RootType FullName="Windows.UI.Xaml.Controls.ScrollViewer">
-      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="Name" />
       <RootProperty Name="VerticalScrollBarVisibility" />
+      <RootProperty Name="Width" />
       <RootProperty Name="Margin" />
+      <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="Content" />
       <RootEvent Name="ViewChanged" />
       <RootMethod Name="GetHorizontalScrollBarVisibility" />
       <RootMethod Name="SetHorizontalScrollBarVisibility" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.StackPanel">
+      <RootProperty Name="Name" />
       <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="Width" />
       <RootProperty Name="Height" />
       <RootProperty Name="VerticalAlignment" />
-      <RootProperty Name="Width" />
       <RootProperty Name="Children" />
       <RootProperty Name="Orientation" />
     </RootType>
+    <RootType FullName="BeFit.MojiProgramiPage" />
     <RootType FullName="BeFit.KreiranjeProgramaPage" />
     <RootType FullName="Windows.UI.Xaml.Controls.Canvas">
       <RootProperty Name="HorizontalAlignment" />
@@ -155,10 +159,18 @@
       <RootEvent Name="Checked" />
     </RootType>
     <RootType FullName="BeFit.PretragaObjekataPage" />
-    <RootType FullName="BeFit.RegistracijaPage" />
     <RootType FullName="Windows.UI.Xaml.Controls.UserControl">
       <RootProperty Name="Content" />
     </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.Border">
+      <RootProperty Name="BorderThickness" />
+      <RootProperty Name="BorderBrush" />
+      <RootProperty Name="Height" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="Child" />
+    </RootType>
+    <RootType FullName="BeFit.ProgramControl" />
+    <RootType FullName="BeFit.RegistracijaPage" />
     <RootType FullName="BeFit.VjezbaControl" />
   </Roots.RootTypes>
 </Roots>

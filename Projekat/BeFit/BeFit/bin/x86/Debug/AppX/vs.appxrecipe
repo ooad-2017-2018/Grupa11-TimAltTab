@@ -31,13 +31,13 @@
     <AppXManifest Include="C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-04-29T21:08:35.376</Modified>
+      <Modified>2018-04-30T10:56:02.234</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\bin\x86\Debug\BeFit.exe">
       <PackagePath>entrypoint\BeFit.exe</PackagePath>
-      <Modified>2018-04-29T21:08:34.075</Modified>
+      <Modified>2018-04-30T10:56:01.325</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Haris Soljic\.nuget\packages\microsoft.csharp\4.0.1\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -539,7 +539,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\bin\x86\Debug\BeFit.xr.xml">
       <PackagePath>BeFit.xr.xml</PackagePath>
-      <Modified>2018-04-29T21:08:33.782</Modified>
+      <Modified>2018-04-30T10:56:01.015</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.16299.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -548,11 +548,11 @@
     <AppxPackagedFile Include="C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-04-29T21:08:34.987</Modified>
+      <Modified>2018-04-30T10:56:01.890</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\bin\x86\Debug\Core\BeFit.exe">
       <PackagePath>BeFit.exe</PackagePath>
-      <Modified>2018-04-29T21:08:35.376</Modified>
+      <Modified>2018-04-30T10:56:02.223</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
