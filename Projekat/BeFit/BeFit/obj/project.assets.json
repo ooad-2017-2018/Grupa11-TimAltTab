@@ -25569,26 +25569,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\fatih\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\": {},
-    "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {}
+    "C:\\Users\\Haris Soljic\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\fatih\\Desktop\\faks\\github\\Grupa11-TimAltTab\\Projekat\\BeFit\\BeFit\\BeFit.csproj",
+      "projectUniqueName": "C:\\Users\\Haris Soljic\\Documents\\GitHub\\Grupa11-TimAltTab\\Projekat\\BeFit\\BeFit\\BeFit.csproj",
       "projectName": "BeFit",
-      "projectPath": "C:\\Users\\fatih\\Desktop\\faks\\github\\Grupa11-TimAltTab\\Projekat\\BeFit\\BeFit\\BeFit.csproj",
-      "packagesPath": "C:\\Users\\fatih\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\fatih\\Desktop\\faks\\github\\Grupa11-TimAltTab\\Projekat\\BeFit\\BeFit\\obj\\",
+      "projectPath": "C:\\Users\\Haris Soljic\\Documents\\GitHub\\Grupa11-TimAltTab\\Projekat\\BeFit\\BeFit\\BeFit.csproj",
+      "packagesPath": "C:\\Users\\Haris Soljic\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Haris Soljic\\Documents\\GitHub\\Grupa11-TimAltTab\\Projekat\\BeFit\\BeFit\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\"
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\fatih\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Haris Soljic\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
       ],

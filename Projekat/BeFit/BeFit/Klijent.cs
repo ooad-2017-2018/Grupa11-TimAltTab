@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BeFit
 {
-    class Klijent
+    public class Klijent
     {
         List<KlijentProgram> mojiProgrami;
         List<TrenerProgram> kupljeniProgrami;

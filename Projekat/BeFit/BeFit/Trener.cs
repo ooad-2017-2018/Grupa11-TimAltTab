@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BeFit
 {
-    class Trener:Korisnik
+    public class Trener:Korisnik
     {
         string biografija;
         string lokacija;

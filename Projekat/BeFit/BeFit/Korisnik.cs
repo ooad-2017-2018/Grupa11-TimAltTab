@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BeFit
 {
-    class Korisnik
+    public class Korisnik
     {
         int id;
         string ime;

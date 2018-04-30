@@ -6,8 +6,9 @@ using System.Threading.Tasks;
 
 namespace BeFit
 {
-    public class Admin:Korisnik
+    public class KlijentProgram : ProgramWorkout
     {
-
+        Klijent klijent;
+        public Klijent Klijent { get => klijent; set => klijent = value; }
     }
 }
