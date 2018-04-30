@@ -755,3 +755,7 @@ C:\Users\fatih\Desktop\faks\github\Grupa11-TimAltTab\Projekat\BeFit\BeFit\obj\x8
 C:\Users\fatih\Desktop\faks\github\Grupa11-TimAltTab\Projekat\BeFit\BeFit\obj\x86\Debug\PregledProgramaPage.xbf
 C:\Users\fatih\Desktop\faks\github\Grupa11-TimAltTab\Projekat\BeFit\BeFit\obj\x86\Debug\ProgramControl.xbf
 C:\Users\fatih\Desktop\faks\github\Grupa11-TimAltTab\Projekat\BeFit\BeFit\obj\x86\Debug\VjezbaControl.xbf
+C:\Users\fatih\Desktop\faks\github\Grupa11-TimAltTab\Projekat\BeFit\BeFit\obj\x86\Debug\PregledProfilaTreneraPage.g.i.cs
+C:\Users\fatih\Desktop\faks\github\Grupa11-TimAltTab\Projekat\BeFit\BeFit\obj\x86\Debug\PregledProfilaTreneraPage.g.cs
+C:\Users\fatih\Desktop\faks\github\Grupa11-TimAltTab\Projekat\BeFit\BeFit\obj\x86\Debug\PregledProfilaTreneraPage.xaml
+C:\Users\fatih\Desktop\faks\github\Grupa11-TimAltTab\Projekat\BeFit\BeFit\obj\x86\Debug\PregledProfilaTreneraPage.xbf

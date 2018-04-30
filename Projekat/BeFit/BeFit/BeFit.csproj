@@ -118,6 +118,9 @@
     <Compile Include="OpcijeProfilaPage.xaml.cs">
       <DependentUpon>OpcijeProfilaPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="PregledProfilaTreneraPage.xaml.cs">
+      <DependentUpon>PregledProfilaTreneraPage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="PregledProgramaPage.xaml.cs">
       <DependentUpon>PregledProgramaPage.xaml</DependentUpon>
     </Compile>
@@ -181,6 +184,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="OpcijeProfilaPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PregledProfilaTreneraPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
