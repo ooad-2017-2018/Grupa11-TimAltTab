@@ -86,7 +86,7 @@
       <RootProperty Name="Target" />
       <RootProperty Name="Value" />
     </RootType>
-    <RootType FullName="App3.AdminPage" />
+    <RootType FullName="BeFit.AdminPage" />
     <RootType FullName="Windows.UI.Xaml.Controls.ScrollViewer">
       <RootProperty Name="Name" />
       <RootProperty Name="VerticalScrollBarVisibility" />
