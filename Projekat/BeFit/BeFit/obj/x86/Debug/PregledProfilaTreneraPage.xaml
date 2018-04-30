@@ -1,0 +1,65 @@
+﻿<Page
+    x:Class="BeFit.PregledProfilaTreneraPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:BeFit"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <VisualStateManager.VisualStateGroups>
+            <VisualStateGroup x:ConnectionId='1' x:Name="VisualStateGroup">
+                <VisualState x:ConnectionId='2' x:Name="Phone">
+                    <VisualState.StateTriggers>
+                        <AdaptiveTrigger MinWindowWidth="0"/>
+                    </VisualState.StateTriggers>
+                    <VisualState.Setters>
+                        <Setter Target="Slika.Width" Value="200"/>
+                        <Setter Target="Slika.Height" Value="200"/>
+                    </VisualState.Setters>
+                </VisualState>
+                <VisualState x:ConnectionId='3' x:Name="Tablet">
+                    <VisualState.StateTriggers>
+                        <AdaptiveTrigger MinWindowWidth="700"/>
+                    </VisualState.StateTriggers>
+                    <VisualState.Setters>
+                        <Setter Target="Slika.Width" Value="300"/>
+                        <Setter Target="Slika.Height" Value="300"/>
+                    </VisualState.Setters>
+                </VisualState>
+                <VisualState x:ConnectionId='4' x:Name="Desktop">
+                    <VisualState.StateTriggers>
+                        <AdaptiveTrigger MinWindowWidth="1000"/>
+                    </VisualState.StateTriggers>
+                    <VisualState.Setters>
+                        <Setter Target="Slika.Width" Value="500"/>
+                        <Setter Target="Slika.Height" Value="500"/>
+                    </VisualState.Setters>
+                </VisualState>
+            </VisualStateGroup>
+        </VisualStateManager.VisualStateGroups>
+        <ScrollViewer VerticalScrollBarVisibility="Auto">
+            <StackPanel Orientation="Vertical" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="30">
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Top">
+                    <Image x:ConnectionId='6' x:Name="Slika" HorizontalAlignment="Left" Height="300" Width="300"/>
+                    <StackPanel Orientation="Vertical">
+                        <TextBlock Margin="0, 10, 0, 10" Text="Ime i prezime:"/>
+                        <TextBox Text="ime" IsReadOnly="True"/>
+                        <TextBlock Margin="0, 10, 0, 10" Text="Grad:"/>
+                        <TextBox Text="grad" IsReadOnly="True"/>
+                        <TextBlock Margin="0, 10, 0, 10" Text="O treneru:"/>
+                        <TextBox Text="opis" IsReadOnly="True"/>
+                        <TextBlock Margin="0, 10, 0, 10" Text="Kontakt info:"/>
+                        <TextBox Text="info" IsReadOnly="True"/>
+                    </StackPanel>
+                </StackPanel>
+                <TextBlock FontSize="20" Text="Programi" HorizontalAlignment="Left"/>
+                <ScrollViewer HorizontalScrollBarVisibility="Auto" Padding="20" HorizontalAlignment="Left">
+                    <StackPanel x:ConnectionId='5' Name="programiStackPanel" Orientation="Horizontal"/>
+                </ScrollViewer>
+            </StackPanel>
+        </ScrollViewer>
+    </Grid>
+</Page>
+

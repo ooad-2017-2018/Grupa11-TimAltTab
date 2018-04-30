@@ -44,6 +44,7 @@
       <RootProperty Name="FontSize" />
       <RootProperty Name="Padding" />
       <RootProperty Name="TextAlignment" />
+      <RootProperty Name="Inlines" />
       <RootProperty Name="FontFamily" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.ComboBox">
@@ -94,6 +95,8 @@
       <RootProperty Name="Margin" />
       <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="Content" />
+      <RootProperty Name="HorizontalScrollBarVisibility" />
+      <RootProperty Name="Padding" />
       <RootEvent Name="ViewChanged" />
       <RootMethod Name="GetHorizontalScrollBarVisibility" />
       <RootMethod Name="SetHorizontalScrollBarVisibility" />
@@ -106,6 +109,7 @@
       <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="Children" />
       <RootProperty Name="Orientation" />
+      <RootProperty Name="Margin" />
     </RootType>
     <RootType FullName="BeFit.MojiProgramiPage" />
     <RootType FullName="BeFit.KreiranjeProgramaPage" />
@@ -134,10 +138,12 @@
       <RootProperty Name="Height" />
       <RootProperty Name="FontSize" />
       <RootProperty Name="Margin" />
+      <RootProperty Name="IsReadOnly" />
       <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="PlaceholderText" />
       <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="Width" />
+      <RootProperty Name="Name" />
       <RootEvent Name="TextChanged" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Shapes.Rectangle">
@@ -150,7 +156,9 @@
     <RootType FullName="BeFit.MainPage" />
     <RootType FullName="BeFit.OdabirZaDodavanjeProgramaPage" />
     <RootType FullName="BeFit.OpcijeProfilaPage" />
+    <RootType FullName="BeFit.PregledProfilaTreneraPage" />
     <RootType FullName="BeFit.PregledProgramaPage" />
+    <RootType FullName="BeFit.PregledVjezbePage" />
     <RootType FullName="Windows.UI.Xaml.Controls.RadioButton">
       <RootProperty Name="Margin" />
       <RootProperty Name="Content" />
@@ -159,6 +167,8 @@
       <RootEvent Name="Checked" />
     </RootType>
     <RootType FullName="BeFit.PretragaObjekataPage" />
+    <RootType FullName="BeFit.PretragaVjezbiPage" />
+    <RootType FullName="BeFit.PreuzimanjeProgramaPage" />
     <RootType FullName="Windows.UI.Xaml.Controls.UserControl">
       <RootProperty Name="Content" />
     </RootType>

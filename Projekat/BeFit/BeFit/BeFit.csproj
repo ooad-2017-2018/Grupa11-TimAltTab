@@ -103,6 +103,7 @@
     <Compile Include="KlijentProgram.cs" />
     <Compile Include="Komentar.cs" />
     <Compile Include="Korisnik.cs" />
+    <Compile Include="MisicnaGrupa.cs" />
     <Compile Include="MojiProgramiPage.xaml.cs">
       <DependentUpon>MojiProgramiPage.xaml</DependentUpon>
     </Compile>
@@ -124,8 +125,17 @@
     <Compile Include="PregledProgramaPage.xaml.cs">
       <DependentUpon>PregledProgramaPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="PregledVjezbePage.xaml.cs">
+      <DependentUpon>PregledVjezbePage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="PretragaObjekataPage.xaml.cs">
       <DependentUpon>PretragaObjekataPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PretragaVjezbiPage.xaml.cs">
+      <DependentUpon>PretragaVjezbiPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PreuzimanjeProgramaPage.xaml.cs">
+      <DependentUpon>PreuzimanjeProgramaPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="ProgramWorkout.cs" />
     <Compile Include="ProgramControl.xaml.cs">
@@ -137,9 +147,11 @@
     </Compile>
     <Compile Include="Trener.cs" />
     <Compile Include="TrenerProgram.cs" />
+    <Compile Include="Vjezba.cs" />
     <Compile Include="VjezbaControl.xaml.cs">
       <DependentUpon>VjezbaControl.xaml</DependentUpon>
     </Compile>
+    <Compile Include="VjezbaUProgramu.cs" />
   </ItemGroup>
   <ItemGroup>
     <AppxManifest Include="Package.appxmanifest">
@@ -195,7 +207,19 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
+    <Page Include="PregledVjezbePage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="PretragaObjekataPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PretragaVjezbiPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PreuzimanjeProgramaPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
