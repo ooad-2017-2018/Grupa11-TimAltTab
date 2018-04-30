@@ -136,7 +136,7 @@ namespace BeFit.BeFit_XamlTypeInfo
             _typeNameTable[0] = "App3.AdminPage";
             _typeNameTable[1] = "Windows.UI.Xaml.Controls.Page";
             _typeNameTable[2] = "Windows.UI.Xaml.Controls.UserControl";
-            _typeNameTable[3] = "BeFit.BlankPage1";
+            _typeNameTable[3] = "BeFit.MojiProgramiPage";
             _typeNameTable[4] = "BeFit.KreiranjeProgramaPage";
             _typeNameTable[5] = "BeFit.MainPage";
             _typeNameTable[6] = "BeFit.OdabirZaDodavanjeProgramaPage";
@@ -151,7 +151,7 @@ namespace BeFit.BeFit_XamlTypeInfo
             _typeTable[0] = typeof(global::App3.AdminPage);
             _typeTable[1] = typeof(global::Windows.UI.Xaml.Controls.Page);
             _typeTable[2] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
-            _typeTable[3] = typeof(global::BeFit.BlankPage1);
+            _typeTable[3] = typeof(global::BeFit.MojiProgramiPage);
             _typeTable[4] = typeof(global::BeFit.KreiranjeProgramaPage);
             _typeTable[5] = typeof(global::BeFit.MainPage);
             _typeTable[6] = typeof(global::BeFit.OdabirZaDodavanjeProgramaPage);
@@ -196,7 +196,7 @@ namespace BeFit.BeFit_XamlTypeInfo
         }
 
         private object Activate_0_AdminPage() { return new global::App3.AdminPage(); }
-        private object Activate_3_BlankPage1() { return new global::BeFit.BlankPage1(); }
+        private object Activate_3_MojiProgramiPage() { return new global::BeFit.MojiProgramiPage(); }
         private object Activate_4_KreiranjeProgramaPage() { return new global::BeFit.KreiranjeProgramaPage(); }
         private object Activate_5_MainPage() { return new global::BeFit.MainPage(); }
         private object Activate_6_OdabirZaDodavanjeProgramaPage() { return new global::BeFit.OdabirZaDodavanjeProgramaPage(); }
@@ -232,9 +232,9 @@ namespace BeFit.BeFit_XamlTypeInfo
                 xamlType = new global::BeFit.BeFit_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 3:   //  BeFit.BlankPage1
+            case 3:   //  BeFit.MojiProgramiPage
                 userType = new global::BeFit.BeFit_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_3_BlankPage1;
+                userType.Activator = Activate_3_MojiProgramiPage;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
