@@ -92,78 +92,78 @@
     <RestoreProjectStyle>PackageReference</RestoreProjectStyle>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Admin.cs" />
-    <Compile Include="AdminPage.xaml.cs">
+    <Compile Include="Model\Admin.cs" />
+    <Compile Include="View\AdminPage.xaml.cs">
       <DependentUpon>AdminPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Klijent.cs" />
-    <Compile Include="KlijentHomePage.xaml.cs">
+    <Compile Include="Model\Klijent.cs" />
+    <Compile Include="View\KlijentHomePage.xaml.cs">
       <DependentUpon>KlijentHomePage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="KlijentOsnovniPodaciPage.xaml.cs">
+    <Compile Include="View\KlijentOsnovniPodaciPage.xaml.cs">
       <DependentUpon>KlijentOsnovniPodaciPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="KlijentProgram.cs" />
-    <Compile Include="Komentar.cs" />
-    <Compile Include="Korisnik.cs" />
+    <Compile Include="Model\KlijentProgram.cs" />
+    <Compile Include="Model\Komentar.cs" />
+    <Compile Include="Model\Korisnik.cs" />
     <Compile Include="KorisnikTabela.cs" />
-    <Compile Include="MisicnaGrupa.cs" />
-    <Compile Include="MojiProgramiPage.xaml.cs">
+    <Compile Include="Model\MisicnaGrupa.cs" />
+    <Compile Include="View\MojiProgramiPage.xaml.cs">
       <DependentUpon>MojiProgramiPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="KreiranjeProgramaPage.xaml.cs">
+    <Compile Include="View\KreiranjeProgramaPage.xaml.cs">
       <DependentUpon>KreiranjeProgramaPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="MainPage.xaml.cs">
+    <Compile Include="View\MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="OdabirZaDodavanjeProgramaPage.xaml.cs">
+    <Compile Include="View\OdabirZaDodavanjeProgramaPage.xaml.cs">
       <DependentUpon>OdabirZaDodavanjeProgramaPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="OpcijeProfilaPage.xaml.cs">
+    <Compile Include="View\OpcijeProfilaPage.xaml.cs">
       <DependentUpon>OpcijeProfilaPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="PodaciControl.xaml.cs">
+    <Compile Include="View\PodaciControl.xaml.cs">
       <DependentUpon>PodaciControl.xaml</DependentUpon>
     </Compile>
-    <Compile Include="PregledProfilaTreneraPage.xaml.cs">
+    <Compile Include="View\PregledProfilaTreneraPage.xaml.cs">
       <DependentUpon>PregledProfilaTreneraPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="PregledProgramaPage.xaml.cs">
+    <Compile Include="View\PregledProgramaPage.xaml.cs">
       <DependentUpon>PregledProgramaPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="PregledVjezbePage.xaml.cs">
+    <Compile Include="View\PregledVjezbePage.xaml.cs">
       <DependentUpon>PregledVjezbePage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="PretragaObjekataPage.xaml.cs">
+    <Compile Include="View\PretragaObjekataPage.xaml.cs">
       <DependentUpon>PretragaObjekataPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="PretragaVjezbiPage.xaml.cs">
+    <Compile Include="View\PretragaVjezbiPage.xaml.cs">
       <DependentUpon>PretragaVjezbiPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="PreuzimanjeProgramaPage.xaml.cs">
+    <Compile Include="View\PreuzimanjeProgramaPage.xaml.cs">
       <DependentUpon>PreuzimanjeProgramaPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="ProgramWorkout.cs" />
-    <Compile Include="ProgramControl.xaml.cs">
+    <Compile Include="Model\ProgramWorkout.cs" />
+    <Compile Include="View\ProgramControl.xaml.cs">
       <DependentUpon>ProgramControl.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="RegistracijaPage.xaml.cs">
+    <Compile Include="View\RegistracijaPage.xaml.cs">
       <DependentUpon>RegistracijaPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="StaticHelper.cs" />
-    <Compile Include="Trener.cs" />
-    <Compile Include="TrenerProgram.cs" />
+    <Compile Include="Model\Trener.cs" />
+    <Compile Include="Model\TrenerProgram.cs" />
     <Compile Include="TrenerTabela.cs" />
-    <Compile Include="Vjezba.cs" />
-    <Compile Include="VjezbaControl.xaml.cs">
+    <Compile Include="Model\Vjezba.cs" />
+    <Compile Include="View\VjezbaControl.xaml.cs">
       <DependentUpon>VjezbaControl.xaml</DependentUpon>
     </Compile>
-    <Compile Include="VjezbaUProgramu.cs" />
+    <Compile Include="Model\VjezbaUProgramu.cs" />
   </ItemGroup>
   <ItemGroup>
     <AppxManifest Include="Package.appxmanifest">
@@ -187,75 +187,75 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Page Include="AdminPage.xaml">
+    <Page Include="View\AdminPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="KlijentHomePage.xaml">
+    <Page Include="View\KlijentHomePage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="KlijentOsnovniPodaciPage.xaml">
+    <Page Include="View\KlijentOsnovniPodaciPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="MojiProgramiPage.xaml">
+    <Page Include="View\MojiProgramiPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="KreiranjeProgramaPage.xaml">
+    <Page Include="View\KreiranjeProgramaPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="MainPage.xaml">
+    <Page Include="View\MainPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="OdabirZaDodavanjeProgramaPage.xaml">
+    <Page Include="View\OdabirZaDodavanjeProgramaPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="OpcijeProfilaPage.xaml">
+    <Page Include="View\OpcijeProfilaPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="PodaciControl.xaml">
+    <Page Include="View\PodaciControl.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="PregledProfilaTreneraPage.xaml">
+    <Page Include="View\PregledProfilaTreneraPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="PregledProgramaPage.xaml">
+    <Page Include="View\PregledProgramaPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="PregledVjezbePage.xaml">
+    <Page Include="View\PregledVjezbePage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="PretragaObjekataPage.xaml">
+    <Page Include="View\PretragaObjekataPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="PretragaVjezbiPage.xaml">
+    <Page Include="View\PretragaVjezbiPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="PreuzimanjeProgramaPage.xaml">
+    <Page Include="View\PreuzimanjeProgramaPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="ProgramControl.xaml">
+    <Page Include="View\ProgramControl.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="RegistracijaPage.xaml">
+    <Page Include="View\RegistracijaPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="VjezbaControl.xaml">
+    <Page Include="View\VjezbaControl.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>

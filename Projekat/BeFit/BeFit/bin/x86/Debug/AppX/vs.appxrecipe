@@ -31,13 +31,13 @@
     <AppXManifest Include="C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-05-01T18:35:21.299</Modified>
+      <Modified>2018-05-01T19:16:53.488</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\bin\x86\Debug\BeFit.exe">
       <PackagePath>entrypoint\BeFit.exe</PackagePath>
-      <Modified>2018-05-01T18:35:20.838</Modified>
+      <Modified>2018-05-01T19:16:52.691</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Haris Soljic\.nuget\packages\microsoft.azure.mobile.client\4.0.2\lib\uap10.0\Microsoft.Azure.Mobile.Client.dll">
       <PackagePath>Microsoft.Azure.Mobile.Client.dll</PackagePath>
@@ -505,49 +505,49 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Capture.PNG">
       <PackagePath>Assets\Capture.PNG</PackagePath>
-      <Modified>2018-05-01T14:26:57.377</Modified>
+      <Modified>2018-05-01T19:00:03.788</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
-      <Modified>2018-05-01T14:26:57.379</Modified>
+      <Modified>2018-05-01T19:00:03.788</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-05-01T14:26:57.380</Modified>
+      <Modified>2018-05-01T19:00:03.803</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-05-01T14:26:57.382</Modified>
+      <Modified>2018-05-01T19:00:03.803</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-05-01T14:26:57.384</Modified>
+      <Modified>2018-05-01T19:00:03.803</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-05-01T14:26:57.385</Modified>
+      <Modified>2018-05-01T19:00:03.803</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-05-01T14:26:57.386</Modified>
+      <Modified>2018-05-01T19:00:03.803</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-05-01T14:26:57.387</Modified>
+      <Modified>2018-05-01T19:00:03.803</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
-      <Modified>2018-05-01T14:26:57.440</Modified>
+      <Modified>2018-05-01T19:00:03.866</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\bin\x86\Debug\BeFit.xr.xml">
       <PackagePath>BeFit.xr.xml</PackagePath>
-      <Modified>2018-05-01T14:29:53.367</Modified>
+      <Modified>2018-05-01T19:00:04.625</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.16299.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -556,11 +556,11 @@
     <AppxPackagedFile Include="C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-05-01T17:50:26.303</Modified>
+      <Modified>2018-05-01T19:16:53.207</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\bin\x86\Debug\Core\BeFit.exe">
       <PackagePath>BeFit.exe</PackagePath>
-      <Modified>2018-05-01T18:35:21.295</Modified>
+      <Modified>2018-05-01T19:16:53.473</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
