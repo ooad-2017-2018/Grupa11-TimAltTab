@@ -44,7 +44,7 @@ namespace BeFit
                 }
                 else if (korisnik is Trener)
                 {
-
+                    this.Frame.Navigate(typeof(TrenerHomePage));
                 }
 
             }

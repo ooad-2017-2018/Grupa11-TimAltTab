@@ -93,6 +93,12 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Model\Admin.cs" />
+    <Compile Include="OpcijeProfilaTreneraPage.xaml.cs">
+      <DependentUpon>OpcijeProfilaTreneraPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="TrenerHomePage.xaml.cs">
+      <DependentUpon>TrenerHomePage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="View\AdminPage.xaml.cs">
       <DependentUpon>AdminPage.xaml</DependentUpon>
     </Compile>
@@ -187,6 +193,14 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Page Include="OpcijeProfilaTreneraPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="TrenerHomePage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="View\AdminPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>

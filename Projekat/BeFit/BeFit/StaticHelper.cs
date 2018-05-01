@@ -80,7 +80,7 @@ namespace BeFit
             };
             if (korisnik is Admin) k.tipKorisnika = "Admin";
             else if (korisnik is Trener)
-            k.tipKorisnika = "Trener";
+                k.tipKorisnika = "Trener";
             else k.tipKorisnika = "Klijent";
             IMobileServiceTable<korisnici> tabela = App.MobileService.GetTable<korisnici>();
             var items = from x in tabela

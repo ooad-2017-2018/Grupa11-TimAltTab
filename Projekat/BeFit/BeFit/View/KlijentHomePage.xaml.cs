@@ -47,7 +47,7 @@ namespace BeFit
                     break;
                 }
             }
-            ContentFrame.Navigate(typeof(OdabirZaDodavanjeProgramaPage));
+            ContentFrame.Navigate(typeof(KlijentOsnovniPodaciPage));
         }
 
         private void NavView_ItemInvoked(NavigationView sender, NavigationViewItemInvokedEventArgs args)
@@ -75,7 +75,7 @@ namespace BeFit
             switch (item.Tag)
             {
                 case "home":
-                    ContentFrame.Navigate(typeof(MojiProgramiPage));
+                    ContentFrame.Navigate(typeof(KlijentOsnovniPodaciPage));
                     ocistiStack();
                     break;
                 case "pregledPrograma":

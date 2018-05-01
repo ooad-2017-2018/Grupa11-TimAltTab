@@ -1,0 +1,84 @@
+﻿<Page
+    x:Class="BeFit.OpcijeProfilaTreneraPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:BeFit"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <VisualStateManager.VisualStateGroups>
+            <VisualStateGroup x:Name="VisualStateGroup">
+                <VisualState x:Name="Phone">
+                    <VisualState.StateTriggers>
+                        <AdaptiveTrigger MinWindowWidth="0"/>
+                    </VisualState.StateTriggers>
+                    <VisualState.Setters>
+                        <Setter Target="PodglavniStack.Orientation" Value="Vertical"/>
+                        <Setter Target="GlavniStack.Width" Value="500"/>
+                        <Setter Target="PodglavniStack.Width" Value="500"/>
+                        <Setter Target="Stack1.Width" Value="350"/>
+                        <Setter Target="Stack2.Width" Value="350"/>
+                        <Setter Target="Stack3.Width" Value="350"/>
+                    </VisualState.Setters>
+                </VisualState>
+                <VisualState x:Name="Tablet">
+                    <VisualState.StateTriggers>
+                        <AdaptiveTrigger MinWindowWidth="700"/>
+                    </VisualState.StateTriggers>
+                    <VisualState.Setters>
+                        <Setter Target="PodglavniStack.Orientation" Value="Horizontal"/>
+                        <Setter Target="Stack1.Width" Value="230"/>
+                        <Setter Target="Stack2.Width" Value="230"/>
+                        <Setter Target="Stack3.Width" Value="230"/>
+                    </VisualState.Setters>
+                </VisualState>
+                <VisualState x:Name="Desktop">
+                    <VisualState.StateTriggers>
+                        <AdaptiveTrigger MinWindowWidth="1000"/>
+                    </VisualState.StateTriggers>
+                    <VisualState.Setters>
+                        <Setter Target="PodglavniStack.Orientation" Value="Horizontal"/>
+                        <Setter Target="Stack1.Width" Value="330"/>
+                        <Setter Target="Stack2.Width" Value="330"/>
+                        <Setter Target="Stack3.Width" Value="330"/>
+                    </VisualState.Setters>
+                </VisualState>
+            </VisualStateGroup>
+        </VisualStateManager.VisualStateGroups>
+        <ScrollViewer VerticalScrollBarVisibility="Auto">
+            <StackPanel x:Name="GlavniStack" HorizontalAlignment="Center" VerticalAlignment="Center">
+                <TextBlock x:Name="OP" Text="Opcije profila" FontSize="50" Padding="0,0,0,30" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                <StackPanel x:Name="PodglavniStack" Orientation="Horizontal" HorizontalAlignment="Left"  VerticalAlignment="Top">
+                    <StackPanel x:Name="Stack1" Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Top" Width="500">
+                        <TextBlock Text="Novi e-mail" Margin="10, 10, 0, 10" TextWrapping="Wrap"/>
+                        <TextBox Text="" Margin="10, 10, 20, 10"/>
+                        <Button Content="Potvrdi e-mail" Margin="0, 10, 0, 10" HorizontalAlignment="Center"/>
+                        <TextBlock Text="Bio" Margin="10, 10, 0, 10" TextWrapping="Wrap"/>
+                        <TextBox Text="" Margin="10, 10, 20, 10"/>
+                        <Button Content="Update bio" Margin="0, 10, 0, 10" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+
+                    </StackPanel>
+                    <StackPanel x:Name="Stack2" Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Top" Width="500">
+                        <TextBlock Text="Stari password" Margin="10, 10, 0, 10" TextWrapping="Wrap"/>
+                        <TextBox Text="" Margin="10, 10, 20, 10"/>
+                        <TextBlock Text="Novi password" Margin="10, 10, 0, 10" TextWrapping="Wrap"/>
+                        <TextBox Text="" Margin="10, 10, 20, 10"/>
+                        <TextBlock Text="Potvrdite novi password" Margin="10, 10, 0, 10" TextWrapping="Wrap"/>
+                        <TextBox Text="" Margin="10, 10, 20, 10"/>
+                        <Button Content="Promijeni password" Margin="0, 10, 0, 10" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                    </StackPanel>
+                    <StackPanel x:Name="Stack3" Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Top" Width="500">
+                        <TextBlock Text="Lokacija" Margin="10, 10, 0, 10" TextWrapping="Wrap"/>
+                        <TextBox Text="" Margin="10, 10, 20, 10"/>
+                        <Button Content="Promijeni lokaciju" Margin="0, 10, 0, 10" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        <TextBlock Text="Kontakt telefon" Margin="10, 10, 0, 10" TextWrapping="Wrap"/>
+                        <TextBox Text="" Margin="10, 10, 20, 10"/>
+                        <Button Content="Promijeni kontakt telefon" Margin="0, 10, 0, 10" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                    </StackPanel>
+                </StackPanel>
+            </StackPanel>
+        </ScrollViewer>
+    </Grid>
+</Page>

@@ -68,6 +68,7 @@ namespace BeFit
                     KontaktTelefon = textbox_KontaktInfo.Text,
                     Lokacija = textBox_Grad.Text
                 };
+                StaticHelper.SpremiKorisnika(k);
             }
         }
     }
