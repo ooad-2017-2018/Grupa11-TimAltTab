@@ -43,6 +43,7 @@
       <RootProperty Name="Name" />
       <RootProperty Name="FontSize" />
       <RootProperty Name="Padding" />
+      <RootProperty Name="RenderTransformOrigin" />
       <RootProperty Name="TextAlignment" />
       <RootProperty Name="Inlines" />
       <RootProperty Name="FontFamily" />
@@ -110,6 +111,21 @@
     <RootType FullName="Windows.UI.Xaml.Media.Animation.TransitionCollection" />
     <RootType FullName="Windows.UI.Xaml.Media.Animation.NavigationThemeTransition" />
     <RootType FullName="BeFit.KlijentHomePage" />
+    <RootType FullName="Windows.UI.Xaml.Controls.Canvas">
+      <RootProperty Name="Name" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="Height" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="Children" />
+      <RootMethod Name="GetLeft" />
+      <RootMethod Name="SetLeft" />
+      <RootMethod Name="GetTop" />
+      <RootMethod Name="SetTop" />
+    </RootType>
+    <RootType FullName="BeFit.PodaciControl" />
+    <RootType FullName="BeFit.KlijentOsnovniPodaciPage" />
     <RootType FullName="Windows.UI.Xaml.Controls.ScrollViewer">
       <RootProperty Name="Name" />
       <RootProperty Name="VerticalScrollBarVisibility" />
@@ -135,18 +151,6 @@
     </RootType>
     <RootType FullName="BeFit.MojiProgramiPage" />
     <RootType FullName="BeFit.KreiranjeProgramaPage" />
-    <RootType FullName="Windows.UI.Xaml.Controls.Canvas">
-      <RootProperty Name="HorizontalAlignment" />
-      <RootProperty Name="Height" />
-      <RootProperty Name="Margin" />
-      <RootProperty Name="VerticalAlignment" />
-      <RootProperty Name="Width" />
-      <RootProperty Name="Children" />
-      <RootMethod Name="GetLeft" />
-      <RootMethod Name="SetLeft" />
-      <RootMethod Name="GetTop" />
-      <RootMethod Name="SetTop" />
-    </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Image">
       <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="Height" />
@@ -163,9 +167,9 @@
       <RootProperty Name="Margin" />
       <RootProperty Name="IsReadOnly" />
       <RootProperty Name="HorizontalAlignment" />
-      <RootProperty Name="PlaceholderText" />
       <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="Width" />
+      <RootProperty Name="PlaceholderText" />
       <RootEvent Name="TextChanged" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Shapes.Rectangle">
@@ -178,6 +182,9 @@
     <RootType FullName="BeFit.MainPage" />
     <RootType FullName="BeFit.OdabirZaDodavanjeProgramaPage" />
     <RootType FullName="BeFit.OpcijeProfilaPage" />
+    <RootType FullName="Windows.UI.Xaml.Controls.UserControl">
+      <RootProperty Name="Content" />
+    </RootType>
     <RootType FullName="BeFit.PregledProfilaTreneraPage" />
     <RootType FullName="BeFit.PregledProgramaPage" />
     <RootType FullName="BeFit.PregledVjezbePage" />
@@ -191,9 +198,6 @@
     <RootType FullName="BeFit.PretragaObjekataPage" />
     <RootType FullName="BeFit.PretragaVjezbiPage" />
     <RootType FullName="BeFit.PreuzimanjeProgramaPage" />
-    <RootType FullName="Windows.UI.Xaml.Controls.UserControl">
-      <RootProperty Name="Content" />
-    </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Border">
       <RootProperty Name="BorderThickness" />
       <RootProperty Name="BorderBrush" />

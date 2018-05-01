@@ -835,3 +835,38 @@ C:\Users\fatih\Desktop\faks\github\Grupa11-TimAltTab\Projekat\BeFit\BeFit\obj\x8
 C:\Users\fatih\Desktop\faks\github\Grupa11-TimAltTab\Projekat\BeFit\BeFit\obj\x86\Debug\KlijentHomePage.g.cs
 C:\Users\fatih\Desktop\faks\github\Grupa11-TimAltTab\Projekat\BeFit\BeFit\obj\x86\Debug\KlijentHomePage.xaml
 C:\Users\fatih\Desktop\faks\github\Grupa11-TimAltTab\Projekat\BeFit\BeFit\obj\x86\Debug\KlijentHomePage.xbf
+C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\bin\x86\Debug\KlijentHomePage.xbf
+C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\bin\x86\Debug\PregledProfilaTreneraPage.xbf
+C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\bin\x86\Debug\PregledVjezbePage.xbf
+C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\bin\x86\Debug\PretragaVjezbiPage.xbf
+C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\bin\x86\Debug\PreuzimanjeProgramaPage.xbf
+C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\obj\x86\Debug\KlijentHomePage.g.i.cs
+C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\obj\x86\Debug\KlijentHomePage.g.cs
+C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\obj\x86\Debug\PregledProfilaTreneraPage.g.i.cs
+C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\obj\x86\Debug\PregledProfilaTreneraPage.g.cs
+C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\obj\x86\Debug\PregledVjezbePage.g.i.cs
+C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\obj\x86\Debug\PregledVjezbePage.g.cs
+C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\obj\x86\Debug\PretragaVjezbiPage.g.i.cs
+C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\obj\x86\Debug\PretragaVjezbiPage.g.cs
+C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\obj\x86\Debug\PreuzimanjeProgramaPage.g.i.cs
+C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\obj\x86\Debug\PreuzimanjeProgramaPage.g.cs
+C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\obj\x86\Debug\KlijentHomePage.xaml
+C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\obj\x86\Debug\PregledProfilaTreneraPage.xaml
+C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\obj\x86\Debug\PregledVjezbePage.xaml
+C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\obj\x86\Debug\PretragaVjezbiPage.xaml
+C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\obj\x86\Debug\PreuzimanjeProgramaPage.xaml
+C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\obj\x86\Debug\KlijentHomePage.xbf
+C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\obj\x86\Debug\PregledProfilaTreneraPage.xbf
+C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\obj\x86\Debug\PregledVjezbePage.xbf
+C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\obj\x86\Debug\PretragaVjezbiPage.xbf
+C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\obj\x86\Debug\PreuzimanjeProgramaPage.xbf
+C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\obj\x86\Debug\KlijentOsnovniPodaciPage.g.i.cs
+C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\obj\x86\Debug\KlijentOsnovniPodaciPage.g.cs
+C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\obj\x86\Debug\PodaciControl.g.i.cs
+C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\obj\x86\Debug\PodaciControl.g.cs
+C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\obj\x86\Debug\KlijentOsnovniPodaciPage.xaml
+C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\obj\x86\Debug\PodaciControl.xaml
+C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\obj\x86\Debug\KlijentOsnovniPodaciPage.xbf
+C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\obj\x86\Debug\PodaciControl.xbf
+C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\bin\x86\Debug\KlijentOsnovniPodaciPage.xbf
+C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\bin\x86\Debug\PodaciControl.xbf

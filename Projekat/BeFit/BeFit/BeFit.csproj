@@ -103,6 +103,9 @@
     <Compile Include="KlijentHomePage.xaml.cs">
       <DependentUpon>KlijentHomePage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="KlijentOsnovniPodaciPage.xaml.cs">
+      <DependentUpon>KlijentOsnovniPodaciPage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="KlijentProgram.cs" />
     <Compile Include="Komentar.cs" />
     <Compile Include="Korisnik.cs" />
@@ -121,6 +124,9 @@
     </Compile>
     <Compile Include="OpcijeProfilaPage.xaml.cs">
       <DependentUpon>OpcijeProfilaPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PodaciControl.xaml.cs">
+      <DependentUpon>PodaciControl.xaml</DependentUpon>
     </Compile>
     <Compile Include="PregledProfilaTreneraPage.xaml.cs">
       <DependentUpon>PregledProfilaTreneraPage.xaml</DependentUpon>
@@ -186,6 +192,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="KlijentOsnovniPodaciPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="MojiProgramiPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -205,6 +215,10 @@
     <Page Include="OpcijeProfilaPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PodaciControl.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
     <Page Include="PregledProfilaTreneraPage.xaml">
       <SubType>Designer</SubType>

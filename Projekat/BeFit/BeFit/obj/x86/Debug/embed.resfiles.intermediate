@@ -1,11 +1,13 @@
 AdminPage.xbf
 App.xbf
 KlijentHomePage.xbf
+KlijentOsnovniPodaciPage.xbf
 KreiranjeProgramaPage.xbf
 MainPage.xbf
 MojiProgramiPage.xbf
 OdabirZaDodavanjeProgramaPage.xbf
 OpcijeProfilaPage.xbf
+PodaciControl.xbf
 PregledProfilaTreneraPage.xbf
 PregledProgramaPage.xbf
 PregledVjezbePage.xbf

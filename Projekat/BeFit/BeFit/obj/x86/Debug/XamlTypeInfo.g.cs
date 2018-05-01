@@ -132,45 +132,51 @@ namespace BeFit.BeFit_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[18];
+            _typeNameTable = new string[21];
             _typeNameTable[0] = "BeFit.AdminPage";
             _typeNameTable[1] = "Windows.UI.Xaml.Controls.Page";
             _typeNameTable[2] = "Windows.UI.Xaml.Controls.UserControl";
             _typeNameTable[3] = "BeFit.KlijentHomePage";
-            _typeNameTable[4] = "BeFit.MojiProgramiPage";
-            _typeNameTable[5] = "BeFit.KreiranjeProgramaPage";
-            _typeNameTable[6] = "BeFit.MainPage";
-            _typeNameTable[7] = "BeFit.OdabirZaDodavanjeProgramaPage";
-            _typeNameTable[8] = "BeFit.OpcijeProfilaPage";
-            _typeNameTable[9] = "BeFit.PregledProfilaTreneraPage";
-            _typeNameTable[10] = "BeFit.PregledProgramaPage";
-            _typeNameTable[11] = "BeFit.PregledVjezbePage";
-            _typeNameTable[12] = "BeFit.PretragaObjekataPage";
-            _typeNameTable[13] = "BeFit.PretragaVjezbiPage";
-            _typeNameTable[14] = "BeFit.PreuzimanjeProgramaPage";
-            _typeNameTable[15] = "BeFit.ProgramControl";
-            _typeNameTable[16] = "BeFit.RegistracijaPage";
-            _typeNameTable[17] = "BeFit.VjezbaControl";
+            _typeNameTable[4] = "BeFit.PodaciControl";
+            _typeNameTable[5] = "String";
+            _typeNameTable[6] = "BeFit.KlijentOsnovniPodaciPage";
+            _typeNameTable[7] = "BeFit.MojiProgramiPage";
+            _typeNameTable[8] = "BeFit.KreiranjeProgramaPage";
+            _typeNameTable[9] = "BeFit.MainPage";
+            _typeNameTable[10] = "BeFit.OdabirZaDodavanjeProgramaPage";
+            _typeNameTable[11] = "BeFit.OpcijeProfilaPage";
+            _typeNameTable[12] = "BeFit.PregledProfilaTreneraPage";
+            _typeNameTable[13] = "BeFit.PregledProgramaPage";
+            _typeNameTable[14] = "BeFit.PregledVjezbePage";
+            _typeNameTable[15] = "BeFit.PretragaObjekataPage";
+            _typeNameTable[16] = "BeFit.PretragaVjezbiPage";
+            _typeNameTable[17] = "BeFit.PreuzimanjeProgramaPage";
+            _typeNameTable[18] = "BeFit.ProgramControl";
+            _typeNameTable[19] = "BeFit.RegistracijaPage";
+            _typeNameTable[20] = "BeFit.VjezbaControl";
 
-            _typeTable = new global::System.Type[18];
+            _typeTable = new global::System.Type[21];
             _typeTable[0] = typeof(global::BeFit.AdminPage);
             _typeTable[1] = typeof(global::Windows.UI.Xaml.Controls.Page);
             _typeTable[2] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
             _typeTable[3] = typeof(global::BeFit.KlijentHomePage);
-            _typeTable[4] = typeof(global::BeFit.MojiProgramiPage);
-            _typeTable[5] = typeof(global::BeFit.KreiranjeProgramaPage);
-            _typeTable[6] = typeof(global::BeFit.MainPage);
-            _typeTable[7] = typeof(global::BeFit.OdabirZaDodavanjeProgramaPage);
-            _typeTable[8] = typeof(global::BeFit.OpcijeProfilaPage);
-            _typeTable[9] = typeof(global::BeFit.PregledProfilaTreneraPage);
-            _typeTable[10] = typeof(global::BeFit.PregledProgramaPage);
-            _typeTable[11] = typeof(global::BeFit.PregledVjezbePage);
-            _typeTable[12] = typeof(global::BeFit.PretragaObjekataPage);
-            _typeTable[13] = typeof(global::BeFit.PretragaVjezbiPage);
-            _typeTable[14] = typeof(global::BeFit.PreuzimanjeProgramaPage);
-            _typeTable[15] = typeof(global::BeFit.ProgramControl);
-            _typeTable[16] = typeof(global::BeFit.RegistracijaPage);
-            _typeTable[17] = typeof(global::BeFit.VjezbaControl);
+            _typeTable[4] = typeof(global::BeFit.PodaciControl);
+            _typeTable[5] = typeof(global::System.String);
+            _typeTable[6] = typeof(global::BeFit.KlijentOsnovniPodaciPage);
+            _typeTable[7] = typeof(global::BeFit.MojiProgramiPage);
+            _typeTable[8] = typeof(global::BeFit.KreiranjeProgramaPage);
+            _typeTable[9] = typeof(global::BeFit.MainPage);
+            _typeTable[10] = typeof(global::BeFit.OdabirZaDodavanjeProgramaPage);
+            _typeTable[11] = typeof(global::BeFit.OpcijeProfilaPage);
+            _typeTable[12] = typeof(global::BeFit.PregledProfilaTreneraPage);
+            _typeTable[13] = typeof(global::BeFit.PregledProgramaPage);
+            _typeTable[14] = typeof(global::BeFit.PregledVjezbePage);
+            _typeTable[15] = typeof(global::BeFit.PretragaObjekataPage);
+            _typeTable[16] = typeof(global::BeFit.PretragaVjezbiPage);
+            _typeTable[17] = typeof(global::BeFit.PreuzimanjeProgramaPage);
+            _typeTable[18] = typeof(global::BeFit.ProgramControl);
+            _typeTable[19] = typeof(global::BeFit.RegistracijaPage);
+            _typeTable[20] = typeof(global::BeFit.VjezbaControl);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -207,20 +213,22 @@ namespace BeFit.BeFit_XamlTypeInfo
 
         private object Activate_0_AdminPage() { return new global::BeFit.AdminPage(); }
         private object Activate_3_KlijentHomePage() { return new global::BeFit.KlijentHomePage(); }
-        private object Activate_4_MojiProgramiPage() { return new global::BeFit.MojiProgramiPage(); }
-        private object Activate_5_KreiranjeProgramaPage() { return new global::BeFit.KreiranjeProgramaPage(); }
-        private object Activate_6_MainPage() { return new global::BeFit.MainPage(); }
-        private object Activate_7_OdabirZaDodavanjeProgramaPage() { return new global::BeFit.OdabirZaDodavanjeProgramaPage(); }
-        private object Activate_8_OpcijeProfilaPage() { return new global::BeFit.OpcijeProfilaPage(); }
-        private object Activate_9_PregledProfilaTreneraPage() { return new global::BeFit.PregledProfilaTreneraPage(); }
-        private object Activate_10_PregledProgramaPage() { return new global::BeFit.PregledProgramaPage(); }
-        private object Activate_11_PregledVjezbePage() { return new global::BeFit.PregledVjezbePage(); }
-        private object Activate_12_PretragaObjekataPage() { return new global::BeFit.PretragaObjekataPage(); }
-        private object Activate_13_PretragaVjezbiPage() { return new global::BeFit.PretragaVjezbiPage(); }
-        private object Activate_14_PreuzimanjeProgramaPage() { return new global::BeFit.PreuzimanjeProgramaPage(); }
-        private object Activate_15_ProgramControl() { return new global::BeFit.ProgramControl(); }
-        private object Activate_16_RegistracijaPage() { return new global::BeFit.RegistracijaPage(); }
-        private object Activate_17_VjezbaControl() { return new global::BeFit.VjezbaControl(); }
+        private object Activate_4_PodaciControl() { return new global::BeFit.PodaciControl(); }
+        private object Activate_6_KlijentOsnovniPodaciPage() { return new global::BeFit.KlijentOsnovniPodaciPage(); }
+        private object Activate_7_MojiProgramiPage() { return new global::BeFit.MojiProgramiPage(); }
+        private object Activate_8_KreiranjeProgramaPage() { return new global::BeFit.KreiranjeProgramaPage(); }
+        private object Activate_9_MainPage() { return new global::BeFit.MainPage(); }
+        private object Activate_10_OdabirZaDodavanjeProgramaPage() { return new global::BeFit.OdabirZaDodavanjeProgramaPage(); }
+        private object Activate_11_OpcijeProfilaPage() { return new global::BeFit.OpcijeProfilaPage(); }
+        private object Activate_12_PregledProfilaTreneraPage() { return new global::BeFit.PregledProfilaTreneraPage(); }
+        private object Activate_13_PregledProgramaPage() { return new global::BeFit.PregledProgramaPage(); }
+        private object Activate_14_PregledVjezbePage() { return new global::BeFit.PregledVjezbePage(); }
+        private object Activate_15_PretragaObjekataPage() { return new global::BeFit.PretragaObjekataPage(); }
+        private object Activate_16_PretragaVjezbiPage() { return new global::BeFit.PretragaVjezbiPage(); }
+        private object Activate_17_PreuzimanjeProgramaPage() { return new global::BeFit.PreuzimanjeProgramaPage(); }
+        private object Activate_18_ProgramControl() { return new global::BeFit.ProgramControl(); }
+        private object Activate_19_RegistracijaPage() { return new global::BeFit.RegistracijaPage(); }
+        private object Activate_20_VjezbaControl() { return new global::BeFit.VjezbaControl(); }
 
         private global::Windows.UI.Xaml.Markup.IXamlType CreateXamlType(int typeIndex)
         {
@@ -254,100 +262,120 @@ namespace BeFit.BeFit_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 4:   //  BeFit.MojiProgramiPage
-                userType = new global::BeFit.BeFit_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_4_MojiProgramiPage;
-                userType.SetIsLocalType();
-                xamlType = userType;
-                break;
-
-            case 5:   //  BeFit.KreiranjeProgramaPage
-                userType = new global::BeFit.BeFit_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_5_KreiranjeProgramaPage;
-                userType.SetIsLocalType();
-                xamlType = userType;
-                break;
-
-            case 6:   //  BeFit.MainPage
-                userType = new global::BeFit.BeFit_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_6_MainPage;
-                userType.SetIsLocalType();
-                xamlType = userType;
-                break;
-
-            case 7:   //  BeFit.OdabirZaDodavanjeProgramaPage
-                userType = new global::BeFit.BeFit_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_7_OdabirZaDodavanjeProgramaPage;
-                userType.SetIsLocalType();
-                xamlType = userType;
-                break;
-
-            case 8:   //  BeFit.OpcijeProfilaPage
-                userType = new global::BeFit.BeFit_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_8_OpcijeProfilaPage;
-                userType.SetIsLocalType();
-                xamlType = userType;
-                break;
-
-            case 9:   //  BeFit.PregledProfilaTreneraPage
-                userType = new global::BeFit.BeFit_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_9_PregledProfilaTreneraPage;
-                userType.SetIsLocalType();
-                xamlType = userType;
-                break;
-
-            case 10:   //  BeFit.PregledProgramaPage
-                userType = new global::BeFit.BeFit_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_10_PregledProgramaPage;
-                userType.SetIsLocalType();
-                xamlType = userType;
-                break;
-
-            case 11:   //  BeFit.PregledVjezbePage
-                userType = new global::BeFit.BeFit_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_11_PregledVjezbePage;
-                userType.SetIsLocalType();
-                xamlType = userType;
-                break;
-
-            case 12:   //  BeFit.PretragaObjekataPage
-                userType = new global::BeFit.BeFit_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_12_PretragaObjekataPage;
-                userType.SetIsLocalType();
-                xamlType = userType;
-                break;
-
-            case 13:   //  BeFit.PretragaVjezbiPage
-                userType = new global::BeFit.BeFit_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_13_PretragaVjezbiPage;
-                userType.SetIsLocalType();
-                xamlType = userType;
-                break;
-
-            case 14:   //  BeFit.PreuzimanjeProgramaPage
-                userType = new global::BeFit.BeFit_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_14_PreuzimanjeProgramaPage;
-                userType.SetIsLocalType();
-                xamlType = userType;
-                break;
-
-            case 15:   //  BeFit.ProgramControl
+            case 4:   //  BeFit.PodaciControl
                 userType = new global::BeFit.BeFit_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.UserControl"));
-                userType.Activator = Activate_15_ProgramControl;
+                userType.Activator = Activate_4_PodaciControl;
+                userType.AddMemberName("Naziv");
+                userType.AddMemberName("Podatak");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 16:   //  BeFit.RegistracijaPage
+            case 5:   //  String
+                xamlType = new global::BeFit.BeFit_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 6:   //  BeFit.KlijentOsnovniPodaciPage
                 userType = new global::BeFit.BeFit_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_16_RegistracijaPage;
+                userType.Activator = Activate_6_KlijentOsnovniPodaciPage;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 17:   //  BeFit.VjezbaControl
+            case 7:   //  BeFit.MojiProgramiPage
+                userType = new global::BeFit.BeFit_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_7_MojiProgramiPage;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 8:   //  BeFit.KreiranjeProgramaPage
+                userType = new global::BeFit.BeFit_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_8_KreiranjeProgramaPage;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 9:   //  BeFit.MainPage
+                userType = new global::BeFit.BeFit_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_9_MainPage;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 10:   //  BeFit.OdabirZaDodavanjeProgramaPage
+                userType = new global::BeFit.BeFit_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_10_OdabirZaDodavanjeProgramaPage;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 11:   //  BeFit.OpcijeProfilaPage
+                userType = new global::BeFit.BeFit_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_11_OpcijeProfilaPage;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 12:   //  BeFit.PregledProfilaTreneraPage
+                userType = new global::BeFit.BeFit_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_12_PregledProfilaTreneraPage;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 13:   //  BeFit.PregledProgramaPage
+                userType = new global::BeFit.BeFit_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_13_PregledProgramaPage;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 14:   //  BeFit.PregledVjezbePage
+                userType = new global::BeFit.BeFit_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_14_PregledVjezbePage;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 15:   //  BeFit.PretragaObjekataPage
+                userType = new global::BeFit.BeFit_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_15_PretragaObjekataPage;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 16:   //  BeFit.PretragaVjezbiPage
+                userType = new global::BeFit.BeFit_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_16_PretragaVjezbiPage;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 17:   //  BeFit.PreuzimanjeProgramaPage
+                userType = new global::BeFit.BeFit_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_17_PreuzimanjeProgramaPage;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 18:   //  BeFit.ProgramControl
                 userType = new global::BeFit.BeFit_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.UserControl"));
-                userType.Activator = Activate_17_VjezbaControl;
+                userType.Activator = Activate_18_ProgramControl;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 19:   //  BeFit.RegistracijaPage
+                userType = new global::BeFit.BeFit_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_19_RegistracijaPage;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 20:   //  BeFit.VjezbaControl
+                userType = new global::BeFit.BeFit_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.UserControl"));
+                userType.Activator = Activate_20_VjezbaControl;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
@@ -356,11 +384,47 @@ namespace BeFit.BeFit_XamlTypeInfo
         }
 
 
+        private object get_0_PodaciControl_Naziv(object instance)
+        {
+            var that = (global::BeFit.PodaciControl)instance;
+            return that.Naziv;
+        }
+        private void set_0_PodaciControl_Naziv(object instance, object Value)
+        {
+            var that = (global::BeFit.PodaciControl)instance;
+            that.Naziv = (global::System.String)Value;
+        }
+        private object get_1_PodaciControl_Podatak(object instance)
+        {
+            var that = (global::BeFit.PodaciControl)instance;
+            return that.Podatak;
+        }
+        private void set_1_PodaciControl_Podatak(object instance, object Value)
+        {
+            var that = (global::BeFit.PodaciControl)instance;
+            that.Podatak = (global::System.String)Value;
+        }
 
         private global::Windows.UI.Xaml.Markup.IXamlMember CreateXamlMember(string longMemberName)
         {
             global::BeFit.BeFit_XamlTypeInfo.XamlMember xamlMember = null;
-            // No Local Properties
+            global::BeFit.BeFit_XamlTypeInfo.XamlUserType userType;
+
+            switch (longMemberName)
+            {
+            case "BeFit.PodaciControl.Naziv":
+                userType = (global::BeFit.BeFit_XamlTypeInfo.XamlUserType)GetXamlTypeByName("BeFit.PodaciControl");
+                xamlMember = new global::BeFit.BeFit_XamlTypeInfo.XamlMember(this, "Naziv", "String");
+                xamlMember.Getter = get_0_PodaciControl_Naziv;
+                xamlMember.Setter = set_0_PodaciControl_Naziv;
+                break;
+            case "BeFit.PodaciControl.Podatak":
+                userType = (global::BeFit.BeFit_XamlTypeInfo.XamlUserType)GetXamlTypeByName("BeFit.PodaciControl");
+                xamlMember = new global::BeFit.BeFit_XamlTypeInfo.XamlMember(this, "Podatak", "String");
+                xamlMember.Getter = get_1_PodaciControl_Podatak;
+                xamlMember.Setter = set_1_PodaciControl_Podatak;
+                break;
+            }
             return xamlMember;
         }
     }
