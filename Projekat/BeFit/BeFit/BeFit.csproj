@@ -100,6 +100,9 @@
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
     <Compile Include="Klijent.cs" />
+    <Compile Include="KlijentHomePage.xaml.cs">
+      <DependentUpon>KlijentHomePage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="KlijentProgram.cs" />
     <Compile Include="Komentar.cs" />
     <Compile Include="Korisnik.cs" />
@@ -178,6 +181,10 @@
     <Page Include="AdminPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
+    </Page>
+    <Page Include="KlijentHomePage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="MojiProgramiPage.xaml">
       <SubType>Designer</SubType>

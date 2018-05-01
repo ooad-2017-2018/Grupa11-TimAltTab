@@ -23,6 +23,7 @@ namespace BeFit
     public sealed partial class MojiProgramiPage : Page
     {
         Button buttonPlus = new Button();
+        UIElement StariContent;
         public MojiProgramiPage()
         {
             this.InitializeComponent();
@@ -33,6 +34,8 @@ namespace BeFit
             buttonPlus.Background = new SolidColorBrush(Windows.UI.Colors.White);
             buttonPlus.Click += ButtonPlus_Click;
             programiStackPanel.Children.Add(buttonPlus);
+            buttonPlus.Click += onClick;
+
         }
         private void ButtonPlus_Click(object sender, RoutedEventArgs e)
         {
@@ -41,5 +44,9 @@ namespace BeFit
             programiStackPanel.Children.Add(buttonPlus);
         }
 
+        void onClick(object o, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(OdabirZaDodavanjeProgramaPage));
+        }
     }
 }

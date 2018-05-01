@@ -50,8 +50,6 @@ namespace BeFit
                 rootFrame = new Frame();
 
                 rootFrame.NavigationFailed += OnNavigationFailed;
-                rootFrame.Navigated += OnNavigated;
-                SystemNavigationManager.GetForCurrentView().BackRequested += OnBackRequested;
 
                 if (e.PreviousExecutionState == ApplicationExecutionState.Terminated)
                 {
@@ -69,7 +67,7 @@ namespace BeFit
                     // When the navigation stack isn't restored navigate to the first page,
                     // configuring the new page by passing required information as a navigation
                     // parameter
-                    rootFrame.Navigate(typeof(MojiProgramiPage), e.Arguments);
+                    rootFrame.Navigate(typeof(MainPage), e.Arguments);
                 }
                 // Ensure the current window is active
                 Window.Current.Activate();
@@ -98,24 +96,6 @@ namespace BeFit
             var deferral = e.SuspendingOperation.GetDeferral();
             //TODO: Save application state and stop any background activity
             deferral.Complete();
-        }
-        private void OnNavigated(object sender, NavigationEventArgs e)
-        {
-            // Each time a navigation event occurs, update the Back button's visibility
-            SystemNavigationManager.GetForCurrentView().AppViewBackButtonVisibility =
-                ((Frame)sender).CanGoBack ?
-                AppViewBackButtonVisibility.Visible :
-                AppViewBackButtonVisibility.Collapsed;
-        }
-
-        private void OnBackRequested(object sender, BackRequestedEventArgs e)
-        {
-            Frame rootFrame = Window.Current.Content as Frame;
-            if (rootFrame.CanGoBack)
-            {
-                e.Handled = true;
-                rootFrame.GoBack();
-            }
         }
     }
 }

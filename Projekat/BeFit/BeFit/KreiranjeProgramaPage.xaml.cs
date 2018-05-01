@@ -57,6 +57,7 @@ namespace BeFit
         private void ButtonPlus_Click(object sender, RoutedEventArgs e)
         {
             Button_Click(sender, e);
+            this.Frame.Navigate(typeof(PretragaVjezbiPage));
         }
     }
 }

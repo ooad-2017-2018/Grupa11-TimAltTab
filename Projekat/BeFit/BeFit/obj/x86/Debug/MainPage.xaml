@@ -51,13 +51,13 @@
         <Canvas x:ConnectionId='5' x:Name="kanvas" Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="1" HorizontalAlignment="Left" Height="342" Margin="56,10,-593,-352" Grid.RowSpan="1" VerticalAlignment="Top" Width="537">
             <StackPanel x:ConnectionId='8' x:Name="stek" HorizontalAlignment="Left" Height="197" VerticalAlignment="Top" Width="470" Canvas.Left="30" Canvas.Top="15">
                 <TextBlock Text="Username" TextWrapping="Wrap" Height="30" FontSize="20"/>
-                <TextBox Text="" Height="40" FontSize="20"/>
+                <TextBox x:ConnectionId='11' Name="usernameTextBox" Text="" Height="40" FontSize="20"/>
                 <Rectangle Height="10"/>
                 <TextBlock Text="Password" TextWrapping="Wrap" Height="30" FontSize="20"/>
                 <PasswordBox  Height="40" FontSize="20"/>
             </StackPanel>
             <Button x:ConnectionId='9' x:Name="loginButton" Content="Log In" HorizontalAlignment="Left" VerticalAlignment="Top" Canvas.Left="110" Canvas.Top="190" Width="82"                          />
-            <Button Content="Sign Up" HorizontalAlignment="Left" VerticalAlignment="Top" Canvas.Left="329" Canvas.Top="190" Width="82"/>
+            <Button x:ConnectionId='10' Content="Sign Up" HorizontalAlignment="Left" VerticalAlignment="Top" Canvas.Left="329" Canvas.Top="190" Width="82"                     />
         </Canvas>
         <Image x:ConnectionId='6' x:Name="BeFit" Grid.ColumnSpan="2" HorizontalAlignment="Left" Height="100" Margin="493,51,-866,-151" Grid.RowSpan="2" VerticalAlignment="Top" Width="373" Source="Assets/Capture.PNG"/>
         <Image x:ConnectionId='7' x:Name="bzvz" Grid.ColumnSpan="2" HorizontalAlignment="Left" Height="235" Margin="698,216,-988,-451" Grid.RowSpan="1" VerticalAlignment="Top" Width="290" Source="Assets/StoreLogo.png"/>
