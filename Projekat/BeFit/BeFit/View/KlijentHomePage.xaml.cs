@@ -23,6 +23,7 @@ namespace BeFit
     /// </summary>
     public sealed partial class KlijentHomePage : Page
     {
+        KlijentViewModel klijentViewModel;
         private void OnBackRequested(object sender, BackRequestedEventArgs e)
         {
             if (ContentFrame.CanGoBack)
@@ -36,6 +37,10 @@ namespace BeFit
             this.InitializeComponent();
             SystemNavigationManager.GetForCurrentView().BackRequested += OnBackRequested;
         }
+        protected override void OnNavigatedTo(NavigationEventArgs e)
+        {
+            klijentViewModel = e.Parameter as KlijentViewModel;
+        }
         private void NavView_Loaded(object sender, RoutedEventArgs e)
         {
             // set the initial SelectedItem 
@@ -47,7 +52,7 @@ namespace BeFit
                     break;
                 }
             }
-            ContentFrame.Navigate(typeof(KlijentOsnovniPodaciPage));
+            ContentFrame.Navigate(typeof(KlijentOsnovniPodaciPage), klijentViewModel);
         }
 
         private void NavView_ItemInvoked(NavigationView sender, NavigationViewItemInvokedEventArgs args)
@@ -75,7 +80,7 @@ namespace BeFit
             switch (item.Tag)
             {
                 case "home":
-                    ContentFrame.Navigate(typeof(KlijentOsnovniPodaciPage));
+                    ContentFrame.Navigate(typeof(KlijentOsnovniPodaciPage), klijentViewModel);
                     ocistiStack();
                     break;
                 case "pregledPrograma":

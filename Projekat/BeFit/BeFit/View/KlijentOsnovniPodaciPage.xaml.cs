@@ -22,6 +22,12 @@ namespace BeFit
     /// </summary>
     public sealed partial class KlijentOsnovniPodaciPage : Page
     {
+        KlijentViewModel klijentViewModel;
+        protected override void OnNavigatedTo(NavigationEventArgs e)
+        {
+            klijentViewModel = e.Parameter as KlijentViewModel;
+            updatePolja();
+        }
         public KlijentOsnovniPodaciPage()
         {
             InitializeComponent();
@@ -31,18 +37,12 @@ namespace BeFit
             email.Naziv = "E-Mail:";
             
         }
-        public KlijentOsnovniPodaciPage(Klijent klijent)
+        private void updatePolja()
         {
-            this.InitializeComponent();
-
-            ime.Naziv = "Ime:";
-            ime.Podatak = klijent.Ime;
-            prezime.Naziv = "Prezime:";
-            prezime.Podatak = klijent.Prezime;
-            username.Naziv = "Username:";
-            username.Podatak = klijent.Username;
-            email.Naziv = "E-Mail:";
-            email.Podatak = klijent.Email;
+            ime.Podatak = klijentViewModel.Ime;
+            prezime.Podatak = klijentViewModel.Prezime;
+            username.Podatak = klijentViewModel.Username;
+            email.Podatak = klijentViewModel.Email;
         }
     }
 }

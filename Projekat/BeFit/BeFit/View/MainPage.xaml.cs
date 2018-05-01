@@ -40,7 +40,7 @@ namespace BeFit
                 }
                 else if (korisnik is Klijent)
                 {
-                    this.Frame.Navigate(typeof(KlijentHomePage));
+                    this.Frame.Navigate(typeof(KlijentHomePage), new KlijentViewModel(korisnik as Klijent));
                 }
                 else if (korisnik is Trener)
                 {

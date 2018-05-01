@@ -1,6 +1,4 @@
 App.xbf
-OpcijeProfilaTreneraPage.xbf
-TrenerHomePage.xbf
 View\AdminPage.xbf
 View\KlijentHomePage.xbf
 View\KlijentOsnovniPodaciPage.xbf
@@ -9,6 +7,7 @@ View\MainPage.xbf
 View\MojiProgramiPage.xbf
 View\OdabirZaDodavanjeProgramaPage.xbf
 View\OpcijeProfilaPage.xbf
+View\OpcijeProfilaTreneraPage.xbf
 View\PodaciControl.xbf
 View\PregledProfilaTreneraPage.xbf
 View\PregledProgramaPage.xbf
@@ -18,4 +17,5 @@ View\PretragaVjezbiPage.xbf
 View\PreuzimanjeProgramaPage.xbf
 View\ProgramControl.xbf
 View\RegistracijaPage.xbf
+View\TrenerHomePage.xbf
 View\VjezbaControl.xbf

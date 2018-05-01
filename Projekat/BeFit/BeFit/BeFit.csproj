@@ -92,11 +92,12 @@
     <RestoreProjectStyle>PackageReference</RestoreProjectStyle>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="KlijentViewModel.cs" />
     <Compile Include="Model\Admin.cs" />
-    <Compile Include="OpcijeProfilaTreneraPage.xaml.cs">
+    <Compile Include="View\OpcijeProfilaTreneraPage.xaml.cs">
       <DependentUpon>OpcijeProfilaTreneraPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="TrenerHomePage.xaml.cs">
+    <Compile Include="View\TrenerHomePage.xaml.cs">
       <DependentUpon>TrenerHomePage.xaml</DependentUpon>
     </Compile>
     <Compile Include="View\AdminPage.xaml.cs">
@@ -193,11 +194,11 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Page Include="OpcijeProfilaTreneraPage.xaml">
+    <Page Include="View\OpcijeProfilaTreneraPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="TrenerHomePage.xaml">
+    <Page Include="View\TrenerHomePage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
