@@ -13,7 +13,7 @@ using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
-
+using Windows.UI.Popups;
 // The Blank Page item template is documented at https://go.microsoft.com/fwlink/?LinkId=402352&clcid=0x409
 
 namespace BeFit
@@ -23,28 +23,44 @@ namespace BeFit
     /// </summary>
     public sealed partial class MainPage : Page
     {
+        
         public MainPage()
         {
             this.InitializeComponent();
+            
         }
-        private void loginButton_Click(object sender, RoutedEventArgs e)
+        private async void loginButton_Click(object sender, RoutedEventArgs e)
         {
-            if (usernameTextBox.Text == "admin")
+            try
             {
-                this.Frame.Navigate(typeof(AdminPage));
-            } else if (usernameTextBox.Text == "klijent")
-            {
-                this.Frame.Navigate(typeof(KlijentHomePage));
-            } else if(usernameTextBox.Text == "trener")
-            {
+                var korisnik = (await StaticHelper.UcitajKorisnika(usernameTextBox.Text));
+                if (korisnik is Admin)
+                {
+                    this.Frame.Navigate(typeof(AdminPage));
+                }
+                else if (korisnik is Klijent)
+                {
+                    this.Frame.Navigate(typeof(KlijentHomePage));
+                }
+                else if (korisnik is Trener)
+                {
+
+                }
 
             }
-
+            catch (Exception ex)
+            {
+                await (new MessageDialog(ex.Message)).ShowAsync();
+            }
+            
+           
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private async void Button_Click(object sender, RoutedEventArgs e)
         {
-            this.Frame.Navigate(typeof(RegistracijaPage));
+          
+            // this.Frame.Navigate(typeof(RegistracijaPage));
+
         }
     }
 }

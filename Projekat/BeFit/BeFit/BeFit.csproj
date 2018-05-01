@@ -109,6 +109,7 @@
     <Compile Include="KlijentProgram.cs" />
     <Compile Include="Komentar.cs" />
     <Compile Include="Korisnik.cs" />
+    <Compile Include="KorisnikTabela.cs" />
     <Compile Include="MisicnaGrupa.cs" />
     <Compile Include="MojiProgramiPage.xaml.cs">
       <DependentUpon>MojiProgramiPage.xaml</DependentUpon>
@@ -154,8 +155,10 @@
     <Compile Include="RegistracijaPage.xaml.cs">
       <DependentUpon>RegistracijaPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="StaticHelper.cs" />
     <Compile Include="Trener.cs" />
     <Compile Include="TrenerProgram.cs" />
+    <Compile Include="TrenerTabela.cs" />
     <Compile Include="Vjezba.cs" />
     <Compile Include="VjezbaControl.xaml.cs">
       <DependentUpon>VjezbaControl.xaml</DependentUpon>
@@ -258,6 +261,9 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
+    <PackageReference Include="Microsoft.Azure.Mobile.Client">
+      <Version>4.0.2</Version>
+    </PackageReference>
     <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform">
       <Version>6.0.8</Version>
     </PackageReference>

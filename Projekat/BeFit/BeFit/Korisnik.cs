@@ -8,14 +8,14 @@ namespace BeFit
 {
     public class Korisnik
     {
-        int id;
+        string id;
         string ime;
         string prezime;
         string username;
         string password;
         string email;
 
-        public int Id { get => id; set => id = value; }
+        public string Id { get => id; set => id = value; }
         public string Ime { get => ime; set => ime = value; }
         public string Prezime { get => prezime; set => prezime = value; }
         public string Username { get => username; set => username = value; }

@@ -15,6 +15,7 @@ using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
+using Microsoft.WindowsAzure.MobileServices;
 
 namespace BeFit
 {
@@ -27,6 +28,8 @@ namespace BeFit
         /// Initializes the singleton application object.  This is the first line of authored code
         /// executed, and as such is the logical equivalent of main() or WinMain().
         /// </summary>
+
+        
         public App()
         {
             this.InitializeComponent();
@@ -67,7 +70,7 @@ namespace BeFit
                     // When the navigation stack isn't restored navigate to the first page,
                     // configuring the new page by passing required information as a navigation
                     // parameter
-                    rootFrame.Navigate(typeof(MainPage), e.Arguments);
+                    rootFrame.Navigate(typeof(MainPage));
                 }
                 // Ensure the current window is active
                 Window.Current.Activate();
@@ -83,7 +86,8 @@ namespace BeFit
         {
             throw new Exception("Failed to load Page " + e.SourcePageType.FullName);
         }
-
+        public static MobileServiceClient MobileService = new
+                MobileServiceClient("https://OOAddaoo.azurewebsites.net");
         /// <summary>
         /// Invoked when application execution is being suspended.  Application state is saved
         /// without knowing whether the application will be terminated or resumed with the contents
