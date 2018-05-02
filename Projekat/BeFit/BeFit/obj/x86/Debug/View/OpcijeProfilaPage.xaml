@@ -47,16 +47,16 @@
 				<StackPanel x:ConnectionId='7' x:Name="PodglavniStack" Orientation="Horizontal" HorizontalAlignment="Left"  VerticalAlignment="Top">
 					<StackPanel x:ConnectionId='8' x:Name="LijeviStack" Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Top" Width="500">
 						<TextBlock Text="Novi e-mail" Margin="10, 10, 0, 10" TextWrapping="Wrap"/>
-						<TextBox Text="" Margin="10, 10, 20, 10"/>
-						<Button Content="Potvrdi e-mail" Margin="0, 10, 0, 10" HorizontalAlignment="Center"/>
+						<TextBox x:ConnectionId='9' x:Name="emailTextBox" Text="" Margin="10, 10, 20, 10"/>
+						<Button x:ConnectionId='10' Content="Potvrdi e-mail" Margin="0, 10, 0, 10" HorizontalAlignment="Center"                     />
 						
 				    	<TextBlock Text="Stari password" Margin="10, 10, 0, 10" TextWrapping="Wrap"/>
-						<TextBox Text="" Margin="10, 10, 20, 10"/>
+						<PasswordBox x:ConnectionId='11' x:Name="stariPassword"  Margin="10, 10, 20, 10"/>
 						<TextBlock Text="Novi password" Margin="10, 10, 0, 10" TextWrapping="Wrap"/>
-						<TextBox Text="" Margin="10, 10, 20, 10"/>
+						<PasswordBox x:ConnectionId='12' x:Name="passwordTextBox" Margin="10, 10, 20, 10"/>
 						<TextBlock Text="Potvrdite novi password" Margin="10, 10, 0, 10" TextWrapping="Wrap"/>
-						<TextBox Text="" Margin="10, 10, 20, 10"/>
-						<Button Content="Promijeni password" Margin="0, 10, 0, 10" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+						<PasswordBox x:ConnectionId='13' x:Name="potvrdiPasswordTextBox" Margin="10, 10, 20, 10"/>
+						<Button x:ConnectionId='14' Content="Promijeni password" Margin="0, 10, 0, 10" HorizontalAlignment="Center" VerticalAlignment="Center"                       />
 					</StackPanel>
 				</StackPanel>
 			</StackPanel>
