@@ -1,11 +1,11 @@
-﻿<Page
+﻿<Page x:ConnectionId='1'
     x:Class="BeFit.AdminPage"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:local="using:BeFit"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-    mc:Ignorable="d">
+    mc:Ignorable="d"                     >
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
         <Grid.ColumnDefinitions>
@@ -18,26 +18,26 @@
             <RowDefinition Height="1*"/>
         </Grid.RowDefinitions>
         <TextBlock Grid.Column="0" Grid.Row="0" HorizontalAlignment="Left" Margin="60,68,-193,-92" Text="Pretraga profila" TextWrapping="Wrap" VerticalAlignment="Top" Height="24" Width="133" Grid.ColumnSpan="3" Grid.RowSpan="2"/>
-        <ComboBox x:ConnectionId='1' Grid.Column="0" Grid.Row="0" Name="comboBox1" HorizontalAlignment="Left" Margin="60,117,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Height="43" Width="279"/>
+        <ComboBox x:ConnectionId='2' Grid.Column="0" Grid.Row="0" Name="comboBox1" HorizontalAlignment="Left" Margin="60,117,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Height="43" Width="279"/>
         <Button Grid.Column="0" Grid.Row="0" Content="Pogledaj profil" HorizontalAlignment="Left" Margin="60,203,0,0" VerticalAlignment="Top" Width="120" Height="29"/>
-        <Button x:ConnectionId='2' Name="obrisiButton" Grid.Column="0" Grid.Row="0" Content="Obriši profil" HorizontalAlignment="Left" Margin="219,203,0,0" VerticalAlignment="Top" Width="120" Height="29"/>
+        <Button x:ConnectionId='3' Name="obrisiButton" Grid.Column="0" Grid.Row="0" Content="Obriši profil" HorizontalAlignment="Left" Margin="219,203,0,0" VerticalAlignment="Top" Width="120" Height="29"/>
         <TextBlock HorizontalAlignment="Left" Margin="43,72,0,0" Text="Zahtijevi za profil" TextWrapping="Wrap" VerticalAlignment="Top" Grid.Column="1" Height="20" Width="140"/>
-        <ListView x:ConnectionId='3' x:Name="listViewProfili" Grid.ColumnSpan="1" Grid.Column="1" HorizontalAlignment="Left" Height="225" Margin="47,117,0,0" VerticalAlignment="Top" Width="283"/>
+        <ListView x:ConnectionId='4' x:Name="listViewProfili" Grid.ColumnSpan="1" IsItemClickEnabled="True" Grid.Column="1" HorizontalAlignment="Left" Height="225" Margin="47,117,0,0" VerticalAlignment="Top" Width="283"/>
         <TextBlock HorizontalAlignment="Left" Margin="47,72,0,0" Text="Nedavni komentari" TextWrapping="Wrap" VerticalAlignment="Top" Grid.Column="2" Grid.ColumnSpan="1" Grid.RowSpan="1" Height="20" Width="140"/>
-        <ListView x:ConnectionId='4' x:Name="listViewKomentari" HorizontalAlignment="Left" Height="225" Margin="47,117,0,0" VerticalAlignment="Top" Width="283" Grid.Column="2" Grid.ColumnSpan="1"/>
+        <ListView x:ConnectionId='5' x:Name="listViewKomentari" IsItemClickEnabled="True" HorizontalAlignment="Left" Height="225" Margin="47,117,0,0" VerticalAlignment="Top" Width="283" Grid.Column="2" Grid.ColumnSpan="1"                                                                                              />
 
         <VisualStateManager.VisualStateGroups>
-            <VisualStateGroup x:ConnectionId='5' x:Name="VisualStateGroup">
-                <VisualState x:ConnectionId='6' x:Name="Phone">
+            <VisualStateGroup x:ConnectionId='6' x:Name="VisualStateGroup">
+                <VisualState x:ConnectionId='7' x:Name="Phone">
                     <VisualState.StateTriggers>
                         <AdaptiveTrigger MinWindowWidth="0"/>
                     </VisualState.StateTriggers>
                     <VisualState.Setters>
                         <Setter Target="obrisiButton.Margin" Value="60,240,2,3"/>
-                        <Setter Target="comboBox1.Width" Value="100" />
+                        <Setter Target="comboBox1.Width" Value="150" />
                     </VisualState.Setters>
                 </VisualState>
-                <VisualState x:ConnectionId='7' x:Name="Tablet1">
+                <VisualState x:ConnectionId='8' x:Name="Tablet1">
                     <VisualState.StateTriggers>
                         <AdaptiveTrigger MinWindowWidth="700"/>
                     </VisualState.StateTriggers>
@@ -46,7 +46,7 @@
                         <Setter Target="comboBox1.Width" Value="200" />
                     </VisualState.Setters>
                 </VisualState>
-                <VisualState x:ConnectionId='8' x:Name="Tablet">
+                <VisualState x:ConnectionId='9' x:Name="Tablet">
                     <VisualState.StateTriggers>
                         <AdaptiveTrigger MinWindowWidth="1000"/>
                     </VisualState.StateTriggers>

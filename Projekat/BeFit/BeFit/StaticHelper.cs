@@ -10,16 +10,18 @@ namespace BeFit
     public class StaticHelper
     {
 
-        public static async Task<Korisnik> UcitajKorisnika(string username)
+        public static async Task<Korisnik> UcitajKorisnika(string username, string password)
         {
             IMobileServiceTable<korisnici> tabela = App.MobileService.GetTable<korisnici>();
             var items = from x in tabela
-                        where x.username == username
+                        where x.username == username 
                         select x;
             var lista = await items.ToListAsync();
             if (lista.Count != 1)
                 throw new Exception("Ne postoji korisnik sa tim usernameom");
             var k = lista[0];
+            if (k.hashPassworda != StaticHelper.CreateMD5(password))
+                throw new Exception("Netačan password");
             Korisnik korisnik = null;
             if (k.tipKorisnika == "Klijent")
             {
@@ -68,7 +70,67 @@ namespace BeFit
             }
             return korisnik;
         }
-        public static async void SpremiKorisnika(Korisnik korisnik)
+        public static async Task<Korisnik> UcitajKorisnikaID(string id)
+        {
+            IMobileServiceTable<korisnici> tabela = App.MobileService.GetTable<korisnici>();
+            var items = from x in tabela
+                        where x.id == id
+                        select x;
+            var lista = await items.ToListAsync();
+            if (lista.Count != 1)
+                throw new Exception("Ne postoji korisnik sa tim id-em");
+            var k = lista[0];
+            
+            Korisnik korisnik = null;
+            if (k.tipKorisnika == "Klijent")
+            {
+                korisnik = new Klijent
+                {
+                    Id = k.id,
+                    Email = k.email,
+                    Ime = k.ime,
+                    Prezime = k.prezime,
+                    Password = k.hashPassworda,
+                    Username = k.username
+                };
+            }
+            else if (k.tipKorisnika == "Trener")
+            {
+                IMobileServiceTable<treneri> treneriTabela = App.MobileService.GetTable<treneri>();
+                var t = from x in treneriTabela
+                        where x.korisnik_id == k.id
+                        select x;
+                var listaT = await t.ToListAsync();
+                var elem = listaT[0];
+                korisnik = new Trener
+                {
+                    Id = k.id,
+                    Email = k.email,
+                    Ime = k.ime,
+                    Prezime = k.prezime,
+                    Password = k.hashPassworda,
+                    Username = k.username,
+                    Biografija = elem.biografija,
+                    Lokacija = elem.lokacija,
+                    KontaktTelefon = elem.kontaktTelefon
+                };
+            }
+            else
+            {
+                korisnik = new Admin
+                {
+                    Id = k.id,
+                    Email = k.email,
+                    Ime = k.ime,
+                    Prezime = k.prezime,
+                    Password = k.hashPassworda,
+                    Username = k.username
+                };
+            }
+            return korisnik;
+        }
+
+        public static async Task SpremiKorisnika(Korisnik korisnik)
         {
             korisnici k = new korisnici
             {
@@ -86,7 +148,8 @@ namespace BeFit
             var items = from x in tabela
                         where x.username == korisnik.Username
                         select x;
-            if ((await items.ToListAsync()).Count != 0) throw new Exception("Već postoji korisnik sa tim usernameom");
+            var L = await items.ToListAsync();
+            if (L.Count != 0) throw new Exception("Već postoji korisnik sa tim usernameom");
             await tabela.InsertAsync(k);
             if(k.tipKorisnika == "Trener")
             {
@@ -106,6 +169,16 @@ namespace BeFit
                 await treneriTabela.InsertAsync(t);
             }
         }
+        public static async Task SpremiKomentar(Komentar komentar)
+        {
+            komentari k = new komentari
+            {
+                text = komentar.Text,
+                korisnik_id = komentar.Korisnik.Id
+            };
+            await App.MobileService.GetTable<komentari>().InsertAsync(k);
+        }
+        
 
         public static string CreateMD5(string input)
         {

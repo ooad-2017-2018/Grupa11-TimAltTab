@@ -5,7 +5,7 @@
     xmlns:local="using:BeFit"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-    mc:Ignorable="d">
+    mc:Ignorable="d" Loaded="Page_Loaded">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
         <Grid.ColumnDefinitions>
@@ -22,9 +22,9 @@
         <Button Grid.Column="0" Grid.Row="0" Content="Pogledaj profil" HorizontalAlignment="Left" Margin="60,203,0,0" VerticalAlignment="Top" Width="120" Height="29"/>
         <Button Name="obrisiButton" Grid.Column="0" Grid.Row="0" Content="Obriši profil" HorizontalAlignment="Left" Margin="219,203,0,0" VerticalAlignment="Top" Width="120" Height="29"/>
         <TextBlock HorizontalAlignment="Left" Margin="43,72,0,0" Text="Zahtijevi za profil" TextWrapping="Wrap" VerticalAlignment="Top" Grid.Column="1" Height="20" Width="140"/>
-        <ListView x:Name="listViewProfili" Grid.ColumnSpan="1" Grid.Column="1" HorizontalAlignment="Left" Height="225" Margin="47,117,0,0" VerticalAlignment="Top" Width="283"/>
+        <ListView x:Name="listViewProfili" Grid.ColumnSpan="1" IsItemClickEnabled="True" Grid.Column="1" HorizontalAlignment="Left" Height="225" Margin="47,117,0,0" VerticalAlignment="Top" Width="283"/>
         <TextBlock HorizontalAlignment="Left" Margin="47,72,0,0" Text="Nedavni komentari" TextWrapping="Wrap" VerticalAlignment="Top" Grid.Column="2" Grid.ColumnSpan="1" Grid.RowSpan="1" Height="20" Width="140"/>
-        <ListView x:Name="listViewKomentari" HorizontalAlignment="Left" Height="225" Margin="47,117,0,0" VerticalAlignment="Top" Width="283" Grid.Column="2" Grid.ColumnSpan="1"/>
+        <ListView x:Name="listViewKomentari" IsItemClickEnabled="True" HorizontalAlignment="Left" Height="225" Margin="47,117,0,0" VerticalAlignment="Top" Width="283" Grid.Column="2" Grid.ColumnSpan="1" ItemClick="listViewKomentari_ItemClick" SelectionChanged="listViewKomentari_SelectionChanged"/>
 
         <VisualStateManager.VisualStateGroups>
             <VisualStateGroup x:Name="VisualStateGroup">
@@ -34,7 +34,7 @@
                     </VisualState.StateTriggers>
                     <VisualState.Setters>
                         <Setter Target="obrisiButton.Margin" Value="60,240,2,3"/>
-                        <Setter Target="comboBox1.Width" Value="100" />
+                        <Setter Target="comboBox1.Width" Value="150" />
                     </VisualState.Setters>
                 </VisualState>
                 <VisualState x:Name="Tablet1">

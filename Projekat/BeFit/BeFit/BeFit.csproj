@@ -93,6 +93,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="KlijentViewModel.cs" />
+    <Compile Include="KomentarTabela.cs" />
     <Compile Include="Model\Admin.cs" />
     <Compile Include="View\OpcijeProfilaTreneraPage.xaml.cs">
       <DependentUpon>OpcijeProfilaTreneraPage.xaml</DependentUpon>

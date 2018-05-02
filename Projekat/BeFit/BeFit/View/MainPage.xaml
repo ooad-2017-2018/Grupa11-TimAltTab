@@ -54,7 +54,7 @@
                 <TextBox Name="usernameTextBox" Text="" Height="40" FontSize="20"/>
                 <Rectangle Height="10"/>
                 <TextBlock Text="Password" TextWrapping="Wrap" Height="30" FontSize="20"/>
-                <PasswordBox  Height="40" FontSize="20"/>
+                <PasswordBox Name="passwordBox" Height="40" FontSize="20"/>
             </StackPanel>
             <Button x:Name="loginButton" Content="Log In" HorizontalAlignment="Left" VerticalAlignment="Top" Canvas.Left="110" Canvas.Top="190" Width="82" Click="loginButton_Click"/>
             <Button Content="Sign Up" HorizontalAlignment="Left" VerticalAlignment="Top" Canvas.Left="329" Canvas.Top="190" Width="82" Click="Button_Click"/>

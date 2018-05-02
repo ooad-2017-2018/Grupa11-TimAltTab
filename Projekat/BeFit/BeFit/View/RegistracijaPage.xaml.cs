@@ -38,37 +38,47 @@ namespace BeFit
             this.InitializeComponent();
             SystemNavigationManager.GetForCurrentView().AppViewBackButtonVisibility = AppViewBackButtonVisibility.Visible;
             SystemNavigationManager.GetForCurrentView().BackRequested += OnBackRequested;
+            klijent.IsChecked = true;
+            trener.IsChecked = false;
         }
 
         // SignUp Button
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private async void Button_Click(object sender, RoutedEventArgs e)
         {
-            if(klijent.IsChecked == true)
+            try
             {
-                Klijent k = new Klijent
+                if (klijent.IsChecked == true)
                 {
-                    Ime = "",
-                    Prezime = "",
-                    Password = StaticHelper.CreateMD5(textBox_Password.Text),
-                    Username = textBox_Username.Text,
-                    Email = textBox_Username.Text
-                };
-                StaticHelper.SpremiKorisnika(k);
+                    Klijent k = new Klijent
+                    {
+                        Ime = "",
+                        Prezime = "",
+                        Password = StaticHelper.CreateMD5(textBox_Password.Text),
+                        Username = textBox_Username.Text,
+                        Email = textBox_Username.Text
+                    };
+                    await StaticHelper.SpremiKorisnika(k);
+                }
+                else
+                {
+                    Trener k = new Trener
+                    {
+                        Ime = "",
+                        Prezime = "",
+                        Password = StaticHelper.CreateMD5(textBox_Password.Text),
+                        Username = textBox_Username.Text,
+                        Email = textBox_Username.Text,
+                        Biografija = textbox_OVama.Text,
+                        KontaktTelefon = textbox_KontaktInfo.Text,
+                        Lokacija = textBox_Grad.Text
+                    };
+                    await StaticHelper.SpremiKorisnika(k);
+                }
+                await (new Windows.UI.Popups.MessageDialog("Uspješna registracija")).ShowAsync();
             }
-            else
+            catch (Exception ex)
             {
-                Trener k = new Trener
-                {
-                    Ime = "",
-                    Prezime = "",
-                    Password = StaticHelper.CreateMD5(textBox_Password.Text),
-                    Username = textBox_Username.Text,
-                    Email = textBox_Username.Text,
-                    Biografija = textbox_OVama.Text,
-                    KontaktTelefon = textbox_KontaktInfo.Text,
-                    Lokacija = textBox_Grad.Text
-                };
-                StaticHelper.SpremiKorisnika(k);
+                await (new Windows.UI.Popups.MessageDialog(ex.Message)).ShowAsync();
             }
         }
     }

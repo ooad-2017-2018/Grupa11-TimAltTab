@@ -31,9 +31,10 @@ namespace BeFit
         }
         private async void loginButton_Click(object sender, RoutedEventArgs e)
         {
+
             try
             {
-                var korisnik = (await StaticHelper.UcitajKorisnika(usernameTextBox.Text));
+                var korisnik = (await StaticHelper.UcitajKorisnika(usernameTextBox.Text, passwordBox.Password));
                 if (korisnik is Admin)
                 {
                     this.Frame.Navigate(typeof(AdminPage));
@@ -46,7 +47,6 @@ namespace BeFit
                 {
                     this.Frame.Navigate(typeof(TrenerHomePage));
                 }
-
             }
             catch (Exception ex)
             {
@@ -56,7 +56,7 @@ namespace BeFit
            
         }
 
-        private async void Button_Click(object sender, RoutedEventArgs e)
+        private void Button_Click(object sender, RoutedEventArgs e)
         {
              this.Frame.Navigate(typeof(RegistracijaPage));
         }
