@@ -12,15 +12,14 @@ namespace BeFit
 		private string naziv;
 		private string opis;
 		private MisicnaGrupa misicnaGrupa;
-		private List<Image> slike;
+		private int redniBrojVjezbe;
 
-		public Vjezba(string naziv, string opis, MisicnaGrupa misicnaGrupa)
+		public Vjezba(string naziv, string opis, MisicnaGrupa misicnaGrupa, int redniBrojVjezbe)
 		{
 			this.naziv = naziv;
 			this.opis = opis;
 			this.misicnaGrupa = misicnaGrupa;
-
-			slike = new List<Image>();
+			this.redniBrojVjezbe = redniBrojVjezbe;
 		}
 
 		public string Naziv
@@ -32,12 +31,6 @@ namespace BeFit
 		{
 			get => opis;
 			set => opis = value;
-		}
-
-		public List<Image> Slike
-		{
-			get => slike;
-			set => slike = value;
 		}
 
 		public MisicnaGrupa MisicnaGrupa

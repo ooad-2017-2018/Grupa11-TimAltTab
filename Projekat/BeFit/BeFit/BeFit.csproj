@@ -182,6 +182,96 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Assets\Capture.PNG" />
+    <Content Include="Assets\Vjezbe\Abs\Vjezba1\info.txt" />
+    <Content Include="Assets\Vjezbe\Abs\Vjezba1\Slika1.jpg" />
+    <Content Include="Assets\Vjezbe\Abs\Vjezba1\Slika2.jpg" />
+    <Content Include="Assets\Vjezbe\Abs\Vjezba2\info.txt" />
+    <Content Include="Assets\Vjezbe\Abs\Vjezba2\Slika1.jpg" />
+    <Content Include="Assets\Vjezbe\Abs\Vjezba2\Slika2.jpg" />
+    <Content Include="Assets\Vjezbe\Biceps\Vjezba1\info.txt" />
+    <Content Include="Assets\Vjezbe\Biceps\Vjezba1\Slika1.jpg" />
+    <Content Include="Assets\Vjezbe\Biceps\Vjezba1\Slika2.jpg" />
+    <Content Include="Assets\Vjezbe\Biceps\Vjezba2\info.txt" />
+    <Content Include="Assets\Vjezbe\Biceps\Vjezba2\Slika1.jpg" />
+    <Content Include="Assets\Vjezbe\Biceps\Vjezba2\Slika2.jpg" />
+    <Content Include="Assets\Vjezbe\Calves\Vjezba1\info.txt" />
+    <Content Include="Assets\Vjezbe\Calves\Vjezba1\Slika1.jpg" />
+    <Content Include="Assets\Vjezbe\Calves\Vjezba1\Slika2.jpg" />
+    <Content Include="Assets\Vjezbe\Calves\Vjezba2\info.txt" />
+    <Content Include="Assets\Vjezbe\Calves\Vjezba2\Slika1.jpg" />
+    <Content Include="Assets\Vjezbe\Calves\Vjezba2\Slika2.jpg" />
+    <Content Include="Assets\Vjezbe\Chest\Vjezba1\info.txt" />
+    <Content Include="Assets\Vjezbe\Chest\Vjezba1\Slika1.jpg" />
+    <Content Include="Assets\Vjezbe\Chest\Vjezba1\Slika2.jpg" />
+    <Content Include="Assets\Vjezbe\Chest\Vjezba2\info.txt" />
+    <Content Include="Assets\Vjezbe\Chest\Vjezba2\Slika1.jpg" />
+    <Content Include="Assets\Vjezbe\Chest\Vjezba2\Slika2.jpg" />
+    <Content Include="Assets\Vjezbe\Forearm\Vjezba1\info.txt" />
+    <Content Include="Assets\Vjezbe\Forearm\Vjezba1\Slika1.jpg" />
+    <Content Include="Assets\Vjezbe\Forearm\Vjezba1\Slika2.jpg" />
+    <Content Include="Assets\Vjezbe\Forearm\Vjezba2\info.txt" />
+    <Content Include="Assets\Vjezbe\Forearm\Vjezba2\Slika1.jpg" />
+    <Content Include="Assets\Vjezbe\Forearm\Vjezba2\Slika2.jpg" />
+    <Content Include="Assets\Vjezbe\Glutes\Vjezba1\info.txt" />
+    <Content Include="Assets\Vjezbe\Glutes\Vjezba1\Slika1.jpg" />
+    <Content Include="Assets\Vjezbe\Glutes\Vjezba1\Slika2.jpg" />
+    <Content Include="Assets\Vjezbe\Glutes\Vjezba2\info.txt" />
+    <Content Include="Assets\Vjezbe\Glutes\Vjezba2\Slika1.jpg" />
+    <Content Include="Assets\Vjezbe\Glutes\Vjezba2\Slika2.jpg" />
+    <Content Include="Assets\Vjezbe\Hamstrings\Vjezba1\info.txt" />
+    <Content Include="Assets\Vjezbe\Hamstrings\Vjezba1\Slika1.jpg" />
+    <Content Include="Assets\Vjezbe\Hamstrings\Vjezba1\Slika2.jpg" />
+    <Content Include="Assets\Vjezbe\Hamstrings\Vjezba2\info.txt" />
+    <Content Include="Assets\Vjezbe\Hamstrings\Vjezba2\Slika1.jpg" />
+    <Content Include="Assets\Vjezbe\Hamstrings\Vjezba2\Slika2.jpg" />
+    <Content Include="Assets\Vjezbe\Lats\Vjezba1\info.txt" />
+    <Content Include="Assets\Vjezbe\Lats\Vjezba1\Slika1.jpg" />
+    <Content Include="Assets\Vjezbe\Lats\Vjezba1\Slika2.jpg" />
+    <Content Include="Assets\Vjezbe\Lats\Vjezba2\info.txt" />
+    <Content Include="Assets\Vjezbe\Lats\Vjezba2\Slika1.jpg" />
+    <Content Include="Assets\Vjezbe\Lats\Vjezba2\Slika2.jpg" />
+    <Content Include="Assets\Vjezbe\Lower-back\Vjezba1\info.txt" />
+    <Content Include="Assets\Vjezbe\Lower-back\Vjezba1\Slika1.jpg" />
+    <Content Include="Assets\Vjezbe\Lower-back\Vjezba1\Slika2.jpg" />
+    <Content Include="Assets\Vjezbe\Lower-back\Vjezba2\info.txt" />
+    <Content Include="Assets\Vjezbe\Lower-back\Vjezba2\Slika1.jpg" />
+    <Content Include="Assets\Vjezbe\Lower-back\Vjezba2\Slika2.jpg" />
+    <Content Include="Assets\Vjezbe\Middle-back\Vjezba1\info.txt" />
+    <Content Include="Assets\Vjezbe\Middle-back\Vjezba1\Slika1.jpg" />
+    <Content Include="Assets\Vjezbe\Middle-back\Vjezba1\Slika2.jpg" />
+    <Content Include="Assets\Vjezbe\Middle-back\Vjezba2\info.txt" />
+    <Content Include="Assets\Vjezbe\Middle-back\Vjezba2\Slika1.jpg" />
+    <Content Include="Assets\Vjezbe\Middle-back\Vjezba2\Slika2.jpg" />
+    <Content Include="Assets\Vjezbe\Neck\Vjezba1\info.txt" />
+    <Content Include="Assets\Vjezbe\Neck\Vjezba1\Slika1.jpg" />
+    <Content Include="Assets\Vjezbe\Neck\Vjezba1\Slika2.jpg" />
+    <Content Include="Assets\Vjezbe\Neck\Vjezba2\info.txt" />
+    <Content Include="Assets\Vjezbe\Neck\Vjezba2\Slika1.jpg" />
+    <Content Include="Assets\Vjezbe\Neck\Vjezba2\Slika2.jpg" />
+    <Content Include="Assets\Vjezbe\Quads\Vjezba1\info.txt" />
+    <Content Include="Assets\Vjezbe\Quads\Vjezba1\Slika1.jpg" />
+    <Content Include="Assets\Vjezbe\Quads\Vjezba1\Slika2.jpg" />
+    <Content Include="Assets\Vjezbe\Quads\Vjezba2\info.txt" />
+    <Content Include="Assets\Vjezbe\Quads\Vjezba2\Slika1.jpg" />
+    <Content Include="Assets\Vjezbe\Quads\Vjezba2\Slika2.jpg" />
+    <Content Include="Assets\Vjezbe\Shoulders\Vjezba1\info.txt" />
+    <Content Include="Assets\Vjezbe\Shoulders\Vjezba1\Slika1.jpg" />
+    <Content Include="Assets\Vjezbe\Shoulders\Vjezba1\Slika2.jpg" />
+    <Content Include="Assets\Vjezbe\Shoulders\Vjezba2\info.txt" />
+    <Content Include="Assets\Vjezbe\Shoulders\Vjezba2\Slika1.jpg" />
+    <Content Include="Assets\Vjezbe\Shoulders\Vjezba2\Slika2.jpg" />
+    <Content Include="Assets\Vjezbe\Traps\Vjezba1\info.txt" />
+    <Content Include="Assets\Vjezbe\Traps\Vjezba1\Slika1.jpg" />
+    <Content Include="Assets\Vjezbe\Traps\Vjezba1\Slika2.jpg" />
+    <Content Include="Assets\Vjezbe\Traps\Vjezba2\info.txt" />
+    <Content Include="Assets\Vjezbe\Traps\Vjezba2\Slika1.jpg" />
+    <Content Include="Assets\Vjezbe\Traps\Vjezba2\Slika2.jpg" />
+    <Content Include="Assets\Vjezbe\Triceps\Vjezba1\info.txt" />
+    <Content Include="Assets\Vjezbe\Triceps\Vjezba1\Slika1.jpg" />
+    <Content Include="Assets\Vjezbe\Triceps\Vjezba1\Slika2.jpg" />
+    <Content Include="Assets\Vjezbe\Triceps\Vjezba2\info.txt" />
+    <Content Include="Assets\Vjezbe\Triceps\Vjezba2\Slika1.jpg" />
+    <Content Include="Assets\Vjezbe\Triceps\Vjezba2\Slika2.jpg" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
     <Content Include="Assets\SplashScreen.scale-200.png" />
@@ -284,6 +374,9 @@
     <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform">
       <Version>6.0.8</Version>
     </PackageReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Assets\SlikeMisicnihGrupa\" />
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>
