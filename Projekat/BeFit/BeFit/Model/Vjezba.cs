@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Windows.UI.Xaml.Controls;
+using Windows.UI.Xaml.Media.Imaging;
 
 namespace BeFit
 {
@@ -21,11 +22,22 @@ namespace BeFit
 			this.misicnaGrupa = misicnaGrupa;
 			this.redniBrojVjezbe = redniBrojVjezbe;
 		}
+		
+		public BitmapImage Slika1
+		{
+			get => new BitmapImage(new Uri($"ms-appx://BeFit/Assets/Vjezbe/{misicnaGrupa.Naziv}/Vjezba{redniBrojVjezbe}/Slika1.jpg"));		
+		}
+
+		public BitmapImage Slika2
+		{
+			get => new BitmapImage(new Uri($"ms-appx://BeFit/Assets/Vjezbe/{misicnaGrupa.Naziv}/Vjezba{redniBrojVjezbe}/Slika2.jpg"));		
+		}
 
 		public string Naziv
 		{
 			get => naziv;
 		}
+
 
 		public string Opis
 		{
