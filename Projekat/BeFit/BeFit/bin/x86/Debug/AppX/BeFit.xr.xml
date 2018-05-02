@@ -199,6 +199,7 @@
       <RootProperty Name="Content" />
       <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="IsChecked" />
       <RootEvent Name="Checked" />
     </RootType>
     <RootType FullName="BeFit.PretragaObjekataPage" />
