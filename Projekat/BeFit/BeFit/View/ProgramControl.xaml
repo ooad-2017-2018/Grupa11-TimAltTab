@@ -7,7 +7,8 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
     d:DesignHeight="100"
-    d:DesignWidth="300">
+    d:DesignWidth="300"
+    Tapped="UserControl_Tapped">
 
     <Grid>
         <Border BorderThickness="2" BorderBrush="Black" Height="100" Width="300">

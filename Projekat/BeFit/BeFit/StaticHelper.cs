@@ -197,5 +197,23 @@ namespace BeFit
                 return sb.ToString();
             }
         }
+        public static async Task PromijeniEmail(Korisnik korisnik, string email)
+        {
+            IMobileServiceTable<korisnici> tabela = App.MobileService.GetTable<korisnici>();
+            var item = (await (from x in tabela
+                               where x.id == korisnik.Id
+                               select x).ToListAsync())[0];
+            item.email = email;
+            await tabela.UpdateAsync(item);
+        }
+        public static async Task PromijeniPassword(Korisnik korisnik, string noviPassword)
+        {
+            IMobileServiceTable<korisnici> tabela = App.MobileService.GetTable<korisnici>();
+            var item = (await (from x in tabela
+                               where x.id == korisnik.Id
+                               select x).ToListAsync())[0];
+            item.hashPassworda = CreateMD5(noviPassword);
+            await tabela.UpdateAsync(item);
+        }
     }
 }

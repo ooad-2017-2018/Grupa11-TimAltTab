@@ -23,7 +23,7 @@ namespace BeFit
     public sealed partial class MojiProgramiPage : Page
     {
         Button buttonPlus = new Button();
-        UIElement StariContent;
+        KlijentViewModel klijentViewModel;
         public MojiProgramiPage()
         {
             this.InitializeComponent();
@@ -40,10 +40,21 @@ namespace BeFit
         private void ButtonPlus_Click(object sender, RoutedEventArgs e)
         {
             programiStackPanel.Children.Remove(buttonPlus);
-            programiStackPanel.Children.Add(new ProgramControl("aa", "C"));
             programiStackPanel.Children.Add(buttonPlus);
         }
-
+        protected override void OnNavigatedTo(NavigationEventArgs e)
+        {
+            klijentViewModel = e.Parameter as KlijentViewModel;
+            popuniStack();
+        }
+        void popuniStack()
+        {
+            if(klijentViewModel.MojiProgrami != null)
+            foreach (var i in klijentViewModel.MojiProgrami)
+            {
+                programiStackPanel.Children.Add(new ProgramControl(i as ProgramWorkout));
+            }
+        }
         void onClick(object o, RoutedEventArgs e)
         {
             this.Frame.Navigate(typeof(OdabirZaDodavanjeProgramaPage));

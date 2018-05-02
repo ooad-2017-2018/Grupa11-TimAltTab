@@ -11,17 +11,19 @@ namespace BeFit
 		private Vjezba vjezba;
 		private int brojSetova;
 		private int brojRepova;
-		private DateTime vrijeme;
+		private TimeSpan vrijeme;
+        private string dan;
 
-		public VjezbaUProgramu(Vjezba vjezba, int brojSetova, int brojRepova, DateTime vrijeme)
-		{
-			this.vjezba = vjezba;
-			this.brojSetova = brojSetova;
-			this.brojRepova = brojRepova;
-			this.vrijeme = vrijeme;
-		}
+        public VjezbaUProgramu(Vjezba vjezba, int brojSetova, int brojRepova, TimeSpan vrijeme, string dan)
+        {
+            this.vjezba = vjezba;
+            this.brojSetova = brojSetova;
+            this.brojRepova = brojRepova;
+            this.vrijeme = vrijeme;
+            this.dan = dan;
+        }
 
-		public Vjezba Vjezba
+        public Vjezba Vjezba
 		{
 			get => vjezba;
 		}
@@ -38,10 +40,15 @@ namespace BeFit
 			set => brojRepova = value;
 		}
 
-		public DateTime Vrijeme
+		public TimeSpan Vrijeme
 		{
 			get => vrijeme;
 			set => vrijeme = value;
 		}
-	}
+        public string Dan
+        {
+            get => dan;
+            set => dan = value;
+        }
+    }
 }

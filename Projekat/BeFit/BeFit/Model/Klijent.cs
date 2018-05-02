@@ -8,8 +8,8 @@ namespace BeFit
 {
     public class Klijent : Korisnik
     {
-        List<KlijentProgram> mojiProgrami;
-        List<TrenerProgram> kupljeniProgrami;
+        List<KlijentProgram> mojiProgrami=new List<KlijentProgram>();
+        List<TrenerProgram> kupljeniProgrami=new List<TrenerProgram>();
 
         public List<KlijentProgram> MojiProgrami { get => mojiProgrami; }
         public List<TrenerProgram> KupljeniProgrami { get => kupljeniProgrami; }

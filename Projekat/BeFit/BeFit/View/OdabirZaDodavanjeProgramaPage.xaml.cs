@@ -22,6 +22,7 @@ namespace BeFit
     /// </summary>
     public sealed partial class OdabirZaDodavanjeProgramaPage : Page
     {
+        KlijentViewModel klijentViewModel;
         public OdabirZaDodavanjeProgramaPage()
         {
             this.InitializeComponent();
@@ -29,7 +30,6 @@ namespace BeFit
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             //nije final test samo
-            this.Frame.Navigate(typeof(PretragaObjekataPage));
         }
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
@@ -39,8 +39,11 @@ namespace BeFit
 
         private void Button_Click_2(object sender, RoutedEventArgs e)
         {
-            // pokreni drugu formu this.Frame.Navigate(typeof(SettingsPage));
-            this.Frame.Navigate(typeof(KreiranjeProgramaPage));
+            this.Frame.Navigate(typeof(KreiranjeProgramaPage), klijentViewModel);
+        }
+        protected override void OnNavigatedTo(NavigationEventArgs e)
+        {
+            klijentViewModel = e.Parameter as KlijentViewModel;
         }
     }
 }

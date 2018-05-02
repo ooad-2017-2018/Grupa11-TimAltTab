@@ -19,20 +19,27 @@ namespace BeFit
 {
     public sealed partial class ProgramControl : UserControl
     {
+        ProgramWorkout workoutProgram;
         public ProgramControl()
         {
             this.InitializeComponent();
         }
-        public ProgramControl(string naziv, string tezina)
+        public ProgramControl(ProgramWorkout program)
         {
             InitializeComponent();
-            nazivProgramaTextBlock.Text = naziv;
-            tezinaProgramaTextBlock.Text = tezina;
+            nazivProgramaTextBlock.Text = program.Naziv;
+            tezinaProgramaTextBlock.Text = program.dajTezinu();
+            workoutProgram = program;
         }
 
         private void TextBlock_SelectionChanged(object sender, RoutedEventArgs e)
         {
 
+        }
+
+        private void UserControl_Tapped(object sender, TappedRoutedEventArgs e)
+        {
+            (Window.Current.Content as Frame).Navigate(typeof(PregledProgramaPage), workoutProgram);
         }
     }
 }

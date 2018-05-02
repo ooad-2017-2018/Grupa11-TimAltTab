@@ -22,9 +22,14 @@ namespace BeFit
     /// </summary>
     public sealed partial class OpcijeProfilaPage : Page
     {
+        KlijentViewModel klijentViewModel;
         public OpcijeProfilaPage()
         {
             this.InitializeComponent();
+        }
+        protected override void OnNavigatedTo(NavigationEventArgs e)
+        {
+            klijentViewModel = e.Parameter as KlijentViewModel;
         }
     }
 }

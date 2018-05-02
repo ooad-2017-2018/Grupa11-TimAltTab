@@ -92,7 +92,7 @@
     <RestoreProjectStyle>PackageReference</RestoreProjectStyle>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="BeFit.cs" />
+    <Compile Include="KONTEJNERSKA.cs" />
     <Compile Include="KlijentViewModel.cs" />
     <Compile Include="KomentarTabela.cs" />
     <Compile Include="Model\Admin.cs" />

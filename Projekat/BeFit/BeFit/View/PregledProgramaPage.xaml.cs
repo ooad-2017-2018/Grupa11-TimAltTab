@@ -23,6 +23,7 @@ namespace BeFit
     /// </summary>
     public sealed partial class PregledProgramaPage : Page
     {
+        ProgramWorkout program;
         Button buttonPlus = new Button();
         public PregledProgramaPage()
         {
@@ -39,6 +40,10 @@ namespace BeFit
                 this.Frame.BackStack.Clear();
                 SystemNavigationManager.GetForCurrentView().AppViewBackButtonVisibility = AppViewBackButtonVisibility.Collapsed;
             }
+        }
+        protected override void OnNavigatedTo(NavigationEventArgs e)
+        {
+            program = e.Parameter as ProgramWorkout;
         }
         private void Page_Loaded(object sender, RoutedEventArgs e)
         {
@@ -63,12 +68,23 @@ namespace BeFit
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             // vjezbeStackPanel.Children.Remove(buttonPlus);
-            vjezbeStackPanel.Children.Add(new VjezbaControl("aa",1,2,"ff"));
             // vjezbeStackPanel.Children.Add(buttonPlus);
         }
         private void ButtonPlus_Click(object sender, RoutedEventArgs e)
         {
             Button_Click(sender, e);
+        }
+
+        private void danComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            vjezbeStackPanel.Children.Clear();
+            foreach (var i in program.Vjezbe)
+            {
+                if (i.Dan == danComboBox.SelectedValue as string)
+                {
+                    vjezbeStackPanel.Children.Add(new VjezbaControl(i));
+                }
+            }
         }
     }
 }

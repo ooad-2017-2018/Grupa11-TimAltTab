@@ -23,13 +23,13 @@ namespace BeFit
         {
             this.InitializeComponent();
         }
-        public VjezbaControl(string ime, int brojSetova, int brojRepova, string vrijeme)
+        public VjezbaControl(VjezbaUProgramu vjezba)
         {
             InitializeComponent();
-            nazivVjezbeTextBlock.Text = ime;
-            brojSetovaTextBlock.Text = brojSetova.ToString();
-            brojPonavljanjaTextBlock.Text = brojRepova.ToString();
-            vrijemeTextBlock.Text = vrijeme;
+            nazivVjezbeTextBlock.Text = vjezba.Vjezba.Naziv;
+            brojSetovaTextBlock.Text = vjezba.BrojSetova.ToString();
+            brojPonavljanjaTextBlock.Text = vjezba.BrojRepova.ToString();
+            vrijemeTextBlock.Text = vjezba.Vrijeme.ToString();
         }
     }
 }

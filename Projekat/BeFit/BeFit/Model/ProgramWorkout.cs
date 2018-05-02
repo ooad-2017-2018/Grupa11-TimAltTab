@@ -20,5 +20,13 @@ namespace BeFit
         {
             vjezbe.Add(vjezba);
         }
+        public string dajTezinu()
+        {
+            return "Level " + (vjezbe.Count / 15 + 1).ToString();
+        }
+        public ProgramWorkout()
+        {
+
+        }
     }
 }

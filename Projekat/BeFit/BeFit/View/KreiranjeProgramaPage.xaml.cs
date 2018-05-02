@@ -23,11 +23,15 @@ namespace BeFit
     public sealed partial class KreiranjeProgramaPage : Page
     {
         Button buttonPlus = new Button();
+        KlijentViewModel klijentViewModel;
         public KreiranjeProgramaPage()
         {
             this.InitializeComponent();
         }
-
+        protected override void OnNavigatedTo(NavigationEventArgs e)
+        {
+            klijentViewModel = e.Parameter as KlijentViewModel;
+        }
         private void Page_Loaded(object sender, RoutedEventArgs e)
         {
             List<string> dani = new List<string> { "Ponedjeljak", "Utorak",
@@ -51,7 +55,6 @@ namespace BeFit
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             vjezbeStackPanel.Children.Remove(buttonPlus);
-            vjezbeStackPanel.Children.Add(new VjezbaControl("aa",1,2,"ff"));
             vjezbeStackPanel.Children.Add(buttonPlus);
         }
         private void ButtonPlus_Click(object sender, RoutedEventArgs e)

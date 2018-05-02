@@ -59,7 +59,7 @@ namespace BeFit
         {
             if (args.IsSettingsInvoked)
             {
-                ContentFrame.Navigate(typeof(OpcijeProfilaPage));
+                ContentFrame.Navigate(typeof(OpcijeProfilaPage), klijentViewModel);
             }
             else
             {
@@ -84,7 +84,7 @@ namespace BeFit
                     ocistiStack();
                     break;
                 case "pregledPrograma":
-                    ContentFrame.Navigate(typeof(MojiProgramiPage));
+                    ContentFrame.Navigate(typeof(MojiProgramiPage), klijentViewModel);
                     ocistiStack();
                     break;
                 case "pretragaLokacija":

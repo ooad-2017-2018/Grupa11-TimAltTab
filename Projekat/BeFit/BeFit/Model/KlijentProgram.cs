@@ -10,5 +10,9 @@ namespace BeFit
     {
         Klijent klijent;
         public Klijent Klijent { get => klijent; set => klijent = value; }
+        public KlijentProgram()
+        {
+
+        }
     }
 }

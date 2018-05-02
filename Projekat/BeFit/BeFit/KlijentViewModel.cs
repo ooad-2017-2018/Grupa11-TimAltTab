@@ -18,5 +18,6 @@ namespace BeFit
         public string Prezime { get { return klijent.Prezime; } }
         public string Username { get { return klijent.Username; } }
         public string Email { get { return klijent.Email; } }
+        public List<KlijentProgram> MojiProgrami { get { return klijent.MojiProgrami; } }
     }
 }

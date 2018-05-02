@@ -10,7 +10,7 @@
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
         <TextBlock x:ConnectionId='2' x:Name="NazivProgramaTextBlock" FontSize="20" HorizontalAlignment="Left" Margin="51,53,0,0" Text="Naziv Programa" TextWrapping="Wrap" VerticalAlignment="Top" Height="36" Width="156"/>
         <TextBlock x:ConnectionId='3' x:Name="DanTextBlock_Copy" FontSize="20" HorizontalAlignment="Left" Margin="51,117,0,0" Text="Dan:" TextWrapping="Wrap" VerticalAlignment="Top" Height="36" Width="97"/>
-        <ComboBox x:ConnectionId='4' x:Name="danComboBox" HorizontalAlignment="Left" Margin="51,149,0,0" VerticalAlignment="Top" Height="35" Width="196"/>
+        <ComboBox x:ConnectionId='4' x:Name="danComboBox" HorizontalAlignment="Left" Margin="51,149,0,0" VerticalAlignment="Top" Height="35" Width="196"                                                />
         <ScrollViewer x:ConnectionId='5' HorizontalAlignment="Left" VerticalScrollBarVisibility="Visible"                                        Margin="51,242,0,58">
             <StackPanel x:ConnectionId='6' x:Name="vjezbeStackPanel" HorizontalAlignment="Left" Height="Auto" VerticalAlignment="Top" Width="250"/>
         </ScrollViewer>

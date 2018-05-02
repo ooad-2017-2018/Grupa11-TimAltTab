@@ -37,7 +37,6 @@ namespace BeFit
         private void ButtonPlus_Click(object sender, RoutedEventArgs e)
         {
             programiStackPanel.Children.Remove(buttonPlus);
-            programiStackPanel.Children.Add(new ProgramControl("aa", "C"));
             programiStackPanel.Children.Add(buttonPlus);
         }
     }
