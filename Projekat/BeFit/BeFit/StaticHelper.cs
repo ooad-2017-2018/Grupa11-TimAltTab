@@ -10,7 +10,7 @@ namespace BeFit
     public class StaticHelper
     {
 
-        public static async Task<Korisnik> UcitajKorisnika(string username, string password)
+        public static async Task<Korisnik> UcitajKorisnika(string username, string password = "")
         {
             IMobileServiceTable<korisnici> tabela = App.MobileService.GetTable<korisnici>();
             var items = from x in tabela
@@ -20,7 +20,7 @@ namespace BeFit
             if (lista.Count != 1)
                 throw new Exception("Ne postoji korisnik sa tim usernameom");
             var k = lista[0];
-            if (k.hashPassworda != StaticHelper.CreateMD5(password))
+            if (k.hashPassworda != StaticHelper.CreateMD5(password) && password != "")
                 throw new Exception("Netačan password");
             Korisnik korisnik = null;
             if (k.tipKorisnika == "Klijent")
@@ -214,6 +214,20 @@ namespace BeFit
                                select x).ToListAsync())[0];
             item.hashPassworda = CreateMD5(noviPassword);
             await tabela.UpdateAsync(item);
+        }
+
+        public static Klijent KlijentIzTabele(korisnici k)
+        {
+            var korisnik = new Klijent
+            {
+                Id = k.id,
+                Email = k.email,
+                Ime = k.ime,
+                Prezime = k.prezime,
+                Password = k.hashPassworda,
+                Username = k.username
+            };
+            return korisnik;
         }
     }
 }

@@ -47,12 +47,14 @@ namespace BeFit
             }
         }
 
+        List<string> L = null;
         private async void Page_Loaded(object sender, RoutedEventArgs e)
         {
             try
             {
                 IMobileServiceTable<korisnici> tabela = App.MobileService.GetTable<korisnici>();
-                comboBox1.ItemsSource = await (from x in tabela select x.ime + " " + x.prezime + ", " + x.username).ToListAsync();
+                L = await (from x in tabela where x.tipKorisnika != "Admin" select x.ime + " " + x.prezime + ", " + x.username).ToListAsync();
+                comboBox1.ItemsSource = L; 
                 comboBox1.SelectedIndex = 0;
                 var comm = App.MobileService.GetTable<komentari>();
                 var items = await (from x in comm select x).ToListAsync();
@@ -90,6 +92,47 @@ namespace BeFit
         private void listViewKomentari_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
            
+        }
+
+        private async void Button_Click(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                IMobileServiceTable<korisnici> korisnici = App.MobileService.GetTable<korisnici>();
+                var items = from x in korisnici
+                            where x.ime + " " + x.prezime + ", " + x.username == comboBox1.SelectedValue.ToString()
+                            select x;
+                var lista = await items.ToListAsync();
+                var elem = lista[0];
+                this.Frame.Navigate(typeof(KlijentOsnovniPodaciPage), new KlijentViewModel(StaticHelper.KlijentIzTabele(elem)));
+            }
+            catch(Exception ex)
+            {
+                await (new Windows.UI.Popups.MessageDialog(ex.Message)).ShowAsync();
+            }
+        }
+
+        private async void obrisiButton_Click(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                IMobileServiceTable<korisnici> korisnici = App.MobileService.GetTable<korisnici>();
+                var items = from x in korisnici
+                            where x.ime + " " + x.prezime + ", " + x.username == comboBox1.SelectedValue.ToString()
+                            select x;
+                var lista = await items.ToListAsync();
+                var elem = lista[0];
+                await korisnici.DeleteAsync(elem);
+                int obrisi = comboBox1.SelectedIndex;
+                L.RemoveAt(obrisi);
+                comboBox1.ItemsSource = L;
+                if (comboBox1.Items.Count != 0) comboBox1.SelectedIndex = 0;
+                await (new Windows.UI.Popups.MessageDialog("Uspješno obrisan korisnik")).ShowAsync();
+            }
+            catch(Exception ex)
+            {
+                await (new Windows.UI.Popups.MessageDialog(ex.Message)).ShowAsync();
+            }
         }
     }
 }

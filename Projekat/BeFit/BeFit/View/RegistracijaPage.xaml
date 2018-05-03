@@ -81,9 +81,9 @@
 
 
 						<TextBlock Text="Password" TextWrapping="Wrap" HorizontalAlignment="Left" TextAlignment="Left" Margin="10, 10, 10, 5"/>
-						<TextBox x:Name="textBox_Password" Text="" Margin="10, 0, 10, 15"/>
+						<PasswordBox x:Name="textBox_Password" Margin="10, 0, 10, 15"/>
 						<TextBlock Text="Ponovite password" TextWrapping="Wrap" HorizontalAlignment="Left" TextAlignment="Left" Margin="10, 10, 10, 5"/>
-						<TextBox x:Name="textBox_PonovljeniPass" Text="" Margin="10, 0, 10, 15"/>
+						<PasswordBox x:Name="textBox_PonovljeniPass" Margin="10, 0, 10, 15"/>
 						<TextBlock x:Name="textBlockOVama" Text="O vama" TextWrapping="Wrap" HorizontalAlignment="Left" TextAlignment="Left" Margin="10, 10, 10, 5"/>
 						<TextBox x:Name="textBox_OVama" Text="" Margin="10, 0, 10, 15" Height="114"/>
 						<TextBlock x:Name="textBlockKontaktInfo" Text="Kontakt info" TextWrapping="Wrap" HorizontalAlignment="Left" TextAlignment="Left" Margin="10, 10, 10, 5"/>
