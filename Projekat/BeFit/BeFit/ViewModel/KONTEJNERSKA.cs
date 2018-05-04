@@ -4,10 +4,6 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Windows.Storage;
-using Windows.Storage.Streams;
-using Windows.UI.Xaml.Controls;
-using Windows.UI.Xaml.Media.Imaging;
 
 namespace BeFit
 {
@@ -35,7 +31,7 @@ namespace BeFit
             InicijalizujTestnogKlijenta();
 		}
 
-		private static async void InicijalizujMisicneGrupeIVjezbe()
+		private static void InicijalizujMisicneGrupeIVjezbe()
 		{
 			foreach (string naziv in misicneGrupeImena)
 			{
@@ -43,25 +39,20 @@ namespace BeFit
 
 				misicneGrupe.Add(misicnaGrupa);
 
-				await Task.Run(new Action(() => { InicijalizujVjezbu(misicnaGrupa, 1); }));
-				await Task.Run(new Action(() => { InicijalizujVjezbu(misicnaGrupa, 2); }));
+				InicijalizujVjezbu(misicnaGrupa, 1);
+				InicijalizujVjezbu(misicnaGrupa, 2);
 			}
 
 		}
 
 		private static async void InicijalizujVjezbu(MisicnaGrupa misicnaGrupa, int redniBrojVjezbe)
 		{
-			string fajl = $"Assets\\Vjezbe\\{misicnaGrupa.Naziv}\\Vjezba{redniBrojVjezbe}\\info.txt";
-			StorageFolder folder = Windows.ApplicationModel.Package.Current.InstalledLocation;
-			StorageFile file = await folder.GetFileAsync(fajl);
-			Stream str = await file.OpenStreamForReadAsync();
-			StreamReader sr = new StreamReader(str);
+			var data = await UcitavanjeVjezbi.UcitajOpisVjezbe(misicnaGrupa, redniBrojVjezbe);
 
-			string naziv = sr.ReadLine();
-			string opis = sr.ReadToEnd();
+			string naziv = data.Item1;
+			string opis = data.Item2;
 
 			vjezbe.Add(new Vjezba(naziv, opis, misicnaGrupa, redniBrojVjezbe));
-
 		}
 
 

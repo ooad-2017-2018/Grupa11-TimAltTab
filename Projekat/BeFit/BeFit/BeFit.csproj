@@ -92,10 +92,11 @@
     <RestoreProjectStyle>PackageReference</RestoreProjectStyle>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="KONTEJNERSKA.cs" />
-    <Compile Include="KlijentViewModel.cs" />
-    <Compile Include="KomentarTabela.cs" />
+    <Compile Include="ViewModel\KlijentViewModel.cs" />
+    <Compile Include="ViewModel\KomentarTabela.cs" />
     <Compile Include="Model\Admin.cs" />
+    <Compile Include="UcitavanjeVjezbi.cs" />
+    <Compile Include="ViewModel\KONTEJNERSKA.cs" />
     <Compile Include="View\OpcijeProfilaTreneraPage.xaml.cs">
       <DependentUpon>OpcijeProfilaTreneraPage.xaml</DependentUpon>
     </Compile>
@@ -118,7 +119,7 @@
     <Compile Include="Model\KlijentProgram.cs" />
     <Compile Include="Model\Komentar.cs" />
     <Compile Include="Model\Korisnik.cs" />
-    <Compile Include="KorisnikTabela.cs" />
+    <Compile Include="ViewModel\KorisnikTabela.cs" />
     <Compile Include="Model\MisicnaGrupa.cs" />
     <Compile Include="View\MojiProgramiPage.xaml.cs">
       <DependentUpon>MojiProgramiPage.xaml</DependentUpon>
@@ -167,7 +168,7 @@
     <Compile Include="StaticHelper.cs" />
     <Compile Include="Model\Trener.cs" />
     <Compile Include="Model\TrenerProgram.cs" />
-    <Compile Include="TrenerTabela.cs" />
+    <Compile Include="ViewModel\TrenerTabela.cs" />
     <Compile Include="Model\Vjezba.cs" />
     <Compile Include="View\VjezbaControl.xaml.cs">
       <DependentUpon>VjezbaControl.xaml</DependentUpon>

@@ -23,14 +23,9 @@ namespace BeFit
 			this.redniBrojVjezbe = redniBrojVjezbe;
 		}
 		
-		public BitmapImage Slika1
+		public async Task<List<BitmapImage>> DajSlikeVjezbe()
 		{
-			get => new BitmapImage(new Uri($"ms-appx://BeFit/Assets/Vjezbe/{misicnaGrupa.Naziv}/Vjezba{redniBrojVjezbe}/Slika1.jpg"));		
-		}
-
-		public BitmapImage Slika2
-		{
-			get => new BitmapImage(new Uri($"ms-appx://BeFit/Assets/Vjezbe/{misicnaGrupa.Naziv}/Vjezba{redniBrojVjezbe}/Slika2.jpg"));		
+			return await UcitavanjeVjezbi.UcitajSlikeVjezbe(this);	
 		}
 
 		public string Naziv
@@ -48,6 +43,11 @@ namespace BeFit
 		public MisicnaGrupa MisicnaGrupa
 		{
 			get => misicnaGrupa;
+		}
+
+		public int RedniBrojVjezbe
+		{
+			get => redniBrojVjezbe;
 		}
 
 	}
