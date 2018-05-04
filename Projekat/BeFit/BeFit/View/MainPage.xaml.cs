@@ -52,9 +52,8 @@ namespace BeFit
             {
                 await (new MessageDialog(ex.Message)).ShowAsync();
             }
-            
-           
-        }
+
+		}
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {

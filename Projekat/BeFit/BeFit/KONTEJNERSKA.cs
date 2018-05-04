@@ -31,11 +31,11 @@ namespace BeFit
 
 		static KONTEJNERSKA()
 		{
-			inicijalizujMisicneGrupeIVjezbe();
-            inicijalizujTestnogKlijenta();
+			InicijalizujMisicneGrupeIVjezbe();
+            InicijalizujTestnogKlijenta();
 		}
 
-		private static void inicijalizujMisicneGrupeIVjezbe()
+		private static async void InicijalizujMisicneGrupeIVjezbe()
 		{
 			foreach (string naziv in misicneGrupeImena)
 			{
@@ -43,32 +43,29 @@ namespace BeFit
 
 				misicneGrupe.Add(misicnaGrupa);
 
-				inicijalizujVjezbu(misicnaGrupa, 1);
-				inicijalizujVjezbu(misicnaGrupa, 2);
+				await Task.Run(new Action(() => { InicijalizujVjezbu(misicnaGrupa, 1); }));
+				await Task.Run(new Action(() => { InicijalizujVjezbu(misicnaGrupa, 2); }));
 			}
 
 		}
 
-		private static void inicijalizujVjezbu(MisicnaGrupa misicnaGrupa, int redniBrojVjezbe)
+		private static async void InicijalizujVjezbu(MisicnaGrupa misicnaGrupa, int redniBrojVjezbe)
 		{
-			FileStream fs = new FileStream($"Assets/Vjezbe/{misicnaGrupa.Naziv}/Vjezba{redniBrojVjezbe}/info.txt", FileMode.Open);
-
-			StreamReader sr = new StreamReader(fs);
+			string fajl = $"Assets\\Vjezbe\\{misicnaGrupa.Naziv}\\Vjezba{redniBrojVjezbe}\\info.txt";
+			StorageFolder folder = Windows.ApplicationModel.Package.Current.InstalledLocation;
+			StorageFile file = await folder.GetFileAsync(fajl);
+			Stream str = await file.OpenStreamForReadAsync();
+			StreamReader sr = new StreamReader(str);
 
 			string naziv = sr.ReadLine();
 			string opis = sr.ReadToEnd();
 
 			vjezbe.Add(new Vjezba(naziv, opis, misicnaGrupa, redniBrojVjezbe));
 
-			sr.Dispose();
-			fs.Dispose();
 		}
 
 
-
-
-
-        private static void inicijalizujTestnogKlijenta()
+        private static void InicijalizujTestnogKlijenta()
         {
             testni = new Klijent();
             testni.Ime = "fako";

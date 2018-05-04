@@ -1,1 +1,1 @@
-C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\BeFit.csproj;x86
+C:\Users\emins\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\BeFit.csproj;x86
