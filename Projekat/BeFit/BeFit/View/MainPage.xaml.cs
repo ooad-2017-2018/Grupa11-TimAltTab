@@ -14,6 +14,8 @@ using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
 using Windows.UI.Popups;
+using System.Threading.Tasks;
+using Windows.UI.Xaml.Media.Imaging;
 // The Blank Page item template is documented at https://go.microsoft.com/fwlink/?LinkId=402352&clcid=0x409
 
 namespace BeFit
@@ -27,9 +29,10 @@ namespace BeFit
         public MainPage()
         {
             this.InitializeComponent();
-            
-        }
-        private async void loginButton_Click(object sender, RoutedEventArgs e)
+
+		}
+
+		private async void loginButton_Click(object sender, RoutedEventArgs e)
         {
             if (usernameTextBox.Text == "fakoni") this.Frame.Navigate(typeof(KlijentHomePage), new KlijentViewModel(KONTEJNERSKA.testni));
             try

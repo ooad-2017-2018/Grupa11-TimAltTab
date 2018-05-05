@@ -9,7 +9,7 @@ namespace BeFit
 {
 	public static class KONTEJNERSKA
 	{
-		private static string[] misicneGrupeImena = { "Neck", "Traps", "Shoulders", "Chest", "Lats", "Middle-back", "Lower-back", "Abs", "Biceps", "Triceps", "Forearm", "Glutes", "Quads", "Hamstrings", "Calves" };
+		private static readonly string[] misicneGrupeImena = { "Neck", "Traps", "Shoulders", "Chest", "Lats", "Middle-back", "Lower-back", "Abs", "Biceps", "Triceps", "Forearm", "Glutes", "Quads", "Hamstrings", "Calves" };
 
 		private static List<Korisnik> korisnici = new List<Korisnik>();
 		private static List<ProgramWorkout> programi = new List<ProgramWorkout>();
@@ -33,9 +33,9 @@ namespace BeFit
 
 		private static void InicijalizujMisicneGrupeIVjezbe()
 		{
-			foreach (string naziv in misicneGrupeImena)
+			foreach (string nazivGrupe in misicneGrupeImena)
 			{
-				MisicnaGrupa misicnaGrupa = new MisicnaGrupa(naziv);
+				MisicnaGrupa misicnaGrupa = new MisicnaGrupa(nazivGrupe);
 
 				misicneGrupe.Add(misicnaGrupa);
 
@@ -49,10 +49,10 @@ namespace BeFit
 		{
 			var data = await UcitavanjeVjezbi.UcitajOpisVjezbe(misicnaGrupa, redniBrojVjezbe);
 
-			string naziv = data.Item1;
+			string nazivVjezbe = data.Item1;
 			string opis = data.Item2;
 
-			vjezbe.Add(new Vjezba(naziv, opis, misicnaGrupa, redniBrojVjezbe));
+			vjezbe.Add(new Vjezba(nazivVjezbe, opis, misicnaGrupa, redniBrojVjezbe));
 		}
 
 
