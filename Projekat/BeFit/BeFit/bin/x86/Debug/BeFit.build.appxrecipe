@@ -406,95 +406,50 @@
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\emins\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Abs\Vjezba1\info.txt">
-      <PackagePath>Assets\Vjezbe\Abs\Vjezba1\info.txt</PackagePath>
+    <AppxPackagedFile Include="C:\Users\emins\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\SlikeMisicnihGrupa\Abs.jpg">
+      <PackagePath>Assets\SlikeMisicnihGrupa\Abs.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\emins\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Abs\Vjezba2\info.txt">
-      <PackagePath>Assets\Vjezbe\Abs\Vjezba2\info.txt</PackagePath>
+    <AppxPackagedFile Include="C:\Users\emins\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\SlikeMisicnihGrupa\Biceps.jpg">
+      <PackagePath>Assets\SlikeMisicnihGrupa\Biceps.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\emins\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Biceps\Vjezba1\info.txt">
-      <PackagePath>Assets\Vjezbe\Biceps\Vjezba1\info.txt</PackagePath>
+    <AppxPackagedFile Include="C:\Users\emins\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\SlikeMisicnihGrupa\Calves.jpg">
+      <PackagePath>Assets\SlikeMisicnihGrupa\Calves.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\emins\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Biceps\Vjezba2\info.txt">
-      <PackagePath>Assets\Vjezbe\Biceps\Vjezba2\info.txt</PackagePath>
+    <AppxPackagedFile Include="C:\Users\emins\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\SlikeMisicnihGrupa\Chest.jpg">
+      <PackagePath>Assets\SlikeMisicnihGrupa\Chest.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\emins\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Calves\Vjezba1\info.txt">
-      <PackagePath>Assets\Vjezbe\Calves\Vjezba1\info.txt</PackagePath>
+    <AppxPackagedFile Include="C:\Users\emins\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\SlikeMisicnihGrupa\Forearm.jpg">
+      <PackagePath>Assets\SlikeMisicnihGrupa\Forearm.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\emins\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Calves\Vjezba2\info.txt">
-      <PackagePath>Assets\Vjezbe\Calves\Vjezba2\info.txt</PackagePath>
+    <AppxPackagedFile Include="C:\Users\emins\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\SlikeMisicnihGrupa\Glutes.jpg">
+      <PackagePath>Assets\SlikeMisicnihGrupa\Glutes.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\emins\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Chest\Vjezba1\info.txt">
-      <PackagePath>Assets\Vjezbe\Chest\Vjezba1\info.txt</PackagePath>
+    <AppxPackagedFile Include="C:\Users\emins\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\SlikeMisicnihGrupa\Hamstrings.jpg">
+      <PackagePath>Assets\SlikeMisicnihGrupa\Hamstrings.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\emins\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Chest\Vjezba2\info.txt">
-      <PackagePath>Assets\Vjezbe\Chest\Vjezba2\info.txt</PackagePath>
+    <AppxPackagedFile Include="C:\Users\emins\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\SlikeMisicnihGrupa\Lats.jpg">
+      <PackagePath>Assets\SlikeMisicnihGrupa\Lats.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\emins\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Forearm\Vjezba1\info.txt">
-      <PackagePath>Assets\Vjezbe\Forearm\Vjezba1\info.txt</PackagePath>
+    <AppxPackagedFile Include="C:\Users\emins\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\SlikeMisicnihGrupa\Lower-back.jpg">
+      <PackagePath>Assets\SlikeMisicnihGrupa\Lower-back.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\emins\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Forearm\Vjezba2\info.txt">
-      <PackagePath>Assets\Vjezbe\Forearm\Vjezba2\info.txt</PackagePath>
+    <AppxPackagedFile Include="C:\Users\emins\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\SlikeMisicnihGrupa\Middle-back.jpg">
+      <PackagePath>Assets\SlikeMisicnihGrupa\Middle-back.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\emins\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Glutes\Vjezba1\info.txt">
-      <PackagePath>Assets\Vjezbe\Glutes\Vjezba1\info.txt</PackagePath>
+    <AppxPackagedFile Include="C:\Users\emins\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\SlikeMisicnihGrupa\Neck.jpg">
+      <PackagePath>Assets\SlikeMisicnihGrupa\Neck.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\emins\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Glutes\Vjezba2\info.txt">
-      <PackagePath>Assets\Vjezbe\Glutes\Vjezba2\info.txt</PackagePath>
+    <AppxPackagedFile Include="C:\Users\emins\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\SlikeMisicnihGrupa\Quads.jpg">
+      <PackagePath>Assets\SlikeMisicnihGrupa\Quads.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\emins\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Hamstrings\Vjezba1\info.txt">
-      <PackagePath>Assets\Vjezbe\Hamstrings\Vjezba1\info.txt</PackagePath>
+    <AppxPackagedFile Include="C:\Users\emins\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\SlikeMisicnihGrupa\Shoulders.jpg">
+      <PackagePath>Assets\SlikeMisicnihGrupa\Shoulders.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\emins\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Hamstrings\Vjezba2\info.txt">
-      <PackagePath>Assets\Vjezbe\Hamstrings\Vjezba2\info.txt</PackagePath>
+    <AppxPackagedFile Include="C:\Users\emins\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\SlikeMisicnihGrupa\Traps.jpg">
+      <PackagePath>Assets\SlikeMisicnihGrupa\Traps.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\emins\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Lats\Vjezba1\info.txt">
-      <PackagePath>Assets\Vjezbe\Lats\Vjezba1\info.txt</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\emins\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Lats\Vjezba2\info.txt">
-      <PackagePath>Assets\Vjezbe\Lats\Vjezba2\info.txt</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\emins\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Lower-back\Vjezba1\info.txt">
-      <PackagePath>Assets\Vjezbe\Lower-back\Vjezba1\info.txt</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\emins\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Lower-back\Vjezba2\info.txt">
-      <PackagePath>Assets\Vjezbe\Lower-back\Vjezba2\info.txt</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\emins\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Middle-back\Vjezba1\info.txt">
-      <PackagePath>Assets\Vjezbe\Middle-back\Vjezba1\info.txt</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\emins\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Middle-back\Vjezba2\info.txt">
-      <PackagePath>Assets\Vjezbe\Middle-back\Vjezba2\info.txt</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\emins\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Neck\Vjezba1\info.txt">
-      <PackagePath>Assets\Vjezbe\Neck\Vjezba1\info.txt</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\emins\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Neck\Vjezba2\info.txt">
-      <PackagePath>Assets\Vjezbe\Neck\Vjezba2\info.txt</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\emins\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Quads\Vjezba1\info.txt">
-      <PackagePath>Assets\Vjezbe\Quads\Vjezba1\info.txt</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\emins\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Quads\Vjezba2\info.txt">
-      <PackagePath>Assets\Vjezbe\Quads\Vjezba2\info.txt</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\emins\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Shoulders\Vjezba1\info.txt">
-      <PackagePath>Assets\Vjezbe\Shoulders\Vjezba1\info.txt</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\emins\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Shoulders\Vjezba2\info.txt">
-      <PackagePath>Assets\Vjezbe\Shoulders\Vjezba2\info.txt</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\emins\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Traps\Vjezba1\info.txt">
-      <PackagePath>Assets\Vjezbe\Traps\Vjezba1\info.txt</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\emins\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Traps\Vjezba2\info.txt">
-      <PackagePath>Assets\Vjezbe\Traps\Vjezba2\info.txt</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\emins\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Triceps\Vjezba1\info.txt">
-      <PackagePath>Assets\Vjezbe\Triceps\Vjezba1\info.txt</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\emins\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Triceps\Vjezba2\info.txt">
-      <PackagePath>Assets\Vjezbe\Triceps\Vjezba2\info.txt</PackagePath>
+    <AppxPackagedFile Include="C:\Users\emins\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\SlikeMisicnihGrupa\Triceps.jpg">
+      <PackagePath>Assets\SlikeMisicnihGrupa\Triceps.jpg</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\emins\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Abs\Vjezba1\Slika1.jpg">
       <PackagePath>Assets\Vjezbe\Abs\Vjezba1\Slika1.jpg</PackagePath>
@@ -675,6 +630,96 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\emins\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Triceps\Vjezba2\Slika2.jpg">
       <PackagePath>Assets\Vjezbe\Triceps\Vjezba2\Slika2.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\emins\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Abs\Vjezba1\info.txt">
+      <PackagePath>Assets\Vjezbe\Abs\Vjezba1\info.txt</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\emins\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Abs\Vjezba2\info.txt">
+      <PackagePath>Assets\Vjezbe\Abs\Vjezba2\info.txt</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\emins\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Biceps\Vjezba1\info.txt">
+      <PackagePath>Assets\Vjezbe\Biceps\Vjezba1\info.txt</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\emins\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Biceps\Vjezba2\info.txt">
+      <PackagePath>Assets\Vjezbe\Biceps\Vjezba2\info.txt</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\emins\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Calves\Vjezba1\info.txt">
+      <PackagePath>Assets\Vjezbe\Calves\Vjezba1\info.txt</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\emins\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Calves\Vjezba2\info.txt">
+      <PackagePath>Assets\Vjezbe\Calves\Vjezba2\info.txt</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\emins\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Chest\Vjezba1\info.txt">
+      <PackagePath>Assets\Vjezbe\Chest\Vjezba1\info.txt</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\emins\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Chest\Vjezba2\info.txt">
+      <PackagePath>Assets\Vjezbe\Chest\Vjezba2\info.txt</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\emins\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Forearm\Vjezba1\info.txt">
+      <PackagePath>Assets\Vjezbe\Forearm\Vjezba1\info.txt</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\emins\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Forearm\Vjezba2\info.txt">
+      <PackagePath>Assets\Vjezbe\Forearm\Vjezba2\info.txt</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\emins\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Glutes\Vjezba1\info.txt">
+      <PackagePath>Assets\Vjezbe\Glutes\Vjezba1\info.txt</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\emins\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Glutes\Vjezba2\info.txt">
+      <PackagePath>Assets\Vjezbe\Glutes\Vjezba2\info.txt</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\emins\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Hamstrings\Vjezba1\info.txt">
+      <PackagePath>Assets\Vjezbe\Hamstrings\Vjezba1\info.txt</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\emins\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Hamstrings\Vjezba2\info.txt">
+      <PackagePath>Assets\Vjezbe\Hamstrings\Vjezba2\info.txt</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\emins\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Lats\Vjezba1\info.txt">
+      <PackagePath>Assets\Vjezbe\Lats\Vjezba1\info.txt</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\emins\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Lats\Vjezba2\info.txt">
+      <PackagePath>Assets\Vjezbe\Lats\Vjezba2\info.txt</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\emins\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Lower-back\Vjezba1\info.txt">
+      <PackagePath>Assets\Vjezbe\Lower-back\Vjezba1\info.txt</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\emins\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Lower-back\Vjezba2\info.txt">
+      <PackagePath>Assets\Vjezbe\Lower-back\Vjezba2\info.txt</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\emins\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Middle-back\Vjezba1\info.txt">
+      <PackagePath>Assets\Vjezbe\Middle-back\Vjezba1\info.txt</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\emins\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Middle-back\Vjezba2\info.txt">
+      <PackagePath>Assets\Vjezbe\Middle-back\Vjezba2\info.txt</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\emins\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Neck\Vjezba1\info.txt">
+      <PackagePath>Assets\Vjezbe\Neck\Vjezba1\info.txt</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\emins\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Neck\Vjezba2\info.txt">
+      <PackagePath>Assets\Vjezbe\Neck\Vjezba2\info.txt</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\emins\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Quads\Vjezba1\info.txt">
+      <PackagePath>Assets\Vjezbe\Quads\Vjezba1\info.txt</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\emins\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Quads\Vjezba2\info.txt">
+      <PackagePath>Assets\Vjezbe\Quads\Vjezba2\info.txt</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\emins\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Shoulders\Vjezba1\info.txt">
+      <PackagePath>Assets\Vjezbe\Shoulders\Vjezba1\info.txt</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\emins\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Shoulders\Vjezba2\info.txt">
+      <PackagePath>Assets\Vjezbe\Shoulders\Vjezba2\info.txt</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\emins\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Traps\Vjezba1\info.txt">
+      <PackagePath>Assets\Vjezbe\Traps\Vjezba1\info.txt</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\emins\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Traps\Vjezba2\info.txt">
+      <PackagePath>Assets\Vjezbe\Traps\Vjezba2\info.txt</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\emins\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Triceps\Vjezba1\info.txt">
+      <PackagePath>Assets\Vjezbe\Triceps\Vjezba1\info.txt</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\emins\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Triceps\Vjezba2\info.txt">
+      <PackagePath>Assets\Vjezbe\Triceps\Vjezba2\info.txt</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\emins\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>

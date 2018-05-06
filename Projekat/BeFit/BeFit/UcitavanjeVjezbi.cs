@@ -41,12 +41,24 @@ namespace BeFit
 			});
 		}
 
-		private static async Task<BitmapImage> UcitajSlikuVjezbe(Vjezba vjezba, int redniBrojSlike)
+		private static Task<BitmapImage> UcitajSlikuVjezbe(Vjezba vjezba, int redniBrojSlike)
 		{
 			string fajl = $"Assets\\Vjezbe\\{vjezba.MisicnaGrupa.Naziv}\\Vjezba{vjezba.RedniBrojVjezbe}\\Slika{redniBrojSlike}.jpg";
 
+			return UcitajSliku(fajl);
+		}
+
+		public static Task<BitmapImage> UcitajSlikuGrupe(MisicnaGrupa misicnaGrupa)
+		{
+			string fajl = $"Assets\\SlikeMisicnihGrupa\\{misicnaGrupa.Naziv}.jpg";
+
+			return UcitajSliku(fajl);
+		}
+
+		private static async Task<BitmapImage> UcitajSliku(string path)
+		{
 			StorageFolder folder = Windows.ApplicationModel.Package.Current.InstalledLocation;
-			StorageFile file = await folder.GetFileAsync(fajl);
+			StorageFile file = await folder.GetFileAsync(path);
 			Windows.Storage.Streams.IRandomAccessStream str = (await file.OpenStreamForReadAsync()).AsRandomAccessStream();
 
 			BitmapImage slika = new BitmapImage();

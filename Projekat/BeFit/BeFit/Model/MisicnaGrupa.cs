@@ -4,13 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Windows.UI.Xaml.Controls;
+using Windows.UI.Xaml.Media.Imaging;
 
 namespace BeFit
 {
     public class MisicnaGrupa
     {
 		private string naziv;
-		private Image slika;
 
 		public MisicnaGrupa(string naziv) => this.naziv = naziv;
 
@@ -19,10 +19,9 @@ namespace BeFit
 			get => naziv;
 		}
 
-		public Image Slika
+		public async Task<BitmapImage> DajSlikuGrupe()
 		{
-			get => slika;
-			set => slika = value;
+			return await UcitavanjeVjezbi.UcitajSlikuGrupe(this);
 		}
-    }
+	}
 }

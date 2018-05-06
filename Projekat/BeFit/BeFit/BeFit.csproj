@@ -183,6 +183,21 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Assets\Capture.PNG" />
+    <Content Include="Assets\SlikeMisicnihGrupa\Abs.jpg" />
+    <Content Include="Assets\SlikeMisicnihGrupa\Biceps.jpg" />
+    <Content Include="Assets\SlikeMisicnihGrupa\Calves.jpg" />
+    <Content Include="Assets\SlikeMisicnihGrupa\Chest.jpg" />
+    <Content Include="Assets\SlikeMisicnihGrupa\Forearm.jpg" />
+    <Content Include="Assets\SlikeMisicnihGrupa\Glutes.jpg" />
+    <Content Include="Assets\SlikeMisicnihGrupa\Hamstrings.jpg" />
+    <Content Include="Assets\SlikeMisicnihGrupa\Lats.jpg" />
+    <Content Include="Assets\SlikeMisicnihGrupa\Lower-back.jpg" />
+    <Content Include="Assets\SlikeMisicnihGrupa\Middle-back.jpg" />
+    <Content Include="Assets\SlikeMisicnihGrupa\Neck.jpg" />
+    <Content Include="Assets\SlikeMisicnihGrupa\Quads.jpg" />
+    <Content Include="Assets\SlikeMisicnihGrupa\Shoulders.jpg" />
+    <Content Include="Assets\SlikeMisicnihGrupa\Traps.jpg" />
+    <Content Include="Assets\SlikeMisicnihGrupa\Triceps.jpg" />
     <Content Include="Assets\Vjezbe\Abs\Vjezba1\info.txt" />
     <Content Include="Assets\Vjezbe\Abs\Vjezba1\Slika1.jpg" />
     <Content Include="Assets\Vjezbe\Abs\Vjezba1\Slika2.jpg" />
@@ -376,9 +391,7 @@
       <Version>6.0.8</Version>
     </PackageReference>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Assets\SlikeMisicnihGrupa\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>
   </PropertyGroup>
