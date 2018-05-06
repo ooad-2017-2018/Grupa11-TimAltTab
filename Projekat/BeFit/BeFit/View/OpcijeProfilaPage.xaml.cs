@@ -30,6 +30,7 @@ namespace BeFit
         protected override void OnNavigatedTo(NavigationEventArgs e)
         {
             klijentViewModel = e.Parameter as KlijentViewModel;
+            DataContext = new PromjenaKlijentaViewModel(klijentViewModel.Klijent);
         }
 
         // update email

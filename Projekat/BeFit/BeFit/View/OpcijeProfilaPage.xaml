@@ -47,16 +47,16 @@
 				<StackPanel x:Name="PodglavniStack" Orientation="Horizontal" HorizontalAlignment="Left"  VerticalAlignment="Top">
 					<StackPanel x:Name="LijeviStack" Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Top" Width="500">
 						<TextBlock Text="Novi e-mail" Margin="10, 10, 0, 10" TextWrapping="Wrap"/>
-						<TextBox x:Name="emailTextBox" Text="" Margin="10, 10, 20, 10"/>
-						<Button Content="Potvrdi e-mail" Margin="0, 10, 0, 10" HorizontalAlignment="Center" Click="Button_Click"/>
+						<TextBox x:Name="emailTextBox" Text="{Binding Path=Email, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Margin="10, 10, 20, 10"/>
+                        <Button Content="Potvrdi e-mail" Margin="0, 10, 0, 10" HorizontalAlignment="Center" Command="{Binding Path=PromjenaEmaila}"/>
 						
 				    	<TextBlock Text="Stari password" Margin="10, 10, 0, 10" TextWrapping="Wrap"/>
-						<PasswordBox x:Name="stariPassword"  Margin="10, 10, 20, 10"/>
+                        <PasswordBox x:Name="stariPassword" Password="{Binding Path=StariPassword, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"  Margin="10, 10, 20, 10"/>
 						<TextBlock Text="Novi password" Margin="10, 10, 0, 10" TextWrapping="Wrap"/>
-						<PasswordBox x:Name="passwordTextBox" Margin="10, 10, 20, 10"/>
+                        <PasswordBox x:Name="passwordTextBox" Password="{Binding Path=Password, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Margin="10, 10, 20, 10"/>
 						<TextBlock Text="Potvrdite novi password" Margin="10, 10, 0, 10" TextWrapping="Wrap"/>
-						<PasswordBox x:Name="potvrdiPasswordTextBox" Margin="10, 10, 20, 10"/>
-						<Button Content="Promijeni password" Margin="0, 10, 0, 10" HorizontalAlignment="Center" VerticalAlignment="Center" Click="Button_Click_1"/>
+                        <PasswordBox x:Name="potvrdiPasswordTextBox" Password="{Binding Path=PonovljeniPass, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Margin="10, 10, 20, 10"/>
+						<Button Content="Promijeni password" Margin="0, 10, 0, 10" HorizontalAlignment="Center" VerticalAlignment="Center" Command="{Binding Path=PromjenaPassworda}"/>
 					</StackPanel>
 				</StackPanel>
 			</StackPanel>

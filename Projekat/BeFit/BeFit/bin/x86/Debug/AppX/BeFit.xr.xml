@@ -1,5 +1,21 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Roots >
+  <Roots.PropertyPathNames>
+    <RootPropertyPathName Name="PromjenaPassworda" />
+    <RootPropertyPathName Name="PonovljeniPass" />
+    <RootPropertyPathName Name="Password" />
+    <RootPropertyPathName Name="StariPassword" />
+    <RootPropertyPathName Name="PromjenaEmaila" />
+    <RootPropertyPathName Name="Email" />
+    <RootPropertyPathName Name="SpremiKorisnika" />
+    <RootPropertyPathName Name="KontaktTelefon" />
+    <RootPropertyPathName Name="Biografija" />
+    <RootPropertyPathName Name="Lokacija" />
+    <RootPropertyPathName Name="Username" />
+    <RootPropertyPathName Name="Prezime" />
+    <RootPropertyPathName Name="Ime" />
+    <RootPropertyPathName Name="TipKorisnika" />
+  </Roots.PropertyPathNames>
   <Roots.RootTypes>
     <RootType FullName="Windows.UI.Xaml.Application">
       <RootProperty Name="RequestedTheme" />
@@ -100,6 +116,7 @@
       <RootProperty Name="Width" />
       <RootProperty Name="Height" />
       <RootProperty Name="Name" />
+      <RootProperty Name="Command" />
       <RootEvent Name="Click" />
     </RootType>
     <RootType FullName="BeFit.OpcijeProfilaTreneraPage" />
@@ -185,10 +202,16 @@
       <RootProperty Name="Name" />
       <RootProperty Name="Height" />
       <RootProperty Name="FontSize" />
+      <RootProperty Name="Password" />
       <RootProperty Name="Margin" />
     </RootType>
     <RootType FullName="BeFit.MainPage" />
     <RootType FullName="BeFit.OdabirZaDodavanjeProgramaPage" />
+    <RootType FullName="Windows.UI.Xaml.Data.Binding">
+      <RootProperty Name="Path" />
+      <RootProperty Name="Mode" />
+      <RootProperty Name="UpdateSourceTrigger" />
+    </RootType>
     <RootType FullName="BeFit.OpcijeProfilaPage" />
     <RootType FullName="Windows.UI.Xaml.Controls.UserControl">
       <RootProperty Name="Content" />
