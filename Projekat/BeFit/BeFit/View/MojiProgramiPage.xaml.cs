@@ -57,7 +57,7 @@ namespace BeFit
         }
         void onClick(object o, RoutedEventArgs e)
         {
-            this.Frame.Navigate(typeof(OdabirZaDodavanjeProgramaPage));
+            this.Frame.Navigate(typeof(OdabirZaDodavanjeProgramaPage), klijentViewModel);
         }
     }
 }

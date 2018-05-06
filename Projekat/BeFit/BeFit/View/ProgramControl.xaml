@@ -10,7 +10,7 @@
     d:DesignWidth="300"
     Tapped="UserControl_Tapped">
 
-    <Grid>
+    <Grid Tapped="Grid_Tapped">
         <Border BorderThickness="2" BorderBrush="Black" Height="100" Width="300">
         <Canvas>
                 <TextBlock FontSize="17" HorizontalAlignment="Left" Margin="21,25,0,0" Text="Naziv Programa: " TextWrapping="Wrap" VerticalAlignment="Top"/>

@@ -28,7 +28,6 @@ namespace BeFit
         public PregledProgramaPage()
         {
             this.InitializeComponent();
-            SystemNavigationManager.GetForCurrentView().AppViewBackButtonVisibility = AppViewBackButtonVisibility.Visible;
             SystemNavigationManager.GetForCurrentView().BackRequested += OnBackRequested;
         }
         private void OnBackRequested(object sender, BackRequestedEventArgs e)
@@ -47,6 +46,7 @@ namespace BeFit
         }
         private void Page_Loaded(object sender, RoutedEventArgs e)
         {
+            SystemNavigationManager.GetForCurrentView().AppViewBackButtonVisibility = AppViewBackButtonVisibility.Visible;
             List<string> dani = new List<string> { "Ponedjeljak", "Utorak",
                         "Srijeda", "Četvrtak", "Petak", "Subota", "Nedjelja"};
             danComboBox.ItemsSource = dani;

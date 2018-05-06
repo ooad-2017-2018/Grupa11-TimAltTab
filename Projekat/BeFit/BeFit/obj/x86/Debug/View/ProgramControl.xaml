@@ -10,13 +10,13 @@
     d:DesignWidth="300"
                                >
 
-    <Grid>
+    <Grid x:ConnectionId='2'                     >
         <Border BorderThickness="2" BorderBrush="Black" Height="100" Width="300">
         <Canvas>
                 <TextBlock FontSize="17" HorizontalAlignment="Left" Margin="21,25,0,0" Text="Naziv Programa: " TextWrapping="Wrap" VerticalAlignment="Top"/>
                 <TextBlock FontSize="17" HorizontalAlignment="Left" Margin="21,50,0,0" Text="Težina: " TextWrapping="Wrap" VerticalAlignment="Top"/>
-                <TextBlock x:ConnectionId='2' Name="nazivProgramaTextBlock" FontSize="17" HorizontalAlignment="Left" Margin="151,25,0,0" Text="__ " TextWrapping="Wrap" VerticalAlignment="Top"/>
-                <TextBlock x:ConnectionId='3' Name="tezinaProgramaTextBlock" FontSize="17" HorizontalAlignment="Left" Margin="151,50,0,0" Text="__ " TextWrapping="Wrap" VerticalAlignment="Top"/>
+                <TextBlock x:ConnectionId='3' Name="nazivProgramaTextBlock" FontSize="17" HorizontalAlignment="Left" Margin="151,25,0,0" Text="__ " TextWrapping="Wrap" VerticalAlignment="Top"/>
+                <TextBlock x:ConnectionId='4' Name="tezinaProgramaTextBlock" FontSize="17" HorizontalAlignment="Left" Margin="151,50,0,0" Text="__ " TextWrapping="Wrap" VerticalAlignment="Top"/>
             </Canvas>
         </Border>
     </Grid>

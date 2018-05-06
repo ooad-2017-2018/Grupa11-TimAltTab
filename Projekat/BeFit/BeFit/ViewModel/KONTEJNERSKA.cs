@@ -23,12 +23,9 @@ namespace BeFit
 		public static List<Vjezba> Vjezbe { get => vjezbe; }
 		public static List<MisicnaGrupa> MisicneGrupe { get => misicneGrupe; }
 
-		public static Klijent testni;
-
 		static KONTEJNERSKA()
 		{
 			InicijalizujMisicneGrupeIVjezbe();
-            InicijalizujTestnogKlijenta();
 		}
 
 		private static void InicijalizujMisicneGrupeIVjezbe()
@@ -55,10 +52,21 @@ namespace BeFit
 			vjezbe.Add(new Vjezba(nazivVjezbe, opis, misicnaGrupa, redniBrojVjezbe));
 		}
 
-
-        private static void InicijalizujTestnogKlijenta()
+        public static Vjezba dajVjezbu(string nazivMisicneGrupe, int redniBroj)
         {
-            testni = new Klijent();
+            foreach (var i in vjezbe)
+            {
+                if (i.MisicnaGrupa.Naziv == nazivMisicneGrupe && i.RedniBrojVjezbe == redniBroj)
+                {
+                    return i;
+                }
+            }
+            throw new Exception("Ne postoji vjezba.");
+        }
+
+        public static Klijent dajTestnog()
+        {
+            var testni = new Klijent();
             testni.Ime = "fako";
             testni.Prezime = "fakoni";
             testni.Email = "fako@gg.com";
@@ -67,11 +75,12 @@ namespace BeFit
             var tp = new KlijentProgram();
             tp.Klijent = testni;
             tp.Naziv = "najjaciworkout";
-            tp.dodajVjezbu(new VjezbaUProgramu(new Vjezba("vjezba1", "ez", misicneGrupe[0], 1), 3, 4, new TimeSpan(0, 0, 30), "Srijeda"));
-            tp.dodajVjezbu(new VjezbaUProgramu(new Vjezba("vjezba2", "ez", misicneGrupe[0], 2), 3, 4, new TimeSpan(0, 0, 30), "Srijeda"));
-            tp.dodajVjezbu(new VjezbaUProgramu(new Vjezba("vjezba3", "ez", misicneGrupe[0], 1), 3, 4, new TimeSpan(0, 0, 30), "Ponedjeljak"));
-            tp.dodajVjezbu(new VjezbaUProgramu(new Vjezba("vjezba4", "ez", misicneGrupe[0], 2), 3, 4, new TimeSpan(0, 0, 30), "Petak"));
+            tp.dodajVjezbu(new VjezbaUProgramu(dajVjezbu("Neck", 1), 3, 4, new TimeSpan(0, 0, 30), "Srijeda"));
+            tp.dodajVjezbu(new VjezbaUProgramu(dajVjezbu("Neck", 1), 3, 4, new TimeSpan(0, 0, 30), "Srijeda"));
+            tp.dodajVjezbu(new VjezbaUProgramu(dajVjezbu("Chest", 1), 3, 4, new TimeSpan(0, 0, 30), "Ponedjeljak"));
+            tp.dodajVjezbu(new VjezbaUProgramu(dajVjezbu("Triceps", 1), 3, 4, new TimeSpan(0, 0, 30), "Petak"));
             testni.MojiProgrami.Add(tp);
+            return testni;
         }
-	}
+    }
 }

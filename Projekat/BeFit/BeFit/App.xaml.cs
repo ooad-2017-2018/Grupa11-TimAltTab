@@ -34,6 +34,7 @@ namespace BeFit
         {
             this.InitializeComponent();
             this.Suspending += OnSuspending;
+            var gg = KONTEJNERSKA.Korisnici;
         }
 
         /// <summary>

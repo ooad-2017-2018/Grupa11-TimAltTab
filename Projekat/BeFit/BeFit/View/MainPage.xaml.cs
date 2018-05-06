@@ -34,7 +34,7 @@ namespace BeFit
 
 		private async void loginButton_Click(object sender, RoutedEventArgs e)
         {
-            if (usernameTextBox.Text == "fakoni") this.Frame.Navigate(typeof(KlijentHomePage), new KlijentViewModel(KONTEJNERSKA.testni));
+            if (usernameTextBox.Text == "fakoni") this.Frame.Navigate(typeof(KlijentHomePage), new KlijentViewModel(KONTEJNERSKA.dajTestnog()));
             try
             {
                 var korisnik = (await StaticHelper.UcitajKorisnika(usernameTextBox.Text, passwordBox.Password));

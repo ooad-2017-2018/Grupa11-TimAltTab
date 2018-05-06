@@ -39,6 +39,11 @@ namespace BeFit
 
         private void UserControl_Tapped(object sender, TappedRoutedEventArgs e)
         {
+            //(Window.Current.Content as Frame).Navigate(typeof(PregledProgramaPage), workoutProgram);
+        }
+
+        private void Grid_Tapped(object sender, TappedRoutedEventArgs e)
+        {
             (Window.Current.Content as Frame).Navigate(typeof(PregledProgramaPage), workoutProgram);
         }
     }

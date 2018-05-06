@@ -19,6 +19,7 @@ namespace BeFit
 {
     public sealed partial class VjezbaControl : UserControl
     {
+        VjezbaUProgramu vjezba;
         public VjezbaControl()
         {
             this.InitializeComponent();
@@ -26,10 +27,16 @@ namespace BeFit
         public VjezbaControl(VjezbaUProgramu vjezba)
         {
             InitializeComponent();
+            this.vjezba = vjezba;
             nazivVjezbeTextBlock.Text = vjezba.Vjezba.Naziv;
             brojSetovaTextBlock.Text = vjezba.BrojSetova.ToString();
             brojPonavljanjaTextBlock.Text = vjezba.BrojRepova.ToString();
             vrijemeTextBlock.Text = vjezba.Vrijeme.ToString();
+        }
+
+        private void Grid_Tapped(object sender, TappedRoutedEventArgs e)
+        {
+            (Window.Current.Content as Frame).Navigate(typeof(PregledVjezbePage), vjezba);
         }
     }
 }

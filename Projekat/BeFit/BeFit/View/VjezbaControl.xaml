@@ -9,16 +9,16 @@
     d:DesignHeight="100"
     d:DesignWidth="250">
 
-    <Grid>
-        <TextBlock HorizontalAlignment="Left" Margin="10,10,0,0" Text="Naziv vježbe: " TextWrapping="Wrap" VerticalAlignment="Top"/>
-        <TextBlock HorizontalAlignment="Left" Margin="10,30,0,0" Text="Broj setova: " TextWrapping="Wrap" VerticalAlignment="Top"/>
-        <TextBlock HorizontalAlignment="Left" Margin="10,50,0,0" Text="Broj ponavljanja:" TextWrapping="Wrap" VerticalAlignment="Top"/>
-        <TextBlock HorizontalAlignment="Left" Margin="10,70,0,0" Text="Vrijeme: " TextWrapping="Wrap" VerticalAlignment="Top"/>
+    <Grid Tapped="Grid_Tapped">
+        <TextBlock HorizontalAlignment="Left" Margin="10,10,0,0" FontSize="12" Text="Naziv vježbe: " TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,30,0,0" FontSize="12" Text="Broj setova: " TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,50,0,0" FontSize="12" Text="Broj ponavljanja:" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,70,0,0" FontSize="12" Text="Vrijeme: " TextWrapping="Wrap" VerticalAlignment="Top"/>
 
-        <TextBlock Name="nazivVjezbeTextBlock" HorizontalAlignment="Left" Margin="120,10,0,0" Text="__ " TextWrapping="Wrap" VerticalAlignment="Top"/>
-        <TextBlock Name="brojSetovaTextBlock" HorizontalAlignment="Left" Margin="120,30,0,0" Text="__ " TextWrapping="Wrap" VerticalAlignment="Top"/>
-        <TextBlock Name="brojPonavljanjaTextBlock" HorizontalAlignment="Left" Margin="120,50,0,0" Text="__ " TextWrapping="Wrap" VerticalAlignment="Top"/>
-        <TextBlock Name="vrijemeTextBlock" HorizontalAlignment="Left" Margin="120,70,0,0" Text="__ " TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBlock Name="nazivVjezbeTextBlock" FontSize="12" HorizontalAlignment="Left" Margin="120,10,0,0" Text="__ " TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBlock Name="brojSetovaTextBlock" FontSize="12" HorizontalAlignment="Left" Margin="120,30,0,0" Text="__ " TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBlock Name="brojPonavljanjaTextBlock" FontSize="12" HorizontalAlignment="Left" Margin="120,50,0,0" Text="__ " TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBlock Name="vrijemeTextBlock" FontSize="12" HorizontalAlignment="Left" Margin="120,70,0,0" Text="__ " TextWrapping="Wrap" VerticalAlignment="Top"/>
 
     </Grid>
 </UserControl>
