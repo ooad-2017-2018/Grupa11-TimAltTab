@@ -31,13 +31,21 @@
     <AppXManifest Include="C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+<<<<<<< HEAD
       <Modified>2018-05-06T14:40:55.063</Modified>
+=======
+      <Modified>2018-05-06T16:06:51.439</Modified>
+>>>>>>> cd945291e3c59f2beb8a3e8f6709ef9c99b24efd
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\bin\x86\Debug\BeFit.exe">
       <PackagePath>entrypoint\BeFit.exe</PackagePath>
+<<<<<<< HEAD
       <Modified>2018-05-06T14:40:54.181</Modified>
+=======
+      <Modified>2018-05-06T16:06:49.577</Modified>
+>>>>>>> cd945291e3c59f2beb8a3e8f6709ef9c99b24efd
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Haris Soljic\.nuget\packages\microsoft.azure.mobile.client\4.0.2\lib\uap10.0\Microsoft.Azure.Mobile.Client.dll">
       <PackagePath>Microsoft.Azure.Mobile.Client.dll</PackagePath>
@@ -541,6 +549,7 @@
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-05-06T13:49:39.024</Modified>
     </AppxPackagedFile>
+<<<<<<< HEAD
     <AppxPackagedFile Include="C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Abs\Vjezba1\info.txt">
       <PackagePath>Assets\Vjezbe\Abs\Vjezba1\info.txt</PackagePath>
       <Modified>2018-05-06T13:49:38.883</Modified>
@@ -660,6 +669,67 @@
     <AppxPackagedFile Include="C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Triceps\Vjezba2\info.txt">
       <PackagePath>Assets\Vjezbe\Triceps\Vjezba2\info.txt</PackagePath>
       <Modified>2018-05-06T13:49:39.024</Modified>
+=======
+    <AppxPackagedFile Include="C:\Users\emins\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\SlikeMisicnihGrupa\Abs.jpg">
+      <PackagePath>Assets\SlikeMisicnihGrupa\Abs.jpg</PackagePath>
+      <Modified>2018-05-06T15:52:16.224</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\emins\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\SlikeMisicnihGrupa\Biceps.jpg">
+      <PackagePath>Assets\SlikeMisicnihGrupa\Biceps.jpg</PackagePath>
+      <Modified>2018-05-06T15:52:20.363</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\emins\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\SlikeMisicnihGrupa\Calves.jpg">
+      <PackagePath>Assets\SlikeMisicnihGrupa\Calves.jpg</PackagePath>
+      <Modified>2018-05-06T15:52:25.145</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\emins\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\SlikeMisicnihGrupa\Chest.jpg">
+      <PackagePath>Assets\SlikeMisicnihGrupa\Chest.jpg</PackagePath>
+      <Modified>2018-05-06T15:52:29.063</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\emins\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\SlikeMisicnihGrupa\Forearm.jpg">
+      <PackagePath>Assets\SlikeMisicnihGrupa\Forearm.jpg</PackagePath>
+      <Modified>2018-05-06T15:52:33.423</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\emins\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\SlikeMisicnihGrupa\Glutes.jpg">
+      <PackagePath>Assets\SlikeMisicnihGrupa\Glutes.jpg</PackagePath>
+      <Modified>2018-05-06T15:52:37.268</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\emins\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\SlikeMisicnihGrupa\Hamstrings.jpg">
+      <PackagePath>Assets\SlikeMisicnihGrupa\Hamstrings.jpg</PackagePath>
+      <Modified>2018-05-06T15:52:41.227</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\emins\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\SlikeMisicnihGrupa\Lats.jpg">
+      <PackagePath>Assets\SlikeMisicnihGrupa\Lats.jpg</PackagePath>
+      <Modified>2018-05-06T15:52:45.302</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\emins\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\SlikeMisicnihGrupa\Lower-back.jpg">
+      <PackagePath>Assets\SlikeMisicnihGrupa\Lower-back.jpg</PackagePath>
+      <Modified>2018-05-06T15:52:49.701</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\emins\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\SlikeMisicnihGrupa\Middle-back.jpg">
+      <PackagePath>Assets\SlikeMisicnihGrupa\Middle-back.jpg</PackagePath>
+      <Modified>2018-05-06T15:52:53.423</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\emins\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\SlikeMisicnihGrupa\Neck.jpg">
+      <PackagePath>Assets\SlikeMisicnihGrupa\Neck.jpg</PackagePath>
+      <Modified>2018-05-06T15:42:25.436</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\emins\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\SlikeMisicnihGrupa\Quads.jpg">
+      <PackagePath>Assets\SlikeMisicnihGrupa\Quads.jpg</PackagePath>
+      <Modified>2018-05-06T15:52:58.501</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\emins\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\SlikeMisicnihGrupa\Shoulders.jpg">
+      <PackagePath>Assets\SlikeMisicnihGrupa\Shoulders.jpg</PackagePath>
+      <Modified>2018-05-06T15:53:03.626</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\emins\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\SlikeMisicnihGrupa\Traps.jpg">
+      <PackagePath>Assets\SlikeMisicnihGrupa\Traps.jpg</PackagePath>
+      <Modified>2018-05-06T15:53:08.627</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\emins\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\SlikeMisicnihGrupa\Triceps.jpg">
+      <PackagePath>Assets\SlikeMisicnihGrupa\Triceps.jpg</PackagePath>
+      <Modified>2018-05-06T15:53:12.681</Modified>
+>>>>>>> cd945291e3c59f2beb8a3e8f6709ef9c99b24efd
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Abs\Vjezba1\Slika1.jpg">
       <PackagePath>Assets\Vjezbe\Abs\Vjezba1\Slika1.jpg</PackagePath>
@@ -901,7 +971,131 @@
       <PackagePath>Assets\Vjezbe\Triceps\Vjezba2\Slika2.jpg</PackagePath>
       <Modified>2018-05-06T13:49:39.024</Modified>
     </AppxPackagedFile>
+<<<<<<< HEAD
     <AppxPackagedFile Include="C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Properties\Default.rd.xml">
+=======
+    <AppxPackagedFile Include="C:\Users\emins\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Abs\Vjezba1\info.txt">
+      <PackagePath>Assets\Vjezbe\Abs\Vjezba1\info.txt</PackagePath>
+      <Modified>2018-05-02T19:42:44.929</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\emins\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Abs\Vjezba2\info.txt">
+      <PackagePath>Assets\Vjezbe\Abs\Vjezba2\info.txt</PackagePath>
+      <Modified>2018-05-02T19:43:16.391</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\emins\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Biceps\Vjezba1\info.txt">
+      <PackagePath>Assets\Vjezbe\Biceps\Vjezba1\info.txt</PackagePath>
+      <Modified>2018-05-02T19:39:57.989</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\emins\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Biceps\Vjezba2\info.txt">
+      <PackagePath>Assets\Vjezbe\Biceps\Vjezba2\info.txt</PackagePath>
+      <Modified>2018-05-02T19:40:30.965</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\emins\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Calves\Vjezba1\info.txt">
+      <PackagePath>Assets\Vjezbe\Calves\Vjezba1\info.txt</PackagePath>
+      <Modified>2018-05-02T19:45:05.786</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\emins\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Calves\Vjezba2\info.txt">
+      <PackagePath>Assets\Vjezbe\Calves\Vjezba2\info.txt</PackagePath>
+      <Modified>2018-05-02T19:45:35.402</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\emins\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Chest\Vjezba1\info.txt">
+      <PackagePath>Assets\Vjezbe\Chest\Vjezba1\info.txt</PackagePath>
+      <Modified>2018-05-02T19:38:36.129</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\emins\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Chest\Vjezba2\info.txt">
+      <PackagePath>Assets\Vjezbe\Chest\Vjezba2\info.txt</PackagePath>
+      <Modified>2018-05-02T19:39:06.855</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\emins\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Forearm\Vjezba1\info.txt">
+      <PackagePath>Assets\Vjezbe\Forearm\Vjezba1\info.txt</PackagePath>
+      <Modified>2018-05-02T19:41:32.340</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\emins\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Forearm\Vjezba2\info.txt">
+      <PackagePath>Assets\Vjezbe\Forearm\Vjezba2\info.txt</PackagePath>
+      <Modified>2018-05-02T19:42:04.750</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\emins\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Glutes\Vjezba1\info.txt">
+      <PackagePath>Assets\Vjezbe\Glutes\Vjezba1\info.txt</PackagePath>
+      <Modified>2018-05-02T19:50:51.103</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\emins\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Glutes\Vjezba2\info.txt">
+      <PackagePath>Assets\Vjezbe\Glutes\Vjezba2\info.txt</PackagePath>
+      <Modified>2018-05-02T19:51:14.378</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\emins\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Hamstrings\Vjezba1\info.txt">
+      <PackagePath>Assets\Vjezbe\Hamstrings\Vjezba1\info.txt</PackagePath>
+      <Modified>2018-05-02T19:51:45.367</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\emins\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Hamstrings\Vjezba2\info.txt">
+      <PackagePath>Assets\Vjezbe\Hamstrings\Vjezba2\info.txt</PackagePath>
+      <Modified>2018-05-02T19:52:16.226</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\emins\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Lats\Vjezba1\info.txt">
+      <PackagePath>Assets\Vjezbe\Lats\Vjezba1\info.txt</PackagePath>
+      <Modified>2018-05-02T19:47:35.312</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\emins\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Lats\Vjezba2\info.txt">
+      <PackagePath>Assets\Vjezbe\Lats\Vjezba2\info.txt</PackagePath>
+      <Modified>2018-05-02T19:48:00.297</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\emins\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Lower-back\Vjezba1\info.txt">
+      <PackagePath>Assets\Vjezbe\Lower-back\Vjezba1\info.txt</PackagePath>
+      <Modified>2018-05-02T19:49:47.088</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\emins\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Lower-back\Vjezba2\info.txt">
+      <PackagePath>Assets\Vjezbe\Lower-back\Vjezba2\info.txt</PackagePath>
+      <Modified>2018-05-02T19:50:12.076</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\emins\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Middle-back\Vjezba1\info.txt">
+      <PackagePath>Assets\Vjezbe\Middle-back\Vjezba1\info.txt</PackagePath>
+      <Modified>2018-05-02T19:48:36.545</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\emins\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Middle-back\Vjezba2\info.txt">
+      <PackagePath>Assets\Vjezbe\Middle-back\Vjezba2\info.txt</PackagePath>
+      <Modified>2018-05-02T19:49:01.932</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\emins\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Neck\Vjezba1\info.txt">
+      <PackagePath>Assets\Vjezbe\Neck\Vjezba1\info.txt</PackagePath>
+      <Modified>2018-05-02T19:33:27.266</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\emins\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Neck\Vjezba2\info.txt">
+      <PackagePath>Assets\Vjezbe\Neck\Vjezba2\info.txt</PackagePath>
+      <Modified>2018-05-02T19:33:52.530</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\emins\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Quads\Vjezba1\info.txt">
+      <PackagePath>Assets\Vjezbe\Quads\Vjezba1\info.txt</PackagePath>
+      <Modified>2018-05-02T19:43:55.660</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\emins\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Quads\Vjezba2\info.txt">
+      <PackagePath>Assets\Vjezbe\Quads\Vjezba2\info.txt</PackagePath>
+      <Modified>2018-05-02T19:44:26.535</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\emins\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Shoulders\Vjezba1\info.txt">
+      <PackagePath>Assets\Vjezbe\Shoulders\Vjezba1\info.txt</PackagePath>
+      <Modified>2018-05-02T19:37:17.143</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\emins\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Shoulders\Vjezba2\info.txt">
+      <PackagePath>Assets\Vjezbe\Shoulders\Vjezba2\info.txt</PackagePath>
+      <Modified>2018-05-02T19:37:45.795</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\emins\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Traps\Vjezba1\info.txt">
+      <PackagePath>Assets\Vjezbe\Traps\Vjezba1\info.txt</PackagePath>
+      <Modified>2018-05-02T19:35:40.763</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\emins\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Traps\Vjezba2\info.txt">
+      <PackagePath>Assets\Vjezbe\Traps\Vjezba2\info.txt</PackagePath>
+      <Modified>2018-05-02T19:36:29.016</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\emins\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Triceps\Vjezba1\info.txt">
+      <PackagePath>Assets\Vjezbe\Triceps\Vjezba1\info.txt</PackagePath>
+      <Modified>2018-05-02T19:46:27.490</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\emins\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Triceps\Vjezba2\info.txt">
+      <PackagePath>Assets\Vjezbe\Triceps\Vjezba2\info.txt</PackagePath>
+      <Modified>2018-05-02T19:46:56.743</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\emins\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Properties\Default.rd.xml">
+>>>>>>> cd945291e3c59f2beb8a3e8f6709ef9c99b24efd
       <PackagePath>Properties\Default.rd.xml</PackagePath>
       <Modified>2018-05-06T13:49:39.047</Modified>
     </AppxPackagedFile>
@@ -916,11 +1110,19 @@
     <AppxPackagedFile Include="C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+<<<<<<< HEAD
       <Modified>2018-05-06T14:40:54.760</Modified>
+=======
+      <Modified>2018-05-06T16:06:50.944</Modified>
+>>>>>>> cd945291e3c59f2beb8a3e8f6709ef9c99b24efd
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\bin\x86\Debug\Core\BeFit.exe">
       <PackagePath>BeFit.exe</PackagePath>
+<<<<<<< HEAD
       <Modified>2018-05-06T14:40:55.047</Modified>
+=======
+      <Modified>2018-05-06T16:06:51.431</Modified>
+>>>>>>> cd945291e3c59f2beb8a3e8f6709ef9c99b24efd
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
