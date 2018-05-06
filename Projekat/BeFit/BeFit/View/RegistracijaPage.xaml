@@ -7,95 +7,105 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-	<Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-		<VisualStateManager.VisualStateGroups>
-			<VisualStateGroup x:Name="VisualStateGroup">
-				<VisualState x:Name="Phone">
-					<VisualState.StateTriggers>
-						<AdaptiveTrigger MinWindowWidth="0"/>
-					</VisualState.StateTriggers>
-					<VisualState.Setters>
-						<Setter Target="StekUnosGlavni.Orientation" Value="Vertical"/>
-						<Setter Target="StekGlavni.Width" Value="500"/>
-						<Setter Target="StekUnosGlavni.Width" Value="500"/>
-						<Setter Target="StekUnos1.Width" Value="350"/>
-						<Setter Target="StekUnos2.Width" Value="350"/>
-						<Setter Target="textBlockOVama.Height" Value="40"/>
+        <VisualStateManager.VisualStateGroups>
+            <VisualStateGroup x:Name="VisualStateGroup">
+                <VisualState x:Name="Phone">
+                    <VisualState.StateTriggers>
+                        <AdaptiveTrigger MinWindowWidth="0"/>
+                    </VisualState.StateTriggers>
+                    <VisualState.Setters>
+                        <Setter Target="StekUnosGlavni.Orientation" Value="Vertical"/>
+                        <Setter Target="StekGlavni.Width" Value="500"/>
+                        <Setter Target="StekUnosGlavni.Width" Value="500"/>
+                        <Setter Target="StekUnos1.Width" Value="350"/>
+                        <Setter Target="StekUnos2.Width" Value="350"/>
+                        <Setter Target="textBlockOVama.Height" Value="40"/>
 
-					</VisualState.Setters>
-				</VisualState>
-				<VisualState x:Name="Tablet">
-					<VisualState.StateTriggers>
-						<AdaptiveTrigger MinWindowWidth="700"/>
-					</VisualState.StateTriggers>
-					<VisualState.Setters>
-						<Setter Target="StekUnosGlavni.Orientation" Value="Horizontal"/>
-						<Setter Target="StekUnos1.Width" Value="350"/>
-						<Setter Target="StekUnos2.Width" Value="350"/>
-					</VisualState.Setters>
-				</VisualState>
-				<VisualState x:Name="Desktop">
-					<VisualState.StateTriggers>
-						<AdaptiveTrigger MinWindowWidth="1000"/>
-					</VisualState.StateTriggers>
-					<VisualState.Setters>
-						<Setter Target="StekUnosGlavni.Orientation" Value="Horizontal"/>
-						<Setter Target="StekUnos1.Width" Value="500"/>
-						<Setter Target="StekUnos2.Width" Value="500"/>
-					</VisualState.Setters>
-				</VisualState>
-			</VisualStateGroup>
-		</VisualStateManager.VisualStateGroups>
-		<ScrollViewer VerticalScrollBarVisibility="Auto">
-			<StackPanel x:Name="StekGlavni" HorizontalAlignment="Left" Orientation="Vertical" VerticalAlignment="Top" ScrollViewer.HorizontalScrollBarVisibility="Disabled">
+                    </VisualState.Setters>
+                </VisualState>
+                <VisualState x:Name="Tablet">
+                    <VisualState.StateTriggers>
+                        <AdaptiveTrigger MinWindowWidth="700"/>
+                    </VisualState.StateTriggers>
+                    <VisualState.Setters>
+                        <Setter Target="StekUnosGlavni.Orientation" Value="Horizontal"/>
+                        <Setter Target="StekUnos1.Width" Value="350"/>
+                        <Setter Target="StekUnos2.Width" Value="350"/>
+                    </VisualState.Setters>
+                </VisualState>
+                <VisualState x:Name="Desktop">
+                    <VisualState.StateTriggers>
+                        <AdaptiveTrigger MinWindowWidth="1000"/>
+                    </VisualState.StateTriggers>
+                    <VisualState.Setters>
+                        <Setter Target="StekUnosGlavni.Orientation" Value="Horizontal"/>
+                        <Setter Target="StekUnos1.Width" Value="500"/>
+                        <Setter Target="StekUnos2.Width" Value="500"/>
+                    </VisualState.Setters>
+                </VisualState>
+            </VisualStateGroup>
+        </VisualStateManager.VisualStateGroups>
+        <ScrollViewer VerticalScrollBarVisibility="Auto">
+            <StackPanel x:Name="StekGlavni" HorizontalAlignment="Left" Orientation="Vertical" VerticalAlignment="Top" ScrollViewer.HorizontalScrollBarVisibility="Disabled">
 
-				<TextBlock Text="BeFit" TextWrapping="Wrap" HorizontalAlignment="Center" TextAlignment="Left" FontSize="65" FontFamily="MV Boli"/>
+                <TextBlock  Text="BeFit" TextWrapping="Wrap" HorizontalAlignment="Center" TextAlignment="Left" FontSize="65" FontFamily="MV Boli"/>
 
-				<StackPanel x:Name="StekRadio" HorizontalAlignment="Center" VerticalAlignment="Top" Orientation="Horizontal">
+                <StackPanel x:Name="StekRadio" HorizontalAlignment="Center" VerticalAlignment="Top" Orientation="Horizontal">
 
-					<RadioButton x:Name="klijent" Content="Klijent" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" IsChecked="True" Checked="klijent_Checked"/>
-					<RadioButton x:Name="trener" Content="Trener" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Checked="trener_Checked"/>
+                    <RadioButton  x:Name="klijent" Content="Klijent"  HorizontalAlignment="Stretch" VerticalAlignment="Stretch" IsChecked="True" Checked="klijent_Checked"/>
+                    <RadioButton x:Name="trener" IsChecked="{Binding Path=TipKorisnika, 
+         Mode = TwoWay, UpdateSourceTrigger = PropertyChanged}" Content="Trener" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Checked="trener_Checked"/>
 
-				</StackPanel>
+                </StackPanel>
 
-				<StackPanel x:Name="StekUnosGlavni" HorizontalAlignment="Center" VerticalAlignment="Top" Orientation="Horizontal">
+                <StackPanel x:Name="StekUnosGlavni" HorizontalAlignment="Center" VerticalAlignment="Top" Orientation="Horizontal">
 
-					<StackPanel x:Name="StekUnos1" VerticalAlignment="Top" HorizontalAlignment="Center" Orientation="Vertical">
+                    <StackPanel x:Name="StekUnos1" VerticalAlignment="Top" HorizontalAlignment="Center" Orientation="Vertical">
 
-						<TextBlock  Text="Ime" TextWrapping="Wrap" HorizontalAlignment="Left" TextAlignment="Left" Margin="10, 10, 10, 5"/>
-						<TextBox x:Name="textBox_Ime" Text="" Margin="10, 0, 10, 15"/>
-						<TextBlock  Text="Prezime" TextWrapping="Wrap" HorizontalAlignment="Left" TextAlignment="Left" Margin="10, 10, 10, 5"/>
-						<TextBox x:Name="textBox_Prezime" Text="" Margin="10, 0, 10, 15"/>
-						<TextBlock Text="Username" TextWrapping="Wrap" HorizontalAlignment="Left" TextAlignment="Left" Margin="10, 10, 10, 5"/>
-						<TextBox x:Name="textBox_Username" Text="" Margin="10, 0, 10, 15"/>
-						<TextBlock  Text="E-mail" TextWrapping="Wrap" HorizontalAlignment="Left" TextAlignment="Left" Margin="10, 10, 10, 5"/>
-						<TextBox x:Name="textBox_Email" Text="" Margin="10, 0, 10, 15"/>
-						<TextBlock x:Name="textBlockGrad" Text="Grad" TextWrapping="Wrap" HorizontalAlignment="Left" TextAlignment="Left" Margin="10, 10, 10, 5"/>
-						<TextBox x:Name="textBox_Grad" Text="" Margin="10, 0, 10, 15"/>
+                        <TextBlock  Text="Ime" TextWrapping="Wrap" HorizontalAlignment="Left" TextAlignment="Left" Margin="10, 10, 10, 5"/>
+                        <TextBox x:Name="textBox_Ime" Text="{Binding Path=Ime, 
+         Mode = TwoWay, UpdateSourceTrigger = PropertyChanged}" Margin="10, 0, 10, 15"/>
+                        <TextBlock  Text="Prezime" TextWrapping="Wrap" HorizontalAlignment="Left" TextAlignment="Left" Margin="10, 10, 10, 5"/>
+                        <TextBox x:Name="textBox_Prezime" Text="{Binding Path=Prezime, 
+         Mode = TwoWay, UpdateSourceTrigger = PropertyChanged}" Margin="10, 0, 10, 15"/>
+                        <TextBlock Text="Username" TextWrapping="Wrap" HorizontalAlignment="Left" TextAlignment="Left" Margin="10, 10, 10, 5"/>
+                        <TextBox x:Name="textBox_Username" Text="{Binding Path = Username, 
+         Mode = TwoWay, UpdateSourceTrigger = PropertyChanged}" Margin="10, 0, 10, 15"/>
+                        <TextBlock  Text="E-mail" TextWrapping="Wrap" HorizontalAlignment="Left" TextAlignment="Left" Margin="10, 10, 10, 5"/>
+                        <TextBox x:Name="textBox_Email" Text="{Binding Path=Email, 
+         Mode = TwoWay, UpdateSourceTrigger = PropertyChanged}" Margin="10, 0, 10, 15"/>
+                        <TextBlock x:Name="textBlockGrad" Text="Grad" TextWrapping="Wrap" HorizontalAlignment="Left" TextAlignment="Left" Margin="10, 10, 10, 5"/>
+                        <TextBox x:Name="textBox_Grad" Text="{Binding Path=Lokacija, 
+         Mode = TwoWay, UpdateSourceTrigger = PropertyChanged}" Margin="10, 0, 10, 15"/>
 
 
-					</StackPanel>
+                    </StackPanel>
 
-					<StackPanel x:Name="StekUnos2" VerticalAlignment="Top" HorizontalAlignment="Center" Orientation="Vertical">
+                    <StackPanel x:Name="StekUnos2" VerticalAlignment="Top" HorizontalAlignment="Center" Orientation="Vertical">
 
 
-						<TextBlock Text="Password" TextWrapping="Wrap" HorizontalAlignment="Left" TextAlignment="Left" Margin="10, 10, 10, 5"/>
-						<PasswordBox x:Name="textBox_Password" Margin="10, 0, 10, 15"/>
-						<TextBlock Text="Ponovite password" TextWrapping="Wrap" HorizontalAlignment="Left" TextAlignment="Left" Margin="10, 10, 10, 5"/>
-						<PasswordBox x:Name="textBox_PonovljeniPass" Margin="10, 0, 10, 15"/>
-						<TextBlock x:Name="textBlockOVama" Text="O vama" TextWrapping="Wrap" HorizontalAlignment="Left" TextAlignment="Left" Margin="10, 10, 10, 5"/>
-						<TextBox x:Name="textBox_OVama" Text="" Margin="10, 0, 10, 15" Height="114"/>
-						<TextBlock x:Name="textBlockKontaktInfo" Text="Kontakt info" TextWrapping="Wrap" HorizontalAlignment="Left" TextAlignment="Left" Margin="10, 10, 10, 5"/>
-						<TextBox x:Name="textBox_KontaktInfo" Text="" Margin="10, 0, 10, 15"/>
+                        <TextBlock Text="Password" TextWrapping="Wrap" HorizontalAlignment="Left" TextAlignment="Left" Margin="10, 10, 10, 5"/>
+                        <PasswordBox x:Name="textBox_Password" Password="{Binding Path=Password, 
+         Mode = TwoWay, UpdateSourceTrigger = PropertyChanged}" Margin="10, 0, 10, 15"/>
+                        <TextBlock Text="Ponovite password" TextWrapping="Wrap" HorizontalAlignment="Left" TextAlignment="Left" Margin="10, 10, 10, 5"/>
+                        <PasswordBox x:Name="textBox_PonovljeniPass" Password="{Binding Path=PonovljeniPass, 
+         Mode = TwoWay, UpdateSourceTrigger = PropertyChanged}" Margin="10, 0, 10, 15"/>
+                        <TextBlock x:Name="textBlockOVama" Text="O vama" TextWrapping="Wrap" HorizontalAlignment="Left" TextAlignment="Left" Margin="10, 10, 10, 5"/>
+                        <TextBox x:Name="textBox_OVama" Text="{Binding Path=Biografija, 
+         Mode = TwoWay, UpdateSourceTrigger = PropertyChanged}" Margin="10, 0, 10, 15" Height="114"/>
+                        <TextBlock x:Name="textBlockKontaktInfo" Text="Kontakt telefon" TextWrapping="Wrap" HorizontalAlignment="Left" TextAlignment="Left" Margin="10, 10, 10, 5"/>
+                        <TextBox x:Name="textBox_KontaktInfo" Text="{Binding Path=KontaktTelefon, 
+         Mode = TwoWay, UpdateSourceTrigger = PropertyChanged}" Margin="10, 0, 10, 15"/>
 
-					</StackPanel>
+                    </StackPanel>
 
-				</StackPanel>
+                </StackPanel>
 
-				<Button Content="Sign up" HorizontalAlignment="Center" VerticalAlignment="Bottom" Click="Button_Click"/>
+                <Button Content="Sign up" HorizontalAlignment="Center" VerticalAlignment="Bottom" Command="{Binding Path=SpremiKorisnika}"/>
 
-			</StackPanel>
-		</ScrollViewer>
-	</Grid>
+            </StackPanel>
+        </ScrollViewer>
+    </Grid>
 </Page>

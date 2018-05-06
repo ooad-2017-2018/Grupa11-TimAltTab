@@ -97,6 +97,10 @@
     <Compile Include="Model\Admin.cs" />
     <Compile Include="UcitavanjeVjezbi.cs" />
     <Compile Include="ViewModel\KONTEJNERSKA.cs" />
+    <Compile Include="ViewModel\KorisnikViewModel.cs" />
+    <Compile Include="ViewModel\PromjenaKlijentaViewModel.cs" />
+    <Compile Include="ViewModel\RelayCommand.cs" />
+    <Compile Include="ViewModel\SimpleCommandManager.cs" />
     <Compile Include="View\OpcijeProfilaTreneraPage.xaml.cs">
       <DependentUpon>OpcijeProfilaTreneraPage.xaml</DependentUpon>
     </Compile>
