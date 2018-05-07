@@ -67,8 +67,8 @@ namespace BeFit
         public static Klijent dajTestnog()
         {
             var testni = new Klijent();
-            testni.Ime = "fako";
-            testni.Prezime = "fakoni";
+            testni.Ime = "Fako";
+            testni.Prezime = "Fakoni";
             testni.Email = "fako@gg.com";
             testni.Id = "gg";
             testni.Username = "fash";

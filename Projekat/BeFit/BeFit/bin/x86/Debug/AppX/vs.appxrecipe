@@ -1,13 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-<<<<<<< HEAD
-    <Machine>DESKTOP-LP5BS8F</Machine>
-    <WindowsUser>fatih</WindowsUser>
-=======
     <Machine>DESKTOP-TVKQN0N</Machine>
     <WindowsUser>Haris Soljic</WindowsUser>
->>>>>>> 17e1c67b16abc21272b52da9a5412cf03565f957
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetOsVersion>10.0</TargetOsVersion>
     <TargetOsDescription>Windows 10.0</TargetOsDescription>
@@ -15,11 +10,7 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>23a6b333-2b9e-4f25-ba2e-26b9c02abe8b</PackageIdentityName>
     <PackageIdentityPublisher>CN=emins</PackageIdentityPublisher>
-<<<<<<< HEAD
-    <IntermediateOutputPath>C:\Users\fatih\Desktop\faks\github\Grupa11-TimAltTab\Projekat\BeFit\BeFit\obj\x86\Debug\</IntermediateOutputPath>
-=======
     <IntermediateOutputPath>C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\obj\x86\Debug\</IntermediateOutputPath>
->>>>>>> 17e1c67b16abc21272b52da9a5412cf03565f957
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -27,13 +18,8 @@
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-<<<<<<< HEAD
-    <LayoutDir>C:\Users\fatih\Desktop\faks\github\Grupa11-TimAltTab\Projekat\BeFit\BeFit\bin\x86\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>59D6BFE71D8947882A865D306DED4DC3BAB1F7BCB44635239A67DF1CC107B27E</RegisteredManifestChecksum>
-=======
     <LayoutDir>C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\bin\x86\Debug\AppX</LayoutDir>
     <RegisteredManifestChecksum>66D45D397731AD3EC5B8A1421589D18BDE3B836ECCB760CD99B2D154F8ABF493</RegisteredManifestChecksum>
->>>>>>> 17e1c67b16abc21272b52da9a5412cf03565f957
     <RegisteredPackageMoniker>23a6b333-2b9e-4f25-ba2e-26b9c02abe8b_1.0.0.0_x86__xw52enc4j1w4r</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>23a6b333-2b9e-4f25-ba2e-26b9c02abe8b_xw52enc4j1w4r!App</RegisteredUserModeAppID>
     <RegisteredPackageID>23a6b333-2b9e-4f25-ba2e-26b9c02abe8b</RegisteredPackageID>
@@ -42,387 +28,185 @@
     <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
   </PropertyGroup>
   <ItemGroup>
-<<<<<<< HEAD
-    <AppXManifest Include="C:\Users\fatih\Desktop\faks\github\Grupa11-TimAltTab\Projekat\BeFit\BeFit\bin\x86\Debug\Core\AppxManifest.xml">
-      <PackagePath>AppxManifest.xml</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-05-06T19:52:27.540</Modified>
-    </AppXManifest>
-  </ItemGroup>
-  <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\fatih\Desktop\faks\github\Grupa11-TimAltTab\Projekat\BeFit\BeFit\bin\x86\Debug\BeFit.exe">
-      <PackagePath>entrypoint\BeFit.exe</PackagePath>
-      <Modified>2018-05-06T19:52:25.759</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fatih\.nuget\packages\microsoft.azure.mobile.client\4.0.2\lib\uap10.0\Microsoft.Azure.Mobile.Client.dll">
-      <PackagePath>Microsoft.Azure.Mobile.Client.dll</PackagePath>
-      <Modified>2017-10-11T15:23:28.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\microsoft.csharp\4.0.1\lib\netcore50\Microsoft.CSharp.dll">
-=======
     <AppXManifest Include="C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-<<<<<<< HEAD
-      <Modified>2018-05-06T14:40:55.063</Modified>
-=======
-      <Modified>2018-05-06T16:06:51.439</Modified>
->>>>>>> cd945291e3c59f2beb8a3e8f6709ef9c99b24efd
+      <Modified>2018-05-07T10:59:02.570</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\bin\x86\Debug\BeFit.exe">
       <PackagePath>entrypoint\BeFit.exe</PackagePath>
-<<<<<<< HEAD
-      <Modified>2018-05-06T14:40:54.181</Modified>
-=======
-      <Modified>2018-05-06T16:06:49.577</Modified>
->>>>>>> cd945291e3c59f2beb8a3e8f6709ef9c99b24efd
+      <Modified>2018-05-07T10:59:02.060</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Haris Soljic\.nuget\packages\microsoft.azure.mobile.client\4.0.2\lib\uap10.0\Microsoft.Azure.Mobile.Client.dll">
       <PackagePath>Microsoft.Azure.Mobile.Client.dll</PackagePath>
       <Modified>2017-10-11T15:23:28.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Haris Soljic\.nuget\packages\microsoft.csharp\4.0.1\lib\netcore50\Microsoft.CSharp.dll">
->>>>>>> 17e1c67b16abc21272b52da9a5412cf03565f957
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
-      <Modified>2016-06-11T20:13:10.000</Modified>
+      <Modified>2016-06-11T21:13:10.000</Modified>
     </AppxPackagedFile>
-<<<<<<< HEAD
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\microsoft.netcore.portable.compatibility\1.0.2\lib\netcore50\System.ComponentModel.DataAnnotations.dll">
-=======
     <AppxPackagedFile Include="C:\Users\Haris Soljic\.nuget\packages\microsoft.netcore.portable.compatibility\1.0.2\lib\netcore50\System.ComponentModel.DataAnnotations.dll">
->>>>>>> 17e1c67b16abc21272b52da9a5412cf03565f957
       <PackagePath>System.ComponentModel.DataAnnotations.dll</PackagePath>
-      <Modified>2016-07-01T15:10:48.000</Modified>
+      <Modified>2016-07-01T16:10:48.000</Modified>
     </AppxPackagedFile>
-<<<<<<< HEAD
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\microsoft.netcore.portable.compatibility\1.0.2\lib\netcore50\System.Core.dll">
-=======
     <AppxPackagedFile Include="C:\Users\Haris Soljic\.nuget\packages\microsoft.netcore.portable.compatibility\1.0.2\lib\netcore50\System.Core.dll">
->>>>>>> 17e1c67b16abc21272b52da9a5412cf03565f957
       <PackagePath>System.Core.dll</PackagePath>
-      <Modified>2016-07-01T15:10:48.000</Modified>
+      <Modified>2016-07-01T16:10:48.000</Modified>
     </AppxPackagedFile>
-<<<<<<< HEAD
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\microsoft.netcore.portable.compatibility\1.0.2\lib\netcore50\System.Net.dll">
-=======
     <AppxPackagedFile Include="C:\Users\Haris Soljic\.nuget\packages\microsoft.netcore.portable.compatibility\1.0.2\lib\netcore50\System.Net.dll">
->>>>>>> 17e1c67b16abc21272b52da9a5412cf03565f957
       <PackagePath>System.Net.dll</PackagePath>
-      <Modified>2016-07-01T15:10:48.000</Modified>
+      <Modified>2016-07-01T16:10:48.000</Modified>
     </AppxPackagedFile>
-<<<<<<< HEAD
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\microsoft.netcore.portable.compatibility\1.0.2\lib\netcore50\System.Numerics.dll">
-=======
     <AppxPackagedFile Include="C:\Users\Haris Soljic\.nuget\packages\microsoft.netcore.portable.compatibility\1.0.2\lib\netcore50\System.Numerics.dll">
->>>>>>> 17e1c67b16abc21272b52da9a5412cf03565f957
       <PackagePath>System.Numerics.dll</PackagePath>
-      <Modified>2016-07-01T15:10:48.000</Modified>
+      <Modified>2016-07-01T16:10:48.000</Modified>
     </AppxPackagedFile>
-<<<<<<< HEAD
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\microsoft.netcore.portable.compatibility\1.0.2\lib\netcore50\System.Runtime.Serialization.dll">
-=======
     <AppxPackagedFile Include="C:\Users\Haris Soljic\.nuget\packages\microsoft.netcore.portable.compatibility\1.0.2\lib\netcore50\System.Runtime.Serialization.dll">
->>>>>>> 17e1c67b16abc21272b52da9a5412cf03565f957
       <PackagePath>System.Runtime.Serialization.dll</PackagePath>
-      <Modified>2016-07-01T15:10:48.000</Modified>
+      <Modified>2016-07-01T16:10:48.000</Modified>
     </AppxPackagedFile>
-<<<<<<< HEAD
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\microsoft.netcore.portable.compatibility\1.0.2\lib\netcore50\System.ServiceModel.Web.dll">
-=======
     <AppxPackagedFile Include="C:\Users\Haris Soljic\.nuget\packages\microsoft.netcore.portable.compatibility\1.0.2\lib\netcore50\System.ServiceModel.Web.dll">
->>>>>>> 17e1c67b16abc21272b52da9a5412cf03565f957
       <PackagePath>System.ServiceModel.Web.dll</PackagePath>
-      <Modified>2016-07-01T15:10:48.000</Modified>
+      <Modified>2016-07-01T16:10:48.000</Modified>
     </AppxPackagedFile>
-<<<<<<< HEAD
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\microsoft.netcore.portable.compatibility\1.0.2\lib\netcore50\System.ServiceModel.dll">
-=======
     <AppxPackagedFile Include="C:\Users\Haris Soljic\.nuget\packages\microsoft.netcore.portable.compatibility\1.0.2\lib\netcore50\System.ServiceModel.dll">
->>>>>>> 17e1c67b16abc21272b52da9a5412cf03565f957
       <PackagePath>System.ServiceModel.dll</PackagePath>
-      <Modified>2016-07-01T15:10:48.000</Modified>
+      <Modified>2016-07-01T16:10:48.000</Modified>
     </AppxPackagedFile>
-<<<<<<< HEAD
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\microsoft.netcore.portable.compatibility\1.0.2\lib\netcore50\System.Windows.dll">
-=======
     <AppxPackagedFile Include="C:\Users\Haris Soljic\.nuget\packages\microsoft.netcore.portable.compatibility\1.0.2\lib\netcore50\System.Windows.dll">
->>>>>>> 17e1c67b16abc21272b52da9a5412cf03565f957
       <PackagePath>System.Windows.dll</PackagePath>
-      <Modified>2016-07-01T15:10:48.000</Modified>
+      <Modified>2016-07-01T16:10:48.000</Modified>
     </AppxPackagedFile>
-<<<<<<< HEAD
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\microsoft.netcore.portable.compatibility\1.0.2\lib\netcore50\System.Xml.Linq.dll">
-=======
     <AppxPackagedFile Include="C:\Users\Haris Soljic\.nuget\packages\microsoft.netcore.portable.compatibility\1.0.2\lib\netcore50\System.Xml.Linq.dll">
->>>>>>> 17e1c67b16abc21272b52da9a5412cf03565f957
       <PackagePath>System.Xml.Linq.dll</PackagePath>
-      <Modified>2016-07-01T15:10:48.000</Modified>
+      <Modified>2016-07-01T16:10:48.000</Modified>
     </AppxPackagedFile>
-<<<<<<< HEAD
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\microsoft.netcore.portable.compatibility\1.0.2\lib\netcore50\System.Xml.Serialization.dll">
-=======
     <AppxPackagedFile Include="C:\Users\Haris Soljic\.nuget\packages\microsoft.netcore.portable.compatibility\1.0.2\lib\netcore50\System.Xml.Serialization.dll">
->>>>>>> 17e1c67b16abc21272b52da9a5412cf03565f957
       <PackagePath>System.Xml.Serialization.dll</PackagePath>
-      <Modified>2016-07-01T15:10:48.000</Modified>
+      <Modified>2016-07-01T16:10:48.000</Modified>
     </AppxPackagedFile>
-<<<<<<< HEAD
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\microsoft.netcore.portable.compatibility\1.0.2\lib\netcore50\System.Xml.dll">
-=======
     <AppxPackagedFile Include="C:\Users\Haris Soljic\.nuget\packages\microsoft.netcore.portable.compatibility\1.0.2\lib\netcore50\System.Xml.dll">
->>>>>>> 17e1c67b16abc21272b52da9a5412cf03565f957
       <PackagePath>System.Xml.dll</PackagePath>
-      <Modified>2016-07-01T15:10:48.000</Modified>
+      <Modified>2016-07-01T16:10:48.000</Modified>
     </AppxPackagedFile>
-<<<<<<< HEAD
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\microsoft.netcore.portable.compatibility\1.0.2\lib\netcore50\System.dll">
-=======
     <AppxPackagedFile Include="C:\Users\Haris Soljic\.nuget\packages\microsoft.netcore.portable.compatibility\1.0.2\lib\netcore50\System.dll">
->>>>>>> 17e1c67b16abc21272b52da9a5412cf03565f957
       <PackagePath>System.dll</PackagePath>
-      <Modified>2016-07-01T15:10:48.000</Modified>
+      <Modified>2016-07-01T16:10:48.000</Modified>
     </AppxPackagedFile>
-<<<<<<< HEAD
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\microsoft.visualbasic\10.0.1\lib\netcore50\Microsoft.VisualBasic.dll">
-=======
     <AppxPackagedFile Include="C:\Users\Haris Soljic\.nuget\packages\microsoft.visualbasic\10.0.1\lib\netcore50\Microsoft.VisualBasic.dll">
->>>>>>> 17e1c67b16abc21272b52da9a5412cf03565f957
       <PackagePath>Microsoft.VisualBasic.dll</PackagePath>
-      <Modified>2016-06-11T20:13:10.000</Modified>
+      <Modified>2016-06-11T21:13:10.000</Modified>
     </AppxPackagedFile>
-<<<<<<< HEAD
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\newtonsoft.json\9.0.1\lib\portable-net45+wp80+win8+wpa81\Newtonsoft.Json.dll">
-=======
     <AppxPackagedFile Include="C:\Users\Haris Soljic\.nuget\packages\newtonsoft.json\9.0.1\lib\portable-net45+wp80+win8+wpa81\Newtonsoft.Json.dll">
->>>>>>> 17e1c67b16abc21272b52da9a5412cf03565f957
       <PackagePath>Newtonsoft.Json.dll</PackagePath>
-      <Modified>2016-06-13T20:06:14.000</Modified>
+      <Modified>2016-06-13T21:06:14.000</Modified>
     </AppxPackagedFile>
-<<<<<<< HEAD
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\runtime.any.system.collections\4.0.11\lib\netcore50\System.Collections.dll">
-=======
     <AppxPackagedFile Include="C:\Users\Haris Soljic\.nuget\packages\runtime.any.system.collections\4.0.11\lib\netcore50\System.Collections.dll">
->>>>>>> 17e1c67b16abc21272b52da9a5412cf03565f957
       <PackagePath>System.Collections.dll</PackagePath>
-      <Modified>2016-06-11T20:13:24.000</Modified>
+      <Modified>2016-06-11T21:13:24.000</Modified>
     </AppxPackagedFile>
-<<<<<<< HEAD
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\runtime.any.system.diagnostics.tools\4.0.1\lib\netcore50\System.Diagnostics.Tools.dll">
-=======
     <AppxPackagedFile Include="C:\Users\Haris Soljic\.nuget\packages\runtime.any.system.diagnostics.tools\4.0.1\lib\netcore50\System.Diagnostics.Tools.dll">
->>>>>>> 17e1c67b16abc21272b52da9a5412cf03565f957
       <PackagePath>System.Diagnostics.Tools.dll</PackagePath>
-      <Modified>2016-06-11T20:13:32.000</Modified>
+      <Modified>2016-06-11T21:13:32.000</Modified>
     </AppxPackagedFile>
-<<<<<<< HEAD
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\runtime.any.system.diagnostics.tracing\4.1.0\lib\netcore50\System.Diagnostics.Tracing.dll">
-=======
     <AppxPackagedFile Include="C:\Users\Haris Soljic\.nuget\packages\runtime.any.system.diagnostics.tracing\4.1.0\lib\netcore50\System.Diagnostics.Tracing.dll">
->>>>>>> 17e1c67b16abc21272b52da9a5412cf03565f957
       <PackagePath>System.Diagnostics.Tracing.dll</PackagePath>
-      <Modified>2016-06-11T20:13:38.000</Modified>
+      <Modified>2016-06-11T21:13:38.000</Modified>
     </AppxPackagedFile>
-<<<<<<< HEAD
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\runtime.any.system.globalization\4.0.11\lib\netcore50\System.Globalization.dll">
-=======
     <AppxPackagedFile Include="C:\Users\Haris Soljic\.nuget\packages\runtime.any.system.globalization\4.0.11\lib\netcore50\System.Globalization.dll">
->>>>>>> 17e1c67b16abc21272b52da9a5412cf03565f957
       <PackagePath>System.Globalization.dll</PackagePath>
-      <Modified>2016-06-11T20:13:38.000</Modified>
+      <Modified>2016-06-11T21:13:38.000</Modified>
     </AppxPackagedFile>
-<<<<<<< HEAD
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\runtime.any.system.globalization.calendars\4.0.1\lib\netcore50\System.Globalization.Calendars.dll">
-=======
     <AppxPackagedFile Include="C:\Users\Haris Soljic\.nuget\packages\runtime.any.system.globalization.calendars\4.0.1\lib\netcore50\System.Globalization.Calendars.dll">
->>>>>>> 17e1c67b16abc21272b52da9a5412cf03565f957
       <PackagePath>System.Globalization.Calendars.dll</PackagePath>
-      <Modified>2016-06-11T20:13:38.000</Modified>
+      <Modified>2016-06-11T21:13:38.000</Modified>
     </AppxPackagedFile>
-<<<<<<< HEAD
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\runtime.any.system.io\4.1.0\lib\netcore50\System.IO.dll">
-=======
     <AppxPackagedFile Include="C:\Users\Haris Soljic\.nuget\packages\runtime.any.system.io\4.1.0\lib\netcore50\System.IO.dll">
->>>>>>> 17e1c67b16abc21272b52da9a5412cf03565f957
       <PackagePath>System.IO.dll</PackagePath>
-      <Modified>2016-06-11T20:13:50.000</Modified>
+      <Modified>2016-06-11T21:13:50.000</Modified>
     </AppxPackagedFile>
-<<<<<<< HEAD
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\runtime.any.system.reflection\4.1.0\lib\netcore50\System.Reflection.dll">
-=======
     <AppxPackagedFile Include="C:\Users\Haris Soljic\.nuget\packages\runtime.any.system.reflection\4.1.0\lib\netcore50\System.Reflection.dll">
->>>>>>> 17e1c67b16abc21272b52da9a5412cf03565f957
       <PackagePath>System.Reflection.dll</PackagePath>
-      <Modified>2016-06-11T20:14:16.000</Modified>
+      <Modified>2016-06-11T21:14:16.000</Modified>
     </AppxPackagedFile>
-<<<<<<< HEAD
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\runtime.any.system.reflection.extensions\4.0.1\lib\netcore50\System.Reflection.Extensions.dll">
-=======
     <AppxPackagedFile Include="C:\Users\Haris Soljic\.nuget\packages\runtime.any.system.reflection.extensions\4.0.1\lib\netcore50\System.Reflection.Extensions.dll">
->>>>>>> 17e1c67b16abc21272b52da9a5412cf03565f957
       <PackagePath>System.Reflection.Extensions.dll</PackagePath>
-      <Modified>2016-06-11T20:14:14.000</Modified>
+      <Modified>2016-06-11T21:14:14.000</Modified>
     </AppxPackagedFile>
-<<<<<<< HEAD
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\runtime.any.system.reflection.primitives\4.0.1\lib\netcore50\System.Reflection.Primitives.dll">
-=======
     <AppxPackagedFile Include="C:\Users\Haris Soljic\.nuget\packages\runtime.any.system.reflection.primitives\4.0.1\lib\netcore50\System.Reflection.Primitives.dll">
->>>>>>> 17e1c67b16abc21272b52da9a5412cf03565f957
       <PackagePath>System.Reflection.Primitives.dll</PackagePath>
-      <Modified>2016-06-11T20:14:18.000</Modified>
+      <Modified>2016-06-11T21:14:18.000</Modified>
     </AppxPackagedFile>
-<<<<<<< HEAD
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\runtime.any.system.resources.resourcemanager\4.0.1\lib\netcore50\System.Resources.ResourceManager.dll">
-=======
     <AppxPackagedFile Include="C:\Users\Haris Soljic\.nuget\packages\runtime.any.system.resources.resourcemanager\4.0.1\lib\netcore50\System.Resources.ResourceManager.dll">
->>>>>>> 17e1c67b16abc21272b52da9a5412cf03565f957
       <PackagePath>System.Resources.ResourceManager.dll</PackagePath>
-      <Modified>2016-06-11T20:14:20.000</Modified>
+      <Modified>2016-06-11T21:14:20.000</Modified>
     </AppxPackagedFile>
-<<<<<<< HEAD
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\runtime.any.system.runtime\4.1.0\lib\netcore50\System.Runtime.dll">
-=======
     <AppxPackagedFile Include="C:\Users\Haris Soljic\.nuget\packages\runtime.any.system.runtime\4.1.0\lib\netcore50\System.Runtime.dll">
->>>>>>> 17e1c67b16abc21272b52da9a5412cf03565f957
       <PackagePath>System.Runtime.dll</PackagePath>
-      <Modified>2016-06-11T20:14:32.000</Modified>
+      <Modified>2016-06-11T21:14:32.000</Modified>
     </AppxPackagedFile>
-<<<<<<< HEAD
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\runtime.any.system.runtime.handles\4.0.1\lib\netstandard1.3\System.Runtime.Handles.dll">
-=======
     <AppxPackagedFile Include="C:\Users\Haris Soljic\.nuget\packages\runtime.any.system.runtime.handles\4.0.1\lib\netstandard1.3\System.Runtime.Handles.dll">
->>>>>>> 17e1c67b16abc21272b52da9a5412cf03565f957
       <PackagePath>System.Runtime.Handles.dll</PackagePath>
-      <Modified>2016-06-11T20:14:24.000</Modified>
+      <Modified>2016-06-11T21:14:24.000</Modified>
     </AppxPackagedFile>
-<<<<<<< HEAD
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\runtime.any.system.runtime.interopservices\4.1.0\lib\netcore50\System.Runtime.InteropServices.dll">
-=======
     <AppxPackagedFile Include="C:\Users\Haris Soljic\.nuget\packages\runtime.any.system.runtime.interopservices\4.1.0\lib\netcore50\System.Runtime.InteropServices.dll">
->>>>>>> 17e1c67b16abc21272b52da9a5412cf03565f957
       <PackagePath>System.Runtime.InteropServices.dll</PackagePath>
-      <Modified>2016-06-11T20:14:22.000</Modified>
+      <Modified>2016-06-11T21:14:22.000</Modified>
     </AppxPackagedFile>
-<<<<<<< HEAD
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\runtime.any.system.text.encoding\4.0.11\lib\netcore50\System.Text.Encoding.dll">
-=======
     <AppxPackagedFile Include="C:\Users\Haris Soljic\.nuget\packages\runtime.any.system.text.encoding\4.0.11\lib\netcore50\System.Text.Encoding.dll">
->>>>>>> 17e1c67b16abc21272b52da9a5412cf03565f957
       <PackagePath>System.Text.Encoding.dll</PackagePath>
-      <Modified>2016-06-11T20:14:48.000</Modified>
+      <Modified>2016-06-11T21:14:48.000</Modified>
     </AppxPackagedFile>
-<<<<<<< HEAD
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\runtime.any.system.text.encoding.extensions\4.0.11\lib\netcore50\System.Text.Encoding.Extensions.dll">
-=======
     <AppxPackagedFile Include="C:\Users\Haris Soljic\.nuget\packages\runtime.any.system.text.encoding.extensions\4.0.11\lib\netcore50\System.Text.Encoding.Extensions.dll">
->>>>>>> 17e1c67b16abc21272b52da9a5412cf03565f957
       <PackagePath>System.Text.Encoding.Extensions.dll</PackagePath>
-      <Modified>2016-06-11T20:14:50.000</Modified>
+      <Modified>2016-06-11T21:14:50.000</Modified>
     </AppxPackagedFile>
-<<<<<<< HEAD
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\runtime.any.system.threading.tasks\4.0.11\lib\netcore50\System.Threading.Tasks.dll">
-=======
     <AppxPackagedFile Include="C:\Users\Haris Soljic\.nuget\packages\runtime.any.system.threading.tasks\4.0.11\lib\netcore50\System.Threading.Tasks.dll">
->>>>>>> 17e1c67b16abc21272b52da9a5412cf03565f957
       <PackagePath>System.Threading.Tasks.dll</PackagePath>
-      <Modified>2016-06-11T20:14:54.000</Modified>
+      <Modified>2016-06-11T21:14:54.000</Modified>
     </AppxPackagedFile>
-<<<<<<< HEAD
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\runtime.any.system.threading.timer\4.0.1\lib\netcore50\System.Threading.Timer.dll">
-=======
     <AppxPackagedFile Include="C:\Users\Haris Soljic\.nuget\packages\runtime.any.system.threading.timer\4.0.1\lib\netcore50\System.Threading.Timer.dll">
->>>>>>> 17e1c67b16abc21272b52da9a5412cf03565f957
       <PackagePath>System.Threading.Timer.dll</PackagePath>
-      <Modified>2016-06-11T20:14:58.000</Modified>
+      <Modified>2016-06-11T21:14:58.000</Modified>
     </AppxPackagedFile>
-<<<<<<< HEAD
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\runtime.win.microsoft.win32.primitives\4.0.1\runtimes\win\lib\netstandard1.3\Microsoft.Win32.Primitives.dll">
-=======
     <AppxPackagedFile Include="C:\Users\Haris Soljic\.nuget\packages\runtime.win.microsoft.win32.primitives\4.0.1\runtimes\win\lib\netstandard1.3\Microsoft.Win32.Primitives.dll">
->>>>>>> 17e1c67b16abc21272b52da9a5412cf03565f957
       <PackagePath>Microsoft.Win32.Primitives.dll</PackagePath>
-      <Modified>2016-06-11T20:13:14.000</Modified>
-    </AppxPackagedFile>
-<<<<<<< HEAD
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\runtime.win.system.diagnostics.debug\4.0.11\runtimes\win\lib\netcore50\System.Diagnostics.Debug.dll">
-=======
-    <AppxPackagedFile Include="C:\Users\Haris Soljic\.nuget\packages\runtime.win.system.diagnostics.debug\4.0.11\runtimes\win\lib\netcore50\System.Diagnostics.Debug.dll">
->>>>>>> 17e1c67b16abc21272b52da9a5412cf03565f957
-      <PackagePath>System.Diagnostics.Debug.dll</PackagePath>
-      <Modified>2016-06-11T20:13:26.000</Modified>
-    </AppxPackagedFile>
-<<<<<<< HEAD
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\runtime.win.system.io.filesystem\4.0.1\runtimes\win\lib\netcore50\System.IO.FileSystem.dll">
-=======
-    <AppxPackagedFile Include="C:\Users\Haris Soljic\.nuget\packages\runtime.win.system.io.filesystem\4.0.1\runtimes\win\lib\netcore50\System.IO.FileSystem.dll">
->>>>>>> 17e1c67b16abc21272b52da9a5412cf03565f957
-      <PackagePath>System.IO.FileSystem.dll</PackagePath>
-      <Modified>2016-06-11T20:13:44.000</Modified>
-    </AppxPackagedFile>
-<<<<<<< HEAD
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\runtime.win.system.net.primitives\4.0.11\runtimes\win\lib\netcore50\System.Net.Primitives.dll">
-=======
-    <AppxPackagedFile Include="C:\Users\Haris Soljic\.nuget\packages\runtime.win.system.net.primitives\4.0.11\runtimes\win\lib\netcore50\System.Net.Primitives.dll">
->>>>>>> 17e1c67b16abc21272b52da9a5412cf03565f957
-      <PackagePath>System.Net.Primitives.dll</PackagePath>
-      <Modified>2016-06-11T20:14:00.000</Modified>
-    </AppxPackagedFile>
-<<<<<<< HEAD
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\runtime.win.system.net.sockets\4.1.0\runtimes\win\lib\netcore50\System.Net.Sockets.dll">
-=======
-    <AppxPackagedFile Include="C:\Users\Haris Soljic\.nuget\packages\runtime.win.system.net.sockets\4.1.0\runtimes\win\lib\netcore50\System.Net.Sockets.dll">
->>>>>>> 17e1c67b16abc21272b52da9a5412cf03565f957
-      <PackagePath>System.Net.Sockets.dll</PackagePath>
-      <Modified>2016-06-11T20:14:04.000</Modified>
-    </AppxPackagedFile>
-<<<<<<< HEAD
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\runtime.win.system.runtime.extensions\4.1.0\runtimes\win\lib\netcore50\System.Runtime.Extensions.dll">
-=======
-    <AppxPackagedFile Include="C:\Users\Haris Soljic\.nuget\packages\runtime.win.system.runtime.extensions\4.1.0\runtimes\win\lib\netcore50\System.Runtime.Extensions.dll">
->>>>>>> 17e1c67b16abc21272b52da9a5412cf03565f957
-      <PackagePath>System.Runtime.Extensions.dll</PackagePath>
-      <Modified>2016-06-11T20:14:20.000</Modified>
-    </AppxPackagedFile>
-<<<<<<< HEAD
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\runtime.win7-x86.microsoft.netcore.jit\1.0.3\runtimes\win7-x86\native\clrjit.dll">
-=======
-    <AppxPackagedFile Include="C:\Users\Haris Soljic\.nuget\packages\runtime.win7-x86.microsoft.netcore.jit\1.0.3\runtimes\win7-x86\native\clrjit.dll">
->>>>>>> 17e1c67b16abc21272b52da9a5412cf03565f957
-      <PackagePath>clrjit.dll</PackagePath>
-      <Modified>2016-06-13T15:27:02.000</Modified>
-    </AppxPackagedFile>
-<<<<<<< HEAD
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\runtime.win7-x86.runtime.native.system.io.compression\4.0.1\runtimes\win7-x86\native\clrcompression.dll">
-=======
-    <AppxPackagedFile Include="C:\Users\Haris Soljic\.nuget\packages\runtime.win7-x86.runtime.native.system.io.compression\4.0.1\runtimes\win7-x86\native\clrcompression.dll">
->>>>>>> 17e1c67b16abc21272b52da9a5412cf03565f957
-      <PackagePath>clrcompression.dll</PackagePath>
-      <Modified>2016-06-13T18:51:30.000</Modified>
-    </AppxPackagedFile>
-<<<<<<< HEAD
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\runtime.win7.system.private.uri\4.0.2\runtimes\win\lib\netcore50\System.Private.Uri.dll">
-=======
-    <AppxPackagedFile Include="C:\Users\Haris Soljic\.nuget\packages\runtime.win7.system.private.uri\4.0.2\runtimes\win\lib\netcore50\System.Private.Uri.dll">
->>>>>>> 17e1c67b16abc21272b52da9a5412cf03565f957
-      <PackagePath>System.Private.Uri.dll</PackagePath>
-      <Modified>2016-07-01T12:48:12.000</Modified>
-    </AppxPackagedFile>
-<<<<<<< HEAD
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\system.appcontext\4.1.0\lib\netcore50\System.AppContext.dll">
-      <PackagePath>System.AppContext.dll</PackagePath>
-      <Modified>2016-06-11T21:13:20.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\system.buffers\4.0.0\lib\netstandard1.1\System.Buffers.dll">
-      <PackagePath>System.Buffers.dll</PackagePath>
       <Modified>2016-06-11T21:13:14.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\system.collections.concurrent\4.0.12\lib\netcore50\System.Collections.Concurrent.dll">
-      <PackagePath>System.Collections.Concurrent.dll</PackagePath>
-      <Modified>2016-06-11T21:13:16.000</Modified>
+    <AppxPackagedFile Include="C:\Users\Haris Soljic\.nuget\packages\runtime.win.system.diagnostics.debug\4.0.11\runtimes\win\lib\netcore50\System.Diagnostics.Debug.dll">
+      <PackagePath>System.Diagnostics.Debug.dll</PackagePath>
+      <Modified>2016-06-11T21:13:26.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\system.collections.immutable\1.2.0\lib\portable-net45+win8+wp8+wpa81\System.Collections.Immutable.dll">
-=======
+    <AppxPackagedFile Include="C:\Users\Haris Soljic\.nuget\packages\runtime.win.system.io.filesystem\4.0.1\runtimes\win\lib\netcore50\System.IO.FileSystem.dll">
+      <PackagePath>System.IO.FileSystem.dll</PackagePath>
+      <Modified>2016-06-11T21:13:44.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Haris Soljic\.nuget\packages\runtime.win.system.net.primitives\4.0.11\runtimes\win\lib\netcore50\System.Net.Primitives.dll">
+      <PackagePath>System.Net.Primitives.dll</PackagePath>
+      <Modified>2016-06-11T21:14:00.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Haris Soljic\.nuget\packages\runtime.win.system.net.sockets\4.1.0\runtimes\win\lib\netcore50\System.Net.Sockets.dll">
+      <PackagePath>System.Net.Sockets.dll</PackagePath>
+      <Modified>2016-06-11T21:14:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Haris Soljic\.nuget\packages\runtime.win.system.runtime.extensions\4.1.0\runtimes\win\lib\netcore50\System.Runtime.Extensions.dll">
+      <PackagePath>System.Runtime.Extensions.dll</PackagePath>
+      <Modified>2016-06-11T21:14:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Haris Soljic\.nuget\packages\runtime.win7-x86.microsoft.netcore.jit\1.0.3\runtimes\win7-x86\native\clrjit.dll">
+      <PackagePath>clrjit.dll</PackagePath>
+      <Modified>2016-06-13T16:27:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Haris Soljic\.nuget\packages\runtime.win7-x86.runtime.native.system.io.compression\4.0.1\runtimes\win7-x86\native\clrcompression.dll">
+      <PackagePath>clrcompression.dll</PackagePath>
+      <Modified>2016-06-13T19:51:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Haris Soljic\.nuget\packages\runtime.win7.system.private.uri\4.0.2\runtimes\win\lib\netcore50\System.Private.Uri.dll">
+      <PackagePath>System.Private.Uri.dll</PackagePath>
+      <Modified>2016-07-01T13:48:12.000</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Haris Soljic\.nuget\packages\system.appcontext\4.1.0\lib\netcore50\System.AppContext.dll">
       <PackagePath>System.AppContext.dll</PackagePath>
       <Modified>2016-06-11T21:13:20.000</Modified>
@@ -436,117 +220,57 @@
       <Modified>2016-06-11T21:13:16.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Haris Soljic\.nuget\packages\system.collections.immutable\1.2.0\lib\portable-net45+win8+wp8+wpa81\System.Collections.Immutable.dll">
->>>>>>> 17e1c67b16abc21272b52da9a5412cf03565f957
       <PackagePath>System.Collections.Immutable.dll</PackagePath>
-      <Modified>2016-06-11T20:13:16.000</Modified>
+      <Modified>2016-06-11T21:13:16.000</Modified>
     </AppxPackagedFile>
-<<<<<<< HEAD
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\system.collections.nongeneric\4.0.1\lib\netstandard1.3\System.Collections.NonGeneric.dll">
-=======
     <AppxPackagedFile Include="C:\Users\Haris Soljic\.nuget\packages\system.collections.nongeneric\4.0.1\lib\netstandard1.3\System.Collections.NonGeneric.dll">
->>>>>>> 17e1c67b16abc21272b52da9a5412cf03565f957
       <PackagePath>System.Collections.NonGeneric.dll</PackagePath>
-      <Modified>2016-06-11T20:13:22.000</Modified>
+      <Modified>2016-06-11T21:13:22.000</Modified>
     </AppxPackagedFile>
-<<<<<<< HEAD
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\system.collections.specialized\4.0.1\lib\netstandard1.3\System.Collections.Specialized.dll">
-=======
     <AppxPackagedFile Include="C:\Users\Haris Soljic\.nuget\packages\system.collections.specialized\4.0.1\lib\netstandard1.3\System.Collections.Specialized.dll">
->>>>>>> 17e1c67b16abc21272b52da9a5412cf03565f957
       <PackagePath>System.Collections.Specialized.dll</PackagePath>
-      <Modified>2016-06-11T20:13:22.000</Modified>
+      <Modified>2016-06-11T21:13:22.000</Modified>
     </AppxPackagedFile>
-<<<<<<< HEAD
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\system.componentmodel\4.0.1\lib\netcore50\System.ComponentModel.dll">
-=======
     <AppxPackagedFile Include="C:\Users\Haris Soljic\.nuget\packages\system.componentmodel\4.0.1\lib\netcore50\System.ComponentModel.dll">
->>>>>>> 17e1c67b16abc21272b52da9a5412cf03565f957
       <PackagePath>System.ComponentModel.dll</PackagePath>
-      <Modified>2016-06-11T20:13:24.000</Modified>
+      <Modified>2016-06-11T21:13:24.000</Modified>
     </AppxPackagedFile>
-<<<<<<< HEAD
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\system.componentmodel.annotations\4.1.0\lib\netcore50\System.ComponentModel.Annotations.dll">
-=======
     <AppxPackagedFile Include="C:\Users\Haris Soljic\.nuget\packages\system.componentmodel.annotations\4.1.0\lib\netcore50\System.ComponentModel.Annotations.dll">
->>>>>>> 17e1c67b16abc21272b52da9a5412cf03565f957
       <PackagePath>System.ComponentModel.Annotations.dll</PackagePath>
-      <Modified>2016-06-11T20:13:22.000</Modified>
+      <Modified>2016-06-11T21:13:22.000</Modified>
     </AppxPackagedFile>
-<<<<<<< HEAD
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\system.componentmodel.eventbasedasync\4.0.11\lib\netcore50\System.ComponentModel.EventBasedAsync.dll">
-=======
     <AppxPackagedFile Include="C:\Users\Haris Soljic\.nuget\packages\system.componentmodel.eventbasedasync\4.0.11\lib\netcore50\System.ComponentModel.EventBasedAsync.dll">
->>>>>>> 17e1c67b16abc21272b52da9a5412cf03565f957
       <PackagePath>System.ComponentModel.EventBasedAsync.dll</PackagePath>
-      <Modified>2016-06-11T20:13:20.000</Modified>
+      <Modified>2016-06-11T21:13:20.000</Modified>
     </AppxPackagedFile>
-<<<<<<< HEAD
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\system.data.common\4.1.0\lib\netstandard1.2\System.Data.Common.dll">
-=======
     <AppxPackagedFile Include="C:\Users\Haris Soljic\.nuget\packages\system.data.common\4.1.0\lib\netstandard1.2\System.Data.Common.dll">
->>>>>>> 17e1c67b16abc21272b52da9a5412cf03565f957
       <PackagePath>System.Data.Common.dll</PackagePath>
-      <Modified>2016-06-11T20:13:32.000</Modified>
+      <Modified>2016-06-11T21:13:32.000</Modified>
     </AppxPackagedFile>
-<<<<<<< HEAD
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\system.diagnostics.contracts\4.0.1\lib\netcore50\System.Diagnostics.Contracts.dll">
-=======
     <AppxPackagedFile Include="C:\Users\Haris Soljic\.nuget\packages\system.diagnostics.contracts\4.0.1\lib\netcore50\System.Diagnostics.Contracts.dll">
->>>>>>> 17e1c67b16abc21272b52da9a5412cf03565f957
       <PackagePath>System.Diagnostics.Contracts.dll</PackagePath>
-      <Modified>2016-06-11T20:13:28.000</Modified>
-    </AppxPackagedFile>
-<<<<<<< HEAD
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\system.diagnostics.diagnosticsource\4.0.0\lib\netstandard1.3\System.Diagnostics.DiagnosticSource.dll">
-      <PackagePath>System.Diagnostics.DiagnosticSource.dll</PackagePath>
       <Modified>2016-06-11T21:13:28.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\system.diagnostics.stacktrace\4.0.2\lib\netstandard1.3\System.Diagnostics.StackTrace.dll">
-=======
     <AppxPackagedFile Include="C:\Users\Haris Soljic\.nuget\packages\system.diagnostics.diagnosticsource\4.0.0\lib\netstandard1.3\System.Diagnostics.DiagnosticSource.dll">
       <PackagePath>System.Diagnostics.DiagnosticSource.dll</PackagePath>
       <Modified>2016-06-11T21:13:28.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Haris Soljic\.nuget\packages\system.diagnostics.stacktrace\4.0.2\lib\netstandard1.3\System.Diagnostics.StackTrace.dll">
->>>>>>> 17e1c67b16abc21272b52da9a5412cf03565f957
       <PackagePath>System.Diagnostics.StackTrace.dll</PackagePath>
-      <Modified>2016-07-01T12:48:16.000</Modified>
+      <Modified>2016-07-01T13:48:16.000</Modified>
     </AppxPackagedFile>
-<<<<<<< HEAD
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\system.dynamic.runtime\4.0.11\lib\netcore50\System.Dynamic.Runtime.dll">
-=======
     <AppxPackagedFile Include="C:\Users\Haris Soljic\.nuget\packages\system.dynamic.runtime\4.0.11\lib\netcore50\System.Dynamic.Runtime.dll">
->>>>>>> 17e1c67b16abc21272b52da9a5412cf03565f957
       <PackagePath>System.Dynamic.Runtime.dll</PackagePath>
-      <Modified>2016-06-11T20:13:42.000</Modified>
+      <Modified>2016-06-11T21:13:42.000</Modified>
     </AppxPackagedFile>
-<<<<<<< HEAD
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\system.globalization.extensions\4.0.1\runtimes\win\lib\netstandard1.3\System.Globalization.Extensions.dll">
-      <PackagePath>System.Globalization.Extensions.dll</PackagePath>
-      <Modified>2016-06-11T21:13:40.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\system.io.compression\4.1.1\runtimes\win\lib\netstandard1.3\System.IO.Compression.dll">
-=======
     <AppxPackagedFile Include="C:\Users\Haris Soljic\.nuget\packages\system.globalization.extensions\4.0.1\runtimes\win\lib\netstandard1.3\System.Globalization.Extensions.dll">
       <PackagePath>System.Globalization.Extensions.dll</PackagePath>
       <Modified>2016-06-11T21:13:40.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Haris Soljic\.nuget\packages\system.io.compression\4.1.1\runtimes\win\lib\netstandard1.3\System.IO.Compression.dll">
->>>>>>> 17e1c67b16abc21272b52da9a5412cf03565f957
       <PackagePath>System.IO.Compression.dll</PackagePath>
-      <Modified>2016-07-01T12:48:16.000</Modified>
+      <Modified>2016-07-01T13:48:16.000</Modified>
     </AppxPackagedFile>
-<<<<<<< HEAD
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\system.io.compression.zipfile\4.0.1\lib\netstandard1.3\System.IO.Compression.ZipFile.dll">
-      <PackagePath>System.IO.Compression.ZipFile.dll</PackagePath>
-      <Modified>2016-06-11T21:13:42.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\system.io.filesystem.primitives\4.0.1\lib\netstandard1.3\System.IO.FileSystem.Primitives.dll">
-      <PackagePath>System.IO.FileSystem.Primitives.dll</PackagePath>
-      <Modified>2016-06-11T21:13:46.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\system.io.isolatedstorage\4.0.1\lib\netcore50\System.IO.IsolatedStorage.dll">
-=======
     <AppxPackagedFile Include="C:\Users\Haris Soljic\.nuget\packages\system.io.compression.zipfile\4.0.1\lib\netstandard1.3\System.IO.Compression.ZipFile.dll">
       <PackagePath>System.IO.Compression.ZipFile.dll</PackagePath>
       <Modified>2016-06-11T21:13:42.000</Modified>
@@ -556,29 +280,13 @@
       <Modified>2016-06-11T21:13:46.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Haris Soljic\.nuget\packages\system.io.isolatedstorage\4.0.1\lib\netcore50\System.IO.IsolatedStorage.dll">
->>>>>>> 17e1c67b16abc21272b52da9a5412cf03565f957
       <PackagePath>System.IO.IsolatedStorage.dll</PackagePath>
-      <Modified>2016-06-11T20:13:48.000</Modified>
+      <Modified>2016-06-11T21:13:48.000</Modified>
     </AppxPackagedFile>
-<<<<<<< HEAD
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\system.io.unmanagedmemorystream\4.0.1\lib\netstandard1.3\System.IO.UnmanagedMemoryStream.dll">
-=======
     <AppxPackagedFile Include="C:\Users\Haris Soljic\.nuget\packages\system.io.unmanagedmemorystream\4.0.1\lib\netstandard1.3\System.IO.UnmanagedMemoryStream.dll">
->>>>>>> 17e1c67b16abc21272b52da9a5412cf03565f957
       <PackagePath>System.IO.UnmanagedMemoryStream.dll</PackagePath>
-      <Modified>2016-06-11T20:13:50.000</Modified>
+      <Modified>2016-06-11T21:13:50.000</Modified>
     </AppxPackagedFile>
-<<<<<<< HEAD
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\system.linq\4.1.0\lib\netcore50\System.Linq.dll">
-      <PackagePath>System.Linq.dll</PackagePath>
-      <Modified>2016-06-11T21:14:02.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\system.linq.expressions\4.1.0\lib\netcore50\System.Linq.Expressions.dll">
-      <PackagePath>System.Linq.Expressions.dll</PackagePath>
-      <Modified>2016-06-11T21:13:54.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\system.linq.parallel\4.0.1\lib\netcore50\System.Linq.Parallel.dll">
-=======
     <AppxPackagedFile Include="C:\Users\Haris Soljic\.nuget\packages\system.linq\4.1.0\lib\netcore50\System.Linq.dll">
       <PackagePath>System.Linq.dll</PackagePath>
       <Modified>2016-06-11T21:14:02.000</Modified>
@@ -588,153 +296,73 @@
       <Modified>2016-06-11T21:13:54.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Haris Soljic\.nuget\packages\system.linq.parallel\4.0.1\lib\netcore50\System.Linq.Parallel.dll">
->>>>>>> 17e1c67b16abc21272b52da9a5412cf03565f957
       <PackagePath>System.Linq.Parallel.dll</PackagePath>
-      <Modified>2016-06-11T20:13:52.000</Modified>
+      <Modified>2016-06-11T21:13:52.000</Modified>
     </AppxPackagedFile>
-<<<<<<< HEAD
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\system.linq.queryable\4.0.1\lib\netcore50\System.Linq.Queryable.dll">
-=======
     <AppxPackagedFile Include="C:\Users\Haris Soljic\.nuget\packages\system.linq.queryable\4.0.1\lib\netcore50\System.Linq.Queryable.dll">
->>>>>>> 17e1c67b16abc21272b52da9a5412cf03565f957
       <PackagePath>System.Linq.Queryable.dll</PackagePath>
-      <Modified>2016-06-11T20:13:58.000</Modified>
-    </AppxPackagedFile>
-<<<<<<< HEAD
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\system.net.http\4.1.0\runtimes\win\lib\netcore50\System.Net.Http.dll">
-      <PackagePath>System.Net.Http.dll</PackagePath>
       <Modified>2016-06-11T21:13:58.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\system.net.http.rtc\4.0.1\runtimes\win\lib\netcore50\System.Net.Http.Rtc.dll">
-=======
     <AppxPackagedFile Include="C:\Users\Haris Soljic\.nuget\packages\system.net.http\4.1.0\runtimes\win\lib\netcore50\System.Net.Http.dll">
       <PackagePath>System.Net.Http.dll</PackagePath>
       <Modified>2016-06-11T21:13:58.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Haris Soljic\.nuget\packages\system.net.http.rtc\4.0.1\runtimes\win\lib\netcore50\System.Net.Http.Rtc.dll">
->>>>>>> 17e1c67b16abc21272b52da9a5412cf03565f957
       <PackagePath>System.Net.Http.Rtc.dll</PackagePath>
-      <Modified>2016-06-11T20:13:56.000</Modified>
+      <Modified>2016-06-11T21:13:56.000</Modified>
     </AppxPackagedFile>
-<<<<<<< HEAD
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\system.net.nameresolution\4.0.0\runtimes\win\lib\netcore50\System.Net.NameResolution.dll">
-=======
     <AppxPackagedFile Include="C:\Users\Haris Soljic\.nuget\packages\system.net.nameresolution\4.0.0\runtimes\win\lib\netcore50\System.Net.NameResolution.dll">
->>>>>>> 17e1c67b16abc21272b52da9a5412cf03565f957
       <PackagePath>System.Net.NameResolution.dll</PackagePath>
-      <Modified>2016-06-11T20:13:58.000</Modified>
+      <Modified>2016-06-11T21:13:58.000</Modified>
     </AppxPackagedFile>
-<<<<<<< HEAD
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\system.net.networkinformation\4.1.0\runtimes\win\lib\netcore50\System.Net.NetworkInformation.dll">
-=======
     <AppxPackagedFile Include="C:\Users\Haris Soljic\.nuget\packages\system.net.networkinformation\4.1.0\runtimes\win\lib\netcore50\System.Net.NetworkInformation.dll">
->>>>>>> 17e1c67b16abc21272b52da9a5412cf03565f957
       <PackagePath>System.Net.NetworkInformation.dll</PackagePath>
-      <Modified>2016-06-11T20:14:04.000</Modified>
+      <Modified>2016-06-11T21:14:04.000</Modified>
     </AppxPackagedFile>
-<<<<<<< HEAD
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\system.net.requests\4.0.11\runtimes\win\lib\netstandard1.3\System.Net.Requests.dll">
-=======
     <AppxPackagedFile Include="C:\Users\Haris Soljic\.nuget\packages\system.net.requests\4.0.11\runtimes\win\lib\netstandard1.3\System.Net.Requests.dll">
->>>>>>> 17e1c67b16abc21272b52da9a5412cf03565f957
       <PackagePath>System.Net.Requests.dll</PackagePath>
-      <Modified>2016-06-11T20:14:02.000</Modified>
+      <Modified>2016-06-11T21:14:02.000</Modified>
     </AppxPackagedFile>
-<<<<<<< HEAD
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\system.net.webheadercollection\4.0.1\lib\netstandard1.3\System.Net.WebHeaderCollection.dll">
-=======
     <AppxPackagedFile Include="C:\Users\Haris Soljic\.nuget\packages\system.net.webheadercollection\4.0.1\lib\netstandard1.3\System.Net.WebHeaderCollection.dll">
->>>>>>> 17e1c67b16abc21272b52da9a5412cf03565f957
       <PackagePath>System.Net.WebHeaderCollection.dll</PackagePath>
-      <Modified>2016-06-11T20:14:08.000</Modified>
+      <Modified>2016-06-11T21:14:08.000</Modified>
     </AppxPackagedFile>
-<<<<<<< HEAD
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\system.net.websockets\4.0.0\lib\netstandard1.3\System.Net.WebSockets.dll">
-=======
     <AppxPackagedFile Include="C:\Users\Haris Soljic\.nuget\packages\system.net.websockets\4.0.0\lib\netstandard1.3\System.Net.WebSockets.dll">
->>>>>>> 17e1c67b16abc21272b52da9a5412cf03565f957
       <PackagePath>System.Net.WebSockets.dll</PackagePath>
-      <Modified>2016-06-11T20:14:08.000</Modified>
+      <Modified>2016-06-11T21:14:08.000</Modified>
     </AppxPackagedFile>
-<<<<<<< HEAD
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\system.net.websockets.client\4.0.2\runtimes\win\lib\netcore50\System.Net.WebSockets.Client.dll">
-=======
     <AppxPackagedFile Include="C:\Users\Haris Soljic\.nuget\packages\system.net.websockets.client\4.0.2\runtimes\win\lib\netcore50\System.Net.WebSockets.Client.dll">
->>>>>>> 17e1c67b16abc21272b52da9a5412cf03565f957
       <PackagePath>System.Net.WebSockets.Client.dll</PackagePath>
-      <Modified>2017-11-20T12:34:00.000</Modified>
+      <Modified>2017-11-20T13:34:00.000</Modified>
     </AppxPackagedFile>
-<<<<<<< HEAD
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\system.numerics.vectors\4.1.1\lib\portable-net45+win8+wp8+wpa81\System.Numerics.Vectors.dll">
-=======
     <AppxPackagedFile Include="C:\Users\Haris Soljic\.nuget\packages\system.numerics.vectors\4.1.1\lib\portable-net45+win8+wp8+wpa81\System.Numerics.Vectors.dll">
->>>>>>> 17e1c67b16abc21272b52da9a5412cf03565f957
       <PackagePath>System.Numerics.Vectors.dll</PackagePath>
-      <Modified>2016-06-11T20:14:10.000</Modified>
-    </AppxPackagedFile>
-<<<<<<< HEAD
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\system.numerics.vectors.windowsruntime\4.0.1\lib\uap10.0\System.Numerics.Vectors.WindowsRuntime.dll">
-=======
-    <AppxPackagedFile Include="C:\Users\Haris Soljic\.nuget\packages\system.numerics.vectors.windowsruntime\4.0.1\lib\uap10.0\System.Numerics.Vectors.WindowsRuntime.dll">
->>>>>>> 17e1c67b16abc21272b52da9a5412cf03565f957
-      <PackagePath>System.Numerics.Vectors.WindowsRuntime.dll</PackagePath>
-      <Modified>2016-06-11T20:14:06.000</Modified>
-    </AppxPackagedFile>
-<<<<<<< HEAD
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\system.objectmodel\4.0.12\lib\netcore50\System.ObjectModel.dll">
-      <PackagePath>System.ObjectModel.dll</PackagePath>
       <Modified>2016-06-11T21:14:10.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\system.private.datacontractserialization\4.1.2\lib\netstandard1.3\System.Private.DataContractSerialization.dll">
-=======
+    <AppxPackagedFile Include="C:\Users\Haris Soljic\.nuget\packages\system.numerics.vectors.windowsruntime\4.0.1\lib\uap10.0\System.Numerics.Vectors.WindowsRuntime.dll">
+      <PackagePath>System.Numerics.Vectors.WindowsRuntime.dll</PackagePath>
+      <Modified>2016-06-11T21:14:06.000</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Haris Soljic\.nuget\packages\system.objectmodel\4.0.12\lib\netcore50\System.ObjectModel.dll">
       <PackagePath>System.ObjectModel.dll</PackagePath>
       <Modified>2016-06-11T21:14:10.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Haris Soljic\.nuget\packages\system.private.datacontractserialization\4.1.2\lib\netstandard1.3\System.Private.DataContractSerialization.dll">
->>>>>>> 17e1c67b16abc21272b52da9a5412cf03565f957
       <PackagePath>System.Private.DataContractSerialization.dll</PackagePath>
-      <Modified>2017-02-09T11:26:02.000</Modified>
+      <Modified>2017-02-09T12:26:02.000</Modified>
     </AppxPackagedFile>
-<<<<<<< HEAD
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\system.private.servicemodel\4.1.1\runtimes\win7\lib\netcore50\System.Private.ServiceModel.dll">
-=======
     <AppxPackagedFile Include="C:\Users\Haris Soljic\.nuget\packages\system.private.servicemodel\4.1.1\runtimes\win7\lib\netcore50\System.Private.ServiceModel.dll">
->>>>>>> 17e1c67b16abc21272b52da9a5412cf03565f957
       <PackagePath>System.Private.ServiceModel.dll</PackagePath>
-      <Modified>2017-12-12T22:31:12.000</Modified>
+      <Modified>2017-12-12T23:31:12.000</Modified>
     </AppxPackagedFile>
-<<<<<<< HEAD
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\system.reflection.context\4.0.1\lib\netcore50\System.Reflection.Context.dll">
-=======
     <AppxPackagedFile Include="C:\Users\Haris Soljic\.nuget\packages\system.reflection.context\4.0.1\lib\netcore50\System.Reflection.Context.dll">
->>>>>>> 17e1c67b16abc21272b52da9a5412cf03565f957
       <PackagePath>System.Reflection.Context.dll</PackagePath>
-      <Modified>2016-06-11T20:14:10.000</Modified>
+      <Modified>2016-06-11T21:14:10.000</Modified>
     </AppxPackagedFile>
-<<<<<<< HEAD
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\system.reflection.dispatchproxy\4.0.1\lib\netstandard1.3\System.Reflection.DispatchProxy.dll">
-=======
     <AppxPackagedFile Include="C:\Users\Haris Soljic\.nuget\packages\system.reflection.dispatchproxy\4.0.1\lib\netstandard1.3\System.Reflection.DispatchProxy.dll">
->>>>>>> 17e1c67b16abc21272b52da9a5412cf03565f957
       <PackagePath>System.Reflection.DispatchProxy.dll</PackagePath>
-      <Modified>2016-06-11T20:14:14.000</Modified>
-    </AppxPackagedFile>
-<<<<<<< HEAD
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\system.reflection.emit\4.0.1\lib\netcore50\System.Reflection.Emit.dll">
-      <PackagePath>System.Reflection.Emit.dll</PackagePath>
-      <Modified>2016-06-11T21:14:16.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\system.reflection.emit.ilgeneration\4.0.1\lib\netcore50\System.Reflection.Emit.ILGeneration.dll">
-      <PackagePath>System.Reflection.Emit.ILGeneration.dll</PackagePath>
       <Modified>2016-06-11T21:14:14.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\system.reflection.emit.lightweight\4.0.1\lib\netcore50\System.Reflection.Emit.Lightweight.dll">
-      <PackagePath>System.Reflection.Emit.Lightweight.dll</PackagePath>
-      <Modified>2016-06-11T21:14:16.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\system.reflection.metadata\1.3.0\lib\portable-net45+win8\System.Reflection.Metadata.dll">
-=======
     <AppxPackagedFile Include="C:\Users\Haris Soljic\.nuget\packages\system.reflection.emit\4.0.1\lib\netcore50\System.Reflection.Emit.dll">
       <PackagePath>System.Reflection.Emit.dll</PackagePath>
       <Modified>2016-06-11T21:14:16.000</Modified>
@@ -748,105 +376,45 @@
       <Modified>2016-06-11T21:14:16.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Haris Soljic\.nuget\packages\system.reflection.metadata\1.3.0\lib\portable-net45+win8\System.Reflection.Metadata.dll">
->>>>>>> 17e1c67b16abc21272b52da9a5412cf03565f957
       <PackagePath>System.Reflection.Metadata.dll</PackagePath>
-      <Modified>2016-06-11T20:14:14.000</Modified>
+      <Modified>2016-06-11T21:14:14.000</Modified>
     </AppxPackagedFile>
-<<<<<<< HEAD
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\system.reflection.typeextensions\4.1.0\lib\netcore50\System.Reflection.TypeExtensions.dll">
-      <PackagePath>System.Reflection.TypeExtensions.dll</PackagePath>
-      <Modified>2016-06-11T21:14:22.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\system.runtime.interopservices.windowsruntime\4.0.1\lib\netcore50\System.Runtime.InteropServices.WindowsRuntime.dll">
-=======
     <AppxPackagedFile Include="C:\Users\Haris Soljic\.nuget\packages\system.reflection.typeextensions\4.1.0\lib\netcore50\System.Reflection.TypeExtensions.dll">
       <PackagePath>System.Reflection.TypeExtensions.dll</PackagePath>
       <Modified>2016-06-11T21:14:22.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Haris Soljic\.nuget\packages\system.runtime.interopservices.windowsruntime\4.0.1\lib\netcore50\System.Runtime.InteropServices.WindowsRuntime.dll">
->>>>>>> 17e1c67b16abc21272b52da9a5412cf03565f957
       <PackagePath>System.Runtime.InteropServices.WindowsRuntime.dll</PackagePath>
-      <Modified>2016-06-11T20:14:26.000</Modified>
+      <Modified>2016-06-11T21:14:26.000</Modified>
     </AppxPackagedFile>
-<<<<<<< HEAD
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\system.runtime.numerics\4.0.1\lib\netcore50\System.Runtime.Numerics.dll">
-      <PackagePath>System.Runtime.Numerics.dll</PackagePath>
-      <Modified>2016-06-11T21:14:30.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\system.runtime.serialization.json\4.0.3\lib\netcore50\System.Runtime.Serialization.Json.dll">
-=======
     <AppxPackagedFile Include="C:\Users\Haris Soljic\.nuget\packages\system.runtime.numerics\4.0.1\lib\netcore50\System.Runtime.Numerics.dll">
       <PackagePath>System.Runtime.Numerics.dll</PackagePath>
       <Modified>2016-06-11T21:14:30.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Haris Soljic\.nuget\packages\system.runtime.serialization.json\4.0.3\lib\netcore50\System.Runtime.Serialization.Json.dll">
->>>>>>> 17e1c67b16abc21272b52da9a5412cf03565f957
       <PackagePath>System.Runtime.Serialization.Json.dll</PackagePath>
-      <Modified>2017-02-09T11:26:02.000</Modified>
+      <Modified>2017-02-09T12:26:02.000</Modified>
     </AppxPackagedFile>
-<<<<<<< HEAD
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\system.runtime.serialization.primitives\4.1.1\lib\netcore50\System.Runtime.Serialization.Primitives.dll">
-=======
     <AppxPackagedFile Include="C:\Users\Haris Soljic\.nuget\packages\system.runtime.serialization.primitives\4.1.1\lib\netcore50\System.Runtime.Serialization.Primitives.dll">
->>>>>>> 17e1c67b16abc21272b52da9a5412cf03565f957
       <PackagePath>System.Runtime.Serialization.Primitives.dll</PackagePath>
-      <Modified>2016-06-11T20:14:32.000</Modified>
+      <Modified>2016-06-11T21:14:32.000</Modified>
     </AppxPackagedFile>
-<<<<<<< HEAD
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\system.runtime.serialization.xml\4.1.2\lib\netcore50\System.Runtime.Serialization.Xml.dll">
-=======
     <AppxPackagedFile Include="C:\Users\Haris Soljic\.nuget\packages\system.runtime.serialization.xml\4.1.2\lib\netcore50\System.Runtime.Serialization.Xml.dll">
->>>>>>> 17e1c67b16abc21272b52da9a5412cf03565f957
       <PackagePath>System.Runtime.Serialization.Xml.dll</PackagePath>
-      <Modified>2017-02-09T11:26:02.000</Modified>
+      <Modified>2017-02-09T12:26:02.000</Modified>
     </AppxPackagedFile>
-<<<<<<< HEAD
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\system.runtime.windowsruntime\4.0.11\runtimes\win8\lib\netstandard1.3\System.Runtime.WindowsRuntime.dll">
-=======
     <AppxPackagedFile Include="C:\Users\Haris Soljic\.nuget\packages\system.runtime.windowsruntime\4.0.11\runtimes\win8\lib\netstandard1.3\System.Runtime.WindowsRuntime.dll">
->>>>>>> 17e1c67b16abc21272b52da9a5412cf03565f957
       <PackagePath>System.Runtime.WindowsRuntime.dll</PackagePath>
-      <Modified>2016-06-11T20:14:36.000</Modified>
+      <Modified>2016-06-11T21:14:36.000</Modified>
     </AppxPackagedFile>
-<<<<<<< HEAD
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\system.runtime.windowsruntime.ui.xaml\4.0.1\runtimes\win8\lib\netstandard1.3\System.Runtime.WindowsRuntime.UI.Xaml.dll">
-=======
     <AppxPackagedFile Include="C:\Users\Haris Soljic\.nuget\packages\system.runtime.windowsruntime.ui.xaml\4.0.1\runtimes\win8\lib\netstandard1.3\System.Runtime.WindowsRuntime.UI.Xaml.dll">
->>>>>>> 17e1c67b16abc21272b52da9a5412cf03565f957
       <PackagePath>System.Runtime.WindowsRuntime.UI.Xaml.dll</PackagePath>
-      <Modified>2016-06-11T20:14:32.000</Modified>
+      <Modified>2016-06-11T21:14:32.000</Modified>
     </AppxPackagedFile>
-<<<<<<< HEAD
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\system.security.claims\4.0.1\lib\netstandard1.3\System.Security.Claims.dll">
-=======
     <AppxPackagedFile Include="C:\Users\Haris Soljic\.nuget\packages\system.security.claims\4.0.1\lib\netstandard1.3\System.Security.Claims.dll">
->>>>>>> 17e1c67b16abc21272b52da9a5412cf03565f957
       <PackagePath>System.Security.Claims.dll</PackagePath>
-      <Modified>2016-06-11T20:14:40.000</Modified>
+      <Modified>2016-06-11T21:14:40.000</Modified>
     </AppxPackagedFile>
-<<<<<<< HEAD
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\system.security.cryptography.algorithms\4.2.0\runtimes\win\lib\netcore50\System.Security.Cryptography.Algorithms.dll">
-      <PackagePath>System.Security.Cryptography.Algorithms.dll</PackagePath>
-      <Modified>2016-06-11T21:14:42.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\system.security.cryptography.cng\4.2.0\runtimes\win\lib\netstandard1.4\System.Security.Cryptography.Cng.dll">
-      <PackagePath>System.Security.Cryptography.Cng.dll</PackagePath>
-      <Modified>2016-06-11T21:14:42.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\system.security.cryptography.encoding\4.0.0\runtimes\win\lib\netstandard1.3\System.Security.Cryptography.Encoding.dll">
-      <PackagePath>System.Security.Cryptography.Encoding.dll</PackagePath>
-      <Modified>2016-06-11T21:14:38.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\system.security.cryptography.primitives\4.0.0\lib\netstandard1.3\System.Security.Cryptography.Primitives.dll">
-      <PackagePath>System.Security.Cryptography.Primitives.dll</PackagePath>
-      <Modified>2016-06-11T21:14:42.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\system.security.cryptography.x509certificates\4.1.0\runtimes\win\lib\netcore50\System.Security.Cryptography.X509Certificates.dll">
-      <PackagePath>System.Security.Cryptography.X509Certificates.dll</PackagePath>
-      <Modified>2016-06-11T21:14:48.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\system.security.principal\4.0.1\lib\netcore50\System.Security.Principal.dll">
-=======
     <AppxPackagedFile Include="C:\Users\Haris Soljic\.nuget\packages\system.security.cryptography.algorithms\4.2.0\runtimes\win\lib\netcore50\System.Security.Cryptography.Algorithms.dll">
       <PackagePath>System.Security.Cryptography.Algorithms.dll</PackagePath>
       <Modified>2016-06-11T21:14:42.000</Modified>
@@ -868,69 +436,33 @@
       <Modified>2016-06-11T21:14:48.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Haris Soljic\.nuget\packages\system.security.principal\4.0.1\lib\netcore50\System.Security.Principal.dll">
->>>>>>> 17e1c67b16abc21272b52da9a5412cf03565f957
       <PackagePath>System.Security.Principal.dll</PackagePath>
-      <Modified>2016-06-11T20:14:46.000</Modified>
+      <Modified>2016-06-11T21:14:46.000</Modified>
     </AppxPackagedFile>
-<<<<<<< HEAD
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\system.servicemodel.duplex\4.0.2\lib\netcore50\System.ServiceModel.Duplex.dll">
-=======
     <AppxPackagedFile Include="C:\Users\Haris Soljic\.nuget\packages\system.servicemodel.duplex\4.0.2\lib\netcore50\System.ServiceModel.Duplex.dll">
->>>>>>> 17e1c67b16abc21272b52da9a5412cf03565f957
       <PackagePath>System.ServiceModel.Duplex.dll</PackagePath>
-      <Modified>2017-12-12T22:31:16.000</Modified>
+      <Modified>2017-12-12T23:31:16.000</Modified>
     </AppxPackagedFile>
-<<<<<<< HEAD
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\system.servicemodel.http\4.1.1\lib\netcore50\System.ServiceModel.Http.dll">
-=======
     <AppxPackagedFile Include="C:\Users\Haris Soljic\.nuget\packages\system.servicemodel.http\4.1.1\lib\netcore50\System.ServiceModel.Http.dll">
->>>>>>> 17e1c67b16abc21272b52da9a5412cf03565f957
       <PackagePath>System.ServiceModel.Http.dll</PackagePath>
-      <Modified>2017-12-12T22:31:18.000</Modified>
+      <Modified>2017-12-12T23:31:18.000</Modified>
     </AppxPackagedFile>
-<<<<<<< HEAD
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\system.servicemodel.nettcp\4.1.1\lib\netcore50\System.ServiceModel.NetTcp.dll">
-=======
     <AppxPackagedFile Include="C:\Users\Haris Soljic\.nuget\packages\system.servicemodel.nettcp\4.1.1\lib\netcore50\System.ServiceModel.NetTcp.dll">
->>>>>>> 17e1c67b16abc21272b52da9a5412cf03565f957
       <PackagePath>System.ServiceModel.NetTcp.dll</PackagePath>
-      <Modified>2017-12-12T22:31:18.000</Modified>
+      <Modified>2017-12-12T23:31:18.000</Modified>
     </AppxPackagedFile>
-<<<<<<< HEAD
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\system.servicemodel.primitives\4.1.1\lib\netcore50\System.ServiceModel.Primitives.dll">
-=======
     <AppxPackagedFile Include="C:\Users\Haris Soljic\.nuget\packages\system.servicemodel.primitives\4.1.1\lib\netcore50\System.ServiceModel.Primitives.dll">
->>>>>>> 17e1c67b16abc21272b52da9a5412cf03565f957
       <PackagePath>System.ServiceModel.Primitives.dll</PackagePath>
-      <Modified>2017-12-12T22:31:20.000</Modified>
+      <Modified>2017-12-12T23:31:20.000</Modified>
     </AppxPackagedFile>
-<<<<<<< HEAD
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\system.servicemodel.security\4.0.2\lib\netcore50\System.ServiceModel.Security.dll">
-=======
     <AppxPackagedFile Include="C:\Users\Haris Soljic\.nuget\packages\system.servicemodel.security\4.0.2\lib\netcore50\System.ServiceModel.Security.dll">
->>>>>>> 17e1c67b16abc21272b52da9a5412cf03565f957
       <PackagePath>System.ServiceModel.Security.dll</PackagePath>
-      <Modified>2017-12-12T22:31:22.000</Modified>
+      <Modified>2017-12-12T23:31:22.000</Modified>
     </AppxPackagedFile>
-<<<<<<< HEAD
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\system.text.encoding.codepages\4.0.1\runtimes\win\lib\netstandard1.3\System.Text.Encoding.CodePages.dll">
-=======
     <AppxPackagedFile Include="C:\Users\Haris Soljic\.nuget\packages\system.text.encoding.codepages\4.0.1\runtimes\win\lib\netstandard1.3\System.Text.Encoding.CodePages.dll">
->>>>>>> 17e1c67b16abc21272b52da9a5412cf03565f957
       <PackagePath>System.Text.Encoding.CodePages.dll</PackagePath>
-      <Modified>2016-06-11T20:14:46.000</Modified>
+      <Modified>2016-06-11T21:14:46.000</Modified>
     </AppxPackagedFile>
-<<<<<<< HEAD
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\system.text.regularexpressions\4.1.0\lib\netcore50\System.Text.RegularExpressions.dll">
-      <PackagePath>System.Text.RegularExpressions.dll</PackagePath>
-      <Modified>2016-06-11T21:14:52.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\system.threading\4.0.11\lib\netcore50\System.Threading.dll">
-      <PackagePath>System.Threading.dll</PackagePath>
-      <Modified>2016-06-11T21:15:00.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\system.threading.overlapped\4.0.1\runtimes\win\lib\netcore50\System.Threading.Overlapped.dll">
-=======
     <AppxPackagedFile Include="C:\Users\Haris Soljic\.nuget\packages\system.text.regularexpressions\4.1.0\lib\netcore50\System.Text.RegularExpressions.dll">
       <PackagePath>System.Text.RegularExpressions.dll</PackagePath>
       <Modified>2016-06-11T21:14:52.000</Modified>
@@ -940,79 +472,9 @@
       <Modified>2016-06-11T21:15:00.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Haris Soljic\.nuget\packages\system.threading.overlapped\4.0.1\runtimes\win\lib\netcore50\System.Threading.Overlapped.dll">
->>>>>>> 17e1c67b16abc21272b52da9a5412cf03565f957
       <PackagePath>System.Threading.Overlapped.dll</PackagePath>
-      <Modified>2016-06-11T20:14:54.000</Modified>
-    </AppxPackagedFile>
-<<<<<<< HEAD
-    <AppxPackagedFile Include="C:\Users\fatih\.nuget\packages\system.threading.tasks.dataflow\4.6.0\lib\netstandard1.1\System.Threading.Tasks.Dataflow.dll">
-      <PackagePath>System.Threading.Tasks.Dataflow.dll</PackagePath>
-      <Modified>2016-06-11T21:14:52.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fatih\.nuget\packages\system.threading.tasks.extensions\4.0.0\lib\portable-net45+win8+wp8+wpa81\System.Threading.Tasks.Extensions.dll">
-      <PackagePath>System.Threading.Tasks.Extensions.dll</PackagePath>
-      <Modified>2016-06-11T21:14:52.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fatih\.nuget\packages\system.threading.tasks.parallel\4.0.1\lib\netcore50\System.Threading.Tasks.Parallel.dll">
-      <PackagePath>System.Threading.Tasks.Parallel.dll</PackagePath>
       <Modified>2016-06-11T21:14:54.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fatih\.nuget\packages\system.xml.readerwriter\4.0.11\lib\netcore50\System.Xml.ReaderWriter.dll">
-      <PackagePath>System.Xml.ReaderWriter.dll</PackagePath>
-      <Modified>2016-06-11T21:15:00.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fatih\.nuget\packages\system.xml.xdocument\4.0.11\lib\netcore50\System.Xml.XDocument.dll">
-      <PackagePath>System.Xml.XDocument.dll</PackagePath>
-      <Modified>2016-06-11T21:15:00.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fatih\.nuget\packages\system.xml.xmldocument\4.0.1\lib\netstandard1.3\System.Xml.XmlDocument.dll">
-      <PackagePath>System.Xml.XmlDocument.dll</PackagePath>
-      <Modified>2016-06-11T21:15:02.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fatih\.nuget\packages\system.xml.xmlserializer\4.0.11\lib\netcore50\System.Xml.XmlSerializer.dll">
-      <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
-      <Modified>2016-06-11T21:15:04.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fatih\Desktop\faks\github\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Capture.PNG">
-      <PackagePath>Assets\Capture.PNG</PackagePath>
-      <Modified>2018-04-03T22:14:53.377</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fatih\Desktop\faks\github\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\LockScreenLogo.scale-200.png">
-      <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
-      <Modified>2018-04-03T22:14:53.378</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fatih\Desktop\faks\github\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\SplashScreen.scale-200.png">
-      <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-04-03T22:14:53.380</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fatih\Desktop\faks\github\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Square150x150Logo.scale-200.png">
-      <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-04-03T22:14:53.381</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fatih\Desktop\faks\github\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Square44x44Logo.scale-200.png">
-      <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-04-03T22:14:53.382</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fatih\Desktop\faks\github\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
-      <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-04-03T22:14:53.384</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fatih\Desktop\faks\github\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\StoreLogo.png">
-      <PackagePath>Assets\StoreLogo.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-04-03T22:14:53.385</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fatih\Desktop\faks\github\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Wide310x150Logo.scale-200.png">
-      <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-04-03T22:14:53.388</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fatih\Desktop\faks\github\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\SlikeMisicnihGrupa\Abs.jpg">
-=======
     <AppxPackagedFile Include="C:\Users\Haris Soljic\.nuget\packages\system.threading.tasks.dataflow\4.6.0\lib\netstandard1.1\System.Threading.Tasks.Dataflow.dll">
       <PackagePath>System.Threading.Tasks.Dataflow.dll</PackagePath>
       <Modified>2016-06-11T21:14:52.000</Modified>
@@ -1043,864 +505,469 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Capture.PNG">
       <PackagePath>Assets\Capture.PNG</PackagePath>
-      <Modified>2018-05-06T13:49:38.868</Modified>
+      <Modified>2018-05-07T09:47:50.648</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
-      <Modified>2018-05-06T13:49:38.868</Modified>
+      <Modified>2018-05-07T09:47:50.648</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-05-06T13:49:38.868</Modified>
+      <Modified>2018-05-07T09:47:50.676</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-05-06T13:49:38.868</Modified>
+      <Modified>2018-05-07T09:47:50.676</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-05-06T13:49:38.868</Modified>
+      <Modified>2018-05-07T09:47:50.680</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-05-06T13:49:38.868</Modified>
+      <Modified>2018-05-07T09:47:50.680</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-05-06T13:49:38.868</Modified>
+      <Modified>2018-05-07T09:47:50.680</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-05-06T13:49:39.024</Modified>
+      <Modified>2018-05-07T09:47:50.856</Modified>
     </AppxPackagedFile>
-<<<<<<< HEAD
-    <AppxPackagedFile Include="C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Abs\Vjezba1\info.txt">
-      <PackagePath>Assets\Vjezbe\Abs\Vjezba1\info.txt</PackagePath>
-      <Modified>2018-05-06T13:49:38.883</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Abs\Vjezba2\info.txt">
-      <PackagePath>Assets\Vjezbe\Abs\Vjezba2\info.txt</PackagePath>
-      <Modified>2018-05-06T13:49:38.883</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Biceps\Vjezba1\info.txt">
-      <PackagePath>Assets\Vjezbe\Biceps\Vjezba1\info.txt</PackagePath>
-      <Modified>2018-05-06T13:49:38.883</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Biceps\Vjezba2\info.txt">
-      <PackagePath>Assets\Vjezbe\Biceps\Vjezba2\info.txt</PackagePath>
-      <Modified>2018-05-06T13:49:38.899</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Calves\Vjezba1\info.txt">
-      <PackagePath>Assets\Vjezbe\Calves\Vjezba1\info.txt</PackagePath>
-      <Modified>2018-05-06T13:49:38.899</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Calves\Vjezba2\info.txt">
-      <PackagePath>Assets\Vjezbe\Calves\Vjezba2\info.txt</PackagePath>
-      <Modified>2018-05-06T13:49:38.899</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Chest\Vjezba1\info.txt">
-      <PackagePath>Assets\Vjezbe\Chest\Vjezba1\info.txt</PackagePath>
-      <Modified>2018-05-06T13:49:38.915</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Chest\Vjezba2\info.txt">
-      <PackagePath>Assets\Vjezbe\Chest\Vjezba2\info.txt</PackagePath>
-      <Modified>2018-05-06T13:49:38.915</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Forearm\Vjezba1\info.txt">
-      <PackagePath>Assets\Vjezbe\Forearm\Vjezba1\info.txt</PackagePath>
-      <Modified>2018-05-06T13:49:38.915</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Forearm\Vjezba2\info.txt">
-      <PackagePath>Assets\Vjezbe\Forearm\Vjezba2\info.txt</PackagePath>
-      <Modified>2018-05-06T13:49:38.930</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Glutes\Vjezba1\info.txt">
-      <PackagePath>Assets\Vjezbe\Glutes\Vjezba1\info.txt</PackagePath>
-      <Modified>2018-05-06T13:49:38.930</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Glutes\Vjezba2\info.txt">
-      <PackagePath>Assets\Vjezbe\Glutes\Vjezba2\info.txt</PackagePath>
-      <Modified>2018-05-06T13:49:38.930</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Hamstrings\Vjezba1\info.txt">
-      <PackagePath>Assets\Vjezbe\Hamstrings\Vjezba1\info.txt</PackagePath>
-      <Modified>2018-05-06T13:49:38.930</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Hamstrings\Vjezba2\info.txt">
-      <PackagePath>Assets\Vjezbe\Hamstrings\Vjezba2\info.txt</PackagePath>
-      <Modified>2018-05-06T13:49:38.946</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Lats\Vjezba1\info.txt">
-      <PackagePath>Assets\Vjezbe\Lats\Vjezba1\info.txt</PackagePath>
-      <Modified>2018-05-06T13:49:38.946</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Lats\Vjezba2\info.txt">
-      <PackagePath>Assets\Vjezbe\Lats\Vjezba2\info.txt</PackagePath>
-      <Modified>2018-05-06T13:49:38.946</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Lower-back\Vjezba1\info.txt">
-      <PackagePath>Assets\Vjezbe\Lower-back\Vjezba1\info.txt</PackagePath>
-      <Modified>2018-05-06T13:49:38.961</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Lower-back\Vjezba2\info.txt">
-      <PackagePath>Assets\Vjezbe\Lower-back\Vjezba2\info.txt</PackagePath>
-      <Modified>2018-05-06T13:49:38.961</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Middle-back\Vjezba1\info.txt">
-      <PackagePath>Assets\Vjezbe\Middle-back\Vjezba1\info.txt</PackagePath>
-      <Modified>2018-05-06T13:49:38.961</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Middle-back\Vjezba2\info.txt">
-      <PackagePath>Assets\Vjezbe\Middle-back\Vjezba2\info.txt</PackagePath>
-      <Modified>2018-05-06T13:49:38.977</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Neck\Vjezba1\info.txt">
-      <PackagePath>Assets\Vjezbe\Neck\Vjezba1\info.txt</PackagePath>
-      <Modified>2018-05-06T13:49:38.977</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Neck\Vjezba2\info.txt">
-      <PackagePath>Assets\Vjezbe\Neck\Vjezba2\info.txt</PackagePath>
-      <Modified>2018-05-06T13:49:38.977</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Quads\Vjezba1\info.txt">
-      <PackagePath>Assets\Vjezbe\Quads\Vjezba1\info.txt</PackagePath>
-      <Modified>2018-05-06T13:49:38.993</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Quads\Vjezba2\info.txt">
-      <PackagePath>Assets\Vjezbe\Quads\Vjezba2\info.txt</PackagePath>
-      <Modified>2018-05-06T13:49:38.993</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Shoulders\Vjezba1\info.txt">
-      <PackagePath>Assets\Vjezbe\Shoulders\Vjezba1\info.txt</PackagePath>
-      <Modified>2018-05-06T13:49:38.993</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Shoulders\Vjezba2\info.txt">
-      <PackagePath>Assets\Vjezbe\Shoulders\Vjezba2\info.txt</PackagePath>
-      <Modified>2018-05-06T13:49:38.993</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Traps\Vjezba1\info.txt">
-      <PackagePath>Assets\Vjezbe\Traps\Vjezba1\info.txt</PackagePath>
-      <Modified>2018-05-06T13:49:39.008</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Traps\Vjezba2\info.txt">
-      <PackagePath>Assets\Vjezbe\Traps\Vjezba2\info.txt</PackagePath>
-      <Modified>2018-05-06T13:49:39.008</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Triceps\Vjezba1\info.txt">
-      <PackagePath>Assets\Vjezbe\Triceps\Vjezba1\info.txt</PackagePath>
-      <Modified>2018-05-06T13:49:39.008</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Triceps\Vjezba2\info.txt">
-      <PackagePath>Assets\Vjezbe\Triceps\Vjezba2\info.txt</PackagePath>
-      <Modified>2018-05-06T13:49:39.024</Modified>
-=======
-    <AppxPackagedFile Include="C:\Users\emins\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\SlikeMisicnihGrupa\Abs.jpg">
->>>>>>> 17e1c67b16abc21272b52da9a5412cf03565f957
+    <AppxPackagedFile Include="C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\SlikeMisicnihGrupa\Abs.jpg">
       <PackagePath>Assets\SlikeMisicnihGrupa\Abs.jpg</PackagePath>
-      <Modified>2018-05-06T16:34:56.369</Modified>
+      <Modified>2018-05-07T09:47:50.652</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fatih\Desktop\faks\github\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\SlikeMisicnihGrupa\Biceps.jpg">
+    <AppxPackagedFile Include="C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\SlikeMisicnihGrupa\Biceps.jpg">
       <PackagePath>Assets\SlikeMisicnihGrupa\Biceps.jpg</PackagePath>
-      <Modified>2018-05-06T16:34:56.518</Modified>
+      <Modified>2018-05-07T09:47:50.656</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fatih\Desktop\faks\github\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\SlikeMisicnihGrupa\Calves.jpg">
+    <AppxPackagedFile Include="C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\SlikeMisicnihGrupa\Calves.jpg">
       <PackagePath>Assets\SlikeMisicnihGrupa\Calves.jpg</PackagePath>
-      <Modified>2018-05-06T16:34:56.530</Modified>
+      <Modified>2018-05-07T09:47:50.656</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fatih\Desktop\faks\github\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\SlikeMisicnihGrupa\Chest.jpg">
+    <AppxPackagedFile Include="C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\SlikeMisicnihGrupa\Chest.jpg">
       <PackagePath>Assets\SlikeMisicnihGrupa\Chest.jpg</PackagePath>
-      <Modified>2018-05-06T16:34:56.579</Modified>
+      <Modified>2018-05-07T09:47:50.656</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fatih\Desktop\faks\github\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\SlikeMisicnihGrupa\Forearm.jpg">
+    <AppxPackagedFile Include="C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\SlikeMisicnihGrupa\Forearm.jpg">
       <PackagePath>Assets\SlikeMisicnihGrupa\Forearm.jpg</PackagePath>
-      <Modified>2018-05-06T16:34:56.589</Modified>
+      <Modified>2018-05-07T09:47:50.660</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fatih\Desktop\faks\github\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\SlikeMisicnihGrupa\Glutes.jpg">
+    <AppxPackagedFile Include="C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\SlikeMisicnihGrupa\Glutes.jpg">
       <PackagePath>Assets\SlikeMisicnihGrupa\Glutes.jpg</PackagePath>
-      <Modified>2018-05-06T16:34:56.633</Modified>
+      <Modified>2018-05-07T09:47:50.660</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fatih\Desktop\faks\github\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\SlikeMisicnihGrupa\Hamstrings.jpg">
+    <AppxPackagedFile Include="C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\SlikeMisicnihGrupa\Hamstrings.jpg">
       <PackagePath>Assets\SlikeMisicnihGrupa\Hamstrings.jpg</PackagePath>
-      <Modified>2018-05-06T16:34:56.641</Modified>
+      <Modified>2018-05-07T09:47:50.660</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fatih\Desktop\faks\github\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\SlikeMisicnihGrupa\Lats.jpg">
+    <AppxPackagedFile Include="C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\SlikeMisicnihGrupa\Lats.jpg">
       <PackagePath>Assets\SlikeMisicnihGrupa\Lats.jpg</PackagePath>
-      <Modified>2018-05-06T16:34:56.655</Modified>
+      <Modified>2018-05-07T09:47:50.664</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fatih\Desktop\faks\github\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\SlikeMisicnihGrupa\Lower-back.jpg">
+    <AppxPackagedFile Include="C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\SlikeMisicnihGrupa\Lower-back.jpg">
       <PackagePath>Assets\SlikeMisicnihGrupa\Lower-back.jpg</PackagePath>
-      <Modified>2018-05-06T16:34:56.769</Modified>
+      <Modified>2018-05-07T09:47:50.664</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fatih\Desktop\faks\github\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\SlikeMisicnihGrupa\Middle-back.jpg">
+    <AppxPackagedFile Include="C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\SlikeMisicnihGrupa\Middle-back.jpg">
       <PackagePath>Assets\SlikeMisicnihGrupa\Middle-back.jpg</PackagePath>
-      <Modified>2018-05-06T16:34:56.775</Modified>
+      <Modified>2018-05-07T09:47:50.668</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fatih\Desktop\faks\github\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\SlikeMisicnihGrupa\Neck.jpg">
+    <AppxPackagedFile Include="C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\SlikeMisicnihGrupa\Neck.jpg">
       <PackagePath>Assets\SlikeMisicnihGrupa\Neck.jpg</PackagePath>
-      <Modified>2018-05-06T16:34:56.782</Modified>
+      <Modified>2018-05-07T09:47:50.668</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fatih\Desktop\faks\github\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\SlikeMisicnihGrupa\Quads.jpg">
+    <AppxPackagedFile Include="C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\SlikeMisicnihGrupa\Quads.jpg">
       <PackagePath>Assets\SlikeMisicnihGrupa\Quads.jpg</PackagePath>
-      <Modified>2018-05-06T16:34:56.799</Modified>
+      <Modified>2018-05-07T09:47:50.668</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fatih\Desktop\faks\github\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\SlikeMisicnihGrupa\Shoulders.jpg">
+    <AppxPackagedFile Include="C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\SlikeMisicnihGrupa\Shoulders.jpg">
       <PackagePath>Assets\SlikeMisicnihGrupa\Shoulders.jpg</PackagePath>
-      <Modified>2018-05-06T16:34:56.805</Modified>
+      <Modified>2018-05-07T09:47:50.672</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fatih\Desktop\faks\github\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\SlikeMisicnihGrupa\Traps.jpg">
+    <AppxPackagedFile Include="C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\SlikeMisicnihGrupa\Traps.jpg">
       <PackagePath>Assets\SlikeMisicnihGrupa\Traps.jpg</PackagePath>
-      <Modified>2018-05-06T16:34:56.811</Modified>
+      <Modified>2018-05-07T09:47:50.672</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fatih\Desktop\faks\github\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\SlikeMisicnihGrupa\Triceps.jpg">
+    <AppxPackagedFile Include="C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\SlikeMisicnihGrupa\Triceps.jpg">
       <PackagePath>Assets\SlikeMisicnihGrupa\Triceps.jpg</PackagePath>
-<<<<<<< HEAD
-      <Modified>2018-05-06T16:34:56.818</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fatih\Desktop\faks\github\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Abs\Vjezba1\Slika1.jpg">
-      <PackagePath>Assets\Vjezbe\Abs\Vjezba1\Slika1.jpg</PackagePath>
-      <Modified>2018-05-06T14:33:36.448</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fatih\Desktop\faks\github\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Abs\Vjezba1\Slika2.jpg">
-      <PackagePath>Assets\Vjezbe\Abs\Vjezba1\Slika2.jpg</PackagePath>
-      <Modified>2018-05-06T14:33:36.449</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fatih\Desktop\faks\github\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Abs\Vjezba2\Slika1.jpg">
-      <PackagePath>Assets\Vjezbe\Abs\Vjezba2\Slika1.jpg</PackagePath>
-      <Modified>2018-05-06T14:33:36.452</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fatih\Desktop\faks\github\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Abs\Vjezba2\Slika2.jpg">
-      <PackagePath>Assets\Vjezbe\Abs\Vjezba2\Slika2.jpg</PackagePath>
-      <Modified>2018-05-06T14:33:36.453</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fatih\Desktop\faks\github\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Biceps\Vjezba1\Slika1.jpg">
-      <PackagePath>Assets\Vjezbe\Biceps\Vjezba1\Slika1.jpg</PackagePath>
-      <Modified>2018-05-06T14:33:36.456</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fatih\Desktop\faks\github\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Biceps\Vjezba1\Slika2.jpg">
-      <PackagePath>Assets\Vjezbe\Biceps\Vjezba1\Slika2.jpg</PackagePath>
-      <Modified>2018-05-06T14:33:36.458</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fatih\Desktop\faks\github\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Biceps\Vjezba2\Slika1.jpg">
-      <PackagePath>Assets\Vjezbe\Biceps\Vjezba2\Slika1.jpg</PackagePath>
-      <Modified>2018-05-06T14:33:36.462</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fatih\Desktop\faks\github\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Biceps\Vjezba2\Slika2.jpg">
-      <PackagePath>Assets\Vjezbe\Biceps\Vjezba2\Slika2.jpg</PackagePath>
-      <Modified>2018-05-06T14:33:36.463</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fatih\Desktop\faks\github\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Calves\Vjezba1\Slika1.jpg">
-      <PackagePath>Assets\Vjezbe\Calves\Vjezba1\Slika1.jpg</PackagePath>
-      <Modified>2018-05-06T14:33:36.466</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fatih\Desktop\faks\github\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Calves\Vjezba1\Slika2.jpg">
-      <PackagePath>Assets\Vjezbe\Calves\Vjezba1\Slika2.jpg</PackagePath>
-      <Modified>2018-05-06T14:33:36.467</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fatih\Desktop\faks\github\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Calves\Vjezba2\Slika1.jpg">
-      <PackagePath>Assets\Vjezbe\Calves\Vjezba2\Slika1.jpg</PackagePath>
-      <Modified>2018-05-06T14:33:36.470</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fatih\Desktop\faks\github\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Calves\Vjezba2\Slika2.jpg">
-      <PackagePath>Assets\Vjezbe\Calves\Vjezba2\Slika2.jpg</PackagePath>
-      <Modified>2018-05-06T14:33:36.472</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fatih\Desktop\faks\github\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Chest\Vjezba1\Slika1.jpg">
-      <PackagePath>Assets\Vjezbe\Chest\Vjezba1\Slika1.jpg</PackagePath>
-      <Modified>2018-05-06T14:33:36.475</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fatih\Desktop\faks\github\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Chest\Vjezba1\Slika2.jpg">
-      <PackagePath>Assets\Vjezbe\Chest\Vjezba1\Slika2.jpg</PackagePath>
-      <Modified>2018-05-06T14:33:36.477</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fatih\Desktop\faks\github\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Chest\Vjezba2\Slika1.jpg">
-      <PackagePath>Assets\Vjezbe\Chest\Vjezba2\Slika1.jpg</PackagePath>
-      <Modified>2018-05-06T14:33:36.480</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fatih\Desktop\faks\github\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Chest\Vjezba2\Slika2.jpg">
-      <PackagePath>Assets\Vjezbe\Chest\Vjezba2\Slika2.jpg</PackagePath>
-      <Modified>2018-05-06T14:33:36.481</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fatih\Desktop\faks\github\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Forearm\Vjezba1\Slika1.jpg">
-      <PackagePath>Assets\Vjezbe\Forearm\Vjezba1\Slika1.jpg</PackagePath>
-      <Modified>2018-05-06T14:33:36.505</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fatih\Desktop\faks\github\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Forearm\Vjezba1\Slika2.jpg">
-      <PackagePath>Assets\Vjezbe\Forearm\Vjezba1\Slika2.jpg</PackagePath>
-      <Modified>2018-05-06T14:33:36.507</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fatih\Desktop\faks\github\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Forearm\Vjezba2\Slika1.jpg">
-      <PackagePath>Assets\Vjezbe\Forearm\Vjezba2\Slika1.jpg</PackagePath>
-      <Modified>2018-05-06T14:33:36.511</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fatih\Desktop\faks\github\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Forearm\Vjezba2\Slika2.jpg">
-      <PackagePath>Assets\Vjezbe\Forearm\Vjezba2\Slika2.jpg</PackagePath>
-      <Modified>2018-05-06T14:33:36.512</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fatih\Desktop\faks\github\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Glutes\Vjezba1\Slika1.jpg">
-      <PackagePath>Assets\Vjezbe\Glutes\Vjezba1\Slika1.jpg</PackagePath>
-      <Modified>2018-05-06T14:33:36.516</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fatih\Desktop\faks\github\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Glutes\Vjezba1\Slika2.jpg">
-      <PackagePath>Assets\Vjezbe\Glutes\Vjezba1\Slika2.jpg</PackagePath>
-      <Modified>2018-05-06T14:33:36.517</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fatih\Desktop\faks\github\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Glutes\Vjezba2\Slika1.jpg">
-      <PackagePath>Assets\Vjezbe\Glutes\Vjezba2\Slika1.jpg</PackagePath>
-      <Modified>2018-05-06T14:33:36.520</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fatih\Desktop\faks\github\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Glutes\Vjezba2\Slika2.jpg">
-      <PackagePath>Assets\Vjezbe\Glutes\Vjezba2\Slika2.jpg</PackagePath>
-      <Modified>2018-05-06T14:33:36.521</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fatih\Desktop\faks\github\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Hamstrings\Vjezba1\Slika1.jpg">
-      <PackagePath>Assets\Vjezbe\Hamstrings\Vjezba1\Slika1.jpg</PackagePath>
-      <Modified>2018-05-06T14:33:36.539</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fatih\Desktop\faks\github\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Hamstrings\Vjezba1\Slika2.jpg">
-      <PackagePath>Assets\Vjezbe\Hamstrings\Vjezba1\Slika2.jpg</PackagePath>
-      <Modified>2018-05-06T14:33:36.540</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fatih\Desktop\faks\github\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Hamstrings\Vjezba2\Slika1.jpg">
-      <PackagePath>Assets\Vjezbe\Hamstrings\Vjezba2\Slika1.jpg</PackagePath>
-      <Modified>2018-05-06T14:33:36.545</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fatih\Desktop\faks\github\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Hamstrings\Vjezba2\Slika2.jpg">
-      <PackagePath>Assets\Vjezbe\Hamstrings\Vjezba2\Slika2.jpg</PackagePath>
-      <Modified>2018-05-06T14:33:36.545</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fatih\Desktop\faks\github\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Lats\Vjezba1\Slika1.jpg">
-      <PackagePath>Assets\Vjezbe\Lats\Vjezba1\Slika1.jpg</PackagePath>
-      <Modified>2018-05-06T14:33:36.548</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fatih\Desktop\faks\github\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Lats\Vjezba1\Slika2.jpg">
-      <PackagePath>Assets\Vjezbe\Lats\Vjezba1\Slika2.jpg</PackagePath>
-      <Modified>2018-05-06T14:33:36.551</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fatih\Desktop\faks\github\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Lats\Vjezba2\Slika1.jpg">
-      <PackagePath>Assets\Vjezbe\Lats\Vjezba2\Slika1.jpg</PackagePath>
-      <Modified>2018-05-06T14:33:36.553</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fatih\Desktop\faks\github\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Lats\Vjezba2\Slika2.jpg">
-      <PackagePath>Assets\Vjezbe\Lats\Vjezba2\Slika2.jpg</PackagePath>
-      <Modified>2018-05-06T14:33:36.555</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fatih\Desktop\faks\github\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Lower-back\Vjezba1\Slika1.jpg">
-      <PackagePath>Assets\Vjezbe\Lower-back\Vjezba1\Slika1.jpg</PackagePath>
-      <Modified>2018-05-06T14:33:36.559</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fatih\Desktop\faks\github\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Lower-back\Vjezba1\Slika2.jpg">
-      <PackagePath>Assets\Vjezbe\Lower-back\Vjezba1\Slika2.jpg</PackagePath>
-      <Modified>2018-05-06T14:33:36.561</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fatih\Desktop\faks\github\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Lower-back\Vjezba2\Slika1.jpg">
-      <PackagePath>Assets\Vjezbe\Lower-back\Vjezba2\Slika1.jpg</PackagePath>
-      <Modified>2018-05-06T14:33:36.564</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fatih\Desktop\faks\github\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Lower-back\Vjezba2\Slika2.jpg">
-      <PackagePath>Assets\Vjezbe\Lower-back\Vjezba2\Slika2.jpg</PackagePath>
-      <Modified>2018-05-06T14:33:36.566</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fatih\Desktop\faks\github\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Middle-back\Vjezba1\Slika1.jpg">
-      <PackagePath>Assets\Vjezbe\Middle-back\Vjezba1\Slika1.jpg</PackagePath>
-      <Modified>2018-05-06T14:33:36.604</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fatih\Desktop\faks\github\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Middle-back\Vjezba1\Slika2.jpg">
-      <PackagePath>Assets\Vjezbe\Middle-back\Vjezba1\Slika2.jpg</PackagePath>
-      <Modified>2018-05-06T14:33:36.606</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fatih\Desktop\faks\github\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Middle-back\Vjezba2\Slika1.jpg">
-      <PackagePath>Assets\Vjezbe\Middle-back\Vjezba2\Slika1.jpg</PackagePath>
-      <Modified>2018-05-06T14:33:36.669</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fatih\Desktop\faks\github\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Middle-back\Vjezba2\Slika2.jpg">
-      <PackagePath>Assets\Vjezbe\Middle-back\Vjezba2\Slika2.jpg</PackagePath>
-      <Modified>2018-05-06T14:33:36.677</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fatih\Desktop\faks\github\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Neck\Vjezba1\Slika1.jpg">
-      <PackagePath>Assets\Vjezbe\Neck\Vjezba1\Slika1.jpg</PackagePath>
-      <Modified>2018-05-06T14:33:36.720</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fatih\Desktop\faks\github\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Neck\Vjezba1\Slika2.jpg">
-      <PackagePath>Assets\Vjezbe\Neck\Vjezba1\Slika2.jpg</PackagePath>
-      <Modified>2018-05-06T14:33:36.721</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fatih\Desktop\faks\github\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Neck\Vjezba2\Slika1.jpg">
-      <PackagePath>Assets\Vjezbe\Neck\Vjezba2\Slika1.jpg</PackagePath>
-      <Modified>2018-05-06T14:33:36.724</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fatih\Desktop\faks\github\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Neck\Vjezba2\Slika2.jpg">
-      <PackagePath>Assets\Vjezbe\Neck\Vjezba2\Slika2.jpg</PackagePath>
-      <Modified>2018-05-06T14:33:36.725</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fatih\Desktop\faks\github\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Quads\Vjezba1\Slika1.jpg">
-      <PackagePath>Assets\Vjezbe\Quads\Vjezba1\Slika1.jpg</PackagePath>
-      <Modified>2018-05-06T14:33:36.730</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fatih\Desktop\faks\github\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Quads\Vjezba1\Slika2.jpg">
-      <PackagePath>Assets\Vjezbe\Quads\Vjezba1\Slika2.jpg</PackagePath>
-      <Modified>2018-05-06T14:33:36.731</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fatih\Desktop\faks\github\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Quads\Vjezba2\Slika1.jpg">
-      <PackagePath>Assets\Vjezbe\Quads\Vjezba2\Slika1.jpg</PackagePath>
-      <Modified>2018-05-06T14:33:36.756</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fatih\Desktop\faks\github\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Quads\Vjezba2\Slika2.jpg">
-      <PackagePath>Assets\Vjezbe\Quads\Vjezba2\Slika2.jpg</PackagePath>
-      <Modified>2018-05-06T14:33:36.758</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fatih\Desktop\faks\github\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Shoulders\Vjezba1\Slika1.jpg">
-      <PackagePath>Assets\Vjezbe\Shoulders\Vjezba1\Slika1.jpg</PackagePath>
-      <Modified>2018-05-06T14:33:36.764</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fatih\Desktop\faks\github\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Shoulders\Vjezba1\Slika2.jpg">
-      <PackagePath>Assets\Vjezbe\Shoulders\Vjezba1\Slika2.jpg</PackagePath>
-      <Modified>2018-05-06T14:33:36.764</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fatih\Desktop\faks\github\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Shoulders\Vjezba2\Slika1.jpg">
-      <PackagePath>Assets\Vjezbe\Shoulders\Vjezba2\Slika1.jpg</PackagePath>
-      <Modified>2018-05-06T14:33:36.767</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fatih\Desktop\faks\github\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Shoulders\Vjezba2\Slika2.jpg">
-      <PackagePath>Assets\Vjezbe\Shoulders\Vjezba2\Slika2.jpg</PackagePath>
-      <Modified>2018-05-06T14:33:36.769</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fatih\Desktop\faks\github\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Traps\Vjezba1\Slika1.jpg">
-      <PackagePath>Assets\Vjezbe\Traps\Vjezba1\Slika1.jpg</PackagePath>
-      <Modified>2018-05-06T14:33:36.774</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fatih\Desktop\faks\github\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Traps\Vjezba1\Slika2.jpg">
-      <PackagePath>Assets\Vjezbe\Traps\Vjezba1\Slika2.jpg</PackagePath>
-      <Modified>2018-05-06T14:33:36.776</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fatih\Desktop\faks\github\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Traps\Vjezba2\Slika1.jpg">
-      <PackagePath>Assets\Vjezbe\Traps\Vjezba2\Slika1.jpg</PackagePath>
-      <Modified>2018-05-06T14:33:36.779</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fatih\Desktop\faks\github\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Traps\Vjezba2\Slika2.jpg">
-      <PackagePath>Assets\Vjezbe\Traps\Vjezba2\Slika2.jpg</PackagePath>
-      <Modified>2018-05-06T14:33:36.781</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fatih\Desktop\faks\github\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Triceps\Vjezba1\Slika1.jpg">
-      <PackagePath>Assets\Vjezbe\Triceps\Vjezba1\Slika1.jpg</PackagePath>
-      <Modified>2018-05-06T14:33:36.784</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fatih\Desktop\faks\github\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Triceps\Vjezba1\Slika2.jpg">
-      <PackagePath>Assets\Vjezbe\Triceps\Vjezba1\Slika2.jpg</PackagePath>
-      <Modified>2018-05-06T14:33:36.785</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fatih\Desktop\faks\github\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Triceps\Vjezba2\Slika1.jpg">
-      <PackagePath>Assets\Vjezbe\Triceps\Vjezba2\Slika1.jpg</PackagePath>
-      <Modified>2018-05-06T14:33:37.051</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fatih\Desktop\faks\github\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Triceps\Vjezba2\Slika2.jpg">
-      <PackagePath>Assets\Vjezbe\Triceps\Vjezba2\Slika2.jpg</PackagePath>
-      <Modified>2018-05-06T14:33:37.053</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fatih\Desktop\faks\github\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Abs\Vjezba1\info.txt">
-=======
-      <Modified>2018-05-06T15:53:12.681</Modified>
->>>>>>> cd945291e3c59f2beb8a3e8f6709ef9c99b24efd
+      <Modified>2018-05-07T09:47:50.676</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Abs\Vjezba1\Slika1.jpg">
       <PackagePath>Assets\Vjezbe\Abs\Vjezba1\Slika1.jpg</PackagePath>
-      <Modified>2018-05-06T13:49:38.883</Modified>
+      <Modified>2018-05-07T09:47:50.684</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Abs\Vjezba1\Slika2.jpg">
       <PackagePath>Assets\Vjezbe\Abs\Vjezba1\Slika2.jpg</PackagePath>
-      <Modified>2018-05-06T13:49:38.883</Modified>
+      <Modified>2018-05-07T09:47:50.688</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Abs\Vjezba2\Slika1.jpg">
       <PackagePath>Assets\Vjezbe\Abs\Vjezba2\Slika1.jpg</PackagePath>
-      <Modified>2018-05-06T13:49:38.883</Modified>
+      <Modified>2018-05-07T09:47:50.688</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Abs\Vjezba2\Slika2.jpg">
       <PackagePath>Assets\Vjezbe\Abs\Vjezba2\Slika2.jpg</PackagePath>
-      <Modified>2018-05-06T13:49:38.883</Modified>
+      <Modified>2018-05-07T09:47:50.692</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Biceps\Vjezba1\Slika1.jpg">
       <PackagePath>Assets\Vjezbe\Biceps\Vjezba1\Slika1.jpg</PackagePath>
-      <Modified>2018-05-06T13:49:38.883</Modified>
+      <Modified>2018-05-07T09:47:50.696</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Biceps\Vjezba1\Slika2.jpg">
       <PackagePath>Assets\Vjezbe\Biceps\Vjezba1\Slika2.jpg</PackagePath>
-      <Modified>2018-05-06T13:49:38.883</Modified>
+      <Modified>2018-05-07T09:47:50.696</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Biceps\Vjezba2\Slika1.jpg">
       <PackagePath>Assets\Vjezbe\Biceps\Vjezba2\Slika1.jpg</PackagePath>
-      <Modified>2018-05-06T13:49:38.899</Modified>
+      <Modified>2018-05-07T09:47:50.700</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Biceps\Vjezba2\Slika2.jpg">
       <PackagePath>Assets\Vjezbe\Biceps\Vjezba2\Slika2.jpg</PackagePath>
-      <Modified>2018-05-06T13:49:38.899</Modified>
+      <Modified>2018-05-07T09:47:50.700</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Calves\Vjezba1\Slika1.jpg">
       <PackagePath>Assets\Vjezbe\Calves\Vjezba1\Slika1.jpg</PackagePath>
-      <Modified>2018-05-06T13:49:38.899</Modified>
+      <Modified>2018-05-07T09:47:50.704</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Calves\Vjezba1\Slika2.jpg">
       <PackagePath>Assets\Vjezbe\Calves\Vjezba1\Slika2.jpg</PackagePath>
-      <Modified>2018-05-06T13:49:38.899</Modified>
+      <Modified>2018-05-07T09:47:50.708</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Calves\Vjezba2\Slika1.jpg">
       <PackagePath>Assets\Vjezbe\Calves\Vjezba2\Slika1.jpg</PackagePath>
-      <Modified>2018-05-06T13:49:38.899</Modified>
+      <Modified>2018-05-07T09:47:50.712</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Calves\Vjezba2\Slika2.jpg">
       <PackagePath>Assets\Vjezbe\Calves\Vjezba2\Slika2.jpg</PackagePath>
-      <Modified>2018-05-06T13:49:38.899</Modified>
+      <Modified>2018-05-07T09:47:50.712</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Chest\Vjezba1\Slika1.jpg">
       <PackagePath>Assets\Vjezbe\Chest\Vjezba1\Slika1.jpg</PackagePath>
-      <Modified>2018-05-06T13:49:38.899</Modified>
+      <Modified>2018-05-07T09:47:50.716</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Chest\Vjezba1\Slika2.jpg">
       <PackagePath>Assets\Vjezbe\Chest\Vjezba1\Slika2.jpg</PackagePath>
-      <Modified>2018-05-06T13:49:38.915</Modified>
+      <Modified>2018-05-07T09:47:50.716</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Chest\Vjezba2\Slika1.jpg">
       <PackagePath>Assets\Vjezbe\Chest\Vjezba2\Slika1.jpg</PackagePath>
-      <Modified>2018-05-06T13:49:38.915</Modified>
+      <Modified>2018-05-07T09:47:50.720</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Chest\Vjezba2\Slika2.jpg">
       <PackagePath>Assets\Vjezbe\Chest\Vjezba2\Slika2.jpg</PackagePath>
-      <Modified>2018-05-06T13:49:38.915</Modified>
+      <Modified>2018-05-07T09:47:50.724</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Forearm\Vjezba1\Slika1.jpg">
       <PackagePath>Assets\Vjezbe\Forearm\Vjezba1\Slika1.jpg</PackagePath>
-      <Modified>2018-05-06T13:49:38.915</Modified>
+      <Modified>2018-05-07T09:47:50.728</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Forearm\Vjezba1\Slika2.jpg">
       <PackagePath>Assets\Vjezbe\Forearm\Vjezba1\Slika2.jpg</PackagePath>
-      <Modified>2018-05-06T13:49:38.915</Modified>
+      <Modified>2018-05-07T09:47:50.728</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Forearm\Vjezba2\Slika1.jpg">
       <PackagePath>Assets\Vjezbe\Forearm\Vjezba2\Slika1.jpg</PackagePath>
-      <Modified>2018-05-06T13:49:38.915</Modified>
+      <Modified>2018-05-07T09:47:50.732</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Forearm\Vjezba2\Slika2.jpg">
       <PackagePath>Assets\Vjezbe\Forearm\Vjezba2\Slika2.jpg</PackagePath>
-      <Modified>2018-05-06T13:49:38.915</Modified>
+      <Modified>2018-05-07T09:47:50.732</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Glutes\Vjezba1\Slika1.jpg">
       <PackagePath>Assets\Vjezbe\Glutes\Vjezba1\Slika1.jpg</PackagePath>
-      <Modified>2018-05-06T13:49:38.930</Modified>
+      <Modified>2018-05-07T09:47:50.736</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Glutes\Vjezba1\Slika2.jpg">
       <PackagePath>Assets\Vjezbe\Glutes\Vjezba1\Slika2.jpg</PackagePath>
-      <Modified>2018-05-06T13:49:38.930</Modified>
+      <Modified>2018-05-07T09:47:50.740</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Glutes\Vjezba2\Slika1.jpg">
       <PackagePath>Assets\Vjezbe\Glutes\Vjezba2\Slika1.jpg</PackagePath>
-      <Modified>2018-05-06T13:49:38.930</Modified>
+      <Modified>2018-05-07T09:47:50.744</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Glutes\Vjezba2\Slika2.jpg">
       <PackagePath>Assets\Vjezbe\Glutes\Vjezba2\Slika2.jpg</PackagePath>
-      <Modified>2018-05-06T13:49:38.930</Modified>
+      <Modified>2018-05-07T09:47:50.744</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Hamstrings\Vjezba1\Slika1.jpg">
       <PackagePath>Assets\Vjezbe\Hamstrings\Vjezba1\Slika1.jpg</PackagePath>
-      <Modified>2018-05-06T13:49:38.930</Modified>
+      <Modified>2018-05-07T09:47:50.748</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Hamstrings\Vjezba1\Slika2.jpg">
       <PackagePath>Assets\Vjezbe\Hamstrings\Vjezba1\Slika2.jpg</PackagePath>
-      <Modified>2018-05-06T13:49:38.930</Modified>
+      <Modified>2018-05-07T09:47:50.752</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Hamstrings\Vjezba2\Slika1.jpg">
       <PackagePath>Assets\Vjezbe\Hamstrings\Vjezba2\Slika1.jpg</PackagePath>
-      <Modified>2018-05-06T13:49:38.946</Modified>
+      <Modified>2018-05-07T09:47:50.756</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Hamstrings\Vjezba2\Slika2.jpg">
       <PackagePath>Assets\Vjezbe\Hamstrings\Vjezba2\Slika2.jpg</PackagePath>
-      <Modified>2018-05-06T13:49:38.946</Modified>
+      <Modified>2018-05-07T09:47:50.756</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Lats\Vjezba1\Slika1.jpg">
       <PackagePath>Assets\Vjezbe\Lats\Vjezba1\Slika1.jpg</PackagePath>
-      <Modified>2018-05-06T13:49:38.946</Modified>
+      <Modified>2018-05-07T09:47:50.760</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Lats\Vjezba1\Slika2.jpg">
       <PackagePath>Assets\Vjezbe\Lats\Vjezba1\Slika2.jpg</PackagePath>
-      <Modified>2018-05-06T13:49:38.946</Modified>
+      <Modified>2018-05-07T09:47:50.760</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Lats\Vjezba2\Slika1.jpg">
       <PackagePath>Assets\Vjezbe\Lats\Vjezba2\Slika1.jpg</PackagePath>
-      <Modified>2018-05-06T13:49:38.946</Modified>
+      <Modified>2018-05-07T09:47:50.764</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Lats\Vjezba2\Slika2.jpg">
       <PackagePath>Assets\Vjezbe\Lats\Vjezba2\Slika2.jpg</PackagePath>
-      <Modified>2018-05-06T13:49:38.946</Modified>
+      <Modified>2018-05-07T09:47:50.768</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Lower-back\Vjezba1\Slika1.jpg">
       <PackagePath>Assets\Vjezbe\Lower-back\Vjezba1\Slika1.jpg</PackagePath>
-      <Modified>2018-05-06T13:49:38.946</Modified>
+      <Modified>2018-05-07T09:47:50.768</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Lower-back\Vjezba1\Slika2.jpg">
       <PackagePath>Assets\Vjezbe\Lower-back\Vjezba1\Slika2.jpg</PackagePath>
-      <Modified>2018-05-06T13:49:38.961</Modified>
+      <Modified>2018-05-07T09:47:50.772</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Lower-back\Vjezba2\Slika1.jpg">
       <PackagePath>Assets\Vjezbe\Lower-back\Vjezba2\Slika1.jpg</PackagePath>
-      <Modified>2018-05-06T13:49:38.961</Modified>
+      <Modified>2018-05-07T09:47:50.776</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Lower-back\Vjezba2\Slika2.jpg">
       <PackagePath>Assets\Vjezbe\Lower-back\Vjezba2\Slika2.jpg</PackagePath>
-      <Modified>2018-05-06T13:49:38.961</Modified>
+      <Modified>2018-05-07T09:47:50.776</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Middle-back\Vjezba1\Slika1.jpg">
       <PackagePath>Assets\Vjezbe\Middle-back\Vjezba1\Slika1.jpg</PackagePath>
-      <Modified>2018-05-06T13:49:38.961</Modified>
+      <Modified>2018-05-07T09:47:50.780</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Middle-back\Vjezba1\Slika2.jpg">
       <PackagePath>Assets\Vjezbe\Middle-back\Vjezba1\Slika2.jpg</PackagePath>
-      <Modified>2018-05-06T13:49:38.961</Modified>
+      <Modified>2018-05-07T09:47:50.784</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Middle-back\Vjezba2\Slika1.jpg">
       <PackagePath>Assets\Vjezbe\Middle-back\Vjezba2\Slika1.jpg</PackagePath>
-      <Modified>2018-05-06T13:49:38.961</Modified>
+      <Modified>2018-05-07T09:47:50.788</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Middle-back\Vjezba2\Slika2.jpg">
       <PackagePath>Assets\Vjezbe\Middle-back\Vjezba2\Slika2.jpg</PackagePath>
-      <Modified>2018-05-06T13:49:38.977</Modified>
+      <Modified>2018-05-07T09:47:50.788</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Neck\Vjezba1\Slika1.jpg">
       <PackagePath>Assets\Vjezbe\Neck\Vjezba1\Slika1.jpg</PackagePath>
-      <Modified>2018-05-06T13:49:38.977</Modified>
+      <Modified>2018-05-07T09:47:50.792</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Neck\Vjezba1\Slika2.jpg">
       <PackagePath>Assets\Vjezbe\Neck\Vjezba1\Slika2.jpg</PackagePath>
-      <Modified>2018-05-06T13:49:38.977</Modified>
+      <Modified>2018-05-07T09:47:50.796</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Neck\Vjezba2\Slika1.jpg">
       <PackagePath>Assets\Vjezbe\Neck\Vjezba2\Slika1.jpg</PackagePath>
-      <Modified>2018-05-06T13:49:38.977</Modified>
+      <Modified>2018-05-07T09:47:50.800</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Neck\Vjezba2\Slika2.jpg">
       <PackagePath>Assets\Vjezbe\Neck\Vjezba2\Slika2.jpg</PackagePath>
-      <Modified>2018-05-06T13:49:38.977</Modified>
+      <Modified>2018-05-07T09:47:50.800</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Quads\Vjezba1\Slika1.jpg">
       <PackagePath>Assets\Vjezbe\Quads\Vjezba1\Slika1.jpg</PackagePath>
-      <Modified>2018-05-06T13:49:38.977</Modified>
+      <Modified>2018-05-07T09:47:50.804</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Quads\Vjezba1\Slika2.jpg">
       <PackagePath>Assets\Vjezbe\Quads\Vjezba1\Slika2.jpg</PackagePath>
-      <Modified>2018-05-06T13:49:38.977</Modified>
+      <Modified>2018-05-07T09:47:50.808</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Quads\Vjezba2\Slika1.jpg">
       <PackagePath>Assets\Vjezbe\Quads\Vjezba2\Slika1.jpg</PackagePath>
-      <Modified>2018-05-06T13:49:38.993</Modified>
+      <Modified>2018-05-07T09:47:50.812</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Quads\Vjezba2\Slika2.jpg">
       <PackagePath>Assets\Vjezbe\Quads\Vjezba2\Slika2.jpg</PackagePath>
-      <Modified>2018-05-06T13:49:38.993</Modified>
+      <Modified>2018-05-07T09:47:50.812</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Shoulders\Vjezba1\Slika1.jpg">
       <PackagePath>Assets\Vjezbe\Shoulders\Vjezba1\Slika1.jpg</PackagePath>
-      <Modified>2018-05-06T13:49:38.993</Modified>
+      <Modified>2018-05-07T09:47:50.816</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Shoulders\Vjezba1\Slika2.jpg">
       <PackagePath>Assets\Vjezbe\Shoulders\Vjezba1\Slika2.jpg</PackagePath>
-      <Modified>2018-05-06T13:49:38.993</Modified>
+      <Modified>2018-05-07T09:47:50.820</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Shoulders\Vjezba2\Slika1.jpg">
       <PackagePath>Assets\Vjezbe\Shoulders\Vjezba2\Slika1.jpg</PackagePath>
-      <Modified>2018-05-06T13:49:38.993</Modified>
+      <Modified>2018-05-07T09:47:50.824</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Shoulders\Vjezba2\Slika2.jpg">
       <PackagePath>Assets\Vjezbe\Shoulders\Vjezba2\Slika2.jpg</PackagePath>
-      <Modified>2018-05-06T13:49:38.993</Modified>
+      <Modified>2018-05-07T09:47:50.824</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Traps\Vjezba1\Slika1.jpg">
       <PackagePath>Assets\Vjezbe\Traps\Vjezba1\Slika1.jpg</PackagePath>
-      <Modified>2018-05-06T13:49:39.008</Modified>
+      <Modified>2018-05-07T09:47:50.828</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Traps\Vjezba1\Slika2.jpg">
       <PackagePath>Assets\Vjezbe\Traps\Vjezba1\Slika2.jpg</PackagePath>
-      <Modified>2018-05-06T13:49:39.008</Modified>
+      <Modified>2018-05-07T09:47:50.832</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Traps\Vjezba2\Slika1.jpg">
       <PackagePath>Assets\Vjezbe\Traps\Vjezba2\Slika1.jpg</PackagePath>
-      <Modified>2018-05-06T13:49:39.008</Modified>
+      <Modified>2018-05-07T09:47:50.836</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Traps\Vjezba2\Slika2.jpg">
       <PackagePath>Assets\Vjezbe\Traps\Vjezba2\Slika2.jpg</PackagePath>
-      <Modified>2018-05-06T13:49:39.008</Modified>
+      <Modified>2018-05-07T09:47:50.840</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Triceps\Vjezba1\Slika1.jpg">
       <PackagePath>Assets\Vjezbe\Triceps\Vjezba1\Slika1.jpg</PackagePath>
-      <Modified>2018-05-06T13:49:39.008</Modified>
+      <Modified>2018-05-07T09:47:50.844</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Triceps\Vjezba1\Slika2.jpg">
       <PackagePath>Assets\Vjezbe\Triceps\Vjezba1\Slika2.jpg</PackagePath>
-      <Modified>2018-05-06T13:49:39.008</Modified>
+      <Modified>2018-05-07T09:47:50.844</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Triceps\Vjezba2\Slika1.jpg">
       <PackagePath>Assets\Vjezbe\Triceps\Vjezba2\Slika1.jpg</PackagePath>
-      <Modified>2018-05-06T13:49:39.008</Modified>
+      <Modified>2018-05-07T09:47:50.848</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Triceps\Vjezba2\Slika2.jpg">
       <PackagePath>Assets\Vjezbe\Triceps\Vjezba2\Slika2.jpg</PackagePath>
-      <Modified>2018-05-06T13:49:39.024</Modified>
+      <Modified>2018-05-07T09:47:50.852</Modified>
     </AppxPackagedFile>
-<<<<<<< HEAD
-    <AppxPackagedFile Include="C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Properties\Default.rd.xml">
-=======
-    <AppxPackagedFile Include="C:\Users\emins\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Abs\Vjezba1\info.txt">
->>>>>>> 17e1c67b16abc21272b52da9a5412cf03565f957
+    <AppxPackagedFile Include="C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Abs\Vjezba1\info.txt">
       <PackagePath>Assets\Vjezbe\Abs\Vjezba1\info.txt</PackagePath>
-      <Modified>2018-05-06T14:33:36.451</Modified>
+      <Modified>2018-05-07T09:47:50.688</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fatih\Desktop\faks\github\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Abs\Vjezba2\info.txt">
+    <AppxPackagedFile Include="C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Abs\Vjezba2\info.txt">
       <PackagePath>Assets\Vjezbe\Abs\Vjezba2\info.txt</PackagePath>
-      <Modified>2018-05-06T14:33:36.455</Modified>
+      <Modified>2018-05-07T09:47:50.692</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fatih\Desktop\faks\github\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Biceps\Vjezba1\info.txt">
+    <AppxPackagedFile Include="C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Biceps\Vjezba1\info.txt">
       <PackagePath>Assets\Vjezbe\Biceps\Vjezba1\info.txt</PackagePath>
-      <Modified>2018-05-06T14:33:36.460</Modified>
+      <Modified>2018-05-07T09:47:50.700</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fatih\Desktop\faks\github\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Biceps\Vjezba2\info.txt">
+    <AppxPackagedFile Include="C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Biceps\Vjezba2\info.txt">
       <PackagePath>Assets\Vjezbe\Biceps\Vjezba2\info.txt</PackagePath>
-      <Modified>2018-05-06T14:33:36.464</Modified>
+      <Modified>2018-05-07T09:47:50.704</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fatih\Desktop\faks\github\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Calves\Vjezba1\info.txt">
+    <AppxPackagedFile Include="C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Calves\Vjezba1\info.txt">
       <PackagePath>Assets\Vjezbe\Calves\Vjezba1\info.txt</PackagePath>
-      <Modified>2018-05-06T14:33:36.468</Modified>
+      <Modified>2018-05-07T09:47:50.708</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fatih\Desktop\faks\github\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Calves\Vjezba2\info.txt">
+    <AppxPackagedFile Include="C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Calves\Vjezba2\info.txt">
       <PackagePath>Assets\Vjezbe\Calves\Vjezba2\info.txt</PackagePath>
-      <Modified>2018-05-06T14:33:36.473</Modified>
+      <Modified>2018-05-07T09:47:50.712</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fatih\Desktop\faks\github\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Chest\Vjezba1\info.txt">
+    <AppxPackagedFile Include="C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Chest\Vjezba1\info.txt">
       <PackagePath>Assets\Vjezbe\Chest\Vjezba1\info.txt</PackagePath>
-      <Modified>2018-05-06T14:33:36.478</Modified>
+      <Modified>2018-05-07T09:47:50.720</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fatih\Desktop\faks\github\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Chest\Vjezba2\info.txt">
+    <AppxPackagedFile Include="C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Chest\Vjezba2\info.txt">
       <PackagePath>Assets\Vjezbe\Chest\Vjezba2\info.txt</PackagePath>
-      <Modified>2018-05-06T14:33:36.483</Modified>
+      <Modified>2018-05-07T09:47:50.724</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fatih\Desktop\faks\github\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Forearm\Vjezba1\info.txt">
+    <AppxPackagedFile Include="C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Forearm\Vjezba1\info.txt">
       <PackagePath>Assets\Vjezbe\Forearm\Vjezba1\info.txt</PackagePath>
-      <Modified>2018-05-06T14:33:36.509</Modified>
+      <Modified>2018-05-07T09:47:50.728</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fatih\Desktop\faks\github\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Forearm\Vjezba2\info.txt">
+    <AppxPackagedFile Include="C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Forearm\Vjezba2\info.txt">
       <PackagePath>Assets\Vjezbe\Forearm\Vjezba2\info.txt</PackagePath>
-      <Modified>2018-05-06T14:33:36.514</Modified>
+      <Modified>2018-05-07T09:47:50.736</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fatih\Desktop\faks\github\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Glutes\Vjezba1\info.txt">
+    <AppxPackagedFile Include="C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Glutes\Vjezba1\info.txt">
       <PackagePath>Assets\Vjezbe\Glutes\Vjezba1\info.txt</PackagePath>
-      <Modified>2018-05-06T14:33:36.518</Modified>
+      <Modified>2018-05-07T09:47:50.740</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fatih\Desktop\faks\github\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Glutes\Vjezba2\info.txt">
+    <AppxPackagedFile Include="C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Glutes\Vjezba2\info.txt">
       <PackagePath>Assets\Vjezbe\Glutes\Vjezba2\info.txt</PackagePath>
-      <Modified>2018-05-06T14:33:36.523</Modified>
+      <Modified>2018-05-07T09:47:50.748</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fatih\Desktop\faks\github\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Hamstrings\Vjezba1\info.txt">
+    <AppxPackagedFile Include="C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Hamstrings\Vjezba1\info.txt">
       <PackagePath>Assets\Vjezbe\Hamstrings\Vjezba1\info.txt</PackagePath>
-      <Modified>2018-05-06T14:33:36.542</Modified>
+      <Modified>2018-05-07T09:47:50.752</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fatih\Desktop\faks\github\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Hamstrings\Vjezba2\info.txt">
+    <AppxPackagedFile Include="C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Hamstrings\Vjezba2\info.txt">
       <PackagePath>Assets\Vjezbe\Hamstrings\Vjezba2\info.txt</PackagePath>
-      <Modified>2018-05-06T14:33:36.546</Modified>
+      <Modified>2018-05-07T09:47:50.756</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fatih\Desktop\faks\github\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Lats\Vjezba1\info.txt">
+    <AppxPackagedFile Include="C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Lats\Vjezba1\info.txt">
       <PackagePath>Assets\Vjezbe\Lats\Vjezba1\info.txt</PackagePath>
-      <Modified>2018-05-06T14:33:36.552</Modified>
+      <Modified>2018-05-07T09:47:50.764</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fatih\Desktop\faks\github\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Lats\Vjezba2\info.txt">
+    <AppxPackagedFile Include="C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Lats\Vjezba2\info.txt">
       <PackagePath>Assets\Vjezbe\Lats\Vjezba2\info.txt</PackagePath>
-      <Modified>2018-05-06T14:33:36.556</Modified>
+      <Modified>2018-05-07T09:47:50.768</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fatih\Desktop\faks\github\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Lower-back\Vjezba1\info.txt">
+    <AppxPackagedFile Include="C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Lower-back\Vjezba1\info.txt">
       <PackagePath>Assets\Vjezbe\Lower-back\Vjezba1\info.txt</PackagePath>
-      <Modified>2018-05-06T14:33:36.562</Modified>
+      <Modified>2018-05-07T09:47:50.772</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fatih\Desktop\faks\github\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Lower-back\Vjezba2\info.txt">
+    <AppxPackagedFile Include="C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Lower-back\Vjezba2\info.txt">
       <PackagePath>Assets\Vjezbe\Lower-back\Vjezba2\info.txt</PackagePath>
-      <Modified>2018-05-06T14:33:36.566</Modified>
+      <Modified>2018-05-07T09:47:50.780</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fatih\Desktop\faks\github\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Middle-back\Vjezba1\info.txt">
+    <AppxPackagedFile Include="C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Middle-back\Vjezba1\info.txt">
       <PackagePath>Assets\Vjezbe\Middle-back\Vjezba1\info.txt</PackagePath>
-      <Modified>2018-05-06T14:33:36.610</Modified>
+      <Modified>2018-05-07T09:47:50.784</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fatih\Desktop\faks\github\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Middle-back\Vjezba2\info.txt">
+    <AppxPackagedFile Include="C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Middle-back\Vjezba2\info.txt">
       <PackagePath>Assets\Vjezbe\Middle-back\Vjezba2\info.txt</PackagePath>
-      <Modified>2018-05-06T14:33:36.681</Modified>
+      <Modified>2018-05-07T09:47:50.792</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fatih\Desktop\faks\github\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Neck\Vjezba1\info.txt">
+    <AppxPackagedFile Include="C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Neck\Vjezba1\info.txt">
       <PackagePath>Assets\Vjezbe\Neck\Vjezba1\info.txt</PackagePath>
-      <Modified>2018-05-06T14:33:36.722</Modified>
+      <Modified>2018-05-07T09:47:50.796</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fatih\Desktop\faks\github\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Neck\Vjezba2\info.txt">
+    <AppxPackagedFile Include="C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Neck\Vjezba2\info.txt">
       <PackagePath>Assets\Vjezbe\Neck\Vjezba2\info.txt</PackagePath>
-      <Modified>2018-05-06T14:33:36.727</Modified>
+      <Modified>2018-05-07T09:47:50.804</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fatih\Desktop\faks\github\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Quads\Vjezba1\info.txt">
+    <AppxPackagedFile Include="C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Quads\Vjezba1\info.txt">
       <PackagePath>Assets\Vjezbe\Quads\Vjezba1\info.txt</PackagePath>
-      <Modified>2018-05-06T14:33:36.755</Modified>
+      <Modified>2018-05-07T09:47:50.808</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fatih\Desktop\faks\github\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Quads\Vjezba2\info.txt">
+    <AppxPackagedFile Include="C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Quads\Vjezba2\info.txt">
       <PackagePath>Assets\Vjezbe\Quads\Vjezba2\info.txt</PackagePath>
-      <Modified>2018-05-06T14:33:36.762</Modified>
+      <Modified>2018-05-07T09:47:50.816</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fatih\Desktop\faks\github\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Shoulders\Vjezba1\info.txt">
+    <AppxPackagedFile Include="C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Shoulders\Vjezba1\info.txt">
       <PackagePath>Assets\Vjezbe\Shoulders\Vjezba1\info.txt</PackagePath>
-      <Modified>2018-05-06T14:33:36.766</Modified>
+      <Modified>2018-05-07T09:47:50.820</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fatih\Desktop\faks\github\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Shoulders\Vjezba2\info.txt">
+    <AppxPackagedFile Include="C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Shoulders\Vjezba2\info.txt">
       <PackagePath>Assets\Vjezbe\Shoulders\Vjezba2\info.txt</PackagePath>
-      <Modified>2018-05-06T14:33:36.770</Modified>
+      <Modified>2018-05-07T09:47:50.828</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fatih\Desktop\faks\github\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Traps\Vjezba1\info.txt">
+    <AppxPackagedFile Include="C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Traps\Vjezba1\info.txt">
       <PackagePath>Assets\Vjezbe\Traps\Vjezba1\info.txt</PackagePath>
-      <Modified>2018-05-06T14:33:36.778</Modified>
+      <Modified>2018-05-07T09:47:50.836</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fatih\Desktop\faks\github\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Traps\Vjezba2\info.txt">
+    <AppxPackagedFile Include="C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Traps\Vjezba2\info.txt">
       <PackagePath>Assets\Vjezbe\Traps\Vjezba2\info.txt</PackagePath>
-      <Modified>2018-05-06T14:33:36.782</Modified>
+      <Modified>2018-05-07T09:47:50.840</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fatih\Desktop\faks\github\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Triceps\Vjezba1\info.txt">
+    <AppxPackagedFile Include="C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Triceps\Vjezba1\info.txt">
       <PackagePath>Assets\Vjezbe\Triceps\Vjezba1\info.txt</PackagePath>
-      <Modified>2018-05-06T14:33:36.787</Modified>
+      <Modified>2018-05-07T09:47:50.848</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fatih\Desktop\faks\github\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Triceps\Vjezba2\info.txt">
+    <AppxPackagedFile Include="C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Assets\Vjezbe\Triceps\Vjezba2\info.txt">
       <PackagePath>Assets\Vjezbe\Triceps\Vjezba2\info.txt</PackagePath>
-      <Modified>2018-05-06T14:33:37.054</Modified>
+      <Modified>2018-05-07T09:47:50.852</Modified>
     </AppxPackagedFile>
-<<<<<<< HEAD
-    <AppxPackagedFile Include="C:\Users\fatih\Desktop\faks\github\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
-      <Modified>2018-04-03T22:14:53.398</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fatih\Desktop\faks\github\Grupa11-TimAltTab\Projekat\BeFit\BeFit\bin\x86\Debug\BeFit.xr.xml">
-      <PackagePath>BeFit.xr.xml</PackagePath>
-      <Modified>2018-05-06T19:19:42.596</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.16299.0\Windows.winmd">
-      <PackagePath>WinMetadata\Windows.winmd</PackagePath>
-      <Modified>2017-09-28T15:28:16.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fatih\Desktop\faks\github\Grupa11-TimAltTab\Projekat\BeFit\BeFit\bin\x86\Debug\resources.pri">
-      <PackagePath>resources.pri</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-05-06T19:52:26.643</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fatih\Desktop\faks\github\Grupa11-TimAltTab\Projekat\BeFit\BeFit\bin\x86\Debug\Core\BeFit.exe">
-      <PackagePath>BeFit.exe</PackagePath>
-      <Modified>2018-05-06T19:52:27.535</Modified>
-=======
-    <AppxPackagedFile Include="C:\Users\emins\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\Properties\Default.rd.xml">
->>>>>>> cd945291e3c59f2beb8a3e8f6709ef9c99b24efd
-      <PackagePath>Properties\Default.rd.xml</PackagePath>
-      <Modified>2018-05-06T13:49:39.047</Modified>
+      <Modified>2018-05-07T09:47:50.884</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\bin\x86\Debug\BeFit.xr.xml">
       <PackagePath>BeFit.xr.xml</PackagePath>
-      <Modified>2018-05-06T14:40:53.752</Modified>
+      <Modified>2018-05-07T09:47:52.465</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.16299.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -1909,20 +976,11 @@
     <AppxPackagedFile Include="C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-<<<<<<< HEAD
-      <Modified>2018-05-06T14:40:54.760</Modified>
-=======
-      <Modified>2018-05-06T16:06:50.944</Modified>
->>>>>>> cd945291e3c59f2beb8a3e8f6709ef9c99b24efd
+      <Modified>2018-05-07T09:56:52.741</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\bin\x86\Debug\Core\BeFit.exe">
       <PackagePath>BeFit.exe</PackagePath>
-<<<<<<< HEAD
-      <Modified>2018-05-06T14:40:55.047</Modified>
-=======
-      <Modified>2018-05-06T16:06:51.431</Modified>
->>>>>>> cd945291e3c59f2beb8a3e8f6709ef9c99b24efd
->>>>>>> 17e1c67b16abc21272b52da9a5412cf03565f957
+      <Modified>2018-05-07T10:59:02.566</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

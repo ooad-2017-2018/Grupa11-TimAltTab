@@ -8,6 +8,6 @@ namespace BeFit
 {
     public class Admin:Korisnik
     {
-
+        
     }
 }

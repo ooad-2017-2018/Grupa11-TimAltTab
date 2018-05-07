@@ -40,27 +40,40 @@ namespace BeFit
 
         public async Task UpdatePassworda()
         {
-            if (StaticHelper.CreateMD5(StariPassword) != Klijent.Password)
+            try
             {
-                await (new Windows.UI.Popups.MessageDialog("Stari password netačan")).ShowAsync();
+                if (StaticHelper.CreateMD5(StariPassword) != Klijent.Password)
+                {
+                    await (new Windows.UI.Popups.MessageDialog("Stari password netačan")).ShowAsync();
+                }
+                else if (Password == PonovljeniPass)
+                {
+                    await StaticHelper.PromijeniPassword(Klijent, Password);
+                    await (new Windows.UI.Popups.MessageDialog("Uspješno promijenjen password")).ShowAsync();
+                }
+                else
+                {
+                    await (new Windows.UI.Popups.MessageDialog("Passwordi se ne poklapaju")).ShowAsync();
+                }
             }
-            else if (Password == PonovljeniPass)
+            catch(Exception ex)
             {
-                await StaticHelper.PromijeniPassword(Klijent, Password);
-                await (new Windows.UI.Popups.MessageDialog("Uspješno promijenjen password")).ShowAsync();
-            }
-            else
-            {
-                await (new Windows.UI.Popups.MessageDialog("Passwordi se ne poklapaju")).ShowAsync();
+                await (new Windows.UI.Popups.MessageDialog(ex.Message)).ShowAsync();
             }
         }
         public async Task UpdateEmaila()
         {
-            Klijent.Email = Email;
-            await StaticHelper.PromijeniEmail(Klijent, Email);
-            await (new Windows.UI.Popups.MessageDialog("Uspješno promijenjen e-mail")).ShowAsync();
+            try
+            {
+                Klijent.Email = Email;
+                await StaticHelper.PromijeniEmail(Klijent, Email);
+                await (new Windows.UI.Popups.MessageDialog("Uspješno promijenjen e-mail")).ShowAsync();
+            }
+            catch (Exception ex)
+            {
+                await (new Windows.UI.Popups.MessageDialog(ex.Message)).ShowAsync();
+            }
         }
-
 
         public event PropertyChangedEventHandler PropertyChanged;
         protected void OnPropertyChanged(string propertyName)

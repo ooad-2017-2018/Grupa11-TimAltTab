@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-C:\Users\fatih\Desktop\faks\github\Grupa11-TimAltTab\Projekat\BeFit\BeFit\BeFit.csproj;x86
-=======
 C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\BeFit.csproj;x86
->>>>>>> 17e1c67b16abc21272b52da9a5412cf03565f957
