@@ -1,0 +1,448 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project Author="emins" CommentTableSortAscending="false" CommentTableSortColumn="Date Time" Description="&lt;html&gt;&#13;&#10;  &lt;head&gt;&#13;&#10;    &lt;style type=&quot;text/css&quot;&gt;&#10;      &lt;!--&#10;        body { color: #000000; font-family: Dialog; font-size: 12px }&#10;      --&gt;&#10;    &lt;/style&gt;&#13;&#10;    &#13;&#10;  &lt;/head&gt;&#13;&#10;  &lt;body&gt;&#13;&#10;  &lt;/body&gt;&#13;&#10;&lt;/html&gt;&#13;&#10;" DocumentationType="html" ExportedFromDifferentName="false" ExporterVersion="12.2" Name="KreiranjeProgramaDKomunikacije" TextualAnalysisHighlightOptionCaseSensitive="false" UmlVersion="2.x" Xml_structure="simple">
+	<ProjectInfo>
+		<LogicalView/>
+		<ProjectOptions>
+			<DiagramOptions ActivityDiagramControlFlowDisplayOption="\u0000" ActivityDiagramShowActionCallBehaviorOption="\u0000" ActivityDiagramShowActivityEdgeWeight="true" ActivityDiagramShowObjectNodeType="true" ActivityDiagramShowPartitionHandle="\u0000" AddDataStoresExtEntitiesToDecomposedDFD="\u0002" AlignColumnProperties="true" AllowConfigShowInOutFlowButtonsInDataFlowDiagram="false" AutoGenerateRoleName="false" AutoSetAttributeType="true" AutoSetColumnType="true" AutoSyncRoleName="true" BpdAutoStretchPools="true" BpdConnectGatewayWithFlowObjectInDifferentPool="\u0000" BpdDefaultConnectionPointStyle="\u0001" BpdDefaultConnectorStyle="\u0005" BpdDhowIdOption="\u0000" BpdShowActivitiesTypeIcon="true" BusinessProcessDiagramDefaultLanguage="English" ClassVisibilityStyle="\u0001" ConnectorLabelOrientation="\u0000" CreateOneMessagePerDirection="true" DecisionMergeNodeConnectionPointStyle="\u0000" DefaultAssociationEndNavigable="\u0001" DefaultAssociationEndVisibility="\u0000" DefaultAssociationShowFromMultiplicity="true" DefaultAssociationShowFromRoleName="true" DefaultAssociationShowFromRoleVisibility="true" DefaultAssociationShowStereotypes="true" DefaultAssociationShowToMultiplicity="true" DefaultAssociationShowToRoleName="true" DefaultAssociationShowToRoleVisibility="true" DefaultAttributeMultiplicity="false" DefaultAttributeType="" DefaultAttributeVisibility="\u0001" DefaultClassAttributeMultiplicity="" DefaultClassAttributeMultiplicityOrdered="false" DefaultClassAttributeMultiplicityUnique="true" DefaultClassInterfaceBall="false" DefaultClassVisibility="\u0004" DefaultColumnType="integer(10)" DefaultConnectionPointStyle="\u0000" DefaultConnectorStyle="\u0001" DefaultDiagramBackground="rgb(255, 255, 255)" DefaultDisplayAsRobustnessAnalysisIcon="true" DefaultDisplayAsRobustnessAnalysisIconInSequenceDiagram="true" DefaultDisplayAsStereotypeIcon="false" DefaultFontColor="rgb(0, 0, 0)" DefaultGenDiagramTypeFromScenario="\u0000" DefaultHtmlDocFontColor="rgb(0, 0, 0)" DefaultLineJumps="\u0000" DefaultOperationVisibility="\u0004" DefaultParameterDirection="\u0002" DefaultShowAttributeInitialValue="true" DefaultShowAttributeOption="\u0001" DefaultShowClassMemberStereotype="true" DefaultShowDirection="false" DefaultShowMultiplicityConstraints="false" DefaultShowOperationOption="\u0001" DefaultShowOperationSignature="true" DefaultShowOrderedMultiplicityConstraint="true" DefaultShowOwnedAssociationEndAsAttribute="true" DefaultShowOwner="false" DefaultShowOwnerSkipModelInFullyQualifiedOwnerSignature="true" DefaultShowTemplateParameter="true" DefaultShowTypeOption="\u0001" DefaultShowUniqueMultiplicityConstraint="true" DefaultTypeOfSubProcess="\u0000" DefaultWrapClassMember="false" DrawTextAnnotationOpenRectangleFollowConnectorEnd="true" EnableMinimumSize="true" EntityColumnConstraintsPresentation="\u0002" ErdIndexNumOfDigits="-1" ErdIndexPattern="{table_name}" ErdIndexPatternSyncAutomatically="true" ErdManyToManyJoinTableDelimiter="_" EtlTableDiagramFontSize="14" ExpandedSubProcessDiagramContent="\u0001" ForeignKeyArrowHeadSize="\u0002" ForeignKeyConnectorEndPointAssociatedColumn="false" ForeignKeyNamePattern="{reference_table_name}{reference_column_name}" ForeignKeyNamePatternCaseHandling="0" ForeignKeyRelationshipPattern="{association_name}" FractionalMetrics="true" GeneralizationSetNotation="\u0001" GraphicAntiAliasing="true" GridDiagramFontSize="14" LineJumpSize="\u0000" ModelElementNameAlignment="\u0004" MultipleLineClassName="\u0001" PaintConnectorThroughLabel="false" PointConnectorEndToCompartmentMember="true" PrimaryKeyConstraintPattern="" PrimaryKeyNamePattern="ID" RenameConstructorAfterRenameClass="\u0000" RenameExtensionPointToFollowExtendUseCase="\u0000" ShapeAutoFitSize="false" ShowActivationsInSequenceDiagram="true" ShowActivityStateNodeCaption="524287" ShowArtifactOption="\u0002" ShowAssociatedDiagramNameOfInteraction="false" ShowAssociationRoleStereotypes="true" ShowAttributeGetterSetter="false" ShowClassEmptyCompartments="false" ShowColumnNullable="true" ShowColumnType="true" ShowColumnUniqueConstraintName="false" ShowComponentOption="\u0002" ShowExtraColumnProperties="true" ShowInOutFlowButtonsInDataFlowDiagram="false" ShowInOutFlowsInSubLevelDiagram="true" ShowMessageOperationSignatureForSequenceAndCommunicationDiagram="true" ShowMessageStereotypeInSequenceAndCommunicationDiagram="true" ShowNumberInCollaborationDiagram="true" ShowNumberInSequenceDiagram="true" ShowPackageNameStyle="\u0000" ShowParameterNameInOperationSignature="true" ShowRowGridLineWithinCompClassDiagram="false" ShowRowGridLineWithinCompERD="true" ShowRowGridLineWithinORMDiagram="true" ShowSchemaNameInERD="true" ShowTransitionTrigger="\u0000" ShowUseCaseExtensionPoint="true" ShowUseCaseID="false" StateShowParametersOfInternalActivities="false" StateShowPrePostConditionAndBodyOfInternalActivities="true" StopTargetLifelineOnCreateDestroyMessage="\u0002" SupportHtmlTaggedValue="false" SupportMultipleLineAttribute="true" SuppressImpliedMultiplicityForAttributeAssociationEnd="false" SyncAssociationNameWithAssociationClass="\u0000" SyncAssociationRoleNameWithReferencedAttributeName="true" SyncDocOfInterfaceToSubClass="\u0000" TextAntiAliasing="true" TextualAnalysisGenerateRequirementTextOption="\u0001" TextualAnalysisHighlightOption="\u0000" UnnamedIndexPattern="{table_name}_{column_name}" UseStateNameTab="false" WireflowDiagramShowActiveFlowLabel="true" WireflowDiagramTheme="0" WireflowDiagramWireflowShowPreview="true" WireflowDiagramWireflowShowScreenId="true">
+				<DefaultHtmlDocFont Family="Dialog" Size="12" Style="0"/>
+			</DiagramOptions>
+			<GeneralOptions ConfirmSubLevelIdWithDot="true"/>
+			<InstantReverseOptions CalculateGeneralizationAndRealization="false" CreateShapeForParentModelOfDraggedClassPackage="false" ReverseGetterSetter="\u0000" ReverseOperationImplementation="false" ShowPackageForNewDiagram="\u0001" ShowPackageOwner="\u0000"/>
+			<ModelQualityOptions EnableModelQualityChecking="false"/>
+			<ORMOptions DecimalPrecision="19" DecimalScale="0" ExportCommentToDatabase="true" FormattedSQL="false" GenerateAssociationWithAttribute="false" GenerateDiagramFromORMWizards="true" GetterSetterVisibility="\u0000" IdGeneratorType="native" MappingFileColumnOrder="\u0000" NumericToClassType="\u0000" QuoteSQLIdentifier="\u0000" RecreateShapeWhenSync="false" SyncToClassDiagramAttributeName="\u0001" SyncToClassDiagramAttributeNamePrefix="" SyncToClassDiagramAttributeNameSuffix="" SyncToClassDiagramClassName="\u0000" SyncToClassDiagramClassNamePrefix="" SyncToClassDiagramClassNameSuffix="" SyncToERDColumnName="\u0000" SyncToERDColumnNamePrefix="" SyncToERDColumnNameSuffix="" SyncToERDTableName="\u0004" SyncToERDTableNamePrefix="" SyncToERDTableNameSuffix="" SynchronizeDefaultValueToColumn="false" SynchronizeName="\u0002" TablePerSubclassFKMapping="\u0000" UpperCaseSQL="true" UseDefaultDecimal="true" WrappingServletRequest="\u0001"/>
+			<RequirementDiagramOptions DefaultWrapMember="true" ShowAttributes="\u0001" SupportHTMLAttribute="false"/>
+			<StateCodeEngineOptions AutoCreateInitialStateInStateDiagram="true" AutoCreateTransitionMethods="true" DefaultInitialStateLocationX="-1" DefaultInitialStateLocationY="-1" GenerateDebugMessage="false" GenerateSample="true" GenerateTryCatch="true" Language="\u0000" RegenerateTransitionMethods="false" SyncTransitionMethods="true"/>
+			<WarningOptions CreateORMClassInDefaultPackage="true"/>
+			<PORepository>
+				<POUserIDFormats>
+					<POUserIDFormat Digits="2" Guid="false" Id="EjQjJsaGAqAEZAkC" LastNumericValue="0" ModelType="BPMNElement" Prefix="BP" Suffix=""/>
+					<POUserIDFormat Digits="2" Guid="false" Id="EjQjJsaGAqAEZAkD" LastNumericValue="0" ModelType="Actor" Prefix="AC" Suffix=""/>
+					<POUserIDFormat Digits="2" Guid="false" Id="EjQjJsaGAqAEZAkE" LastNumericValue="0" ModelType="UseCase" Prefix="UC" Suffix=""/>
+					<POUserIDFormat Digits="3" Guid="false" Id="kjQjJsaGAqAEZAkF" LastNumericValue="0" ModelType="Requirement" Prefix="REQ" Suffix=""/>
+					<POUserIDFormat Digits="3" Guid="false" Id="kjQjJsaGAqAEZAkG" LastNumericValue="0" ModelType="BusinessRule" Prefix="BR" Suffix=""/>
+					<POUserIDFormat Digits="-1" Guid="false" Id="kjQjJsaGAqAEZAkH" LastNumericValue="0" ModelType="BusinessProcessDiagram" Prefix="" Suffix=""/>
+				</POUserIDFormats>
+			</PORepository>
+		</ProjectOptions>
+	</ProjectInfo>
+	<Models>
+		<DataType BacklogActivityId="0" Documentation_plain="" Id="ReQjJsaGAqAEZAWJ" Name="boolean" PmAuthor="emins" PmCreateDateTime="2018-05-15T19:06:06.882" PmLastModified="2018-05-15T19:06:18.230" QualityScore="-1" UserIDLastNumericValue="0"/>
+		<DataType BacklogActivityId="0" Documentation_plain="" Id="JeQjJsaGAqAEZAWK" Name="byte" PmAuthor="emins" PmCreateDateTime="2018-05-15T19:06:06.884" PmLastModified="2018-05-15T19:06:18.223" QualityScore="-1" UserIDLastNumericValue="0"/>
+		<DataType BacklogActivityId="0" Documentation_plain="" Id="peQjJsaGAqAEZAWL" Name="char" PmAuthor="emins" PmCreateDateTime="2018-05-15T19:06:06.885" PmLastModified="2018-05-15T19:06:18.206" QualityScore="-1" UserIDLastNumericValue="0"/>
+		<DataType BacklogActivityId="0" Documentation_plain="" Id="peQjJsaGAqAEZAWM" Name="double" PmAuthor="emins" PmCreateDateTime="2018-05-15T19:06:06.885" PmLastModified="2018-05-15T19:06:18.206" QualityScore="-1" UserIDLastNumericValue="0"/>
+		<DataType BacklogActivityId="0" Documentation_plain="" Id="peQjJsaGAqAEZAWN" Name="float" PmAuthor="emins" PmCreateDateTime="2018-05-15T19:06:06.885" PmLastModified="2018-05-15T19:06:18.206" QualityScore="-1" UserIDLastNumericValue="0"/>
+		<DataType BacklogActivityId="0" Documentation_plain="" Id="ZeQjJsaGAqAEZAWO" Name="int" PmAuthor="emins" PmCreateDateTime="2018-05-15T19:06:06.886" PmLastModified="2018-05-15T19:06:18.240" QualityScore="-1" UserIDLastNumericValue="0"/>
+		<DataType BacklogActivityId="0" Documentation_plain="" Id="ZeQjJsaGAqAEZAWP" Name="long" PmAuthor="emins" PmCreateDateTime="2018-05-15T19:06:06.886" PmLastModified="2018-05-15T19:06:18.240" QualityScore="-1" UserIDLastNumericValue="0"/>
+		<DataType BacklogActivityId="0" Documentation_plain="" Id="ZeQjJsaGAqAEZAWQ" Name="short" PmAuthor="emins" PmCreateDateTime="2018-05-15T19:06:06.886" PmLastModified="2018-05-15T19:06:18.240" QualityScore="-1" UserIDLastNumericValue="0"/>
+		<DataType BacklogActivityId="0" Documentation_plain="" Id="ZeQjJsaGAqAEZAWR" Name="void" PmAuthor="emins" PmCreateDateTime="2018-05-15T19:06:06.886" PmLastModified="2018-05-15T19:06:18.240" QualityScore="-1" UserIDLastNumericValue="0"/>
+		<DataType BacklogActivityId="0" Documentation_plain="" Id="5eQjJsaGAqAEZAWS" Name="string" PmAuthor="emins" PmCreateDateTime="2018-05-15T19:06:06.887" PmLastModified="2018-05-15T19:06:18.226" QualityScore="-1" UserIDLastNumericValue="0"/>
+		<Frame BacklogActivityId="0" BaseY="40" Documentation_plain="" Id="Wa8jJsaGAqAEZAkN" Name="KreiranjeProgramaDKomunikacije" PmAuthor="emins" PmCreateDateTime="2018-05-15T19:06:59.610" PmLastModified="2018-05-15T20:25:22.144" QualityScore="-1" Type="sd" UserIDLastNumericValue="0">
+			<ModelChildren>
+				<InteractionLifeLine Active="false" BacklogActivityId="0" BaseClassifier="Klijent" Class="false" ClassLevelStereotype="false" Documentation_plain="" Id="7KKjJsaGAqAEZAkX" MultiObject="false" Multiplicity="Unspecified" Name="" PmAuthor="emins" PmCreateDateTime="2018-05-15T19:07:19.991" PmLastModified="2018-05-15T20:23:06.923" QualityScore="-1" Stopped="false" UserIDLastNumericValue="0">
+					<MasterView>
+						<CommunicationLifeLine Idref="zKKjJsaGAqAEZAkW" Name=""/>
+					</MasterView>
+				</InteractionLifeLine>
+				<InteractionLifeLine Active="false" BacklogActivityId="0" BaseClassifier="BeFit" Class="false" ClassLevelStereotype="false" Documentation_plain="" Id="PtKjJsaGAqAEZAkd" MultiObject="false" Multiplicity="Unspecified" Name="" PmAuthor="emins" PmCreateDateTime="2018-05-15T19:07:21.596" PmLastModified="2018-05-15T20:27:00.534" QualityScore="-1" Stopped="false" UserIDLastNumericValue="0">
+					<MasterView>
+						<CommunicationLifeLine Idref="PtKjJsaGAqAEZAkc" Name=""/>
+					</MasterView>
+				</InteractionLifeLine>
+				<InteractionLifeLine Active="false" BacklogActivityId="0" BaseClassifier="BazaPodataka" Class="false" ClassLevelStereotype="false" Documentation_plain="" Id="jcqjJsaGAqAEZAkl" MultiObject="false" Multiplicity="Unspecified" Name="" PmAuthor="emins" PmCreateDateTime="2018-05-15T19:07:23.697" PmLastModified="2018-05-15T20:27:00.531" QualityScore="-1" Stopped="false" UserIDLastNumericValue="0">
+					<MasterView>
+						<CommunicationLifeLine Idref="jcqjJsaGAqAEZAkk" Name=""/>
+					</MasterView>
+				</InteractionLifeLine>
+			</ModelChildren>
+		</Frame>
+		<ModelRelationshipContainer BacklogActivityId="0" Documentation_plain="" Id="NFRTJsaGAqAEZAm." Name="relationships" PmAuthor="emins" PmCreateDateTime="2018-05-15T19:12:40.748" PmLastModified="2018-05-15T19:21:43.285" QualityScore="-1" UserIDLastNumericValue="0">
+			<ModelChildren>
+				<ModelRelationshipContainer BacklogActivityId="0" Documentation_plain="" Id="tFRTJsaGAqAEZAm_" Name="InteractionLifeLineLink" PmAuthor="emins" PmCreateDateTime="2018-05-15T19:12:40.749" PmLastModified="2018-05-15T20:18:40.276" QualityScore="-1" UserIDLastNumericValue="0">
+					<ModelChildren>
+						<InteractionLifeLineLink BacklogActivityId="0" Documentation_plain="" EndRelationshipFromMetaModelElement="PtKjJsaGAqAEZAkd" EndRelationshipToMetaModelElement="7KKjJsaGAqAEZAkX" Id="Y0eTJsaGAqAEZAmm" PmAuthor="emins" PmCreateDateTime="2018-05-15T19:12:22.470" PmLastModified="2018-05-15T20:23:06.922" QualityScore="-1" UserIDLastNumericValue="0">
+							<FromEnd>
+								<InteractionLifeLineLinkEnd BacklogActivityId="0" Documentation_plain="" EndModelElement="PtKjJsaGAqAEZAkd" Id="Y0eTJsaGAqAEZAmn" Multiplicity="Unspecified" PmAuthor="emins" PmCreateDateTime="2018-05-15T19:12:22.470" QualityScore="-1" UserIDLastNumericValue="0"/>
+							</FromEnd>
+							<ToEnd>
+								<InteractionLifeLineLinkEnd BacklogActivityId="0" Documentation_plain="" EndModelElement="7KKjJsaGAqAEZAkX" Id="Y0eTJsaGAqAEZAmo" Multiplicity="Unspecified" PmAuthor="emins" PmCreateDateTime="2018-05-15T19:12:22.470" QualityScore="-1" UserIDLastNumericValue="0"/>
+							</ToEnd>
+							<MasterView>
+								<InteractionLifeLineLink Idref="80eTJsaGAqAEZAmp"/>
+							</MasterView>
+							<ModelChildren>
+								<Message Asynchronous="false" BacklogActivityId="0" Documentation_plain="" DurationHeight="30" EndRelationshipFromMetaModelElement="7KKjJsaGAqAEZAkX" EndRelationshipToMetaModelElement="PtKjJsaGAqAEZAkd" Id="m0GLJsaGAqAEZApG" Name="Unos login podataka" PmAuthor="emins" PmCreateDateTime="2018-05-15T19:20:42.201" PmLastModified="2018-05-15T19:21:43.284" QualityScore="-1" SequenceNumber="1" Type="Message" UserIDLastNumericValue="0">
+									<FromEnd>
+										<MessageEnd BacklogActivityId="0" Documentation_plain="" EndModelElement="7KKjJsaGAqAEZAkX" Id="m0GLJsaGAqAEZApH" PmAuthor="emins" PmCreateDateTime="2018-05-15T19:20:42.201" QualityScore="-1" UserIDLastNumericValue="0"/>
+									</FromEnd>
+									<ToEnd>
+										<MessageEnd BacklogActivityId="0" Documentation_plain="" EndModelElement="PtKjJsaGAqAEZAkd" Id="m0GLJsaGAqAEZApI" PmAuthor="emins" PmCreateDateTime="2018-05-15T19:20:42.201" QualityScore="-1" UserIDLastNumericValue="0"/>
+									</ToEnd>
+								</Message>
+								<Message Asynchronous="false" BacklogActivityId="0" Documentation_plain="" DurationHeight="30" EndRelationshipFromMetaModelElement="7KKjJsaGAqAEZAkX" EndRelationshipToMetaModelElement="PtKjJsaGAqAEZAkd" Id="jCeLJsaGAqAEZAqB" Name="Unos login podataka" PmAuthor="emins" PmCreateDateTime="2018-05-15T19:21:07.121" PmLastModified="2018-05-15T19:34:38.925" QualityScore="-1" SequenceNumber="1" Type="Message" UserIDLastNumericValue="0">
+									<FromEnd>
+										<MessageEnd BacklogActivityId="0" Documentation_plain="" EndModelElement="7KKjJsaGAqAEZAkX" Id="jCeLJsaGAqAEZAqC" PmAuthor="emins" PmCreateDateTime="2018-05-15T19:21:07.121" QualityScore="-1" UserIDLastNumericValue="0"/>
+									</FromEnd>
+									<ToEnd>
+										<MessageEnd BacklogActivityId="0" Documentation_plain="" EndModelElement="PtKjJsaGAqAEZAkd" Id="jCeLJsaGAqAEZAqD" PmAuthor="emins" PmCreateDateTime="2018-05-15T19:21:07.121" QualityScore="-1" UserIDLastNumericValue="0"/>
+									</ToEnd>
+								</Message>
+								<Message Asynchronous="false" BacklogActivityId="0" Documentation_plain="" DurationHeight="30" EndRelationshipFromMetaModelElement="7KKjJsaGAqAEZAkX" EndRelationshipToMetaModelElement="PtKjJsaGAqAEZAkd" Id="gnu7JsaGAqAEZAul" Name="Unos login podataka" PmAuthor="emins" PmCreateDateTime="2018-05-15T19:34:12.033" PmLastModified="2018-05-15T20:13:31.353" QualityScore="-1" SequenceNumber="1" Type="Message" UserIDLastNumericValue="0">
+									<ActionType>
+										<ActionTypeSequence BacklogActivityId="0" Documentation_plain="" Id="Unu7JsaGAqAEZAup" Name="Sequence" PmAuthor="emins" PmCreateDateTime="2018-05-15T19:34:12.042" QualityScore="-1" UserIDLastNumericValue="0"/>
+									</ActionType>
+									<FromEnd>
+										<MessageEnd BacklogActivityId="0" Documentation_plain="" EndModelElement="7KKjJsaGAqAEZAkX" Id="gnu7JsaGAqAEZAum" PmAuthor="emins" PmCreateDateTime="2018-05-15T19:34:12.033" QualityScore="-1" UserIDLastNumericValue="0"/>
+									</FromEnd>
+									<ToEnd>
+										<MessageEnd BacklogActivityId="0" Documentation_plain="" EndModelElement="PtKjJsaGAqAEZAkd" Id="gnu7JsaGAqAEZAun" PmAuthor="emins" PmCreateDateTime="2018-05-15T19:34:12.033" QualityScore="-1" UserIDLastNumericValue="0"/>
+									</ToEnd>
+								</Message>
+								<Message Asynchronous="false" BacklogActivityId="0" Documentation_plain="" DurationHeight="30" EndRelationshipFromMetaModelElement="7KKjJsaGAqAEZAkX" EndRelationshipToMetaModelElement="PtKjJsaGAqAEZAkd" Id="gcp7JsaGAqAEZAvA" Name="heer" PmAuthor="emins" PmCreateDateTime="2018-05-15T19:34:42.049" PmLastModified="2018-05-15T19:34:59.942" QualityScore="-1" SequenceNumber="2" Type="Message" UserIDLastNumericValue="0">
+									<ActionType>
+										<ActionTypeSequence BacklogActivityId="0" Documentation_plain="" Id="0cp7JsaGAqAEZAvE" Name="Sequence" PmAuthor="emins" PmCreateDateTime="2018-05-15T19:34:42.059" QualityScore="-1" UserIDLastNumericValue="0"/>
+									</ActionType>
+									<FromEnd>
+										<MessageEnd BacklogActivityId="0" Documentation_plain="" EndModelElement="7KKjJsaGAqAEZAkX" Id="gcp7JsaGAqAEZAvB" PmAuthor="emins" PmCreateDateTime="2018-05-15T19:34:42.049" QualityScore="-1" UserIDLastNumericValue="0"/>
+									</FromEnd>
+									<ToEnd>
+										<MessageEnd BacklogActivityId="0" Documentation_plain="" EndModelElement="PtKjJsaGAqAEZAkd" Id="gcp7JsaGAqAEZAvC" PmAuthor="emins" PmCreateDateTime="2018-05-15T19:34:42.049" QualityScore="-1" UserIDLastNumericValue="0"/>
+									</ToEnd>
+								</Message>
+								<Message Asynchronous="false" BacklogActivityId="0" Documentation_plain="" DurationHeight="30" EndRelationshipFromMetaModelElement="PtKjJsaGAqAEZAkd" EndRelationshipToMetaModelElement="7KKjJsaGAqAEZAkX" Id="Bz1_JsaGAqAEZAxk" Name="" PmAuthor="emins" PmCreateDateTime="2018-05-15T20:10:06.176" PmLastModified="2018-05-15T20:10:29.208" QualityScore="-1" SequenceNumber="2" Type="Message" UserIDLastNumericValue="0">
+									<ActionType>
+										<ActionTypeSequence BacklogActivityId="0" Documentation_plain="" Id="lz1_JsaGAqAEZAxo" Name="Sequence" PmAuthor="emins" PmCreateDateTime="2018-05-15T20:10:06.185" QualityScore="-1" UserIDLastNumericValue="0"/>
+									</ActionType>
+									<FromEnd>
+										<MessageEnd BacklogActivityId="0" Documentation_plain="" EndModelElement="PtKjJsaGAqAEZAkd" Id="Bz1_JsaGAqAEZAxl" PmAuthor="emins" PmCreateDateTime="2018-05-15T20:10:06.176" QualityScore="-1" UserIDLastNumericValue="0"/>
+									</FromEnd>
+									<ToEnd>
+										<MessageEnd BacklogActivityId="0" Documentation_plain="" EndModelElement="7KKjJsaGAqAEZAkX" Id="Bz1_JsaGAqAEZAxm" PmAuthor="emins" PmCreateDateTime="2018-05-15T20:10:06.176" QualityScore="-1" UserIDLastNumericValue="0"/>
+									</ToEnd>
+								</Message>
+								<Message Asynchronous="false" BacklogActivityId="0" Documentation_plain="" DurationHeight="30" EndRelationshipFromMetaModelElement="7KKjJsaGAqAEZAkX" EndRelationshipToMetaModelElement="PtKjJsaGAqAEZAkd" Id="6gSApsaGAqAEZAzK" Name="Unos login podataka" PmAuthor="emins" PmCreateDateTime="2018-05-15T20:12:42.711" PmLastModified="2018-05-15T20:13:31.356" QualityScore="-1" SequenceNumber="1" Type="Message" UserIDLastNumericValue="0">
+									<FromEnd>
+										<MessageEnd BacklogActivityId="0" Documentation_plain="" EndModelElement="7KKjJsaGAqAEZAkX" Id="6gSApsaGAqAEZAzL" PmAuthor="emins" PmCreateDateTime="2018-05-15T20:12:42.711" QualityScore="-1" UserIDLastNumericValue="0"/>
+									</FromEnd>
+									<ToEnd>
+										<MessageEnd BacklogActivityId="0" Documentation_plain="" EndModelElement="PtKjJsaGAqAEZAkd" Id="6gSApsaGAqAEZAzM" PmAuthor="emins" PmCreateDateTime="2018-05-15T20:12:42.711" QualityScore="-1" UserIDLastNumericValue="0"/>
+									</ToEnd>
+								</Message>
+								<Message Asynchronous="false" BacklogActivityId="0" Documentation_plain="" DurationHeight="30" EndRelationshipFromMetaModelElement="PtKjJsaGAqAEZAkd" EndRelationshipToMetaModelElement="7KKjJsaGAqAEZAkX" Id="AVDgpsaGAqAEZA4E" Name="Uspjesan login" PmAuthor="emins" PmCreateDateTime="2018-05-15T20:19:10.336" PmLastModified="2018-05-15T20:21:57.988" QualityScore="-1" SequenceNumber="1.4" Type="Message" UserIDLastNumericValue="0">
+									<FromEnd>
+										<MessageEnd BacklogActivityId="0" Documentation_plain="" EndModelElement="PtKjJsaGAqAEZAkd" Id="AVDgpsaGAqAEZA4F" PmAuthor="emins" PmCreateDateTime="2018-05-15T20:19:10.336" QualityScore="-1" UserIDLastNumericValue="0"/>
+									</FromEnd>
+									<ToEnd>
+										<MessageEnd BacklogActivityId="0" Documentation_plain="" EndModelElement="7KKjJsaGAqAEZAkX" Id="AVDgpsaGAqAEZA4G" PmAuthor="emins" PmCreateDateTime="2018-05-15T20:19:10.336" QualityScore="-1" UserIDLastNumericValue="0"/>
+									</ToEnd>
+									<MasterView>
+										<CommunicationMessage Idref="AVDgpsaGAqAEZA4D" Name="Uspjesan login"/>
+									</MasterView>
+								</Message>
+								<Message Asynchronous="false" BacklogActivityId="0" Documentation_plain="" DurationHeight="30" EndRelationshipFromMetaModelElement="7KKjJsaGAqAEZAkX" EndRelationshipToMetaModelElement="PtKjJsaGAqAEZAkd" Id="xrPgpsaGAqAEZA49" Name="KreiranjePrograma()" PmAuthor="emins" PmCreateDateTime="2018-05-15T20:20:00.227" PmLastModified="2018-05-15T20:27:56.473" QualityScore="-1" SequenceNumber="2" Type="Message" UserIDLastNumericValue="0">
+									<FromEnd>
+										<MessageEnd BacklogActivityId="0" Documentation_plain="" EndModelElement="7KKjJsaGAqAEZAkX" Id="xrPgpsaGAqAEZA4." PmAuthor="emins" PmCreateDateTime="2018-05-15T20:20:00.227" QualityScore="-1" UserIDLastNumericValue="0"/>
+									</FromEnd>
+									<ToEnd>
+										<MessageEnd BacklogActivityId="0" Documentation_plain="" EndModelElement="PtKjJsaGAqAEZAkd" Id="xrPgpsaGAqAEZA4_" PmAuthor="emins" PmCreateDateTime="2018-05-15T20:20:00.227" QualityScore="-1" UserIDLastNumericValue="0"/>
+									</ToEnd>
+									<MasterView>
+										<CommunicationReverseMessage Idref="xrPgpsaGAqAEZA48" Name="KreiranjePrograma()"/>
+									</MasterView>
+								</Message>
+								<Message Asynchronous="false" BacklogActivityId="0" Documentation_plain="" DurationHeight="30" EndRelationshipFromMetaModelElement="PtKjJsaGAqAEZAkd" EndRelationshipToMetaModelElement="7KKjJsaGAqAEZAkX" Id="x6oQpsaGAqAEZA5R" Name="Pristup Kreiranju" PmAuthor="emins" PmCreateDateTime="2018-05-15T20:20:35.171" PmLastModified="2018-05-15T20:21:57.988" QualityScore="-1" SequenceNumber="2.1" Type="Message" UserIDLastNumericValue="0">
+									<FromEnd>
+										<MessageEnd BacklogActivityId="0" Documentation_plain="" EndModelElement="PtKjJsaGAqAEZAkd" Id="x6oQpsaGAqAEZA5S" PmAuthor="emins" PmCreateDateTime="2018-05-15T20:20:35.171" QualityScore="-1" UserIDLastNumericValue="0"/>
+									</FromEnd>
+									<ToEnd>
+										<MessageEnd BacklogActivityId="0" Documentation_plain="" EndModelElement="7KKjJsaGAqAEZAkX" Id="x6oQpsaGAqAEZA5T" PmAuthor="emins" PmCreateDateTime="2018-05-15T20:20:35.171" QualityScore="-1" UserIDLastNumericValue="0"/>
+									</ToEnd>
+									<MasterView>
+										<CommunicationMessage Idref="x6oQpsaGAqAEZA5Q" Name="Pristup Kreiranju"/>
+									</MasterView>
+								</Message>
+								<Message Asynchronous="false" BacklogActivityId="0" Documentation_plain="" DurationHeight="30" EndRelationshipFromMetaModelElement="PtKjJsaGAqAEZAkd" EndRelationshipToMetaModelElement="7KKjJsaGAqAEZAkX" Id="7Q4QpsaGAqAEZA5g" Name="UspjesnoKreiranjePrograma" PmAuthor="emins" PmCreateDateTime="2018-05-15T20:20:42.039" PmLastModified="2018-05-15T20:27:00.534" QualityScore="-1" SequenceNumber="2.1.1.3" Type="Message" UserIDLastNumericValue="0">
+									<FromEnd>
+										<MessageEnd BacklogActivityId="0" Documentation_plain="" EndModelElement="PtKjJsaGAqAEZAkd" Id="7Q4QpsaGAqAEZA5h" PmAuthor="emins" PmCreateDateTime="2018-05-15T20:20:42.039" QualityScore="-1" UserIDLastNumericValue="0"/>
+									</FromEnd>
+									<ToEnd>
+										<MessageEnd BacklogActivityId="0" Documentation_plain="" EndModelElement="7KKjJsaGAqAEZAkX" Id="7Q4QpsaGAqAEZA5i" PmAuthor="emins" PmCreateDateTime="2018-05-15T20:20:42.039" QualityScore="-1" UserIDLastNumericValue="0"/>
+									</ToEnd>
+									<MasterView>
+										<CommunicationMessage Idref="7Q4QpsaGAqAEZA5f" Name="UspjesnoKreiranjePrograma"/>
+									</MasterView>
+								</Message>
+								<Message Asynchronous="false" BacklogActivityId="0" Documentation_plain="" DurationHeight="30" EndRelationshipFromMetaModelElement="7KKjJsaGAqAEZAkX" EndRelationshipToMetaModelElement="PtKjJsaGAqAEZAkd" Id="Ks.QpsaGAqAEZA6S" Name="DodavanjeVjezbiZaSvakiDan()" PmAuthor="emins" PmCreateDateTime="2018-05-15T20:22:21.012" PmLastModified="2018-05-15T20:27:41.463" QualityScore="-1" SequenceNumber="2.1.1" Type="Message" UserIDLastNumericValue="0">
+									<FromEnd>
+										<MessageEnd BacklogActivityId="0" Documentation_plain="" EndModelElement="7KKjJsaGAqAEZAkX" Id="Ks.QpsaGAqAEZA6T" PmAuthor="emins" PmCreateDateTime="2018-05-15T20:22:21.012" QualityScore="-1" UserIDLastNumericValue="0"/>
+									</FromEnd>
+									<ToEnd>
+										<MessageEnd BacklogActivityId="0" Documentation_plain="" EndModelElement="PtKjJsaGAqAEZAkd" Id="Ks.QpsaGAqAEZA6U" PmAuthor="emins" PmCreateDateTime="2018-05-15T20:22:21.012" QualityScore="-1" UserIDLastNumericValue="0"/>
+									</ToEnd>
+									<MasterView>
+										<CommunicationReverseMessage Idref="Ks.QpsaGAqAEZA6R" Name="DodavanjeVjezbiZaSvakiDan()"/>
+									</MasterView>
+								</Message>
+							</ModelChildren>
+						</InteractionLifeLineLink>
+						<InteractionLifeLineLink BacklogActivityId="0" Documentation_plain="" EndRelationshipFromMetaModelElement="PtKjJsaGAqAEZAkd" EndRelationshipToMetaModelElement="PtKjJsaGAqAEZAkd" Id="M7SApsaGAqAEZAzR" PmAuthor="emins" PmCreateDateTime="2018-05-15T20:12:46.156" PmLastModified="2018-05-15T20:13:31.361" QualityScore="-1" UserIDLastNumericValue="0">
+							<FromEnd>
+								<InteractionLifeLineLinkEnd BacklogActivityId="0" Documentation_plain="" EndModelElement="PtKjJsaGAqAEZAkd" Id="M7SApsaGAqAEZAzS" Multiplicity="Unspecified" PmAuthor="emins" PmCreateDateTime="2018-05-15T20:12:46.156" QualityScore="-1" UserIDLastNumericValue="0"/>
+							</FromEnd>
+							<ToEnd>
+								<InteractionLifeLineLinkEnd BacklogActivityId="0" Documentation_plain="" EndModelElement="PtKjJsaGAqAEZAkd" Id="M7SApsaGAqAEZAzT" Multiplicity="Unspecified" PmAuthor="emins" PmCreateDateTime="2018-05-15T20:12:46.156" QualityScore="-1" UserIDLastNumericValue="0"/>
+							</ToEnd>
+							<MasterView>
+								<InteractionLifeLineLink Idref="y7SApsaGAqAEZAzU"/>
+							</MasterView>
+							<ModelChildren>
+								<Message Asynchronous="false" BacklogActivityId="0" Documentation_plain="" DurationHeight="30" EndRelationshipFromMetaModelElement="PtKjJsaGAqAEZAkd" EndRelationshipToMetaModelElement="PtKjJsaGAqAEZAkd" Id="4vGApsaGAqAEZAzn" Name="Validacija" PmAuthor="emins" PmCreateDateTime="2018-05-15T20:13:11.112" PmLastModified="2018-05-15T20:14:47.058" QualityScore="-1" SequenceNumber="1.1" Type="Self Message" UserIDLastNumericValue="0">
+									<FromEnd>
+										<MessageEnd BacklogActivityId="0" Documentation_plain="" EndModelElement="PtKjJsaGAqAEZAkd" Id="EvGApsaGAqAEZAzo" PmAuthor="emins" PmCreateDateTime="2018-05-15T20:13:11.112" QualityScore="-1" UserIDLastNumericValue="0"/>
+									</FromEnd>
+									<ToEnd>
+										<MessageEnd BacklogActivityId="0" Documentation_plain="" EndModelElement="PtKjJsaGAqAEZAkd" Id="EvGApsaGAqAEZAzp" PmAuthor="emins" PmCreateDateTime="2018-05-15T20:13:11.112" QualityScore="-1" UserIDLastNumericValue="0"/>
+									</ToEnd>
+									<MasterView>
+										<CommunicationMessage Idref="4vGApsaGAqAEZAzm" Name="Validacija"/>
+									</MasterView>
+								</Message>
+							</ModelChildren>
+						</InteractionLifeLineLink>
+						<InteractionLifeLineLink BacklogActivityId="0" Documentation_plain="" EndRelationshipFromMetaModelElement="PtKjJsaGAqAEZAkd" EndRelationshipToMetaModelElement="jcqjJsaGAqAEZAkl" Id="KbYgpsaGAqAEZA2C" PmAuthor="emins" PmCreateDateTime="2018-05-15T20:16:19.092" PmLastModified="2018-05-15T20:27:00.528" QualityScore="-1" UserIDLastNumericValue="0">
+							<FromEnd>
+								<InteractionLifeLineLinkEnd BacklogActivityId="0" Documentation_plain="" EndModelElement="PtKjJsaGAqAEZAkd" Id="KbYgpsaGAqAEZA2D" Multiplicity="Unspecified" PmAuthor="emins" PmCreateDateTime="2018-05-15T20:16:19.092" QualityScore="-1" UserIDLastNumericValue="0"/>
+							</FromEnd>
+							<ToEnd>
+								<InteractionLifeLineLinkEnd BacklogActivityId="0" Documentation_plain="" EndModelElement="jcqjJsaGAqAEZAkl" Id="KbYgpsaGAqAEZA2E" Multiplicity="Unspecified" PmAuthor="emins" PmCreateDateTime="2018-05-15T20:16:19.092" QualityScore="-1" UserIDLastNumericValue="0"/>
+							</ToEnd>
+							<MasterView>
+								<InteractionLifeLineLink Idref="ObYgpsaGAqAEZA2F"/>
+							</MasterView>
+							<ModelChildren>
+								<Message Asynchronous="false" BacklogActivityId="0" Documentation_plain="" DurationHeight="30" EndRelationshipFromMetaModelElement="PtKjJsaGAqAEZAkd" EndRelationshipToMetaModelElement="jcqjJsaGAqAEZAkl" Id="Hr4gpsaGAqAEZA2M" Name="TrazenjePodataka()" PmAuthor="emins" PmCreateDateTime="2018-05-15T20:16:23.160" PmLastModified="2018-05-15T20:17:37.085" QualityScore="-1" SequenceNumber="1.2" Type="Message" UserIDLastNumericValue="0">
+									<FromEnd>
+										<MessageEnd BacklogActivityId="0" Documentation_plain="" EndModelElement="PtKjJsaGAqAEZAkd" Id="Hr4gpsaGAqAEZA2N" PmAuthor="emins" PmCreateDateTime="2018-05-15T20:16:23.160" QualityScore="-1" UserIDLastNumericValue="0"/>
+									</FromEnd>
+									<ToEnd>
+										<MessageEnd BacklogActivityId="0" Documentation_plain="" EndModelElement="jcqjJsaGAqAEZAkl" Id="Hr4gpsaGAqAEZA2O" PmAuthor="emins" PmCreateDateTime="2018-05-15T20:16:23.160" QualityScore="-1" UserIDLastNumericValue="0"/>
+									</ToEnd>
+									<MasterView>
+										<CommunicationMessage Idref="Hr4gpsaGAqAEZA2L" Name="TrazenjePodataka()"/>
+									</MasterView>
+								</Message>
+								<Message Asynchronous="false" BacklogActivityId="0" Documentation_plain="" DurationHeight="30" EndRelationshipFromMetaModelElement="jcqjJsaGAqAEZAkl" EndRelationshipToMetaModelElement="PtKjJsaGAqAEZAkd" Id="MSBgpsaGAqAEZA3W" Name="podaci" PmAuthor="emins" PmCreateDateTime="2018-05-15T20:18:03.276" PmLastModified="2018-05-15T20:18:40.270" QualityScore="-1" SequenceNumber="1.3" Type="Message" UserIDLastNumericValue="0">
+									<FromEnd>
+										<MessageEnd BacklogActivityId="0" Documentation_plain="" EndModelElement="jcqjJsaGAqAEZAkl" Id="MSBgpsaGAqAEZA3X" PmAuthor="emins" PmCreateDateTime="2018-05-15T20:18:03.276" QualityScore="-1" UserIDLastNumericValue="0"/>
+									</FromEnd>
+									<ToEnd>
+										<MessageEnd BacklogActivityId="0" Documentation_plain="" EndModelElement="PtKjJsaGAqAEZAkd" Id="MSBgpsaGAqAEZA3Y" PmAuthor="emins" PmCreateDateTime="2018-05-15T20:18:03.276" QualityScore="-1" UserIDLastNumericValue="0"/>
+									</ToEnd>
+									<MasterView>
+										<CommunicationReverseMessage Idref="MSBgpsaGAqAEZA3V" Name="podaci"/>
+									</MasterView>
+								</Message>
+								<Message Asynchronous="false" BacklogActivityId="0" Documentation_plain="" DurationHeight="30" EndRelationshipFromMetaModelElement="PtKjJsaGAqAEZAkd" EndRelationshipToMetaModelElement="jcqjJsaGAqAEZAkl" Id="92tQpsaGAqAEZA6s" Name="SpremanjePrograma()" PmAuthor="emins" PmCreateDateTime="2018-05-15T20:23:19.279" PmLastModified="2018-05-15T20:24:49.413" QualityScore="-1" SequenceNumber="2.1.1.1" Type="Message" UserIDLastNumericValue="0">
+									<FromEnd>
+										<MessageEnd BacklogActivityId="0" Documentation_plain="" EndModelElement="PtKjJsaGAqAEZAkd" Id="92tQpsaGAqAEZA6t" PmAuthor="emins" PmCreateDateTime="2018-05-15T20:23:19.279" QualityScore="-1" UserIDLastNumericValue="0"/>
+									</FromEnd>
+									<ToEnd>
+										<MessageEnd BacklogActivityId="0" Documentation_plain="" EndModelElement="jcqjJsaGAqAEZAkl" Id="92tQpsaGAqAEZA6u" PmAuthor="emins" PmCreateDateTime="2018-05-15T20:23:19.279" QualityScore="-1" UserIDLastNumericValue="0"/>
+									</ToEnd>
+									<MasterView>
+										<CommunicationMessage Idref="d2tQpsaGAqAEZA6r" Name="SpremanjePrograma()"/>
+									</MasterView>
+								</Message>
+								<Message Asynchronous="false" BacklogActivityId="0" Documentation_plain="" DurationHeight="30" EndRelationshipFromMetaModelElement="jcqjJsaGAqAEZAkl" EndRelationshipToMetaModelElement="PtKjJsaGAqAEZAkd" Id="y_AwpsaGAqAEZA7f" Name="Uspjesno spremanje" PmAuthor="emins" PmCreateDateTime="2018-05-15T20:24:39.379" PmLastModified="2018-05-15T20:25:22.136" QualityScore="-1" SequenceNumber="2.1.1.2" Type="Message" UserIDLastNumericValue="0">
+									<FromEnd>
+										<MessageEnd BacklogActivityId="0" Documentation_plain="" EndModelElement="jcqjJsaGAqAEZAkl" Id="y_AwpsaGAqAEZA7g" PmAuthor="emins" PmCreateDateTime="2018-05-15T20:24:39.379" QualityScore="-1" UserIDLastNumericValue="0"/>
+									</FromEnd>
+									<ToEnd>
+										<MessageEnd BacklogActivityId="0" Documentation_plain="" EndModelElement="PtKjJsaGAqAEZAkd" Id="y_AwpsaGAqAEZA7h" PmAuthor="emins" PmCreateDateTime="2018-05-15T20:24:39.379" QualityScore="-1" UserIDLastNumericValue="0"/>
+									</ToEnd>
+									<MasterView>
+										<CommunicationReverseMessage Idref="y_AwpsaGAqAEZA7e" Name="Uspjesno spremanje"/>
+									</MasterView>
+								</Message>
+							</ModelChildren>
+						</InteractionLifeLineLink>
+					</ModelChildren>
+				</ModelRelationshipContainer>
+			</ModelChildren>
+		</ModelRelationshipContainer>
+	</Models>
+	<Diagrams>
+		<CommunicationDiagram AlignToGrid="false" AutoFitShapesSize="false" ConnectionPointStyle="0" ConnectorLabelOrientation="0" ConnectorLineJumps="0" ConnectorLineJumpsSize="0" ConnectorModelElementNameAlignment="4" ConnectorStyle="1" CreateOneMessagePerDirection="true" DiagramBackground="rgb(255, 255, 255)" Editable="true" FollowDiagramParentElement="true" GridColor="rgb(192, 192, 192)" GridHeight="10" GridVisible="false" GridWidth="10" Height="559" HideConnectorIfFromToIsHidden="0" HideEmptyTaggedValues="false" Id="Zs8jJsaGAqAEZAkI" ImageHeight="0" ImageScale="1.0" ImageWidth="0" InitializeDiagramForCreate="true" InteractionLifeLinePresentationOption="0" Maximized="true" ModelElementNameAlignment="4" Name="KreiranjeProgramaDKomunikacije" PaintConnectorThroughLabel="1" PmAuthor="emins" PmCreateDateTime="2018-05-15T19:06:59.046" PmLastModified="2018-05-15T20:27:46.471" PointConnectorEndToCompartmentMember="true" QualityScore="-1" RequestFitSizeWithPromptUser="false" RequestValidateSnapToGrid="false" ShapePresentationOption="0" ShowActivityStateNodeCaption="524287" ShowAllocatedFrom="true" ShowAllocatedTo="true" ShowArgumentsInMessagesOperationSignature="true" ShowColorLegend="false" ShowConnectorName="0" ShowConstraints="false" ShowDefaultPackage="false" ShowInformationItemOption="2" ShowMessagesOperationSignature="true" ShowPMAuthor="false" ShowPMDifficulty="false" ShowPMDiscipline="false" ShowPMIteration="false" ShowPMPhase="false" ShowPMPriority="false" ShowPMStatus="false" ShowPMVersion="false" ShowPackageNameStyle="0" ShowParameterNamesInMessageOperationSignature="true" ShowParameterTypesInMessageOperationSignature="true" ShowSequenceNumbers="true" ShowShapeLegend="false" ShowShapeStereotypeIconName="true" ShowStereotypes="true" ShowTaggedValues="false" TeamworkCreateDateTime="0" TrimmedHeight="0" TrimmedWidth="0" Width="1509" X="0" Y="0" ZoomRatio="1.0" _globalPaletteOption="true" _interactionDiagram="FDXrJsaGAqAEZAsE" _rootFrame="Wa8jJsaGAqAEZAkN" documentation="&lt;html&gt;&#13;&#10;  &lt;head&gt;&#13;&#10;    &lt;style type=&quot;text/css&quot;&gt;&#10;      &lt;!--&#10;        body { color: #000000; font-family: Dialog; font-size: 12px }&#10;      --&gt;&#10;    &lt;/style&gt;&#13;&#10;    &#13;&#10;  &lt;/head&gt;&#13;&#10;  &lt;body&gt;&#13;&#10;    &lt;p&gt;&#13;&#10;      &#13;&#10;    &lt;/p&gt;&#13;&#10;  &lt;/body&gt;&#13;&#10;&lt;/html&gt;&#13;&#10;">
+			<Shapes>
+				<CommunicationLifeLine Background="rgb(122, 207, 245)" ConnectToPoint="true" ConnectionPointType="2" Foreground="rgb(0, 0, 0)" Height="52" Id="PtKjJsaGAqAEZAkc" MetaModelElement="PtKjJsaGAqAEZAkd" Model="PtKjJsaGAqAEZAkd" ModelElementNameAlignment="9" Name="" OverrideAppearanceWithStereotypeIcon="true" ParentConnectorDTheta="0.0" ParentConnectorHeaderLength="40" ParentConnectorLineLength="10" PresentationOption="4" PrimitiveShapeType="0" RequestDefaultSize="false" RequestFitSize="false" RequestFitSizeFromCenter="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" RequestSetSizeOption="0" Selectable="true" ShowAllocatedFrom="0" ShowAllocatedTo="0" ShowStereotypeIconName="0" Width="85" X="175" Y="378" ZOrder="24">
+					<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+					<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
+						<Stroke/>
+					</Line>
+					<Caption Height="52" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="Center" Visible="true" Width="85" X="0" Y="0"/>
+					<FillColor Color="rgb(122, 207, 245)" Style="1" Transparency="0" Type="1"/>
+				</CommunicationLifeLine>
+				<CommunicationLifeLine Background="rgb(122, 207, 245)" ConnectToPoint="true" ConnectionPointType="2" Foreground="rgb(0, 0, 0)" Height="52" Id="jcqjJsaGAqAEZAkk" MetaModelElement="jcqjJsaGAqAEZAkl" Model="jcqjJsaGAqAEZAkl" ModelElementNameAlignment="9" Name="" OverrideAppearanceWithStereotypeIcon="true" ParentConnectorDTheta="0.0" ParentConnectorHeaderLength="40" ParentConnectorLineLength="10" PresentationOption="4" PrimitiveShapeType="0" RequestDefaultSize="false" RequestFitSize="false" RequestFitSizeFromCenter="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" RequestSetSizeOption="0" Selectable="true" ShowAllocatedFrom="0" ShowAllocatedTo="0" ShowStereotypeIconName="0" Width="106" X="824" Y="378" ZOrder="26">
+					<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+					<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
+						<Stroke/>
+					</Line>
+					<Caption Height="52" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="Center" Visible="true" Width="106" X="0" Y="0"/>
+					<FillColor Color="rgb(122, 207, 245)" Style="1" Transparency="0" Type="1"/>
+				</CommunicationLifeLine>
+				<CommunicationLifeLine Background="rgb(122, 207, 245)" ConnectToPoint="true" ConnectionPointType="2" Foreground="rgb(0, 0, 0)" Height="52" Id="zKKjJsaGAqAEZAkW" MetaModelElement="7KKjJsaGAqAEZAkX" Model="7KKjJsaGAqAEZAkX" ModelElementNameAlignment="9" Name="" OverrideAppearanceWithStereotypeIcon="true" ParentConnectorDTheta="0.0" ParentConnectorHeaderLength="40" ParentConnectorLineLength="10" PresentationOption="4" PrimitiveShapeType="0" RequestDefaultSize="false" RequestFitSize="false" RequestFitSizeFromCenter="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" RequestSetSizeOption="0" Selectable="true" ShowAllocatedFrom="0" ShowAllocatedTo="0" ShowStereotypeIconName="0" Width="88" X="499" Y="54" ZOrder="28">
+					<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+					<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
+						<Stroke/>
+					</Line>
+					<Caption Height="52" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="Center" Visible="true" Width="88" X="0" Y="0"/>
+					<FillColor Color="rgb(122, 207, 245)" Style="1" Transparency="0" Type="1"/>
+				</CommunicationLifeLine>
+			</Shapes>
+			<Connectors>
+				<InteractionLifeLineLink Background="rgb(122, 207, 245)" ConnectorLabelOrientation="4" ConnectorLineJumps="4" ConnectorStyle="Follow Diagram" Foreground="rgb(0, 0, 0)" From="PtKjJsaGAqAEZAkc" FromConnectType="0" FromPinType="1" FromShapeXDiff="0" FromShapeYDiff="0" HasMultiplicityAShape="false" HasMultiplicityBShape="false" HasRoleAShape="false" HasRoleBShape="false" Height="370" Id="80eTJsaGAqAEZAmp" MetaModelElement="Y0eTJsaGAqAEZAmm" Model="Y0eTJsaGAqAEZAmm" ModelElementNameAlignment="9" PaintThroughLabel="2" RequestRebuild="false" RequestRebuildFromEnd="false" RequestRebuildToEnd="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" Selectable="true" ShowConnectorName="2" ShowMultiplicityConstraints="false" To="zKKjJsaGAqAEZAkW" ToConnectType="0" ToPinType="1" ToShapeXDiff="0" ToShapeYDiff="0" UseFromShapeCenter="true" UseToShapeCenter="true" Width="337" X="211" Y="57" ZOrder="30">
+					<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+					<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
+						<Stroke/>
+					</Line>
+					<Caption Height="0" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="None" Visible="true" Width="20" X="379" Y="242"/>
+					<DiagramElementChildren>
+						<CommunicationReverseMessage Background="rgb(122, 207, 245)" ConnectToPoint="true" ConnectionPointType="2" Foreground="rgb(0, 0, 0)" Height="60" Id="Ks.QpsaGAqAEZA6R" MetaModelElement="Ks.QpsaGAqAEZA6S" Model="Ks.QpsaGAqAEZA6S" ModelElementNameAlignment="9" Name="DodavanjeVjezbiZaSvakiDan()" OverrideAppearanceWithStereotypeIcon="true" ParentConnectorDTheta="0.2613617435471598" ParentConnectorHeaderLength="171" ParentConnectorLineLength="50" PresentationOption="4" PrimitiveShapeType="0" RequestDefaultSize="false" RequestFitSize="false" RequestFitSizeFromCenter="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" RequestSetSizeOption="0" Selectable="true" ShowAllocatedFrom="0" ShowAllocatedTo="0" ShowStereotypeIconName="0" Width="60" X="317" Y="173" ZOrder="6">
+							<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+							<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
+								<Stroke/>
+							</Line>
+							<Caption Height="15" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="None" Visible="true" Width="201" X="239" Y="149"/>
+							<FillColor Color="rgb(0, 0, 0)" Style="1" Transparency="0" Type="1"/>
+						</CommunicationReverseMessage>
+						<CommunicationMessage Background="rgb(122, 207, 245)" ConnectToPoint="false" ConnectionPointType="2" Foreground="rgb(0, 0, 0)" Height="60" Id="7Q4QpsaGAqAEZA5f" MetaModelElement="7Q4QpsaGAqAEZA5g" Model="7Q4QpsaGAqAEZA5g" ModelElementNameAlignment="9" Name="UspjesnoKreiranjePrograma" OverrideAppearanceWithStereotypeIcon="true" ParentConnectorDTheta="0.14402586964666186" ParentConnectorHeaderLength="123" ParentConnectorLineLength="34" PresentationOption="4" PrimitiveShapeType="0" RequestDefaultSize="false" RequestFitSize="false" RequestFitSizeFromCenter="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" RequestSetSizeOption="0" Selectable="true" ShowAllocatedFrom="0" ShowAllocatedTo="0" ShowStereotypeIconName="0" Width="60" X="338" Y="277" ZOrder="8">
+							<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+							<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
+								<Stroke/>
+							</Line>
+							<Caption Height="15" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="None" Visible="true" Width="198" X="382" Y="247"/>
+							<FillColor Color="rgb(0, 0, 0)" Style="1" Transparency="0" Type="1"/>
+						</CommunicationMessage>
+						<CommunicationMessage Background="rgb(122, 207, 245)" ConnectToPoint="false" ConnectionPointType="2" Foreground="rgb(0, 0, 0)" Height="60" Id="x6oQpsaGAqAEZA5Q" MetaModelElement="x6oQpsaGAqAEZA5R" Model="x6oQpsaGAqAEZA5R" ModelElementNameAlignment="9" Name="Pristup Kreiranju" OverrideAppearanceWithStereotypeIcon="true" ParentConnectorDTheta="0.14402586964666186" ParentConnectorHeaderLength="123" ParentConnectorLineLength="34" PresentationOption="4" PrimitiveShapeType="0" RequestDefaultSize="false" RequestFitSize="false" RequestFitSizeFromCenter="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" RequestSetSizeOption="0" Selectable="true" ShowAllocatedFrom="0" ShowAllocatedTo="0" ShowStereotypeIconName="0" Width="60" X="338" Y="277" ZOrder="10">
+							<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+							<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
+								<Stroke/>
+							</Line>
+							<Caption Height="15" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="None" Visible="true" Width="123" X="416" Y="216"/>
+							<FillColor Color="rgb(0, 0, 0)" Style="1" Transparency="0" Type="1"/>
+						</CommunicationMessage>
+						<CommunicationReverseMessage Background="rgb(122, 207, 245)" ConnectToPoint="true" ConnectionPointType="2" Foreground="rgb(0, 0, 0)" Height="60" Id="xrPgpsaGAqAEZA48" MetaModelElement="xrPgpsaGAqAEZA49" Model="xrPgpsaGAqAEZA49" ModelElementNameAlignment="9" Name="KreiranjePrograma()" OverrideAppearanceWithStereotypeIcon="true" ParentConnectorDTheta="0.2613617435471598" ParentConnectorHeaderLength="171" ParentConnectorLineLength="50" PresentationOption="4" PrimitiveShapeType="0" RequestDefaultSize="false" RequestFitSize="false" RequestFitSizeFromCenter="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" RequestSetSizeOption="0" Selectable="true" ShowAllocatedFrom="0" ShowAllocatedTo="0" ShowStereotypeIconName="0" Width="60" X="317" Y="173" ZOrder="12">
+							<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+							<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
+								<Stroke/>
+							</Line>
+							<Caption Height="15" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="None" Visible="true" Width="132" X="332" Y="127"/>
+							<FillColor Color="rgb(0, 0, 0)" Style="1" Transparency="0" Type="1"/>
+						</CommunicationReverseMessage>
+						<CommunicationMessage Background="rgb(122, 207, 245)" ConnectToPoint="false" ConnectionPointType="2" Foreground="rgb(0, 0, 0)" Height="60" Id="AVDgpsaGAqAEZA4D" MetaModelElement="AVDgpsaGAqAEZA4E" Model="AVDgpsaGAqAEZA4E" ModelElementNameAlignment="9" Name="Uspjesan login" OverrideAppearanceWithStereotypeIcon="true" ParentConnectorDTheta="0.14402586964666186" ParentConnectorHeaderLength="123" ParentConnectorLineLength="34" PresentationOption="4" PrimitiveShapeType="0" RequestDefaultSize="false" RequestFitSize="false" RequestFitSizeFromCenter="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" RequestSetSizeOption="0" Selectable="true" ShowAllocatedFrom="0" ShowAllocatedTo="0" ShowStereotypeIconName="0" Width="60" X="338" Y="277" ZOrder="14">
+							<MessageIds>
+								<Value Value="x6oQpsaGAqAEZA5Q"/>
+								<Value Value="7Q4QpsaGAqAEZA5f"/>
+							</MessageIds>
+							<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+							<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
+								<Stroke/>
+							</Line>
+							<Caption Height="15" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="None" Visible="true" Width="114" X="438" Y="190"/>
+							<FillColor Color="rgb(0, 0, 0)" Style="1" Transparency="0" Type="1"/>
+						</CommunicationMessage>
+						<CommunicationReverseMessage Background="rgb(122, 207, 245)" ConnectToPoint="false" ConnectionPointType="2" Foreground="rgb(0, 0, 0)" Height="60" Id="KFmApsaGAqAEZAzx" MetaModelElement="6gSApsaGAqAEZAzK" Model="6gSApsaGAqAEZAzK" ModelElementNameAlignment="9" Name="Unos login podataka" OverrideAppearanceWithStereotypeIcon="true" ParentConnectorDTheta="-0.2840946516691032" ParentConnectorHeaderLength="187" ParentConnectorLineLength="50" PresentationOption="4" PrimitiveShapeType="0" RequestDefaultSize="false" RequestFitSize="false" RequestFitSizeFromCenter="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" RequestSetSizeOption="0" Selectable="true" ShowAllocatedFrom="0" ShowAllocatedTo="0" ShowStereotypeIconName="0" Width="60" X="317" Y="173" ZOrder="22">
+							<MessageIds>
+								<Value Value="xrPgpsaGAqAEZA48"/>
+								<Value Value="Ks.QpsaGAqAEZA6R"/>
+							</MessageIds>
+							<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+							<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
+								<Stroke/>
+							</Line>
+							<Caption Height="15" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="None" Visible="true" Width="133" X="347" Y="102"/>
+							<FillColor Color="rgb(0, 0, 0)" Style="1" Transparency="0" Type="1"/>
+						</CommunicationReverseMessage>
+					</DiagramElementChildren>
+					<Points>
+						<Point X="261.0" Y="377.0"/>
+						<Point X="498.0" Y="107.0"/>
+					</Points>
+				</InteractionLifeLineLink>
+				<InteractionLifeLineLink Background="rgb(122, 207, 245)" ConnectorLabelOrientation="4" ConnectorLineJumps="4" ConnectorStyle="Follow Diagram" Foreground="rgb(0, 0, 0)" From="PtKjJsaGAqAEZAkc" FromConnectType="0" FromPinType="1" FromShapeXDiff="0" FromShapeYDiff="0" HasMultiplicityAShape="false" HasMultiplicityBShape="false" HasRoleAShape="false" HasRoleBShape="false" Height="150" Id="y7SApsaGAqAEZAzU" MetaModelElement="M7SApsaGAqAEZAzR" Model="M7SApsaGAqAEZAzR" ModelElementNameAlignment="9" PaintThroughLabel="2" RequestRebuild="false" RequestRebuildFromEnd="false" RequestRebuildToEnd="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" Selectable="true" ShowConnectorName="2" ShowMultiplicityConstraints="false" To="PtKjJsaGAqAEZAkc" ToConnectType="0" ToPinType="1" ToShapeXDiff="0" ToShapeYDiff="0" UseFromShapeCenter="true" UseToShapeCenter="true" Width="205" X="19" Y="328" ZOrder="32">
+					<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+					<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
+						<Stroke/>
+					</Line>
+					<Caption Height="0" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="None" Visible="true" Width="20" X="111" Y="370"/>
+					<DiagramElementChildren>
+						<CommunicationMessage Background="rgb(122, 207, 245)" ConnectToPoint="false" ConnectionPointType="2" Foreground="rgb(0, 0, 0)" Height="60" Id="4vGApsaGAqAEZAzm" MetaModelElement="4vGApsaGAqAEZAzn" Model="4vGApsaGAqAEZAzn" ModelElementNameAlignment="9" Name="Validacija" OverrideAppearanceWithStereotypeIcon="true" ParentConnectorDTheta="-0.3170557532091469" ParentConnectorHeaderLength="196" ParentConnectorLineLength="21" PresentationOption="4" PrimitiveShapeType="0" RequestDefaultSize="false" RequestFitSize="false" RequestFitSizeFromCenter="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" RequestSetSizeOption="0" Selectable="true" ShowAllocatedFrom="0" ShowAllocatedTo="0" ShowStereotypeIconName="0" Width="60" X="80" Y="327" ZOrder="18">
+							<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+							<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
+								<Stroke/>
+							</Line>
+							<Caption Height="15" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="None" Visible="true" Width="89" X="65" Y="319"/>
+							<FillColor Color="rgb(0, 0, 0)" Style="1" Transparency="0" Type="1"/>
+						</CommunicationMessage>
+					</DiagramElementChildren>
+					<Points>
+						<Point X="174.0" Y="428.0"/>
+						<Point X="69.0" Y="428.0"/>
+						<Point X="69.0" Y="378.0"/>
+						<Point X="174.0" Y="378.0"/>
+					</Points>
+				</InteractionLifeLineLink>
+				<InteractionLifeLineLink Background="rgb(122, 207, 245)" ConnectorLabelOrientation="4" ConnectorLineJumps="4" ConnectorStyle="Follow Diagram" Foreground="rgb(0, 0, 0)" From="PtKjJsaGAqAEZAkc" FromConnectType="0" FromPinType="1" FromShapeXDiff="0" FromShapeYDiff="0" HasMultiplicityAShape="false" HasMultiplicityBShape="false" HasRoleAShape="false" HasRoleBShape="false" Height="100" Id="ObYgpsaGAqAEZA2F" MetaModelElement="KbYgpsaGAqAEZA2C" Model="KbYgpsaGAqAEZA2C" ModelElementNameAlignment="9" PaintThroughLabel="2" RequestRebuild="false" RequestRebuildFromEnd="false" RequestRebuildToEnd="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" Selectable="true" ShowConnectorName="2" ShowMultiplicityConstraints="false" To="jcqjJsaGAqAEZAkk" ToConnectType="0" ToPinType="1" ToShapeXDiff="0" ToShapeYDiff="0" UseFromShapeCenter="true" UseToShapeCenter="true" Width="662" X="211" Y="353" ZOrder="34">
+					<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+					<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
+						<Stroke/>
+					</Line>
+					<Caption Height="0" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="None" Visible="true" Width="20" X="532" Y="403"/>
+					<DiagramElementChildren>
+						<CommunicationReverseMessage Background="rgb(122, 207, 245)" ConnectToPoint="true" ConnectionPointType="2" Foreground="rgb(0, 0, 0)" Height="60" Id="y_AwpsaGAqAEZA7e" MetaModelElement="y_AwpsaGAqAEZA7f" Model="y_AwpsaGAqAEZA7f" ModelElementNameAlignment="9" Name="Uspjesno spremanje" OverrideAppearanceWithStereotypeIcon="true" ParentConnectorDTheta="-0.08617349463302848" ParentConnectorHeaderLength="180" ParentConnectorLineLength="33" PresentationOption="4" PrimitiveShapeType="0" RequestDefaultSize="false" RequestFitSize="false" RequestFitSizeFromCenter="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" RequestSetSizeOption="0" Selectable="true" ShowAllocatedFrom="0" ShowAllocatedTo="0" ShowStereotypeIconName="0" Width="60" X="613" Y="406" ZOrder="2">
+							<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+							<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
+								<Stroke/>
+							</Line>
+							<Caption Height="15" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="None" Visible="true" Width="161" X="452" Y="418"/>
+							<FillColor Color="rgb(0, 0, 0)" Style="1" Transparency="0" Type="1"/>
+						</CommunicationReverseMessage>
+						<CommunicationMessage Background="rgb(122, 207, 245)" ConnectToPoint="false" ConnectionPointType="2" Foreground="rgb(0, 0, 0)" Height="60" Id="d2tQpsaGAqAEZA6r" MetaModelElement="92tQpsaGAqAEZA6s" Model="92tQpsaGAqAEZA6s" ModelElementNameAlignment="9" Name="SpremanjePrograma()" OverrideAppearanceWithStereotypeIcon="true" ParentConnectorDTheta="-0.07339732590161185" ParentConnectorHeaderLength="222" ParentConnectorLineLength="25" PresentationOption="4" PrimitiveShapeType="0" RequestDefaultSize="false" RequestFitSize="false" RequestFitSizeFromCenter="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" RequestSetSizeOption="0" Selectable="true" ShowAllocatedFrom="0" ShowAllocatedTo="0" ShowStereotypeIconName="0" Width="60" X="453" Y="348" ZOrder="4">
+							<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+							<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
+								<Stroke/>
+							</Line>
+							<Caption Height="15" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="None" Visible="true" Width="169" X="520" Y="371"/>
+							<FillColor Color="rgb(0, 0, 0)" Style="1" Transparency="0" Type="1"/>
+						</CommunicationMessage>
+						<CommunicationReverseMessage Background="rgb(122, 207, 245)" ConnectToPoint="true" ConnectionPointType="2" Foreground="rgb(0, 0, 0)" Height="60" Id="MSBgpsaGAqAEZA3V" MetaModelElement="MSBgpsaGAqAEZA3W" Model="MSBgpsaGAqAEZA3W" ModelElementNameAlignment="9" Name="podaci" OverrideAppearanceWithStereotypeIcon="true" ParentConnectorDTheta="-0.08617349463302848" ParentConnectorHeaderLength="180" ParentConnectorLineLength="33" PresentationOption="4" PrimitiveShapeType="0" RequestDefaultSize="false" RequestFitSize="false" RequestFitSizeFromCenter="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" RequestSetSizeOption="0" Selectable="true" ShowAllocatedFrom="0" ShowAllocatedTo="0" ShowStereotypeIconName="0" Width="60" X="613" Y="406" ZOrder="20">
+							<MessageIds>
+								<Value Value="y_AwpsaGAqAEZA7e"/>
+							</MessageIds>
+							<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+							<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
+								<Stroke/>
+							</Line>
+							<Caption Height="15" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="None" Visible="true" Width="74" X="693" Y="417"/>
+							<FillColor Color="rgb(0, 0, 0)" Style="1" Transparency="0" Type="1"/>
+						</CommunicationReverseMessage>
+						<CommunicationMessage Background="rgb(122, 207, 245)" ConnectToPoint="false" ConnectionPointType="2" Foreground="rgb(0, 0, 0)" Height="60" Id="Hr4gpsaGAqAEZA2L" MetaModelElement="Hr4gpsaGAqAEZA2M" Model="Hr4gpsaGAqAEZA2M" ModelElementNameAlignment="9" Name="TrazenjePodataka()" OverrideAppearanceWithStereotypeIcon="true" ParentConnectorDTheta="-0.07339732590161185" ParentConnectorHeaderLength="222" ParentConnectorLineLength="25" PresentationOption="4" PrimitiveShapeType="0" RequestDefaultSize="false" RequestFitSize="false" RequestFitSizeFromCenter="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" RequestSetSizeOption="0" Selectable="true" ShowAllocatedFrom="0" ShowAllocatedTo="0" ShowStereotypeIconName="0" Width="60" X="453" Y="348" ZOrder="16">
+							<MessageIds>
+								<Value Value="d2tQpsaGAqAEZA6r"/>
+							</MessageIds>
+							<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+							<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
+								<Stroke/>
+							</Line>
+							<Caption Height="15" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="None" Visible="true" Width="139" X="314" Y="371"/>
+							<FillColor Color="rgb(0, 0, 0)" Style="1" Transparency="0" Type="1"/>
+						</CommunicationMessage>
+					</DiagramElementChildren>
+					<Points>
+						<Point X="261.0" Y="403.0"/>
+						<Point X="823.0" Y="403.0"/>
+					</Points>
+				</InteractionLifeLineLink>
+			</Connectors>
+		</CommunicationDiagram>
+	</Diagrams>
+</Project>
