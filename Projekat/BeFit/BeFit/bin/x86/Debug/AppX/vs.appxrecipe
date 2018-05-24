@@ -31,13 +31,13 @@
     <AppXManifest Include="C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-05-07T10:59:02.570</Modified>
+      <Modified>2018-05-24T12:50:23.392</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\bin\x86\Debug\BeFit.exe">
       <PackagePath>entrypoint\BeFit.exe</PackagePath>
-      <Modified>2018-05-07T10:59:02.060</Modified>
+      <Modified>2018-05-24T12:50:22.830</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Haris Soljic\.nuget\packages\microsoft.azure.mobile.client\4.0.2\lib\uap10.0\Microsoft.Azure.Mobile.Client.dll">
       <PackagePath>Microsoft.Azure.Mobile.Client.dll</PackagePath>
@@ -980,7 +980,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFit\BeFit\bin\x86\Debug\Core\BeFit.exe">
       <PackagePath>BeFit.exe</PackagePath>
-      <Modified>2018-05-07T10:59:02.566</Modified>
+      <Modified>2018-05-24T12:50:23.377</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

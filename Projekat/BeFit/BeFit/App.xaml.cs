@@ -88,7 +88,7 @@ namespace BeFit
             throw new Exception("Failed to load Page " + e.SourcePageType.FullName);
         }
         public static MobileServiceClient MobileService = new
-                MobileServiceClient("https://OOAddaoo.azurewebsites.net");
+                MobileServiceClient("https://BeFitApp.azurewebsites.net");
         /// <summary>
         /// Invoked when application execution is being suspended.  Application state is saved
         /// without knowing whether the application will be terminated or resumed with the contents

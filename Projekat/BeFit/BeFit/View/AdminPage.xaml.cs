@@ -69,7 +69,8 @@ namespace BeFit
                     listViewItem.Content = komentari.Last<string>();
                     listViewKomentari.Items.Add(listViewItem);
                 }
-                listViewKomentari.SelectedIndex = 0;   
+                if(items.Count != 0)
+                    listViewKomentari.SelectedIndex = 0;   
             }
             catch(Exception ex)
             {
