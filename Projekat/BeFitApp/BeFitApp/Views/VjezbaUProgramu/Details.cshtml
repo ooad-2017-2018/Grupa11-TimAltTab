@@ -1,0 +1,59 @@
+﻿@model BeFitApp.Models.VjezbaUProgramu
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>VjezbaUProgramu</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Vjezba.Naziv)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Vjezba.Naziv)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.BrojSetova)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.BrojSetova)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.BrojRepova)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.BrojRepova)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Vrijeme)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Vrijeme)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Dan)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Dan)
+        </dd>
+
+    </dl>
+</div>
+<p>
+   
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

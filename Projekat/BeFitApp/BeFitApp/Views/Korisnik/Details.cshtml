@@ -1,0 +1,77 @@
+﻿@model BeFitApp.Models.Korisnik
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Korisnik</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Ime)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Ime)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Prezime)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Prezime)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Username)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Username)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Password)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Password)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Email)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Email)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    <h4>Programi</h4>
+    @{
+        var db1 = new BeFitApp.Models.OOADContext();
+        var ids1 = db1.Database.SqlQuery<int>("SELECT Id FROM dbo.Korisnik WHERE " +
+           "UserAjDi = '" + User.Identity.Name + "'").ToList();
+        string ID = ids1[0].ToString();
+        var db = new BeFitApp.Models.OOADContext();
+        var ids = db.Database.SqlQuery<int>("SELECT dbo.Program.id FROM dbo.Program, dbo.VezaKorisnikProgram WHERE " +
+            "dbo.VezaKorisnikProgram.KorisnikId = " + ID + " AND " +
+            "dbo.VezaKorisnikProgram.ProgramId = dbo.Program.Id"
+          ).ToList();
+        var names = db.Database.SqlQuery<string>("SELECT Naziv FROM dbo.Program WHERE KlijentId = " +
+           ID.ToString()).ToList();
+        for (int i = 0; i < ids.Count; i++)
+        {
+            @Html.ActionLink("Program " + (i+1), ids[i].ToString(), "Programs/Details")<br>
+        }
+    }
+    <br />
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

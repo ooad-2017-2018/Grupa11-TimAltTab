@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="AspModel-Web.config Connection String" description="AspModel Connection String used in web.config by the application to access the database." defaultValue="data source=&quot;tcp:nekiserverr.database.windows.net, 1433&quot;;initial catalog=AspNetDB;persist security info=True;user id=hsoljic1;password=Hule4ever;MultipleActiveResultSets=True;App=EntityFramework" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="c:\\users\\haris\ soljic\\source\\repos\\BeFitAPI\\BeFitAPI\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='AspModel']/@connectionString" />
+  </parameter>
+</parameters>
