@@ -1,0 +1,32 @@
+Composite pattern
+
+Osnovna namjena Composite paterna je da omoguci formiranje strukture stabla
+pomocu klasa, u kojoj se individualni objekti (listovi stabla) i kompozicije individualnih objekata
+(korijeni stabla) jednako tretiraju.
+
+Ovaj pattern nije iskoristen u nasem projektu, ali bi se mogao iskoristiti ako bismo recimo zeljeli
+definisati skup metoda (u interfejsu) za rad sa pojedinacnim vjezbama, ali i sa grupama vjezbi na isti nacin.
+
+Adapter pattern
+
+Osnovna namjena Adapter paterna je da omoguci širu upotrebu vec postojecih klasa. U situacijama
+kada je potreban drugaciji interfejs vec postojece klase, a ne želimo mijenjati postojecu klasu koristi
+se Adapter patern. Adapter patern kreira novu adapter klasu koja služi kao posrednik izmedu
+originalne klase i željenog interfejsa. Tim postupkom se dobija željena funkcionalnost bez izmjena na
+originalnoj klasi i bez ugrožavanja integriteta cijele aplikacije. Razlikujemo dvije vrste implementacije
+adapter patterna: pomocu nasljedjivanja i pomocu asocijacije/agregacije.
+
+Ukoliko bismo npr. zeljeli prosiriti interfejs klase Komentar sa par manjih promjena, mogli bismo napraviti
+adapter klasu koja bi sluzila kao posrednik i imala privatni atribut tipa Komentar.
+
+Bridge pattern
+
+Osnovna namjena Bridge paterna je da omoguci odvajanje apstrakcije i implementacije neke klase tako
+da ta klasa može posjedovati više razlicitih apstrakcija i više razlicitih implementacija za pojedine
+apstrakcije.
+
+Bridge pattern se moze implementirati kao object adapter pattern (adapter pattern sa asocijacijom/agregacijom).
+U nasem slucaju bismo mogli iskoristiti Bridge pattern za npr. klasu Klijent, ako u nekom trenutku budemo
+zeljeli implementirati vise razlicitih vrsta klijenata.
+
+
