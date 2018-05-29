@@ -1,0 +1,171 @@
+Paterni ponašanja se bave organizacijom algoritama, dodjeljivanjem odgovornosti i komunikacijom izmedu objekata.
+
+State:
+Ukoliko objekat treba da se ponaša drukcije s obzirom na stanje u kojem se nalazi ili je
+od važnosti da se zna u kojem stanju se nalazi, koristimo ovaj dizajn patern.
+Koristi se na nacin da se kreira FSM(final state machine) koja sadrži stanja.
+Najjednostavniji primjer bi bio da se mašina nakon unosa 0 ugasi, a nakon 1 upali.
+C++ kod za dati FSM bi mogao izgledati kao:
+#include <iostream>
+
+using namespace std;
+
+class Machine
+{
+  class State *current;
+  public:
+    Machine();
+    void setCurrent(State *s)
+    {
+        current = s;
+    }
+    void on();
+    void off();
+};
+
+class State
+{
+  public:
+    virtual void on(Machine *m)
+    {
+        cout << "Vec upaljena\n";
+    }
+    virtual void off(Machine *m)
+    {
+        cout << "Vec ugasena\n";
+    }
+};
+
+void Machine::on()
+{
+  current->on(this);
+}
+
+void Machine::off()
+{
+  current->off(this);
+}
+
+class ON: public State
+{
+  public:
+    void off(Machine *m);
+};
+
+class OFF: public State
+{
+  public:
+    void on(Machine *m)
+    {
+        cout << "Palim masinu\n";
+        m->setCurrent(new ON());
+        delete this;
+    }
+};
+
+void ON::off(Machine *m)
+{
+  cout << "Gasim masinu\n";
+  m->setCurrent(new OFF());
+  delete this;
+}
+
+Machine::Machine()
+{
+  current = new OFF();
+  cout << "Kreirao masinu sa pocetnim stanjem off\n";
+}
+
+int main()
+{
+  Machine fsm;
+  int num;
+  while (1)
+  {
+    cout << "Unesi 0 ili 1: ";
+    cin >> num;
+    if(num==1)fsm.on(); else fsm.off();
+  }
+}
+
+Dobro mjesto za upotrebu ovog patterna u našem projektu bi bilo prilikom obrade programa koje su pravili treneri. 
+Ovisno od stanja kupljeno/obrisano/reportano/nije kupljeno program se tretira drugacije.
+
+Memento:
+Kako je nekada potrebno spasiti interno stanje nekog objekta van sistema, da bi kasnije bilo moguce eventualno vracanje objekta
+u to stanje, potrebno je koristiti ovaj dizajn pattern.  
+Obicno se implementiraju na nacin da postoji klasa Memento(predstavlja check point) u kojoj cuvamo pojedinacna stanja,
+te klasa Caretaker pomocu koje klijent pristupa metodama za restore i save stanja.
+  
+Dobro mjesto za upotrebu ovog patterna u našem projektu bi bilo prilikom obrade programa koje klijenti sami prave.
+Recimo da klijent izmijeni program na nacin da pojaca intenzitet, te nakon sedmicu dana treniranja po izmijenjenom planu,
+uvidi da mu je taj program preintenzivan, treba imati mogucnost da vrati program na prethodno stanje.
+
+Observer:
+Ukoliko dode do promjene stanja objekta, svi objekti koji imaju pristup promijenjenim stavkama za taj objekat moraju biti 
+obaviješteni te biti u mogucnosti vidjeti tu promjenu.
+Obicno se koristi na nacin da se u objekat doda metoda notify, koja updata Observer klasu. 
+
+Dobro mjesto za upotrebu ovog patterna u našem projektu bi bilo prilikom ocjenjivanja programa. Svi korisnici nakon što
+neko ostavi ocjenu na program trebaju biti u mogucnosti da vide ukupnu ocjenu programa.
+C++ kod za ovu situaciju bi mogao izgledati:
+#include <iostream>
+#include <vector>
+
+using namespace std;
+
+class Observer
+{
+  public:
+    virtual void update(double)=0;
+};
+
+class OcjenaObserver;
+
+class Program{
+    double prosjecna=0;
+    int n=0;
+    vector<Observer*> observeri;
+public:
+    double dajOcjenu(){
+        return prosjecna;
+    }
+    void ocijeni(int ocjena){
+        prosjecna=(n*prosjecna+ocjena)/(n+1);
+        n++;
+        notify();
+    }
+    void attach(Observer* observer){
+        observeri.push_back(observer);
+    }
+    void notify(){
+        for(auto i:observeri){
+            i->update(prosjecna);
+        }
+    }
+};
+
+class OcjenaObserver : public Observer{
+    double ocjena;
+public:
+    OcjenaObserver(Program* program){
+        program->attach(this);
+        this->ocjena=program->dajOcjenu();
+    }
+    void update(double ocjena) override{
+        this->ocjena=ocjena;
+        cout<<"nova ocjena "<<ocjena<<"\n";
+    }
+};
+
+int main()
+{
+    Program p;
+    OcjenaObserver o1(&p), o2(&p);
+    p.attach(&o1);
+    p.attach(&o2);
+    p.ocijeni(1);
+    p.ocijeni(5);
+}
+
+
