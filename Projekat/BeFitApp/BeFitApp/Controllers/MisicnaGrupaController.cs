@@ -15,6 +15,7 @@ namespace BeFitApp.Controllers
         private OOADContext db = new OOADContext();
 
         // GET: MisicnaGrupa
+        
         public ActionResult Index()
         {
             return View(db.MisicnaGrupas.ToList());
@@ -36,6 +37,7 @@ namespace BeFitApp.Controllers
         }
 
         // GET: MisicnaGrupa/Create
+        [Authorize(Roles = "Admin")]
         public ActionResult Create()
         {
             return View();
@@ -46,6 +48,7 @@ namespace BeFitApp.Controllers
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Authorize(Roles = "Admin")]
         public ActionResult Create([Bind(Include = "Id,Naziv")] MisicnaGrupa misicnaGrupa)
         {
             if (ModelState.IsValid)
@@ -59,6 +62,7 @@ namespace BeFitApp.Controllers
         }
 
         // GET: MisicnaGrupa/Edit/5
+        [Authorize(Roles = "Admin")]
         public ActionResult Edit(int? id)
         {
             if (id == null)
@@ -78,6 +82,7 @@ namespace BeFitApp.Controllers
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Authorize(Roles = "Admin")]
         public ActionResult Edit([Bind(Include = "Id,Naziv")] MisicnaGrupa misicnaGrupa)
         {
             if (ModelState.IsValid)
@@ -90,6 +95,7 @@ namespace BeFitApp.Controllers
         }
 
         // GET: MisicnaGrupa/Delete/5
+        [Authorize(Roles = "Admin")]
         public ActionResult Delete(int? id)
         {
             if (id == null)
@@ -106,6 +112,7 @@ namespace BeFitApp.Controllers
 
         // POST: MisicnaGrupa/Delete/5
         [HttpPost, ActionName("Delete")]
+        [Authorize(Roles = "Admin")]
         [ValidateAntiForgeryToken]
         public ActionResult DeleteConfirmed(int id)
         {

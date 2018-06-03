@@ -113,13 +113,13 @@ C:\Users\Haris Soljic\source\repos\BeFitApp\BeFitApp\bin\Microsoft.AI.Dependency
 C:\Users\Haris Soljic\source\repos\BeFitApp\BeFitApp\bin\Microsoft.AI.ServerTelemetryChannel.xml
 C:\Users\Haris Soljic\source\repos\BeFitApp\BeFitApp\bin\Microsoft.AI.WindowsServer.xml
 C:\Users\Haris Soljic\source\repos\BeFitApp\BeFitApp\bin\Microsoft.AI.Web.xml
-C:\Users\Haris Soljic\source\repos\BeFitApp\BeFitApp\obj\Debug\BeFitApp.csprojResolveAssemblyReference.cache
 C:\Users\Haris Soljic\source\repos\BeFitApp\BeFitApp\obj\Debug\BeFitApp.csproj.CoreCompileInputs.cache
 C:\Users\Haris Soljic\source\repos\BeFitApp\BeFitApp\obj\Debug\BeFitApp.csproj.CopyComplete
 C:\Users\Haris Soljic\source\repos\BeFitApp\BeFitApp\obj\Debug\BeFitApp.dll
 C:\Users\Haris Soljic\source\repos\BeFitApp\BeFitApp\obj\Debug\BeFitApp.pdb
 C:\Users\Haris Soljic\source\repos\BeFitApp\BeFitApp\obj\Debug\BeFitApp.Migrations.init.resources
 C:\Users\Haris Soljic\source\repos\BeFitApp\BeFitApp\obj\Debug\BeFitApp.csproj.GenerateResource.cache
+C:\Users\Haris Soljic\source\repos\BeFitApp\BeFitApp\obj\Debug\BeFitApp.csprojResolveAssemblyReference.cache
 C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFitApp\BeFitApp\bin\ApplicationInsights.config
 C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFitApp\BeFitApp\bin\BeFitApp.dll.config
 C:\Users\Haris Soljic\Documents\GitHub\Grupa11-TimAltTab\Projekat\BeFitApp\BeFitApp\bin\BeFitApp.dll

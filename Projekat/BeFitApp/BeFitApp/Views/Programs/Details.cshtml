@@ -25,12 +25,11 @@
         var db = new BeFitApp.Models.OOADContext();
         var ids = db.Database.SqlQuery<int>("SELECT id FROM dbo.VjezbaUProgramu WHERE ProgramId = " +
             Model.Id.ToString()).ToList();
-        
-        for(int i = 0; i < ids.Count; i++)
+
+        for (int i = 0; i < ids.Count; i++)
         {
-            @Html.ActionLink("Vjezba " + (i+1).ToString(), ids[i].ToString(), "VjezbaUProgramu/Details")<br>
+            @Html.ActionLink("Vjezba " + (i + 1).ToString(), ids[i].ToString(), "VjezbaUProgramu/Details")<br>
         }
     }
-    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) 
-    @Html.ActionLink("Back to List", "Index")
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Id });
 </p>

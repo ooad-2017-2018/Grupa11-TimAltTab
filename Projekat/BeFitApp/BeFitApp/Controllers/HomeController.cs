@@ -47,21 +47,7 @@ namespace BeFitApp.Controllers
             ViewBag.Message = str;
             return View();
         }
-        private async Task ASynchron()
-        {
-            var client = new HttpClient();
-            var address = new Uri("http://befitapi.azurewebsites.net/api/korisniks");
-            HttpResponseMessage response = await client.GetAsync(address);
-            String stream = await response.Content.ReadAsStringAsync();
-            dynamic dyn = JsonConvert.DeserializeObject(stream);
-            string s = "hsoljic4@etf.unsa.ba";
-            str = "ccc";
-            foreach(dynamic d in dyn)
-            {
-                if (d.UserAjDi == "hsoljic4@etf.unsa.ba")
-                    str = d.Ime + " " + d.Prezime;
-            }
-        }
+        
         public ActionResult Mapa()
         {
             return View();
@@ -76,7 +62,7 @@ namespace BeFitApp.Controllers
             }
             public async Task<ActionResult> AsyncGetLocations()
             {
-               
+            
             var client = new HttpClient();
             var address = new Uri("https://api.foursquare.com/v2/venues/search?ll=43.85,18.23&categoryId=4bf58dd8d48988d175941735&client_id=KHAWRYD4PJ0LKVSZQF4CEXTX5GK3BDPTWS3XLCTVAYQPK515&client_secret=BSTBTSNVENYHWGGNYGGQ00X33NJNNFTPZVIPOB3LGC1UVXBI&v=20160202");
             HttpResponseMessage response = await client.GetAsync(address);

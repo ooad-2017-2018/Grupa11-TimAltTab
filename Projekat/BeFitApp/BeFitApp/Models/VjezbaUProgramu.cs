@@ -38,6 +38,7 @@ namespace BeFitApp.Models
 			get => vrijeme;
 			set => vrijeme = value;
 		}
+        [RegularExpression(@"^(?:(Ponedjeljak|Utorak|Srijeda|Četvrtak|Petak|Subota|Nedjelja)(?!.*\1))+$", ErrorMessage = "Nevaljan izbora dana")]
         public string Dan
         {
             get => dan;

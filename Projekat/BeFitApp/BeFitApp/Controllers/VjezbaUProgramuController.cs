@@ -56,7 +56,7 @@ namespace BeFitApp.Controllers
                     vjezbaUProgramu.ProgramId = Static.ProgramId;
                 db.VjezbaUProgramus.Add(vjezbaUProgramu);
                 db.SaveChanges();
-                return RedirectToAction("Index");
+                return RedirectToAction("Index", "Home");
             }
 
             ViewBag.VjezbaId = new SelectList(db.Vjezbas, "Id", "Naziv", vjezbaUProgramu.VjezbaId);

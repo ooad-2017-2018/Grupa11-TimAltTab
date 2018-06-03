@@ -10,6 +10,7 @@ using BeFitApp.Models;
 
 namespace BeFitApp.Controllers
 {
+
     public class VjezbaController : Controller
     {
         private OOADContext db = new OOADContext();
@@ -37,6 +38,7 @@ namespace BeFitApp.Controllers
         }
 
         // GET: Vjezba/Create
+        [Authorize(Roles = "Admin")]
         public ActionResult Create()
         {
             ViewBag.MisicnaGrupaId = new SelectList(db.MisicnaGrupas, "Id", "Naziv");
@@ -48,6 +50,7 @@ namespace BeFitApp.Controllers
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Authorize(Roles = "Admin")]
         public ActionResult Create([Bind(Include = "Id,MisicnaGrupaId,Naziv,Opis,RedniBrojVjezbe")] Vjezba vjezba)
         {
             if (ModelState.IsValid)
@@ -62,6 +65,8 @@ namespace BeFitApp.Controllers
         }
 
         // GET: Vjezba/Edit/5
+
+        [Authorize(Roles = "Admin")]
         public ActionResult Edit(int? id)
         {
             if (id == null)
@@ -82,6 +87,8 @@ namespace BeFitApp.Controllers
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
+
+        [Authorize(Roles = "Admin")]
         public ActionResult Edit([Bind(Include = "Id,MisicnaGrupaId,Naziv,Opis,RedniBrojVjezbe")] Vjezba vjezba)
         {
             if (ModelState.IsValid)
@@ -95,6 +102,8 @@ namespace BeFitApp.Controllers
         }
 
         // GET: Vjezba/Delete/5
+
+        [Authorize(Roles = "Admin")]
         public ActionResult Delete(int? id)
         {
             if (id == null)
@@ -112,6 +121,8 @@ namespace BeFitApp.Controllers
         // POST: Vjezba/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
+
+        [Authorize(Roles = "Admin")]
         public ActionResult DeleteConfirmed(int id)
         {
             Vjezba vjezba = db.Vjezbas.Find(id);

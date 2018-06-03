@@ -90,6 +90,7 @@ namespace BeFitApp.Controllers
         }
 
         // GET: Komentar/Delete/5
+        [Authorize(Roles = "Admin")]
         public ActionResult Delete(int? id)
         {
             if (id == null)
@@ -105,6 +106,7 @@ namespace BeFitApp.Controllers
         }
 
         // POST: Komentar/Delete/5
+        [Authorize(Roles = "Admin")]
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public ActionResult DeleteConfirmed(int id)
