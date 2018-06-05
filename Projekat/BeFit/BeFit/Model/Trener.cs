@@ -18,7 +18,7 @@ namespace BeFit
         public string KontaktTelefon { get => kontaktTelefon; set => kontaktTelefon = value; }
         public List<TrenerProgram> Programi { get => programi; }
 
-        public void dodajProgram(TrenerProgram program)
+        public void DodajProgram(TrenerProgram program)
         {
             programi.Add(program);
         }

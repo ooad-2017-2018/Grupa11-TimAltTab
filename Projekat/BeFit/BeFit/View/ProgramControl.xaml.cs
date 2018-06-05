@@ -28,7 +28,7 @@ namespace BeFit
         {
             InitializeComponent();
             nazivProgramaTextBlock.Text = program.Naziv;
-            tezinaProgramaTextBlock.Text = program.dajTezinu();
+            tezinaProgramaTextBlock.Text = program.DajTezinu();
             workoutProgram = program;
         }
 

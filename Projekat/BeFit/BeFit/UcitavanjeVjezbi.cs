@@ -9,9 +9,25 @@ using Windows.UI.Xaml.Media.Imaging;
 
 namespace BeFit
 {
-	public static class UcitavanjeVjezbi
+	public class UcitavanjeVjezbi
 	{
-		public static async Task<Tuple<string, string>> UcitajOpisVjezbe(MisicnaGrupa misicnaGrupa, int redniBrojVjezbe)
+		private static UcitavanjeVjezbi uniqueInstance = null;
+
+		private UcitavanjeVjezbi()
+		{
+
+		}
+
+		public static UcitavanjeVjezbi GetInstance()
+		{
+			if(uniqueInstance == null)
+			{
+				uniqueInstance = new UcitavanjeVjezbi();
+			}
+			return uniqueInstance;
+		}
+
+		public async Task<Tuple<string, string>> UcitajOpisVjezbe(MisicnaGrupa misicnaGrupa, int redniBrojVjezbe)
 		{
 			string fajl = $"Assets\\Vjezbe\\{misicnaGrupa.Naziv}\\Vjezba{redniBrojVjezbe}\\info.txt";
 
@@ -26,7 +42,7 @@ namespace BeFit
 			return new Tuple<string, string>(naziv, opis);
 		}
 
-		public static async Task<List<BitmapImage>> UcitajSlikeVjezbe(Vjezba vjezba)
+		public async Task<List<BitmapImage>> UcitajSlikeVjezbe(Vjezba vjezba)
 		{
 			//BitmapImage slika1 = new BitmapImage(new Uri($"ms-appx://BeFit/Assets/Vjezbe/{vjezba.MisicnaGrupa.Naziv}/Vjezba{vjezba.RedniBrojVjezbe}/Slika1.jpg"));
 			//BitmapImage slika2 = new BitmapImage(new Uri($"ms-appx://BeFit/Assets/Vjezbe/{vjezba.MisicnaGrupa.Naziv}/Vjezba{vjezba.RedniBrojVjezbe}/Slika2.jpg"));			
@@ -41,21 +57,21 @@ namespace BeFit
 			});
 		}
 
-		private static Task<BitmapImage> UcitajSlikuVjezbe(Vjezba vjezba, int redniBrojSlike)
+		private Task<BitmapImage> UcitajSlikuVjezbe(Vjezba vjezba, int redniBrojSlike) 
 		{
 			string fajl = $"Assets\\Vjezbe\\{vjezba.MisicnaGrupa.Naziv}\\Vjezba{vjezba.RedniBrojVjezbe}\\Slika{redniBrojSlike}.jpg";
 
 			return UcitajSliku(fajl);
 		}
 
-		public static Task<BitmapImage> UcitajSlikuGrupe(MisicnaGrupa misicnaGrupa)
+		public Task<BitmapImage> UcitajSlikuGrupe(MisicnaGrupa misicnaGrupa) 
 		{
 			string fajl = $"Assets\\SlikeMisicnihGrupa\\{misicnaGrupa.Naziv}.jpg";
 
 			return UcitajSliku(fajl);
 		}
 
-		private static async Task<BitmapImage> UcitajSliku(string path)
+		private async Task<BitmapImage> UcitajSliku(string path) 
 		{
 			StorageFolder folder = Windows.ApplicationModel.Package.Current.InstalledLocation;
 			StorageFile file = await folder.GetFileAsync(path);

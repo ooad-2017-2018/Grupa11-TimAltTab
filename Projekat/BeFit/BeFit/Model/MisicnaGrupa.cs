@@ -21,7 +21,7 @@ namespace BeFit
 
 		public async Task<BitmapImage> DajSlikuGrupe()
 		{
-			return await UcitavanjeVjezbi.UcitajSlikuGrupe(this);
+			return await UcitavanjeVjezbi.GetInstance().UcitajSlikuGrupe(this);
 		}
 	}
 }

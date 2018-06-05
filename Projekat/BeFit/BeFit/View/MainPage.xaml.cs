@@ -36,7 +36,7 @@ namespace BeFit
         {
             if (usernameTextBox.Text == "fakoni")
             {
-                this.Frame.Navigate(typeof(KlijentHomePage), new KlijentViewModel(KONTEJNERSKA.dajTestnog()));
+                this.Frame.Navigate(typeof(KlijentHomePage), new KlijentViewModel(KONTEJNERSKA.DajTestnog()));
                 return;
             }
             try

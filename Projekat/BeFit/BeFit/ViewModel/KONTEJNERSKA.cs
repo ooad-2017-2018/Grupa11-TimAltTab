@@ -44,7 +44,7 @@ namespace BeFit
 
 		private static async void InicijalizujVjezbu(MisicnaGrupa misicnaGrupa, int redniBrojVjezbe)
 		{
-			var data = await UcitavanjeVjezbi.UcitajOpisVjezbe(misicnaGrupa, redniBrojVjezbe);
+			var data = await UcitavanjeVjezbi.GetInstance().UcitajOpisVjezbe(misicnaGrupa, redniBrojVjezbe);
 
 			string nazivVjezbe = data.Item1;
 			string opis = data.Item2;
@@ -52,7 +52,7 @@ namespace BeFit
 			vjezbe.Add(new Vjezba(nazivVjezbe, opis, misicnaGrupa, redniBrojVjezbe));
 		}
 
-        public static Vjezba dajVjezbu(string nazivMisicneGrupe, int redniBroj)
+        public static Vjezba DajVjezbu(string nazivMisicneGrupe, int redniBroj)
         {
             foreach (var i in vjezbe)
             {
@@ -64,7 +64,7 @@ namespace BeFit
             throw new Exception("Ne postoji vjezba.");
         }
 
-        public static Klijent dajTestnog()
+        public static Klijent DajTestnog()
         {
             var testni = new Klijent();
             testni.Ime = "Fako";
@@ -75,10 +75,10 @@ namespace BeFit
             var tp = new KlijentProgram();
             tp.Klijent = testni;
             tp.Naziv = "najjaciworkout";
-            tp.dodajVjezbu(new VjezbaUProgramu(dajVjezbu("Neck", 1), 3, 4, new TimeSpan(0, 0, 30), "Srijeda"));
-            tp.dodajVjezbu(new VjezbaUProgramu(dajVjezbu("Neck", 1), 3, 4, new TimeSpan(0, 0, 30), "Srijeda"));
-            tp.dodajVjezbu(new VjezbaUProgramu(dajVjezbu("Chest", 1), 3, 4, new TimeSpan(0, 0, 30), "Ponedjeljak"));
-            tp.dodajVjezbu(new VjezbaUProgramu(dajVjezbu("Triceps", 1), 3, 4, new TimeSpan(0, 0, 30), "Petak"));
+            tp.DodajVjezbu(new VjezbaUProgramu(DajVjezbu("Neck", 1), 3, 4, new TimeSpan(0, 0, 30), "Srijeda"));
+            tp.DodajVjezbu(new VjezbaUProgramu(DajVjezbu("Neck", 1), 3, 4, new TimeSpan(0, 0, 30), "Srijeda"));
+            tp.DodajVjezbu(new VjezbaUProgramu(DajVjezbu("Chest", 1), 3, 4, new TimeSpan(0, 0, 30), "Ponedjeljak"));
+            tp.DodajVjezbu(new VjezbaUProgramu(DajVjezbu("Triceps", 1), 3, 4, new TimeSpan(0, 0, 30), "Petak"));
             testni.MojiProgrami.Add(tp);
             return testni;
         }

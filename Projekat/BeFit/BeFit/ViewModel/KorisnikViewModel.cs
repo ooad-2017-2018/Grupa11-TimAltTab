@@ -97,6 +97,7 @@ namespace BeFit
             {
                 PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
             }
-        }
+        }
+
     }
 }

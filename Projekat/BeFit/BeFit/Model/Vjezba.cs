@@ -25,7 +25,7 @@ namespace BeFit
 		
 		public async Task<List<BitmapImage>> DajSlikeVjezbe()
 		{
-			return await UcitavanjeVjezbi.UcitajSlikeVjezbe(this);	
+			return await UcitavanjeVjezbi.GetInstance().UcitajSlikeVjezbe(this);	
 		}
 
 		public string Naziv

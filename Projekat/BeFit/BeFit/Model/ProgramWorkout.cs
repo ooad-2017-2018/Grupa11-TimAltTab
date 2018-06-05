@@ -16,11 +16,11 @@ namespace BeFit
         public List<VjezbaUProgramu> Vjezbe { get => vjezbe; set => vjezbe = value; }
         public string Program_id { get => program_id; set => program_id = value; }
 
-        public void dodajVjezbu(VjezbaUProgramu vjezba)
+        public void DodajVjezbu(VjezbaUProgramu vjezba)
         {
             vjezbe.Add(vjezba);
         }
-        public string dajTezinu()
+        public string DajTezinu()
         {
             return "Level " + (vjezbe.Count / 15 + 1).ToString();
         }

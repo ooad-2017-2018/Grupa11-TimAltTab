@@ -14,12 +14,12 @@ namespace BeFit
         public List<KlijentProgram> MojiProgrami { get => mojiProgrami; }
         public List<TrenerProgram> KupljeniProgrami { get => kupljeniProgrami; }
 
-        public void dodajMojProgram(KlijentProgram klijentProgram)
+        public void DodajMojProgram(KlijentProgram klijentProgram)
         {
             mojiProgrami.Add(klijentProgram);
         }
 
-        public void dodajTrenerProgram(TrenerProgram trenerProgram)
+        public void DodajTrenerProgram(TrenerProgram trenerProgram)
         {
             kupljeniProgrami.Add(trenerProgram);
         }
