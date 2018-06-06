@@ -14,7 +14,7 @@ namespace BeFit
         public List<KlijentProgram> MojiProgrami { get => mojiProgrami; }
         public List<TrenerProgram> KupljeniProgrami { get => kupljeniProgrami; }
 
-        public void DodajMojProgram(KlijentProgram klijentProgram)
+        public void DodajKorisnikProgram(KlijentProgram klijentProgram)
         {
             mojiProgrami.Add(klijentProgram);
         }
