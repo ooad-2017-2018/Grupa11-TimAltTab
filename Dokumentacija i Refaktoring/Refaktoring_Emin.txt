@@ -1,0 +1,23 @@
+Refaktoring - "Replace an expression with a routine"
+
+Metode UcitajSlikuVjezbe i UcitajSlikuGrupe dijele velik dio koda,
+te je izdvojena metoda UcitajSliku koja sadrzi taj dio koda i koju
+pozivaju obje navedene metode.
+
+Doprinosi citljivosti koda i smanjuje se ponavljanje koda.
+
+
+Refaktoring - preimenovanje metoda prema naming convention-u
+
+Imena vecine metoda prepravljena da postuju konvenciju imenovanja metoda.
+Sva imena metoda pocinju velikim slovom i objasnjavaju sta metoda radi.
+
+Doprinosi citljivosti koda.
+
+
+Refaktoring u Design Patterne
+
+Implementiran Singleton pattern za klasu UcitavanjeVjezbi.
+
+
+
