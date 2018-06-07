@@ -49,40 +49,13 @@ namespace BeFit
                 {
                     if (TipKorisnika == false)
                     {
-                        if (Ime == null || Prezime == null ||
-                            Password == null || Username == null ||Email == null)
-                            throw new Exception("Sva polja moraju biti popunjena");
-                        Klijent k = new Klijent
-                        {
-                            Ime = this.Ime,
-                            Prezime = this.Prezime,
-                            Password = StaticHelper.CreateMD5(this.Password),
-                            Username = this.Username,
-                            Email = this.Email
-                        };
-                        await StaticHelper.SpremiKorisnika(k);
+                        await SpremiKlijenta();
                     }
                     else
                     {
-                        if (Ime == null || Prezime == null ||
-    Password == null || Username == null || Email == null || 
-    Biografija == null || KontaktTelefon == null || Lokacija == null)
-                            throw new Exception("Sva polja moraju biti popunjena");
-
-                        Trener k = new Trener
-                        {
-                            Ime = this.Ime,
-                            Prezime = this.Prezime,
-                            Password = StaticHelper.CreateMD5(this.Password),
-                            Username = this.Username,
-                            Email = this.Email,
-                            Biografija = this.Biografija,
-                            KontaktTelefon = this.KontaktTelefon,
-                            Lokacija = this.Lokacija
-                        };
-                        await StaticHelper.SpremiKorisnika(k);
+                        await SpremiTrenera();
                     }
-                    await(new Windows.UI.Popups.MessageDialog("Uspješna registracija")).ShowAsync();
+                    await (new Windows.UI.Popups.MessageDialog("Uspješna registracija")).ShowAsync();
                 }
                 catch (Exception ex)
                 {
@@ -90,6 +63,54 @@ namespace BeFit
                 }
             }
         }
+
+        private async Task SpremiKlijenta()
+        {
+            ProvjeriKlijenta();
+            Klijent k = new Klijent
+            {
+                Ime = this.Ime,
+                Prezime = this.Prezime,
+                Password = StaticHelperPassword.CreateMD5(this.Password),
+                Username = this.Username,
+                Email = this.Email
+            };
+            await StaticHelperBaza.SpremiKorisnika(k);
+        }
+
+        private async Task SpremiTrenera()
+        {
+            ProvjeriTrenera();
+
+            Trener k = new Trener
+            {
+                Ime = this.Ime,
+                Prezime = this.Prezime,
+                Password = StaticHelperPassword.CreateMD5(this.Password),
+                Username = this.Username,
+                Email = this.Email,
+                Biografija = this.Biografija,
+                KontaktTelefon = this.KontaktTelefon,
+                Lokacija = this.Lokacija
+            };
+            await StaticHelperBaza.SpremiKorisnika(k);
+        }
+
+        private void ProvjeriTrenera()
+        {
+            if (Ime == null || Prezime == null ||
+                Password == null || Username == null || Email == null ||
+                Biografija == null || KontaktTelefon == null || Lokacija == null)
+                throw new Exception("Sva polja moraju biti popunjena");
+        }
+
+        private void ProvjeriKlijenta()
+        {
+            if (Ime == null || Prezime == null ||
+                                        Password == null || Username == null || Email == null)
+                throw new Exception("Sva polja moraju biti popunjena");
+        }
+
         public event PropertyChangedEventHandler PropertyChanged;
         protected void OnPropertyChanged(string propertyName)
         {

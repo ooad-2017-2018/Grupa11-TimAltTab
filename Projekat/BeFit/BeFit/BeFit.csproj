@@ -93,6 +93,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Adapter.cs" />
+    <Compile Include="StaticHelperPassword.cs" />
     <Compile Include="ViewModel\KlijentViewModel.cs" />
     <Compile Include="ViewModel\KomentarTabela.cs" />
     <Compile Include="Model\Admin.cs" />

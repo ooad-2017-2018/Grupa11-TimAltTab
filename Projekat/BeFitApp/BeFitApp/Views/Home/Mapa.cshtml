@@ -18,8 +18,22 @@
         });
     }
 
+    function getLocation() {
+        if (navigator.geolocation) {
+            navigator.geolocation.getCurrentPosition(showPosition);
+        } else {
+            x.innerHTML = "Geolocation is not supported by this browser.";
+        }
+    }
+    var xo = 0;
+    var y0 = 0;
+    function showPosition(position) {
+        xo = position.coords.latitude;
+        yo = position.coords.longitude;
+    }
+    navigator.geolocation.getCurrentPosition(showPosition);
     $('#btnShowLocations').click(function () {
-        var url = "/Home/GetLocations";
+        var url = "/Home/GetLocations?x="+xo+"&y="+yo;
         $.getJSON(url, null, function (data) {
             var pins = [];
 

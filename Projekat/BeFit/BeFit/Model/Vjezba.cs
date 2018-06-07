@@ -37,7 +37,6 @@ namespace BeFit
 		public string Opis
 		{
 			get => opis;
-			set => opis = value;
 		}
 
 		public MisicnaGrupa MisicnaGrupa

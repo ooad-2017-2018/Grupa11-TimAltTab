@@ -41,7 +41,7 @@ namespace BeFit
             }
             try
             {
-                var korisnik = (await StaticHelper.UcitajKorisnika(usernameTextBox.Text, passwordBox.Password));
+                var korisnik = (await StaticHelperBaza.UcitajKorisnika(usernameTextBox.Text, passwordBox.Password));
                 if (korisnik is Admin)
                 {
                     this.Frame.Navigate(typeof(AdminPage));

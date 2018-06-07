@@ -14,7 +14,7 @@ namespace BeFit
         int brojOcjena;
 
         public double Cijena { get => cijena; set => cijena = value; }
-        public double Ocjena { get => ocjena; set => ocjena = value; }
+        public double Ocjena { get => ocjena; }
         public List<Komentar> Komentari { get => komentari; set => komentari = value; }
 
     }

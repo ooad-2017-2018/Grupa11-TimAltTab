@@ -50,14 +50,16 @@ namespace BeFitApp.Controllers
         {
             if (ModelState.IsValid)
             {
+                komentar.KorisnikId = Static.GetPrijavljeni(User.Identity.Name);
+                komentar.ProgramAjDi = Static.ProgramKomentarId;
                 db.Komentars.Add(komentar);
                 db.SaveChanges();
-                return RedirectToAction("Index");
+                return RedirectToAction("Details/" + Static.ProgramKomentarId, "Programs");
             }
 
             return View(komentar);
         }
-
+        [Authorize(Roles = "Admin")]
         // GET: Komentar/Edit/5
         public ActionResult Edit(int? id)
         {

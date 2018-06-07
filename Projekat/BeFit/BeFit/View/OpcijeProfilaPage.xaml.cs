@@ -37,20 +37,20 @@ namespace BeFit
         private async void Button_Click(object sender, RoutedEventArgs e)
         {
             klijentViewModel.Email = emailTextBox.Text;
-            await StaticHelper.PromijeniEmail(klijentViewModel.Klijent, emailTextBox.Text);
+            await StaticHelperBaza.PromijeniEmail(klijentViewModel.Klijent, emailTextBox.Text);
             await (new Windows.UI.Popups.MessageDialog("Uspješno promijenjen e-mail")).ShowAsync();
 
         }
 
         private async void Button_Click_1(object sender, RoutedEventArgs e)
         {
-            if(StaticHelper.CreateMD5(stariPassword.Password) != klijentViewModel.Klijent.Password)
+            if(StaticHelperPassword.CreateMD5(stariPassword.Password) != klijentViewModel.Klijent.Password)
             {
                 await (new Windows.UI.Popups.MessageDialog("Stari password netačan")).ShowAsync();
             }
             else if(passwordTextBox.Password == potvrdiPasswordTextBox.Password)
             {
-                await StaticHelper.PromijeniPassword(klijentViewModel.Klijent, passwordTextBox.Password);
+                await StaticHelperBaza.PromijeniPassword(klijentViewModel.Klijent, passwordTextBox.Password);
                 await (new Windows.UI.Popups.MessageDialog("Uspješno promijenjen password")).ShowAsync();
             }
             else

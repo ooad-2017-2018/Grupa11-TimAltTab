@@ -42,13 +42,13 @@ namespace BeFit
         {
             try
             {
-                if (StaticHelper.CreateMD5(StariPassword) != Klijent.Password)
+                if (StaticHelperPassword.CreateMD5(StariPassword) != Klijent.Password)
                 {
                     await (new Windows.UI.Popups.MessageDialog("Stari password netačan")).ShowAsync();
                 }
                 else if (Password == PonovljeniPass)
                 {
-                    await StaticHelper.PromijeniPassword(Klijent, Password);
+                    await StaticHelperBaza.PromijeniPassword(Klijent, Password);
                     await (new Windows.UI.Popups.MessageDialog("Uspješno promijenjen password")).ShowAsync();
                 }
                 else
@@ -66,7 +66,7 @@ namespace BeFit
             try
             {
                 Klijent.Email = Email;
-                await StaticHelper.PromijeniEmail(Klijent, Email);
+                await StaticHelperBaza.PromijeniEmail(Klijent, Email);
                 await (new Windows.UI.Popups.MessageDialog("Uspješno promijenjen e-mail")).ShowAsync();
             }
             catch (Exception ex)

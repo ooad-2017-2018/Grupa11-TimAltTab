@@ -23,6 +23,7 @@ namespace BeFitApp.Controllers
         // GET: Programs/Details/5
         public ActionResult Details(int? id)
         {
+            Static.ProgramKomentarId = id ?? -1;
             if (id == null)
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);

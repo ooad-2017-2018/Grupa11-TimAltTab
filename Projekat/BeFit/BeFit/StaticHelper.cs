@@ -7,20 +7,17 @@ using Microsoft.WindowsAzure.MobileServices;
 
 namespace BeFit
 {
-    public class StaticHelper
+    public class StaticHelperBaza
     {
 
         public static async Task<Korisnik> UcitajKorisnika(string username, string password = "")
         {
             IMobileServiceTable<korisnici> tabela = App.MobileService.GetTable<korisnici>();
-            var items = from x in tabela
-                        where x.username == username 
-                        select x;
-            var lista = await items.ToListAsync();
+            List<korisnici> lista = await VratiKorisnikaUsername(username, tabela);
             if (lista.Count != 1)
                 throw new Exception("Ne postoji korisnik sa tim usernameom");
             var k = lista[0];
-            if (k.hashPassworda != StaticHelper.CreateMD5(password) && password != "")
+            if (k.hashPassworda != StaticHelperPassword.CreateMD5(password) && password != "")
                 throw new Exception("Netačan password");
             Korisnik korisnik = null;
             if (k.tipKorisnika == "Klijent")
@@ -35,13 +32,10 @@ namespace BeFit
                     Username = k.username
                 };
             }
-            else if(k.tipKorisnika == "Trener")
+            else if (k.tipKorisnika == "Trener")
             {
                 IMobileServiceTable<treneri> treneriTabela = App.MobileService.GetTable<treneri>();
-                var t =     from x in treneriTabela
-                            where x.korisnik_id == k.id
-                            select x;
-                var listaT = await t.ToListAsync();
+                List<treneri> listaT = await NewMethod(k, treneriTabela);
                 var elem = listaT[0];
                 korisnik = new Trener
                 {
@@ -70,6 +64,25 @@ namespace BeFit
             }
             return korisnik;
         }
+
+        private static async Task<List<treneri>> NewMethod(korisnici k, IMobileServiceTable<treneri> treneriTabela)
+        {
+            var t = from x in treneriTabela
+                    where x.korisnik_id == k.id
+                    select x;
+            var listaT = await t.ToListAsync();
+            return listaT;
+        }
+
+        private static async Task<List<korisnici>> VratiKorisnikaUsername(string username, IMobileServiceTable<korisnici> tabela)
+        {
+            var items = from x in tabela
+                        where x.username == username
+                        select x;
+            var lista = await items.ToListAsync();
+            return lista;
+        }
+
         public static async Task<Korisnik> UcitajKorisnikaID(string id)
         {
             IMobileServiceTable<korisnici> tabela = App.MobileService.GetTable<korisnici>();
@@ -180,24 +193,7 @@ namespace BeFit
         }
         
 
-        public static string CreateMD5(string input)
-        {
-            if (input == null) input = "";
-            // Use input string to calculate MD5 hash
-            using (System.Security.Cryptography.MD5 md5 = System.Security.Cryptography.MD5.Create())
-            {
-                byte[] inputBytes = System.Text.Encoding.ASCII.GetBytes(input);
-                byte[] hashBytes = md5.ComputeHash(inputBytes);
-
-                // Convert the byte array to hexadecimal string
-                StringBuilder sb = new StringBuilder();
-                for (int i = 0; i < hashBytes.Length; i++)
-                {
-                    sb.Append(hashBytes[i].ToString("X2"));
-                }
-                return sb.ToString();
-            }
-        }
+        
         public static async Task PromijeniEmail(Korisnik korisnik, string email)
         {
             IMobileServiceTable<korisnici> tabela = App.MobileService.GetTable<korisnici>();
@@ -213,7 +209,7 @@ namespace BeFit
             var item = (await (from x in tabela
                                where x.id == korisnik.Id
                                select x).ToListAsync())[0];
-            item.hashPassworda = CreateMD5(noviPassword);
+            item.hashPassworda = StaticHelperPassword.CreateMD5(noviPassword);
             await tabela.UpdateAsync(item);
         }
 

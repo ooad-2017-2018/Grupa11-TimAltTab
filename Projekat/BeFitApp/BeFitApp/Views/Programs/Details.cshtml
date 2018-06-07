@@ -31,5 +31,26 @@
             @Html.ActionLink("Vjezba " + (i + 1).ToString(), ids[i].ToString(), "VjezbaUProgramu/Details")<br>
         }
     }
-    @Html.ActionLink("Edit", "Edit", new { id = Model.Id });
+    <hr />
+
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Id })
+
+   <hr/>
+    <h3>
+   Komentari
+   </h3>
+   @{
+       var id = Static.ProgramKomentarId;
+       var items = (from x in db.Komentars where x.ProgramAjDi == id
+                    select x).ToList();
+       foreach(var item in items)
+       {
+           <hr />
+           <h5>@Static.GetImeIPrezime(item.KorisnikId)</h5>
+           <h5>@item.Text</h5>
+           <hr />
+       }
+   }
+    <br />
+    @Html.ActionLink("Dodaj komentar", "Create", "Komentar")
 </p>

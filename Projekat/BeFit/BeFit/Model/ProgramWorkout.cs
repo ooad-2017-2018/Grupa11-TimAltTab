@@ -1,12 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace BeFit
 {
-    public class ProgramWorkout
+    public class ProgramWorkout : IEnumerable
     {
         string naziv;
         List<VjezbaUProgramu> vjezbe = new List<VjezbaUProgramu>();
@@ -27,6 +28,13 @@ namespace BeFit
         public ProgramWorkout()
         {
 
+        }
+        public IEnumerator GetEnumerator()
+        {
+            foreach(var vjezba in vjezbe)
+            {
+                yield return vjezba;
+            }
         }
     }
 }

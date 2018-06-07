@@ -61,7 +61,7 @@ namespace BeFit
                 List<string> komentari = new List<string>();
                 foreach (var item in items)
                 {
-                    var korisnik = await StaticHelper.UcitajKorisnikaID(item.korisnik_id);
+                    var korisnik = await StaticHelperBaza.UcitajKorisnikaID(item.korisnik_id);
                     komentari.Add("Korisnik: " + korisnik.Username + "\r\n" + 
                                   "Vrijeme: " + item.createdAt.ToString());
                     ListViewItem listViewItem = new ListViewItem();
@@ -105,7 +105,7 @@ namespace BeFit
                             select x;
                 var lista = await items.ToListAsync();
                 var elem = lista[0];
-                this.Frame.Navigate(typeof(KlijentOsnovniPodaciPage), new KlijentViewModel(StaticHelper.KlijentIzTabele(elem)));
+                this.Frame.Navigate(typeof(KlijentOsnovniPodaciPage), new KlijentViewModel(StaticHelperBaza.KlijentIzTabele(elem)));
             }
             catch(Exception ex)
             {

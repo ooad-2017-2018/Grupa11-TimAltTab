@@ -53,18 +53,18 @@ namespace BeFitApp.Controllers
             return View();
         }
 
-            public ActionResult GetLocations()
+            public ActionResult GetLocations(double x, double y)
             {
-                var task = Task.Run(async () => await AsyncGetLocations());
+                var task = Task.Run(async () => await AsyncGetLocations(x, y));
                 task.Wait();
                 var asyncFunctionResult = task.Result;
                 return asyncFunctionResult;
             }
-            public async Task<ActionResult> AsyncGetLocations()
+            public async Task<ActionResult> AsyncGetLocations(double x, double y)
             {
             
             var client = new HttpClient();
-            var address = new Uri("https://api.foursquare.com/v2/venues/search?ll=43.85,18.23&categoryId=4bf58dd8d48988d175941735&client_id=KHAWRYD4PJ0LKVSZQF4CEXTX5GK3BDPTWS3XLCTVAYQPK515&client_secret=BSTBTSNVENYHWGGNYGGQ00X33NJNNFTPZVIPOB3LGC1UVXBI&v=20160202");
+            var address = new Uri($"https://api.foursquare.com/v2/venues/search?ll={x},{y}&categoryId=4bf58dd8d48988d175941735&client_id=KHAWRYD4PJ0LKVSZQF4CEXTX5GK3BDPTWS3XLCTVAYQPK515&client_secret=BSTBTSNVENYHWGGNYGGQ00X33NJNNFTPZVIPOB3LGC1UVXBI&v=20160202");
             HttpResponseMessage response = await client.GetAsync(address);
             String stream = await response.Content.ReadAsStringAsync();
             dynamic dyn = JsonConvert.DeserializeObject(stream);

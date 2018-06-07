@@ -11,7 +11,7 @@ namespace BeFit
         string text;
         Korisnik korisnik;
 
-        public string Text { get => text; set => text = value; }
-        public Korisnik Korisnik { get => korisnik; set => korisnik = value; }
+        public string Text { get => text; }
+        public Korisnik Korisnik { get => korisnik; }
     }
 }

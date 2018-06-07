@@ -28,21 +28,27 @@ namespace BeFit
 		}
 
 		public async Task<Tuple<string, string>> UcitajOpisVjezbe(MisicnaGrupa misicnaGrupa, int redniBrojVjezbe)
-		{
-			string fajl = $"Assets\\Vjezbe\\{misicnaGrupa.Naziv}\\Vjezba{redniBrojVjezbe}\\info.txt";
+        {
+            string fajl = $"Assets\\Vjezbe\\{misicnaGrupa.Naziv}\\Vjezba{redniBrojVjezbe}\\info.txt";
 
-			StorageFolder folder = Windows.ApplicationModel.Package.Current.InstalledLocation;
-			StorageFile file = await folder.GetFileAsync(fajl);
-			Stream str = await file.OpenStreamForReadAsync();
-			StreamReader sr = new StreamReader(str);
+            StreamReader sr = await DajOpisIzFajla(fajl);
 
-			string naziv = sr.ReadLine();
-			string opis = sr.ReadToEnd();
+            string naziv = sr.ReadLine();
+            string opis = sr.ReadToEnd();
 
-			return new Tuple<string, string>(naziv, opis);
-		}
+            return new Tuple<string, string>(naziv, opis);
+        }
 
-		public async Task<List<BitmapImage>> UcitajSlikeVjezbe(Vjezba vjezba)
+        private static async Task<StreamReader> DajOpisIzFajla(string fajl)
+        {
+            StorageFolder folder = Windows.ApplicationModel.Package.Current.InstalledLocation;
+            StorageFile file = await folder.GetFileAsync(fajl);
+            Stream str = await file.OpenStreamForReadAsync();
+            StreamReader sr = new StreamReader(str);
+            return sr;
+        }
+
+        public async Task<List<BitmapImage>> UcitajSlikeVjezbe(Vjezba vjezba)
 		{
 			//BitmapImage slika1 = new BitmapImage(new Uri($"ms-appx://BeFit/Assets/Vjezbe/{vjezba.MisicnaGrupa.Naziv}/Vjezba{vjezba.RedniBrojVjezbe}/Slika1.jpg"));
 			//BitmapImage slika2 = new BitmapImage(new Uri($"ms-appx://BeFit/Assets/Vjezbe/{vjezba.MisicnaGrupa.Naziv}/Vjezba{vjezba.RedniBrojVjezbe}/Slika2.jpg"));			

@@ -32,6 +32,7 @@
         var db = new BeFitApp.Models.OOADContext();
         var ids = db.Database.SqlQuery<int>("SELECT Id FROM dbo.Korisnik WHERE " +
            "UserAjDi = '" + User.Identity.Name + "'").ToList();
+            
         if (ids.Count != 0)
         {
                 <li>@Html.ActionLink("Korisnicki Profil", ids[0].ToString(), "Korisnik/Details")</li>

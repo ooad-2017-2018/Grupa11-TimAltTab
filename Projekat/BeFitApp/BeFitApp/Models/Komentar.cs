@@ -13,5 +13,6 @@ namespace BeFitApp.Models
         public int KorisnikId { get; set; }
         public string Text { get; set; }
         public virtual Korisnik Korisnik { get; set; }
+        public int ProgramAjDi { get; set; }
     }
 }
